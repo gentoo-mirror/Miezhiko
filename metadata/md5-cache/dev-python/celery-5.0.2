@@ -1,0 +1,17 @@
+BDEPEND=python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_9(-)?] >=dev-python/setuptools-42.0.2[python_targets_python3_9(-)?]
+DEFINED_PHASES=compile configure install postinst prepare test
+DEPEND=dev-python/setuptools[python_targets_python3_9(-)?]
+DESCRIPTION=Asynchronous task queue/job queue based on distributed message passing
+EAPI=7
+HOMEPAGE=http://celeryproject.org/ https://pypi.org/project/celery/
+INHERIT=bash-completion-r1 distutils-r1 eutils
+IUSE=python_targets_python3_9
+KEYWORDS=amd64
+LICENSE=BSD
+RDEPEND=>=dev-python/kombu-5.0.2[python_targets_python3_9(-)?] >=dev-python/billiard-3.6.3[python_targets_python3_9(-)?] <dev-python/billiard-4.0.0[python_targets_python3_9(-)?] dev-python/pytz[python_targets_python3_9(-)?] dev-python/greenlet[python_targets_python3_9(-)?] >=dev-python/vine-5.0.0[python_targets_python3_9(-)?] >=dev-python/click-repl-0.1.6[python_targets_python3_9(-)?] >=dev-python/click-didyoumean-0.0.3[python_targets_python3_9(-)?] >=net-misc/rabbitmq-server-3.8.7 python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_9(-)?]
+REQUIRED_USE=|| ( python_targets_python3_9 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/celery/celery/archive/refs/tags/v5.0.2.tar.gz
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	bash-completion-r1	d3a60385655d9b402be765a6de333245	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	08d890890f70fe0096093016e55438d5	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	e297e8afd355d60fb9d2d7b37b81214f	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff
+_md5_=29a4a6b33dd1640380229db6ec40109c

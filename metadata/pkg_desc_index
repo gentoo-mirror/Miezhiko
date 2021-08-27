@@ -1,0 +1,56 @@
+app-editors/vscodium 1.59.1: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
+app-misc/shelter 9999: MIGMA SHELTER
+app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
+app-portage/smart-live-rebuild 1.3.7-r2: Check live packages for updates and emerge them as necessary
+dev-haskell/t 9999: time tracker
+dev-lang/idris2 9999: A purely functional programming language with first class types
+dev-lang/moarvm 2021.08: A 6model-based VM for NQP and Rakudo Perl 6
+dev-lang/nqp 2021.08: Not Quite Perl, a Perl 6 bootstrapping compiler
+dev-lang/rakudo 2021.08: A compiler for the Perl 6 programming language
+dev-lang/rust 1.54.0: Systems programming language from Mozilla
+dev-libs/boost 1.76.0-r1: Boost Libraries for C++
+dev-libs/discord-rpc 3.4.0: Discord RPC lib
+dev-libs/libQtOlm 9999: A Qt wrapper for libolm
+dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
+dev-libs/ocl-icd 2.3.0 9999: Alternative to vendor specific OpenCL ICD loaders
+dev-libs/olm 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
+dev-python/absl-py 0.10.0: Abseil Python Common Libraries
+dev-python/astunparse 1.6.3: Astun parser for python
+dev-python/autopep8 1.5.4: 
+dev-python/billiard 3.6.4.0: Python multiprocessing fork
+dev-python/celery 5.0.2: Asynchronous task queue/job queue based on distributed message passing
+dev-python/click-didyoumean 0.0.3: Enable git-like did-you-mean feature in click.
+dev-python/click-repl 0.1.6: Subcommand REPL for click apps
+dev-python/eventlet 0.29.1-r1: Highly concurrent networking library
+dev-python/fastai 2.1.9: 
+dev-python/fastcore 1.3.13: 
+dev-python/fastprogress 1.0.0: 
+dev-python/gast 0.3.3-r2: A generic AST to represent Python2 and Python3's Abstract Syntax Tree (AST)
+dev-python/google-pasta 0.2.0: AST-based Python refactoring library
+dev-python/jupyter 1.0.0-r4: Jupyter metapackage. Install all the Jupyter components in one go
+dev-python/jupyter_client 6.1.7: Jupyter protocol implementation and client libraries
+dev-python/kombu 5.0.2: AMQP Messaging Framework for Python
+dev-python/notebook 6.1.5: Jupyter Interactive Notebook
+dev-python/opt-einsum 3.3.0: Optimized Einsum: A tensor contraction order optimizer
+dev-python/py-amqp 5.0.1-r1: Low-level AMQP client for Python (fork of amqplib)
+dev-python/pyro 4.80: Distributed object middleware for Python (RPC)
+dev-python/vine 5.0.0-r1: Python Promises
+dev-qt/ghoul 9999: Lightweight IDE for C++/QML development centering around Qt
+dev-qt/qt-creator 4.15.2: Lightweight IDE for C++/QML development centering around Qt
+dev-qt/qtwebkit 5.212.0_pre20200309-r2: WebKit rendering library for the Qt5 framework (deprecated)
+dev-scheme/chezscheme 9.5.4: Open-source Chez Scheme implementation from Cisco
+dev-util/beekeeper-studio-bin 1.13.2: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
+dev-util/boost-build 1.76.0-r2: A system for large project software construction, simple to use and powerful
+dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
+media-sound/spotify-qt 3.7: Lightweight Spotify client using Qt
+media-sound/spotifyd 9999: A Spotify daemon
+net-im/discord 0.0.126: All-in-one voice and text chat
+net-im/element-desktop-bin 1.7.23: A glossy Matrix collaboration client for desktop (binary package)
+net-im/spectral 9999: A glossy client for Matrix, written in QtQuick Controls 2 and C++.
+net-misc/yt-dlp 2021.08.10: Download videos from YouTube.com (youtube-dl fork)
+sci-libs/keras-applications 1.0.8-r2: Keras deep learning library reference implementations of deep learning models
+sci-libs/keras-preprocessing 1.1.2-r1: Easy data preprocessing and data augmentation for deep learning models
+sci-libs/pydicom 2.1.2: A pure python package for parsing DICOM files
+virtual/rust 1.54.0: Virtual for Rust language compiler
+x11-misc/compton 9999: A compositor for X, and a fork of xcompmgr-dana
+x11-wm/jwm 9999: JWM

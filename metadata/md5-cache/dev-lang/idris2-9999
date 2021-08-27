@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-scheme/chezscheme
+DESCRIPTION=A purely functional programming language with first class types
+EAPI=7
+HOMEPAGE=https://github.com/idris-lang/Idris2
+INHERIT=git-r3
+KEYWORDS=~amd64
+LICENSE=BSD
+PROPERTIES=live
+RESTRICT=mirror test
+SLOT=0
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=4329dffe2e9090c038780db10ff78c14
