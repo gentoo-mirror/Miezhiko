@@ -50,7 +50,9 @@ net-im/spectral 9999: A glossy client for Matrix, written in QtQuick Controls 2 
 net-misc/yt-dlp 2021.08.10: Download videos from YouTube.com (youtube-dl fork)
 sci-libs/keras-applications 1.0.8-r2: Keras deep learning library reference implementations of deep learning models
 sci-libs/keras-preprocessing 1.1.2-r1: Easy data preprocessing and data augmentation for deep learning models
+sci-libs/onnx 1.7.0-r1: Open Neural Network Exchange
 sci-libs/pydicom 2.1.2: A pure python package for parsing DICOM files
+sci-libs/pytorch 1.6.0-r1: Tensors and Dynamic neural networks in Python with strong GPU acceleration
 virtual/rust 1.54.0: Virtual for Rust language compiler
 x11-misc/compton 9999: A compositor for X, and a fork of xcompmgr-dana
 x11-wm/jwm 9999: JWM
