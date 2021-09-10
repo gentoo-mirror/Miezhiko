@@ -8,7 +8,7 @@ dev-lang/idris2 9999: A purely functional programming language with first class 
 dev-lang/moarvm 2021.08: A 6model-based VM for NQP and Rakudo Perl 6
 dev-lang/nqp 2021.08: Not Quite Perl, a Perl 6 bootstrapping compiler
 dev-lang/rakudo 2021.08: A compiler for the Perl 6 programming language
-dev-lang/rust 1.54.0: Systems programming language from Mozilla
+dev-lang/rust 1.55.0: Systems programming language from Mozilla
 dev-libs/boost 1.76.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
@@ -56,6 +56,6 @@ sci-libs/keras-preprocessing 1.1.2-r1: Easy data preprocessing and data augmenta
 sci-libs/onnx 1.7.0-r1: Open Neural Network Exchange
 sci-libs/pydicom 2.1.2: A pure python package for parsing DICOM files
 sci-libs/pytorch 1.6.0-r1: Tensors and Dynamic neural networks in Python with strong GPU acceleration
-virtual/rust 1.54.0: Virtual for Rust language compiler
+virtual/rust 1.55.0: Virtual for Rust language compiler
 x11-misc/compton 9999: A compositor for X, and a fork of xcompmgr-dana
 x11-wm/jwm 9999: JWM
