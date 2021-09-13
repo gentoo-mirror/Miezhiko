@@ -40,7 +40,6 @@ dev-python/py-amqp 5.0.1-r1: Low-level AMQP client for Python (fork of amqplib)
 dev-python/pyro 4.80: Distributed object middleware for Python (RPC)
 dev-python/vine 5.0.0-r1: Python Promises
 dev-qt/ghoul 9999: Lightweight IDE for C++/QML development centering around Qt
-dev-qt/qt-creator 4.15.2: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtwebkit 5.212.0_pre20200309-r2: WebKit rendering library for the Qt5 framework (deprecated)
 dev-scheme/chezscheme 9.5.4: Open-source Chez Scheme implementation from Cisco
 dev-util/beekeeper-studio-bin 2.0.0: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
