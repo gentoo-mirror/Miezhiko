@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=glh - is a platform-indepenedent C++ OpenGL helper library
+EAPI=7
+HOMEPAGE=https://git.alchemyviewer.org/alchemy/thirdparty/3p-glh_linear
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=56f778d776f69efc6402de74aedf6908
