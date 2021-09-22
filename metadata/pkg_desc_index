@@ -42,7 +42,7 @@ dev-python/vine 5.0.0-r1: Python Promises
 dev-qt/ghoul 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtwebkit 5.212.0_pre20200309-r2: WebKit rendering library for the Qt5 framework (deprecated)
 dev-scheme/chezscheme 9.5.4: Open-source Chez Scheme implementation from Cisco
-dev-util/beekeeper-studio-bin 2.1.3: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
+dev-util/beekeeper-studio-bin 2.1.4: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.76.0-r2: A system for large project software construction, simple to use and powerful
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
