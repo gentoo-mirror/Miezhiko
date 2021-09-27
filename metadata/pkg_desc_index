@@ -52,7 +52,7 @@ net-analyzer/wireshark 3.5.0: A network protocol analyzer formerly known as ethe
 net-im/discord 0.0.130: All-in-one voice and text chat
 net-im/element-desktop-bin 1.7.23: A glossy Matrix collaboration client for desktop (binary package)
 net-im/spectral 9999: A glossy client for Matrix, written in QtQuick Controls 2 and C++.
-net-misc/yt-dlp 2021.9.2: A youtube-dl fork with additional features and fixes
+net-misc/yt-dlp 2021.9.25: A youtube-dl fork with additional features and fixes
 sci-libs/keras-applications 1.0.8-r2: Keras deep learning library reference implementations of deep learning models
 sci-libs/keras-preprocessing 1.1.2-r1: Easy data preprocessing and data augmentation for deep learning models
 sci-libs/onnx 1.7.0-r1: Open Neural Network Exchange
