@@ -1,5 +1,5 @@
 app-crypt/hashcat 6.2.4: World's fastest and most advanced password recovery utility
-app-editors/vscodium 1.60.2: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
+app-editors/vscodium 1.61.0: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
 app-portage/smart-live-rebuild 1.3.7-r3: Check live packages for updates and emerge them as necessary
@@ -53,7 +53,7 @@ net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord 0.0.131: All-in-one voice and text chat
 net-im/element-desktop-bin 1.7.23: A glossy Matrix collaboration client for desktop (binary package)
 net-im/spectral 9999: A glossy client for Matrix, written in QtQuick Controls 2 and C++.
-net-misc/yt-dlp 2021.9.25: A youtube-dl fork with additional features and fixes
+net-misc/yt-dlp 2021.10.10: A youtube-dl fork with additional features and fixes
 sci-libs/keras-applications 1.0.8-r2: Keras deep learning library reference implementations of deep learning models
 sci-libs/keras-preprocessing 1.1.2-r1: Easy data preprocessing and data augmentation for deep learning models
 sci-libs/onnx 1.7.0-r1: Open Neural Network Exchange
