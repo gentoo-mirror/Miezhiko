@@ -5,9 +5,9 @@ app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
 app-portage/smart-live-rebuild 1.3.7-r3: Check live packages for updates and emerge them as necessary
 dev-haskell/t 9999: time tracker
 dev-lang/idris2 9999: A purely functional programming language with first class types
-dev-lang/moarvm 2021.09: A 6model-based VM for NQP and Rakudo Perl 6
-dev-lang/nqp 2021.09: Not Quite Perl, a Perl 6 bootstrapping compiler
-dev-lang/rakudo 2021.09: A compiler for the Perl 6 programming language
+dev-lang/moarvm 2021.10: A 6model-based VM for NQP and Rakudo Perl 6
+dev-lang/nqp 2021.10: Not Quite Perl, a Perl 6 bootstrapping compiler
+dev-lang/rakudo 2021.10: A compiler for the Perl 6 programming language
 dev-libs/boost 1.76.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
@@ -52,7 +52,6 @@ net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord 0.0.131: All-in-one voice and text chat
 net-im/element-desktop-bin 1.7.23: A glossy Matrix collaboration client for desktop (binary package)
 net-im/spectral 9999: A glossy client for Matrix, written in QtQuick Controls 2 and C++.
-net-misc/yt-dlp 2021.10.10: A youtube-dl fork with additional features and fixes
 sci-libs/keras-applications 1.0.8-r2: Keras deep learning library reference implementations of deep learning models
 sci-libs/keras-preprocessing 1.1.2-r1: Easy data preprocessing and data augmentation for deep learning models
 sci-libs/onnx 1.7.0-r1: Open Neural Network Exchange
