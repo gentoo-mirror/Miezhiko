@@ -4,7 +4,7 @@ app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
 app-portage/smart-live-rebuild 1.3.7-r3: Check live packages for updates and emerge them as necessary
 dev-haskell/t 9999: time tracker
-dev-lang/idris2 9999: A purely functional programming language with first class types
+dev-lang/idris2 9999: Purely functional programming language with first class types
 dev-lang/moarvm 2021.10: A 6model-based VM for NQP and Rakudo Perl 6
 dev-lang/nqp 2021.10: Not Quite Perl, a Perl 6 bootstrapping compiler
 dev-lang/rakudo 2021.10: A compiler for the Perl 6 programming language
