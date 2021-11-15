@@ -1,17 +1,17 @@
 BDEPEND=>=virtual/rust-1.37.0 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
-DEPEND=>=dev-lang/rust-1.50.0 alsa? ( media-libs/alsa-lib ) dbus? ( sys-apps/dbus ) !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) portaudio? ( media-libs/portaudio ) pulseaudio? ( media-sound/pulseaudio )
+DEPEND=>=dev-lang/rust-1.50.0 alsa? ( media-libs/alsa-lib ) dbus? ( sys-apps/dbus ) dev-libs/openssl:0= portaudio? ( media-libs/portaudio ) pulseaudio? ( media-sound/pulseaudio )
 DESCRIPTION=A Spotify daemon
 EAPI=7
 HOMEPAGE=https://github.com/Spotifyd/spotifyd
 INHERIT=cargo git-r3
-IUSE=alsa dbus libressl portaudio pulseaudio rodio debug
+IUSE=alsa dbus portaudio pulseaudio rodio debug
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=>=dev-lang/rust-1.50.0 alsa? ( media-libs/alsa-lib ) dbus? ( sys-apps/dbus ) !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) portaudio? ( media-libs/portaudio ) pulseaudio? ( media-sound/pulseaudio )
+RDEPEND=>=dev-lang/rust-1.50.0 alsa? ( media-libs/alsa-lib ) dbus? ( sys-apps/dbus ) dev-libs/openssl:0= portaudio? ( media-libs/portaudio ) pulseaudio? ( media-sound/pulseaudio )
 REQUIRED_USE=|| ( alsa portaudio pulseaudio rodio )
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	cargo	c7fefacaebdcb455d2a7b59429eb47a6	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=4009ac2200c8925430247119dc61c857
+_md5_=77a384a4695ff7d5f409431235cc3e0e

@@ -94,6 +94,7 @@ media-libs/opencv:opencvapps - Enable compilation with opencvapps
 media-libs/opencv:tesseract - Use Google's OCR Engine
 media-libs/opencv:testprograms - Build and install programs for testing OpenCV (performance)
 media-libs/opencv:vtk - Build new 3D visualization module viz based on sci-libs/vtk
+media-sound/spotifyd:rodio - RODIO (no idea)
 net-analyzer/wireshark:androiddump - Install androiddump, an extcap interface to capture from Android devices
 net-analyzer/wireshark:bcg729 - Use media-libs/bcg729 for G.729 codec support in RTP Player
 net-analyzer/wireshark:brotli - Use app-arch/brotli for compression/decompression
@@ -128,6 +129,7 @@ net-analyzer/wireshark:text2pcap - Install text2pcap, to generate a capture file
 net-analyzer/wireshark:tfshark - Install tfshark, a terminal-based version of the FileShark capability
 net-analyzer/wireshark:tshark - Install tshark, to dump and analyzer network traffic from the command line
 net-analyzer/wireshark:udpdump - Install udpdump, to get packets exported from a source (like a network device or a GSMTAP producer) that are dumped to a pcap file
+net-im/element-desktop-bin:emoji - those smiles, you know...
 sci-libs/pytorch:asan - Build with address sanitizer (ASAN)
 sci-libs/pytorch:cuda - Enable support for nVidia CUDA
 sci-libs/pytorch:fbgemm - Enable FBGEMM (Facebook GEneral Matrix Multiplication) support
@@ -148,3 +150,4 @@ sci-libs/pytorch:redis - Enable support for Redis
 sci-libs/pytorch:rocm - Enable AMD ROCm
 sci-libs/pytorch:tools - Build binary tools
 sci-libs/pytorch:zeromq - Enable support for ZeroMQ
+x11-misc/compton:drm - use drm
