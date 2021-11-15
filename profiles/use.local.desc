@@ -2,6 +2,18 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+dev-lang/idris2:chez - build using dev-scheme/chez
+dev-lang/idris2:racket - build using dev-scheme/racket
+dev-lang/idris2:test-full - pull in depedndencies to run all tests
+dev-lang/moarvm:asan - Enable clang's Address Sanitizer functionality. Expect longer compile time.
+dev-lang/moarvm:clang - Use clang compiler instead of GCC
+dev-lang/moarvm:jit - Enable Just-In-Time-Compiler. Has no effect except on AMD64 and Darwin.
+dev-lang/moarvm:optimize - Enable optimization via CFLAGS
+dev-lang/moarvm:ubsan - Enable clang's Undefined Behavior Sanitizer functionality. Expect longer compile time.
+dev-lang/nqp:clang - Toggle usage of the clang compiler in conjunction with MoarVM
+dev-lang/nqp:moar - Build the MoarVM backend (experimental/broken)
+dev-lang/rakudo:clang - Use Clang to compile the MoarVM backend
+dev-lang/rakudo:moar - Use the MoarVM as backend
 dev-libs/boost:context - Build and install the Boost.Context (and Boost.Fiber) library and all other Boost libraries that depend on it
 dev-libs/boost:debug - Build and install only the debug version of the Boost libraries. Only enable this flag if you're developing against boost.
 dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
@@ -9,6 +21,43 @@ dev-libs/boost:nls - Build libboost_locale. This library requires compatible C l
 dev-libs/boost:numpy - Optionally build NumPy extensions when Boost.Python is enabled
 dev-libs/boost:threads - Build multi-thread-compatible libraries instead of single-threaded only.
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
+dev-qt/ghoul:android - Build plugin for Android devices
+dev-qt/ghoul:autotest - Enable integration with popular unit testing frameworks (QtTest, Google Test, Boost.Test)
+dev-qt/ghoul:autotools - Build plugin for autotools-based projects
+dev-qt/ghoul:baremetal - Build plugin for bare metal devices
+dev-qt/ghoul:bazaar - Add support for GNU Bazaar version control system (requires manual installation of Bazaar client)
+dev-qt/ghoul:beautifier - Build the beautifier plugin (supports astyle, clang-format, and uncrustify)
+dev-qt/ghoul:boot2qt - Build plugin for Boot2Qt devices
+dev-qt/ghoul:clang - Build clang-based plugins (code model, formatting, static analysis)
+dev-qt/ghoul:clearcase - Add support for IBM ClearCase version control system (requires manual installation of ClearCase client)
+dev-qt/ghoul:cmake - Build plugin for CMake-based projects
+dev-qt/ghoul:cppcheck - Enable integration with dev-util/cppcheck
+dev-qt/ghoul:ctfvisualizer - Build the Chrome Trace Format visualizer plugin
+dev-qt/ghoul:designer - Enable designer for QtWidgets-based UIs
+dev-qt/ghoul:drp - Discord Reach Presence
+dev-qt/ghoul:glsl - Build the GLSL editor plugin
+dev-qt/ghoul:help - Enable the integrated documentation viewer
+dev-qt/ghoul:mcu - Build plugin for MCU devices
+dev-qt/ghoul:mercurial - Add support for dev-vcs/mercurial version control system
+dev-qt/ghoul:minimap - minimap plugin
+dev-qt/ghoul:modeling - Build the graphical model editor plugin
+dev-qt/ghoul:nim - Build plugin for Nim language support
+dev-qt/ghoul:perforce - Add support for Perforce version control system (requires manual installation of Perforce client)
+dev-qt/ghoul:perfprofiler - Build the Linux Perf-based profiler plugin
+dev-qt/ghoul:python - Build plugin for Python language support
+dev-qt/ghoul:qbs - Build plugin for QBS-based projects
+dev-qt/ghoul:qmldesigner - Enable designer for QML/QtQuick-based UIs
+dev-qt/ghoul:qmljs - Build the QML/JavaScript editor plugin
+dev-qt/ghoul:qmlprofiler - Build the QML profiler plugin
+dev-qt/ghoul:qnx - Build plugin for QNX devices
+dev-qt/ghoul:remotelinux - Add support for deployment and execution on a remote Linux host
+dev-qt/ghoul:scxml - Build the graphical SCXML editor plugin
+dev-qt/ghoul:serialterminal - Build the serial terminal plugin
+dev-qt/ghoul:silversearcher - Enable integration with sys-apps/the_silver_searcher
+dev-qt/ghoul:systemd - Add support for retrieving application output from journald
+dev-qt/ghoul:valgrind - Enable integration with dev-util/valgrind
+dev-qt/ghoul:webassembly - Build WebAssembly plugin
+dev-qt/ghoul:webengine - Use dev-qt/qtwebengine to view documentation
 dev-qt/qtwebkit:geolocation - Enable physical position determination via dev-qt/qtpositioning
 dev-qt/qtwebkit:gstreamer - Enable HTML5 audio/video support via media-libs/gstreamer using SLOT 1.0
 dev-qt/qtwebkit:hyphen - Enable hyphenation support via dev-libs/hyphen
@@ -16,6 +65,11 @@ dev-qt/qtwebkit:multimedia - Enable HTML5 audio/video support via dev-qt/qtmulti
 dev-qt/qtwebkit:orientation - Enable device orientation detection via dev-qt/qtsensors
 dev-qt/qtwebkit:printsupport - Enable printing via dev-qt/qtprintsupport
 dev-qt/qtwebkit:qml - Build QML/QtQuick bindings
+games-simulation/alchemy:fmod - use proprietary fmod for music streams support
+games-simulation/alchemy:fork - use mawa fork with minor tweaks
+games-simulation/alchemy:j1 - compile in one thread...
+games-simulation/alchemy:lto - link time optimization (suggested)
+games-simulation/alchemy:system - use system libs (not supported at all)
 media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
 media-libs/opencv:contribcvv - CVV module requires Qt5
 media-libs/opencv:contribdnn - DNN module contrib requires tiny dnn
@@ -40,23 +94,18 @@ media-libs/opencv:tesseract - Use Google's OCR Engine
 media-libs/opencv:testprograms - Build and install programs for testing OpenCV (performance)
 media-libs/opencv:vtk - Build new 3D visualization module viz based on sci-libs/vtk
 sci-libs/pytorch:asan - Build with address sanitizer (ASAN)
-sci-libs/pytorch:atlas - Use ATLAS as BLAS implementation
 sci-libs/pytorch:cuda - Enable support for nVidia CUDA
-sci-libs/pytorch:eigen - Use Eigen as BLAS implementation
 sci-libs/pytorch:fbgemm - Enable FBGEMM (Facebook GEneral Matrix Multiplication) support
 sci-libs/pytorch:gflags - Build with gflags
 sci-libs/pytorch:glog - Build with glog support
 sci-libs/pytorch:gloo - Build gloo distributed communication backend support
 sci-libs/pytorch:leveldb - Enable support for LevelDB
 sci-libs/pytorch:lmdb - Enable support for LMDB
-sci-libs/pytorch:mkl - Use Intel MKL as BLAS implementation
 sci-libs/pytorch:mkldnn - Build with Intel MKL-DNN support
 sci-libs/pytorch:namedtensor - Enable support for named tensors
 sci-libs/pytorch:nnpack - Enable NNPACK support
 sci-libs/pytorch:numa - Enable support for NUMA
-sci-libs/pytorch:numpy - Enable NumPy support
 sci-libs/pytorch:observers - Build observers
-sci-libs/pytorch:openblas - Use OpenBLAS as BLAS implementation
 sci-libs/pytorch:opencl - Enable support for OpenCL
 sci-libs/pytorch:opencv - Enable support for OpenCV
 sci-libs/pytorch:qnnpack - Enable QNNPACK support

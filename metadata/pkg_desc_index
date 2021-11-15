@@ -30,7 +30,6 @@ dev-python/gast 0.3.3-r2: A generic AST to represent Python2 and Python3's Abstr
 dev-python/google-pasta 0.2.0: AST-based Python refactoring library
 dev-python/jupyter 1.0.0-r4: Jupyter metapackage. Install all the Jupyter components in one go
 dev-python/jupyter_client 6.1.7: Jupyter protocol implementation and client libraries
-dev-python/kombu 5.0.2: AMQP Messaging Framework for Python
 dev-python/notebook 6.1.5: Jupyter Interactive Notebook
 dev-python/opt-einsum 3.3.0: Optimized Einsum: A tensor contraction order optimizer
 dev-python/py-amqp 5.0.1-r1: Low-level AMQP client for Python (fork of amqplib)
