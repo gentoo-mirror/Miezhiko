@@ -19,7 +19,7 @@ dev-libs/xmlrpc-epi 0.54.2: An implementation of the xmlrpc protocol in C
 dev-python/absl-py 0.10.0: Abseil Python Common Libraries
 dev-python/astunparse 1.6.3: Astun parser for python
 dev-python/billiard 3.6.4.0: Python multiprocessing fork
-dev-python/celery 5.0.2: Asynchronous task queue/job queue based on distributed message passing
+dev-python/celery 5.2.0: Asynchronous task queue/job queue based on distributed message passing
 dev-python/click-didyoumean 0.0.3: Enable git-like did-you-mean feature in click.
 dev-python/click-repl 0.1.6: Subcommand REPL for click apps
 dev-python/eventlet 0.29.1-r1: Highly concurrent networking library
