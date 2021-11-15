@@ -45,6 +45,7 @@ dev-util/beekeeper-studio-bin 2.1.4: SQL client for MySQL, Postgres, SQLite, SQL
 dev-util/boost-build 1.76.0-r2: A system for large project software construction, simple to use and powerful
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
+media-libs/opencv 4.5.4: A collection of algorithms and sample code for various computer vision problems
 media-sound/spotify-qt 3.7: Lightweight Spotify client using Qt
 media-sound/spotifyd 9999: A Spotify daemon
 net-analyzer/wireshark 3.5.0: A network protocol analyzer formerly known as ethereal
