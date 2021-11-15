@@ -1,4 +1,4 @@
-BDEPEND=doc? ( dev-python/sphinx_rtd_theme ) test-full? ( dev-scheme/chez dev-scheme/racket net-libs/nodejs ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=doc? ( dev-python/sphinx_rtd_theme ) test-full? ( dev-scheme/chezscheme dev-scheme/racket net-libs/nodejs ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=chez? ( dev-scheme/chezscheme ) racket? ( dev-scheme/racket ) dev-libs/gmp
 DESCRIPTION=Purely functional programming language with first class types
@@ -13,4 +13,4 @@ RDEPEND=chez? ( dev-scheme/chezscheme ) racket? ( dev-scheme/racket ) dev-libs/g
 REQUIRED_USE=^^ ( chez racket )
 SLOT=0
 _eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=9b3d1977e9a7a54720946c9bae25dd8d
+_md5_=29d319257cc7de938dd242c157180ea9
