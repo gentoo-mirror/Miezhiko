@@ -72,6 +72,8 @@ games-simulation/alchemy:fork - use mawa fork with minor tweaks
 games-simulation/alchemy:j1 - compile in one thread...
 games-simulation/alchemy:lto - link time optimization (suggested)
 games-simulation/alchemy:system - use system libs (not supported at all)
+media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
+media-gfx/fontforge:woff2 - Enable support for WOFF2 format
 media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
 media-libs/opencv:contribcvv - CVV module requires Qt5
 media-libs/opencv:contribdnn - DNN module contrib requires tiny dnn

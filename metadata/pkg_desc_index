@@ -1,3 +1,4 @@
+app-admin/system-config-printer 1.5.15-r1: Graphical user interface for CUPS administration
 app-editors/vscodium 1.62.3: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
@@ -40,6 +41,7 @@ dev-util/beekeeper-studio-bin 2.1.4: SQL client for MySQL, Postgres, SQLite, SQL
 dev-util/boost-build 1.76.0-r2: A system for large project software construction, simple to use and powerful
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
+media-gfx/fontforge 20201107-r1: postscript font editor and converter
 media-libs/opencv 4.5.4: A collection of algorithms and sample code for various computer vision problems
 media-sound/spotify-qt 3.7: Lightweight Spotify client using Qt
 media-sound/spotifyd 9999: A Spotify daemon
