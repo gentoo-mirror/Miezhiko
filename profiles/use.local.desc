@@ -22,6 +22,7 @@ dev-libs/boost:nls - Build libboost_locale. This library requires compatible C l
 dev-libs/boost:numpy - Optionally build NumPy extensions when Boost.Python is enabled
 dev-libs/boost:threads - Build multi-thread-compatible libraries instead of single-threaded only.
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
+dev-libs/gjs:sysprof - Enable profiling data capture support using dev-util/sysprof-capture
 dev-libs/ocl-icd:khronos-headers - khronos headers
 dev-qt/ghoul:android - Build plugin for Android devices
 dev-qt/ghoul:autotest - Enable integration with popular unit testing frameworks (QtTest, Google Test, Boost.Test)
