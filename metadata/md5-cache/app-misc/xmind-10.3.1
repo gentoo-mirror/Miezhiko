@@ -1,14 +1,13 @@
-BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
-DEFINED_PHASES=compile install postinst postrm setup unpack
+DEFINED_PHASES=compile install postinst postrm preinst unpack
 DESCRIPTION=A brainstorming and mind mapping software tool
-EAPI=7
+EAPI=8
 HOMEPAGE=http://www.xmind.net
-INHERIT=eutils multilib gnome2-utils font unpacker
-IUSE=X
-KEYWORDS=amd64
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=multilib xdg unpacker
+KEYWORDS=~amd64
 LICENSE=EPL-1.0 LGPL-3
 RDEPEND=>=virtual/jre-1.8 x11-libs/gtk+
 SLOT=0
 SRC_URI=https://dl3.xmind.net/XMind-2020-for-Linux-amd-64bit-10.3.1-202101132117.deb
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	multilib	4b66d835ec72e021e359bb81eacfe988	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	gnome2-utils	355c758ccc0d6df60d43a066640e642c	font	0667878c2b594871023dd1833d05996f	unpacker	928e1f35ef78ba9fc2b214e29c2b55a4
-_md5_=ba4cf097cced864852cc51e72c9ca09f
+_eclasses_=multilib	4b66d835ec72e021e359bb81eacfe988	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	xdg	6024fbc93167fad782e2032933654857	unpacker	928e1f35ef78ba9fc2b214e29c2b55a4
+_md5_=ccdb768ed5196f46a15b993b0e61d27f
