@@ -1,0 +1,13 @@
+DEFINED_PHASES=install
+DEPEND=sys-libs/glibc[-clone3] sys-libs/libcxx dev-libs/expat dev-libs/nss media-gfx/graphite2 media-libs/alsa-lib media-libs/libpng net-print/cups net-libs/gnutls sys-libs/zlib x11-libs/gtk+ x11-libs/libnotify x11-libs/libxcb x11-libs/libXtst media-libs/opus
+DESCRIPTION=All-in-one voice and text chat
+EAPI=8
+HOMEPAGE=https://discordapp.com/
+INHERIT=desktop
+KEYWORDS=~amd64
+LICENSE=google-chrome
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://dl-canary.discordapp.net/apps/linux/0.0.131/discord-canary-0.0.131.tar.gz
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28
+_md5_=f275996d3b0bc1ae7ff88dc54671c7a0
