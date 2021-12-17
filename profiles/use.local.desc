@@ -2,6 +2,11 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-editors/nano:debug - Enable debug messages and assert warnings. Note that these will all be sent straight to stderr rather than some logging facility.
+app-editors/nano:justify - Enable justify/unjustify functions for text formatting.
+app-editors/nano:magic - Add magic file support (sys-apps/file) to automatically detect appropriate syntax highlighting
+app-editors/nano:minimal - Disable all fancy features, including ones that otherwise have a dedicated USE flag (such as spelling).
+app-editors/nano:split-usr - Enable this if /bin and /usr/bin are separate directories
 app-misc/shelter:lto - link time optimization
 dev-lang/idris2:chez - build using dev-scheme/chez
 dev-lang/idris2:racket - build using dev-scheme/racket

@@ -1,4 +1,5 @@
-app-editors/vscodium 1.63.1: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
+app-editors/nano 6.0: GNU GPL'd Pico clone with more functionality
+app-editors/vscodium 1.63.2: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
 dev-haskell/t 9999: time tracker
