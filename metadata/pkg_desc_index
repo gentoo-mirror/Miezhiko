@@ -42,6 +42,7 @@ dev-util/beekeeper-studio-bin 2.1.4: SQL client for MySQL, Postgres, SQLite, SQL
 dev-util/boost-build 1.76.0-r2: A system for large project software construction, simple to use and powerful
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
+gui-libs/gtk 4.5.1: GTK is a multi-platform toolkit for creating graphical user interfaces
 media-sound/spotify-qt 3.7: Lightweight Spotify client using Qt
 media-sound/spotifyd 9999: A Spotify daemon
 net-analyzer/wireshark 3.6.0: A network protocol analyzer formerly known as ethereal
@@ -54,4 +55,5 @@ sci-libs/keras-preprocessing 1.1.2-r1: Easy data preprocessing and data augmenta
 sci-libs/onnx 1.7.0-r1: Open Neural Network Exchange
 sci-libs/pydicom 2.1.2: A pure python package for parsing DICOM files
 sci-libs/pytorch 1.10.1: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+x11-libs/libadwaita 1.0.0: Building blocks for modern GNOME applications.
 x11-wm/jwm 9999: JWM
