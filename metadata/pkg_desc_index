@@ -44,7 +44,6 @@ dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
 media-sound/spotify-qt 3.7: Lightweight Spotify client using Qt
 media-sound/spotifyd 9999: A Spotify daemon
-media-tv/gnome-twitch 9999: Gnome Twitch
 net-analyzer/wireshark 3.6.0: A network protocol analyzer formerly known as ethereal
 net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord 0.0.131-r1: All-in-one voice and text chat
