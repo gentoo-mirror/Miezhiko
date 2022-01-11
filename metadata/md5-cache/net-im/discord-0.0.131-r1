@@ -11,4 +11,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://dl-canary.discordapp.net/apps/linux/0.0.131/discord-canary-0.0.131.tar.gz
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28
-_md5_=0ccbd3cc3811739b74eb18a527fcf0ec
+_md5_=47900aa1675801333e520051df7678f4

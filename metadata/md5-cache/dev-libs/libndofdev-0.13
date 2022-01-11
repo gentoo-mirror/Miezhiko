@@ -11,4 +11,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/janoc/libndofdev/archive/refs/tags/v0.13.tar.gz -> libndofdev-0.13.tar.gz
 _eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff
-_md5_=f85acd8866ae21713214cd42745b5fdf
+_md5_=53ec1b63fa951aa5efa102d8fc420edf

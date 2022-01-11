@@ -13,4 +13,4 @@ REQUIRED_USE=magic? ( !minimal )
 SLOT=0
 SRC_URI=https://www.nano-editor.org/dist/v6/nano-6.0.tar.gz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	flag-o-matic	d5e1306543bc457213f68bb18f830d14
-_md5_=911d2c7915e049280a3e08a5c75aa1e5
+_md5_=8963fa7f4a9c01bf4acdb6d9f87b6da5
