@@ -4,6 +4,7 @@ app-editors/vscodium 1.63.2: A community-driven, freely-licensed binary distribu
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
 dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents directly
+dev-haskell/hake 9999: scripty thing
 dev-haskell/stack 2.7.3: The Haskell Tool Stack
 dev-haskell/t 9999: time tracker
 dev-lang/idris2 9999: Purely functional programming language with first class types
