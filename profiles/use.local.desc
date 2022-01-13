@@ -8,6 +8,7 @@ app-editors/nano:magic - Add magic file support (sys-apps/file) to automatically
 app-editors/nano:minimal - Disable all fancy features, including ones that otherwise have a dedicated USE flag (such as spelling).
 app-editors/nano:split-usr - Enable this if /bin and /usr/bin are separate directories
 app-misc/shelter:lto - link time optimization
+dev-haskell/stack:integration-tests - Run the integration test suite.
 dev-lang/idris2:chez - build using dev-scheme/chez
 dev-lang/idris2:racket - build using dev-scheme/racket
 dev-lang/idris2:test-full - pull in depedndencies to run all tests

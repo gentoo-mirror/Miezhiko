@@ -3,6 +3,8 @@ app-editors/nano 6.0: GNU GPL'd Pico clone with more functionality
 app-editors/vscodium 1.63.2: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
+dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents directly
+dev-haskell/stack 2.7.3: The Haskell Tool Stack
 dev-haskell/t 9999: time tracker
 dev-lang/idris2 9999: Purely functional programming language with first class types
 dev-lang/moarvm 2021.12: A 6model-based VM for NQP and Rakudo Perl 6
