@@ -7,14 +7,6 @@ app-editors/nano:justify - Enable justify/unjustify functions for text formattin
 app-editors/nano:magic - Add magic file support (sys-apps/file) to automatically detect appropriate syntax highlighting
 app-editors/nano:minimal - Disable all fancy features, including ones that otherwise have a dedicated USE flag (such as spelling).
 app-editors/nano:split-usr - Enable this if /bin and /usr/bin are separate directories
-app-misc/far2l:archive - Multiarc extended archives support
-app-misc/far2l:nfs - NFS support in NetRocks
-app-misc/far2l:python - Python scripting support
-app-misc/far2l:samba - SMB support in NetRocks
-app-misc/far2l:sftp - SFTP support in NetRocks
-app-misc/far2l:ssl - FTPS support in NetRocks
-app-misc/far2l:webdav - WebDav support in NetRocks
-app-misc/far2l:wxwidgets - GUI backend support
 app-misc/shelter:lto - link time optimization
 dev-haskell/stack:integration-tests - Run the integration test suite.
 dev-lang/idris2:chez - build using dev-scheme/chez

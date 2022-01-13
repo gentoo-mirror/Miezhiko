@@ -1,7 +1,6 @@
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/nano 6.0: GNU GPL'd Pico clone with more functionality
 app-editors/vscodium 1.63.2: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
-app-misc/far2l 2.4.0_beta: Linux port of FAR Manager v2
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
 dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents directly
