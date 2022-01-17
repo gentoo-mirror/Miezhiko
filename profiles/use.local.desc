@@ -86,7 +86,6 @@ gui-libs/gtk:cloudprint - Enable printing via Google Cloud Print.
 gui-libs/gtk:colord - Use x11-misc/colord for color management in printing
 gui-libs/gtk:sysprof - Enable profiling data capture support using dev-util/sysprof-capture
 gui-libs/gtk:vulkan - Enable support for the Vulkan graphics API
-media-sound/spotifyd:rodio - RODIO (no idea)
 net-analyzer/wireshark:androiddump - Install androiddump, an extcap interface to capture from Android devices
 net-analyzer/wireshark:bcg729 - Use media-libs/bcg729 for G.729 codec support in RTP Player
 net-analyzer/wireshark:brotli - Use app-arch/brotli for compression/decompression
