@@ -1,8 +1,10 @@
+app-admin/eclean-kernel 2.99.3: Remove outdated built kernels
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/nano 6.0: GNU GPL'd Pico clone with more functionality
 app-editors/vscodium 1.63.2: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
+app-office/gnumeric 1.12.50: The GNOME Spreadsheet
 dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents directly
 dev-haskell/hake 9999: scripty thing
 dev-haskell/stack 2.7.3: The Haskell Tool Stack
@@ -36,6 +38,7 @@ dev-python/google-pasta 0.2.0: AST-based Python refactoring library
 dev-python/jupyter_client 6.1.7: Jupyter protocol implementation and client libraries
 dev-python/notebook 6.1.5: Jupyter Interactive Notebook
 dev-python/opt-einsum 3.3.0: Optimized Einsum: A tensor contraction order optimizer
+dev-python/pymountboot 0.2.3: Python extension module to (re)mount /boot
 dev-python/pyro 4.80: Distributed object middleware for Python (RPC)
 dev-python/vine 5.0.0-r1: Python Promises
 dev-qt/ghoul 9999: Lightweight IDE for C++/QML development centering around Qt
