@@ -133,3 +133,5 @@ net-analyzer/wireshark:tfshark - Install tfshark, a terminal-based version of th
 net-analyzer/wireshark:tshark - Install tshark, to dump and analyzer network traffic from the command line
 net-analyzer/wireshark:udpdump - Install udpdump, to get packets exported from a source (like a network device or a GSMTAP producer) that are dumped to a pcap file
 net-im/element-desktop-bin:emoji - those smiles, you know...
+sci-libs/onnx:python - Build Python binary tools
+sci-libs/onnx:test - Enable tests
