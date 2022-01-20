@@ -1,4 +1,5 @@
 app-admin/eclean-kernel 2.99.3: Remove outdated built kernels
+app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/nano 6.0: GNU GPL'd Pico clone with more functionality
 app-editors/vscodium 1.63.2: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
