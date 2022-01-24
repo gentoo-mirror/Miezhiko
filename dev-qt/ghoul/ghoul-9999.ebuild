@@ -5,7 +5,7 @@ EAPI=7
 LLVM_MAX_SLOT=13
 PLOCALES="cs da de fr hr ja pl ru sl uk zh-CN zh-TW"
 
-inherit llvm cmake virtualx xdg git-r3 desktop
+inherit llvm cmake virtualx xdg git-r3
 
 DESCRIPTION="Lightweight IDE for C++/QML development centering around Qt"
 HOMEPAGE="https://doc.qt.io/qtcreator/"
@@ -20,7 +20,7 @@ QTC_PLUGINS=(android +autotest autotools:autotoolsprojectmanager baremetal bazaa
 	clearcase +cmake:cmakeprojectmanager conan cppcheck ctfvisualizer cvs +designer docker +git glsl:glsleditor +help incredibuild
 	+lsp:languageclient mcu:mcusupport mercurial meson:mesonprojectmanager modeling:modeleditor nim perforce perfprofiler python
 	qbs:qbsprojectmanager +qmake:qmakeprojectmanager '+qml:qmldesigner|qmljseditor|qmlpreview|qmlprojectmanager|studiowelcome'
-	qmlprofiler qnx remotelinux scxml:scxmleditor serialterminal silversearcher subversion valgrind webassembly +minimap +drp)
+	qmlprofiler qnx remotelinux scxml:scxmleditor serialterminal silversearcher subversion valgrind webassembly +minimap drp)
 IUSE="doc systemd test webengine ${QTC_PLUGINS[@]%:*}"
 RESTRICT="!test? ( test )"
 REQUIRED_USE="
@@ -146,8 +146,4 @@ src_install() {
 		doins share/doc/qtcreator/qtcreator{,-dev}.qch
 		docompress -x /usr/share/doc/qtcreator/qtcreator{,-dev}.qch
 	fi
-
-	make_desktop_entry qtcreator Ghoul \
-		"/usr/share/icons/hicolor/512x512/apps/QtProject-qtcreator.png" \
-	Development
 }
