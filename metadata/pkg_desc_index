@@ -16,6 +16,7 @@ dev-lang/moarvm 2022.02: A 6model-based VM for NQP and Rakudo Perl 6
 dev-lang/mono 6.12.0.165: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/nqp 2022.02: Not Quite Perl, a Perl 6 bootstrapping compiler
 dev-lang/rakudo 2022.02: A compiler for the Perl 6 programming language
+dev-lang/rust 1.59.0: Systems programming language from Mozilla
 dev-libs/boost 1.76.0-r1: Boost Libraries for C++
 dev-libs/cudnn 8.3.1.22: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
@@ -66,5 +67,6 @@ sci-libs/pytorch 1.10.2: Tensors and Dynamic neural networks in Python with stro
 sys-apps/lr 1.5.1: list files, recursively
 sys-apps/nq 0.4: unix command line queue utility
 sys-apps/snooze 0.5: run a command at a particular time
+virtual/rust 1.59.0: Virtual for Rust language compiler
 x11-libs/libadwaita 1.0.0: Building blocks for modern GNOME applications.
 x11-wm/jwm 9999: JWM
