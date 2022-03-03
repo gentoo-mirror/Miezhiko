@@ -1,0 +1,17 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install preinst
+DEPEND=acct-group/clickhouse acct-user/clickhouse
+DESCRIPTION=An OSS column-oriented database management system for real-time data analysis
+EAPI=7
+HOMEPAGE=https://clickhouse.tech/
+INHERIT=systemd
+IUSE=+client +server
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=acct-group/clickhouse acct-user/clickhouse
+REQUIRED_USE=|| ( client server )
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://repo.clickhouse.tech/tgz/testing/clickhouse-common-static-21.9.1.7811.tgz server? ( https://repo.clickhouse.tech/tgz/testing/clickhouse-server-21.9.1.7811.tgz ) client? ( https://repo.clickhouse.tech/tgz/testing/clickhouse-client-21.9.1.7811.tgz )
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	systemd	2736b403a83f194b59b767f3b344c2c1
+_md5_=ef14523dac875aa63dd12c4db46dc12d

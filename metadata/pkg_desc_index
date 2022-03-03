@@ -1,3 +1,5 @@
+acct-group/clickhouse 0: System group: clickhouse
+acct-user/clickhouse 0: System user: clickhouse
 app-admin/eclean-kernel 2.99.3: Remove outdated built kernels
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
@@ -7,7 +9,7 @@ app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
 app-office/gnumeric 1.12.51: The GNOME Spreadsheet
 app-office/openoffice-bin 4.1.11: Apache OpenOffice productivity suite
-dev-db/sqlite 3.38.0: SQL database engine
+dev-db/clickhouse-bin 21.9.1.7811: An OSS column-oriented database management system for real-time data analysis
 dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents directly
 dev-haskell/hake 9999: scripty thing
 dev-haskell/stack 2.7.3: The Haskell Tool Stack

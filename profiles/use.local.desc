@@ -11,8 +11,8 @@ app-editors/nano:split-usr - Enable this if /bin and /usr/bin are separate direc
 app-misc/shelter:lto - link time optimization
 app-office/gnumeric:libgda - Enable database support through gnome-extra/libgda.
 app-office/gnumeric:perl - Enable perl plugin loader.
-dev-db/sqlite:secure-delete - Enable overwriting of deleted content with zeros by default (http://sqlite.org/pragma.html#pragma_secure_delete), causing some performance penalty
-dev-db/sqlite:tools - Install additional tools, among which are included: sqlite3-analyzer, sqlite3-changeset, sqlite3-db-dump, sqlite3-diff, sqlite3-rbu, sqlite3-expert and others.
+dev-db/clickhouse-bin:client - Install CLI client
+dev-db/clickhouse-bin:server - Install server
 dev-haskell/stack:integration-tests - Run the integration test suite.
 dev-lang/idris2:chez - build using dev-scheme/chez
 dev-lang/idris2:racket - build using dev-scheme/racket
