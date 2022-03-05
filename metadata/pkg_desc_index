@@ -21,7 +21,6 @@ dev-lang/nqp 2022.02: Not Quite Perl, a Perl 6 bootstrapping compiler
 dev-lang/rakudo 2022.02: A compiler for the Perl 6 programming language
 dev-lang/rust 1.59.0: Systems programming language from Mozilla
 dev-libs/boost 1.76.0-r1: Boost Libraries for C++
-dev-libs/cudnn 8.3.1.22: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/gjs 1.70.0-r1: Javascript bindings for GNOME
 dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
