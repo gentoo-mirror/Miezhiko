@@ -61,7 +61,6 @@ net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord 0.0.131-r1: All-in-one voice and text chat
 net-im/element-desktop-bin 1.7.23: A glossy Matrix collaboration client for desktop (binary package)
 net-im/spectral 9999: A glossy client for Matrix, written in QtQuick Controls 2 and C++.
-net-misc/networkmanager 1.36.0: A set of co-operative tools that make networking simple and straightforward
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
 sci-libs/keras-applications 1.0.8-r2: Keras deep learning library reference implementations of deep learning models
 sci-libs/keras-preprocessing 1.1.2-r1: Easy data preprocessing and data augmentation for deep learning models
