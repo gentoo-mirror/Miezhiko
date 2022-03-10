@@ -16,7 +16,7 @@ dev-haskell/stack 2.7.3: The Haskell Tool Stack
 dev-haskell/t 9999: time tracker
 dev-lang/idris2 9999: Purely functional programming language with first class types
 dev-lang/moarvm 2022.02: A 6model-based VM for NQP and Rakudo Perl 6
-dev-lang/mono 6.12.0.165: Mono runtime and class libraries, a C# compiler/interpreter
+dev-lang/mono 6.12.0.173: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/nqp 2022.02: Not Quite Perl, a Perl 6 bootstrapping compiler
 dev-lang/rakudo 2022.02: A compiler for the Perl 6 programming language
 dev-lang/rust 1.59.0: Systems programming language from Mozilla
