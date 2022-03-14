@@ -48,50 +48,17 @@ dev-libs/boost:threads - Build multi-thread-compatible libraries instead of sing
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
 dev-libs/gjs:sysprof - Enable profiling data capture support using dev-util/sysprof-capture
 dev-libs/ocl-icd:khronos-headers - khronos headers
-dev-qt/ghoul:android - Build plugin for Android devices
-dev-qt/ghoul:autotest - Enable integration with popular unit testing frameworks (QtTest, GoogleTest, Boost.Test, Catch2)
-dev-qt/ghoul:autotools - Build plugin for autotools-based projects
-dev-qt/ghoul:baremetal - Build plugin for bare metal devices
-dev-qt/ghoul:bazaar - Add support for GNU Bazaar version control system (requires manual installation of Bazaar client)
-dev-qt/ghoul:beautifier - Build the beautifier plugin (supports astyle, clang-format, and uncrustify)
-dev-qt/ghoul:boot2qt - Build plugin for Boot2Qt devices
 dev-qt/ghoul:clang - Build clang-based plugins for C/C++ development (code model, formatting, static analysis)
-dev-qt/ghoul:clearcase - Add support for IBM ClearCase version control system (requires manual installation of ClearCase client)
 dev-qt/ghoul:cmake - Build plugin for CMake-based projects
-dev-qt/ghoul:conan - Build plugin to integrate with the Conan package manager
 dev-qt/ghoul:cppcheck - Enable integration with dev-util/cppcheck
-dev-qt/ghoul:ctfvisualizer - Build the Chrome Trace Format visualizer plugin
-dev-qt/ghoul:designer - Enable designer for QtWidgets-based UIs
-dev-qt/ghoul:docker - Build plugin for Docker support
 dev-qt/ghoul:drp - Discord Reach Presence
-dev-qt/ghoul:glsl - Build the GLSL editor plugin
 dev-qt/ghoul:help - Enable the integrated documentation viewer
-dev-qt/ghoul:incredibuild - Enable integration with Incredibuild
-dev-qt/ghoul:lsp - Add support for the Language Server Protocol (LSP)
-dev-qt/ghoul:mcu - Build plugin for MCU devices
 dev-qt/ghoul:mercurial - Add support for dev-vcs/mercurial version control system
-dev-qt/ghoul:meson - Build plugin for Meson-based projects
-dev-qt/ghoul:minimap - minimap plugin
-dev-qt/ghoul:modeling - Build the graphical model editor plugin
-dev-qt/ghoul:nim - Build plugin for Nim language support
-dev-qt/ghoul:perforce - Add support for Perforce version control system (requires manual installation of Perforce client)
-dev-qt/ghoul:perfprofiler - Build the Linux Perf-based profiler plugin
 dev-qt/ghoul:python - Build plugin for Python language support
-dev-qt/ghoul:qbs - Build plugin for Qbs-based projects
-dev-qt/ghoul:qmake - Build plugin for qmake-based projects
-dev-qt/ghoul:qml - Build plugins for QML-based development (designer, editor, project manager)
-dev-qt/ghoul:qmldesigner - Enable designer for QML/QtQuick-based UIs
-dev-qt/ghoul:qmljs - Build the QML/JavaScript editor plugin
-dev-qt/ghoul:qmlprofiler - Build the QML profiler plugin
-dev-qt/ghoul:qnx - Build plugin for QNX devices
-dev-qt/ghoul:remotelinux - Build plugin for deployment and execution on a remote Linux host
-dev-qt/ghoul:scxml - Build the graphical SCXML editor plugin
 dev-qt/ghoul:serialterminal - Build the serial terminal plugin
 dev-qt/ghoul:silversearcher - Enable integration with sys-apps/the_silver_searcher
 dev-qt/ghoul:systemd - Add support for retrieving application output from journald
 dev-qt/ghoul:valgrind - Enable integration with dev-util/valgrind
-dev-qt/ghoul:webassembly - Build WebAssembly plugin
-dev-qt/ghoul:webengine - Use dev-qt/qtwebengine to view documentation
 dev-qt/qtwebkit:geolocation - Enable physical position determination via dev-qt/qtpositioning
 dev-qt/qtwebkit:gstreamer - Enable HTML5 audio/video support via media-libs/gstreamer using SLOT 1.0
 dev-qt/qtwebkit:hyphen - Enable hyphenation support via dev-libs/hyphen
