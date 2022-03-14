@@ -69,6 +69,7 @@ sci-libs/pytorch 1.10.2: Tensors and Dynamic neural networks in Python with stro
 sys-apps/lr 1.5.1: list files, recursively
 sys-apps/nq 0.4: unix command line queue utility
 sys-apps/snooze 0.5: run a command at a particular time
+sys-apps/systemd 250.4: System and service manager for Linux
 virtual/rust 1.59.0: Virtual for Rust language compiler
 x11-libs/vte 0.67.90: Library providing a virtual terminal emulator widget
 x11-terms/console 42.0_beta: A terminal emulator for GNOME
