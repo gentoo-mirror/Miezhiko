@@ -3,7 +3,6 @@ acct-user/clickhouse 0: System user: clickhouse
 app-admin/eclean-kernel 2.99.3: Remove outdated built kernels
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
-app-editors/nano 6.0: GNU GPL'd Pico clone with more functionality
 app-editors/vscodium 1.65.2: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
@@ -12,7 +11,6 @@ app-office/openoffice-bin 4.1.11: Apache OpenOffice productivity suite
 dev-db/clickhouse-bin 21.9.1.7811: An OSS column-oriented database management system for real-time data analysis
 dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents directly
 dev-haskell/hake 9999: scripty thing
-dev-haskell/stack 2.7.3: The Haskell Tool Stack
 dev-haskell/t 9999: time tracker
 dev-lang/idris2 9999: Purely functional programming language with first class types
 dev-lang/moarvm 2022.02: A 6model-based VM for NQP and Rakudo Perl 6
@@ -54,7 +52,6 @@ dev-util/beekeeper-studio-bin 3.2.1: SQL client for MySQL, Postgres, SQLite, SQL
 dev-util/boost-build 1.76.0-r2: A system for large project software construction, simple to use and powerful
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
-net-analyzer/wireshark 3.6.0: A network protocol analyzer formerly known as ethereal
 net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord 0.0.131-r1: All-in-one voice and text chat
 net-im/element-desktop-bin 1.7.23: A glossy Matrix collaboration client for desktop (binary package)
