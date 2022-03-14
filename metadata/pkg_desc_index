@@ -54,12 +54,12 @@ dev-util/beekeeper-studio-bin 3.2.1: SQL client for MySQL, Postgres, SQLite, SQL
 dev-util/boost-build 1.76.0-r2: A system for large project software construction, simple to use and powerful
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
-gui-libs/gtk 4.5.1: GTK is a multi-platform toolkit for creating graphical user interfaces
 net-analyzer/wireshark 3.6.0: A network protocol analyzer formerly known as ethereal
 net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord 0.0.131-r1: All-in-one voice and text chat
 net-im/element-desktop-bin 1.7.23: A glossy Matrix collaboration client for desktop (binary package)
 net-im/spectral 9999: A glossy client for Matrix, written in QtQuick Controls 2 and C++.
+net-misc/rabbitmq-server 3.9.13: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
 sci-libs/keras-applications 1.0.8-r2: Keras deep learning library reference implementations of deep learning models
 sci-libs/keras-preprocessing 1.1.2-r1: Easy data preprocessing and data augmentation for deep learning models
@@ -70,5 +70,7 @@ sys-apps/lr 1.5.1: list files, recursively
 sys-apps/nq 0.4: unix command line queue utility
 sys-apps/snooze 0.5: run a command at a particular time
 virtual/rust 1.59.0: Virtual for Rust language compiler
-x11-libs/libadwaita 1.0.0: Building blocks for modern GNOME applications.
+x11-libs/vte 0.67.90: Library providing a virtual terminal emulator widget
+x11-terms/console 42.0_beta: A terminal emulator for GNOME
+x11-terms/gnome-terminal 3.43.90: A terminal emulator for GNOME
 x11-wm/jwm 9999: JWM

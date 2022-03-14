@@ -104,11 +104,6 @@ games-simulation/alchemy:fork - use mawa fork with minor tweaks
 games-simulation/alchemy:j1 - compile in one thread...
 games-simulation/alchemy:lto - link time optimization (suggested)
 games-simulation/alchemy:system - use system libs (not supported at all)
-gui-libs/gtk:broadway - Enable the GDK Broadway backend.
-gui-libs/gtk:cloudprint - Enable printing via Google Cloud Print.
-gui-libs/gtk:colord - Use x11-misc/colord for color management in printing
-gui-libs/gtk:sysprof - Enable profiling data capture support using dev-util/sysprof-capture
-gui-libs/gtk:vulkan - Enable support for the Vulkan graphics API
 net-analyzer/wireshark:androiddump - Install androiddump, an extcap interface to capture from Android devices
 net-analyzer/wireshark:bcg729 - Use media-libs/bcg729 for G.729 codec support in RTP Player
 net-analyzer/wireshark:brotli - Use app-arch/brotli for compression/decompression
@@ -167,3 +162,8 @@ sci-libs/pytorch:rocm - Enable AMD ROCm
 sci-libs/pytorch:tools - Build binary tools
 sci-libs/pytorch:zeromq - Enable support for ZeroMQ
 virtual/rust:rustfmt - Install rustfmt, Rust code formatter
+x11-libs/vte:icu - Enable legacy charset support using dev-libs/icu
+x11-libs/vte:systemd - Support moving terminal child processes to their own systemd user scopes to avoid terminal getting killed due to child causing OOM
+x11-terms/console:nautilus - Build gnome-base/nautilus extension
+x11-terms/gnome-terminal:gnome-shell - Integrate with gnome-base/gnome-shell search
+x11-terms/gnome-terminal:nautilus - Build gnome-base/nautilus extension
