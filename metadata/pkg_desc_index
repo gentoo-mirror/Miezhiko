@@ -50,6 +50,8 @@ dev-util/beekeeper-studio-bin 3.2.1: SQL client for MySQL, Postgres, SQLite, SQL
 dev-util/boost-build 1.76.0-r2: A system for large project software construction, simple to use and powerful
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
+gnome-base/gnome-settings-daemon 42.1: Gnome Settings Daemon
+gnome-extra/gnome-tweaks 42.0_beta: Customize advanced GNOME options
 net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord 0.0.131-r1: All-in-one voice and text chat
 net-im/element-desktop-bin 1.7.23: A glossy Matrix collaboration client for desktop (binary package)
