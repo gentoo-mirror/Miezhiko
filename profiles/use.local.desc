@@ -66,6 +66,12 @@ games-simulation/alchemy:j1 - compile in one thread...
 games-simulation/alchemy:lto - link time optimization (suggested)
 games-simulation/alchemy:system - use system libs (not supported at all)
 net-im/element-desktop-bin:emoji - those smiles, you know...
+net-libs/webkit-gtk:avif - Enable support for AVIF images via media-libs/libavif
+net-libs/webkit-gtk:egl - Enable EGL support
+net-libs/webkit-gtk:examples - Install the MiniBrowser example application
+net-libs/webkit-gtk:gamepad - Enable gamepad input support via dev-libs/libmanette
+net-libs/webkit-gtk:geolocation - Enable geolocation support through app-misc/geoclue
+net-libs/webkit-gtk:jumbo-build - Combine source files to speed up build process
 sci-libs/onnx:python - Build Python binary tools
 sci-libs/onnx:test - Enable tests
 sci-libs/pytorch:asan - Build with address sanitizer (ASAN)
