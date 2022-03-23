@@ -40,6 +40,7 @@ gnome-base/gnome-desktop 42.0: Library with common API for various GNOME modules
 gnome-base/gnome-settings-daemon 42.1: Gnome Settings Daemon
 gnome-base/gvfs 1.50.0: Virtual filesystem implementation for GIO
 gnome-base/nautilus 42.0: Default file manager for the GNOME desktop
+gnome-extra/gnome-system-monitor 42.0: The Gnome System Monitor
 gnome-extra/gnome-tweaks 42.0_beta: Customize advanced GNOME options
 media-libs/gexiv2 0.14.0: GObject-based wrapper around the Exiv2 library
 net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
