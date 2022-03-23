@@ -43,6 +43,7 @@ gnome-base/nautilus 42.0: Default file manager for the GNOME desktop
 gnome-extra/gnome-system-monitor 42.0: The Gnome System Monitor
 gnome-extra/gnome-tweaks 42.0_beta: Customize advanced GNOME options
 media-libs/gexiv2 0.14.0: GObject-based wrapper around the Exiv2 library
+media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
 net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord 0.0.131-r1: All-in-one voice and text chat
 net-im/spectral 9999: A glossy client for Matrix, written in QtQuick Controls 2 and C++.
