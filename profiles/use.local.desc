@@ -3,6 +3,7 @@
 # * generated automatically using pmaint *
 
 app-crypt/gss-ntlmssp:lto - link time optimization
+app-editors/atom:lto - link time optimization
 app-misc/shelter:lto - link time optimization
 dev-db/clickhouse-bin:client - Install CLI client
 dev-db/clickhouse-bin:server - Install server
