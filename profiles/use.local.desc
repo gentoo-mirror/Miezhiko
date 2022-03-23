@@ -4,35 +4,13 @@
 
 app-crypt/gss-ntlmssp:lto - link time optimization
 app-misc/shelter:lto - link time optimization
-app-office/gnumeric:libgda - Enable database support through gnome-extra/libgda.
-app-office/gnumeric:perl - Enable perl plugin loader.
 dev-db/clickhouse-bin:client - Install CLI client
 dev-db/clickhouse-bin:server - Install server
 dev-lang/idris2:chez - build using dev-scheme/chez
 dev-lang/idris2:racket - build using dev-scheme/racket
 dev-lang/idris2:test-full - pull in depedndencies to run all tests
-dev-lang/moarvm:asan - Enable clang's Address Sanitizer functionality. Expect longer compile time.
-dev-lang/moarvm:clang - Use clang compiler instead of GCC
-dev-lang/moarvm:jit - Enable Just-In-Time-Compiler. Has no effect except on AMD64 and Darwin.
-dev-lang/moarvm:optimize - Enable optimization via CFLAGS
-dev-lang/moarvm:ubsan - Enable clang's Undefined Behavior Sanitizer functionality. Expect longer compile time.
 dev-lang/mono:pax-kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
 dev-lang/mono:xen - Make mono generate code that is considerably faster on xen VMs but slightly slower on for normal systems.
-dev-lang/nqp:clang - Toggle usage of the clang compiler in conjunction with MoarVM
-dev-lang/nqp:moar - Build the MoarVM backend (experimental/broken)
-dev-lang/rakudo:clang - Use Clang to compile the MoarVM backend
-dev-lang/rakudo:moar - Use the MoarVM as backend
-dev-lang/rust:clippy - Install clippy, Rust code linter
-dev-lang/rust:dist - Install dist tarballs (used for bootstrapping)
-dev-lang/rust:miri - Install miri, an interpreter for Rust's mid-level intermediate representation (requires USE=nightly)
-dev-lang/rust:nightly - Enable nightly (UNSTABLE) features
-dev-lang/rust:parallel-compiler - Build a multi-threaded rustc (experimental, not tested by upstream)
-dev-lang/rust:rls - Install rls, Rust Language Server (used with IDEs supporting RLS protocol)
-dev-lang/rust:rust-src - Install rust-src, needed by developer tools and for build-std (cross)
-dev-lang/rust:rustfmt - Install rustfmt, Rust code formatter
-dev-lang/rust:system-bootstrap - Bootstrap using installed rust compiler
-dev-lang/rust:system-llvm - Use the system LLVM install
-dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
 dev-libs/boost:context - Build and install the Boost.Context (and Boost.Fiber) library and all other Boost libraries that depend on it
 dev-libs/boost:debug - Build and install only the debug version of the Boost libraries. Only enable this flag if you're developing against boost.
 dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
@@ -40,7 +18,6 @@ dev-libs/boost:nls - Build libboost_locale. This library requires compatible C l
 dev-libs/boost:numpy - Optionally build NumPy extensions when Boost.Python is enabled
 dev-libs/boost:threads - Build multi-thread-compatible libraries instead of single-threaded only.
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
-dev-libs/ocl-icd:khronos-headers - khronos headers
 dev-qt/ghoul:clang - Build clang-based plugins for C/C++ development (code model, formatting, static analysis)
 dev-qt/ghoul:cmake - Build plugin for CMake-based projects
 dev-qt/ghoul:cppcheck - Enable integration with dev-util/cppcheck
@@ -101,34 +78,6 @@ sci-libs/pytorch:redis - Enable support for Redis
 sci-libs/pytorch:rocm - Enable AMD ROCm
 sci-libs/pytorch:tools - Build binary tools
 sci-libs/pytorch:zeromq - Enable support for ZeroMQ
-sys-apps/systemd:apparmor - Enable AppArmor support
-sys-apps/systemd:audit - Enable support for sys-process/audit
-sys-apps/systemd:cgroup-hybrid - Default to hybrid (legacy) cgroup hierarchy instead of unified (modern).
-sys-apps/systemd:cryptsetup - Enable cryptsetup tools (includes unit generator for crypttab)
-sys-apps/systemd:curl - Enable support for uploading journals
-sys-apps/systemd:dns-over-tls - Enable DNS-over-TLS support
-sys-apps/systemd:elfutils - Enable coredump stacktraces in the journal
-sys-apps/systemd:fido2 - Enable FIDO2 support
-sys-apps/systemd:gcrypt - Enable sealing of journal files using gcrypt
-sys-apps/systemd:gnuefi - Enable EFI boot manager and stub loader (built using sys-boot/gnu-efi)
-sys-apps/systemd:homed - Enable portable home directories
-sys-apps/systemd:hostnamed-fallback - Enable setting hostname with networkd/hostnamed without polkit (requires running sys-apps/dbus-broker)
-sys-apps/systemd:http - Enable embedded HTTP server in journald
-sys-apps/systemd:importd - Enable import daemon
-sys-apps/systemd:kmod - Enable kernel module loading via sys-apps/kmod
-sys-apps/systemd:lz4 - Enable lz4 compression for the journal
-sys-apps/systemd:nat - Enable support for network address translation in networkd
-sys-apps/systemd:openssl - Enable use of dev-libs/openssl
-sys-apps/systemd:pkcs11 - Enable PKCS#11 support for cryptsetup and homed
-sys-apps/systemd:pwquality - Enable password quality checking in homed
-sys-apps/systemd:qrcode - Enable qrcode output support in journal
-sys-apps/systemd:repart - Enable support for growing/adding partitions
-sys-apps/systemd:resolvconf - Install resolvconf symlink for systemd-resolve
-sys-apps/systemd:sysv-utils - Install sysvinit compatibility symlinks and manpages for init, telinit, halt, poweroff, reboot, runlevel, and shutdown
-sys-apps/systemd:tpm - Enable TPM support
-sys-apps/systemd:vanilla - Disable Gentoo-specific behavior and compatibility quirks
-sys-apps/systemd:xkb - Depend on x11-libs/libxkbcommon to allow logind to control the X11 keymap
-virtual/rust:rustfmt - Install rustfmt, Rust code formatter
 x11-libs/vte:icu - Enable legacy charset support using dev-libs/icu
 x11-libs/vte:systemd - Support moving terminal child processes to their own systemd user scopes to avoid terminal getting killed due to child causing OOM
 x11-terms/console:nautilus - Build gnome-base/nautilus extension
