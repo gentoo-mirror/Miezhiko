@@ -1,7 +1,6 @@
 acct-group/clickhouse 0: System group: clickhouse
 acct-user/clickhouse 0: System user: clickhouse
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
-app-editors/vscodium 1.65.2: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
 app-office/openoffice-bin 4.1.11: Apache OpenOffice productivity suite
