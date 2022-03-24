@@ -39,7 +39,6 @@ games-simulation/alchemy 9999: Alchemy SL Viewer
 gnome-base/gnome-control-center 42.0: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 41.3-r1: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-desktop 42.0: Library with common API for various GNOME modules
-gnome-base/gnome-settings-daemon 42.1: Gnome Settings Daemon
 gnome-base/gvfs 1.50.0: Virtual filesystem implementation for GIO
 gnome-base/nautilus 42.0: Default file manager for the GNOME desktop
 gnome-extra/gnome-system-monitor 42.0: The Gnome System Monitor
