@@ -61,7 +61,6 @@ gnome-base/gvfs:udev - Enable udev base replacement code for cdda feature
 gnome-base/nautilus:gstreamer - Enable the Audio/Video file properties page
 gnome-base/nautilus:previewer - Use gnome-extra/sushi to preview files from the file mananger
 gnome-base/nautilus:sendto - Enable the nautilus-sendto extension to send files to various locations/devices
-gnome-extra/gnome-system-monitor:systemd - Display sys-apps/systemd metadata, e.g. unit names, for running processes
 net-im/fractal:lto - link time optimization
 net-libs/libnma:pkcs11 - Enable PKCS#11 support in certificate chooser via app-crypt/gcr
 net-libs/webkit-gtk:avif - Enable support for AVIF images via media-libs/libavif

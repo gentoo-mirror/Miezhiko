@@ -33,7 +33,7 @@ dev-scheme/chezscheme 9.5.4: Open-source Chez Scheme implementation from Cisco
 dev-util/beekeeper-studio-bin 3.2.1: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.76.0-r2: A system for large project software construction, simple to use and powerful
 dev-util/gnome-builder 42.0: An IDE for writing GNOME-based software
-dev-util/meson 0.62.0: Open source build system
+dev-util/meson 0.62.0-r1: Open source build system
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
 gnome-base/gnome-control-center 42.0: GNOME's main interface to configure various aspects of the desktop
@@ -41,7 +41,6 @@ gnome-base/gnome-core-apps 41.3-r1: Sub-meta package for the core applications i
 gnome-base/gnome-desktop 42.0: Library with common API for various GNOME modules
 gnome-base/gvfs 1.50.0: Virtual filesystem implementation for GIO
 gnome-base/nautilus 42.0: Default file manager for the GNOME desktop
-gnome-extra/gnome-system-monitor 42.0: The Gnome System Monitor
 gnome-extra/gnome-tweaks 42.0_beta: Customize advanced GNOME options
 media-libs/gexiv2 0.14.0: GObject-based wrapper around the Exiv2 library
 media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
