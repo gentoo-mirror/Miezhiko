@@ -52,6 +52,7 @@ net-im/fractal 4.4.1_beta: Matrix messaging app for GNOME written in Rust
 net-im/spectral 9999: A glossy client for Matrix, written in QtQuick Controls 2 and C++.
 net-libs/libnma 1.8.35_beta: NetworkManager GUI library
 net-libs/webkit-gtk 2.36.0: Open source web browser engine
+net-misc/networkmanager 1.37.3: A set of co-operative tools that make networking simple and straightforward
 net-misc/rabbitmq-server 3.9.13: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
 sci-libs/onnx 1.10.2: Open Neural Network Exchange
