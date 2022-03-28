@@ -18,8 +18,6 @@ dev-libs/boost:nls - Build libboost_locale. This library requires compatible C l
 dev-libs/boost:numpy - Optionally build NumPy extensions when Boost.Python is enabled
 dev-libs/boost:threads - Build multi-thread-compatible libraries instead of single-threaded only.
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
-dev-libs/folks:telepathy - Load contacts from the Telepathy framework
-dev-libs/folks:utils - Build the folks-inspect utility
 dev-qt/ghoul:clang - Build clang-based plugins for C/C++ development (code model, formatting, static analysis)
 dev-qt/ghoul:cmake - Build plugin for CMake-based projects
 dev-qt/ghoul:cppcheck - Enable integration with dev-util/cppcheck
@@ -48,29 +46,7 @@ games-simulation/alchemy:fork - use mawa fork with minor tweaks
 games-simulation/alchemy:j1 - compile in one thread...
 games-simulation/alchemy:lto - link time optimization (suggested)
 games-simulation/alchemy:system - use system libs (not supported at all)
-gnome-base/gnome-control-center:gnome-online-accounts - Enable configuration panel for net-libs/gnome-online-accounts accounts
-gnome-base/gnome-control-center:ibus - Enable support for enhanced input methods through app-i18n/ibus
-gnome-base/gvfs:afp - Enables support for accessing AFP (Apple Filing Protocol) network shares
-gnome-base/gvfs:archive - Enables support for accessing files in archives transparently via app-arch/libarchive
-gnome-base/gvfs:bluray - Enable playback of Blu-ray filesystems using media-libs/libbluray
-gnome-base/gvfs:elogind - Use sys-auth/elogind for session tracking.
-gnome-base/gvfs:fuse - Enables fuse mount points in $HOME/.gvfs for legacy application access
-gnome-base/gvfs:gnome-online-accounts - Enable configuration panel for net-libs/gnome-online-accounts accounts
-gnome-base/gvfs:google - Enables support for accessing Google accounts via dev-libs/libgdata
-gnome-base/gvfs:http - Enable the HTTP/DAV backend using net-libs/libsoup
-gnome-base/gvfs:nfs - Enable NFS client support via net-fs/libnfs.
-gnome-base/gvfs:udev - Enable udev base replacement code for cdda feature
-gnome-base/nautilus:gstreamer - Enable the Audio/Video file properties page
-gnome-base/nautilus:previewer - Use gnome-extra/sushi to preview files from the file mananger
-gnome-base/nautilus:sendto - Enable the nautilus-sendto extension to send files to various locations/devices
 net-im/fractal:lto - link time optimization
-net-libs/libnma:pkcs11 - Enable PKCS#11 support in certificate chooser via app-crypt/gcr
-net-libs/webkit-gtk:avif - Enable support for AVIF images via media-libs/libavif
-net-libs/webkit-gtk:egl - Enable EGL support
-net-libs/webkit-gtk:examples - Install the MiniBrowser example application
-net-libs/webkit-gtk:gamepad - Enable gamepad input support via dev-libs/libmanette
-net-libs/webkit-gtk:geolocation - Enable geolocation support through app-misc/geoclue
-net-libs/webkit-gtk:jumbo-build - Combine source files to speed up build process
 net-misc/networkmanager:concheck - Enable connectivity checking support
 net-misc/networkmanager:connection-sharing - Support connection sharing (uses net-dns/dnsmasq)
 net-misc/networkmanager:dhclient - Use dhclient from net-misc/dhcp for getting an IP via DHCP
@@ -113,8 +89,4 @@ sci-libs/pytorch:redis - Enable support for Redis
 sci-libs/pytorch:rocm - Enable AMD ROCm
 sci-libs/pytorch:tools - Build binary tools
 sci-libs/pytorch:zeromq - Enable support for ZeroMQ
-x11-libs/vte:icu - Enable legacy charset support using dev-libs/icu
-x11-libs/vte:systemd - Support moving terminal child processes to their own systemd user scopes to avoid terminal getting killed due to child causing OOM
 x11-terms/console:nautilus - Build gnome-base/nautilus extension
-x11-terms/gnome-terminal:gnome-shell - Integrate with gnome-base/gnome-shell search
-x11-terms/gnome-terminal:nautilus - Build gnome-base/nautilus extension
