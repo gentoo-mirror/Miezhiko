@@ -36,6 +36,7 @@ dev-util/gnome-builder 42.0: An IDE for writing GNOME-based software
 dev-util/meson 0.62.0-r1: Open source build system
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
+gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
 gnome-extra/gnome-tweaks 42.0_beta: Customize advanced GNOME options
 media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
 net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
