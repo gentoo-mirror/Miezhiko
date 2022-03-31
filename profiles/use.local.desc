@@ -89,4 +89,17 @@ sci-libs/pytorch:redis - Enable support for Redis
 sci-libs/pytorch:rocm - Enable AMD ROCm
 sci-libs/pytorch:tools - Build binary tools
 sci-libs/pytorch:zeromq - Enable support for ZeroMQ
+sci-libs/vtk:all-modules - Build all modules
+sci-libs/vtk:boost - Add support for boost
+sci-libs/vtk:cuda - Add support for CUDA
+sci-libs/vtk:gdal - Support for gdal formated data
+sci-libs/vtk:imaging - Building Imaging modules
+sci-libs/vtk:json - Support for json formatted data
+sci-libs/vtk:kits - Build kits in addition to modules
+sci-libs/vtk:offscreen - Offscreen rendering through OSMesa
+sci-libs/vtk:pegtl - Use pegtl to build parsers
+sci-libs/vtk:rendering - Building Redering modules
+sci-libs/vtk:tbb - Use dev-cpp/tbb to handle smp support
+sci-libs/vtk:views - Building Views modules
+sci-libs/vtk:web - Install web component
 x11-terms/console:nautilus - Build gnome-base/nautilus extension
