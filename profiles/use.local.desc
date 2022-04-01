@@ -4,6 +4,8 @@
 
 app-crypt/gss-ntlmssp:lto - link time optimization
 app-misc/shelter:lto - link time optimization
+dev-cpp/asio:lto - link time optimization
+dev-cpp/kashmir:lto - link time optimization
 dev-db/clickhouse-bin:client - Install CLI client
 dev-db/clickhouse-bin:server - Install server
 dev-lang/idris2:chez - build using dev-scheme/chez
@@ -52,6 +54,7 @@ net-libs/libsoup:brotli - Enable brotli decompression support
 net-libs/libsoup:gssapi - Enable GSSAPI support
 net-libs/libsoup:samba - Use net-fs/samba for NTLM Single Sign-On
 net-libs/libsoup:sysprof - Enable profiling data capture support using dev-util/sysprof-capture
+net-libs/restbed:lto - link time optimization
 net-misc/networkmanager:concheck - Enable connectivity checking support
 net-misc/networkmanager:connection-sharing - Support connection sharing (uses net-dns/dnsmasq)
 net-misc/networkmanager:dhclient - Use dhclient from net-misc/dhcp for getting an IP via DHCP

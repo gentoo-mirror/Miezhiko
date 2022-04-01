@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Library is provide functionality that not present in the C++ standard library.
+EAPI=7
+HOMEPAGE=https://github.com/Corvusoft/kashmir-dependency
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=Boost-1.0
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=4c9fa548cdfd6194b4d0e5303d44ba64

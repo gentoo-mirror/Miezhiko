@@ -5,6 +5,8 @@ app-editors/vscode 1.66.0: Multiplatform Visual Studio Code from Microsoft
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
 app-office/openoffice-bin 4.1.11: Apache OpenOffice productivity suite
+dev-cpp/asio 9999: Asynchronous Network Library
+dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-db/clickhouse-bin 21.9.1.7811: An OSS column-oriented database management system for real-time data analysis
 dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents directly
 dev-haskell/hake 9999: scripty thing
@@ -46,6 +48,7 @@ net-im/discord 0.0.131-r1: All-in-one voice and text chat
 net-im/fractal 4.4.1_beta: Matrix messaging app for GNOME written in Rust
 net-im/spectral 9999: A glossy client for Matrix, written in QtQuick Controls 2 and C++.
 net-libs/libsoup 3.0.6: HTTP client/server library for GNOME
+net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/networkmanager 1.37.3: A set of co-operative tools that make networking simple and straightforward
 net-misc/rabbitmq-server 3.9.13: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
