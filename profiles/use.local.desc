@@ -47,6 +47,10 @@ games-simulation/alchemy:j1 - compile in one thread...
 games-simulation/alchemy:lto - link time optimization (suggested)
 games-simulation/alchemy:system - use system libs (not supported at all)
 net-im/fractal:lto - link time optimization
+net-libs/libsoup:brotli - Enable brotli decompression support
+net-libs/libsoup:gssapi - Enable GSSAPI support
+net-libs/libsoup:samba - Use net-fs/samba for NTLM Single Sign-On
+net-libs/libsoup:sysprof - Enable profiling data capture support using dev-util/sysprof-capture
 net-misc/networkmanager:concheck - Enable connectivity checking support
 net-misc/networkmanager:connection-sharing - Support connection sharing (uses net-dns/dnsmasq)
 net-misc/networkmanager:dhclient - Use dhclient from net-misc/dhcp for getting an IP via DHCP
