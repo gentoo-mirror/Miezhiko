@@ -49,6 +49,8 @@ games-simulation/alchemy:j1 - compile in one thread...
 games-simulation/alchemy:lto - link time optimization (suggested)
 games-simulation/alchemy:system - use system libs (not supported at all)
 media-gfx/drawing:lto - link time optimization
+media-gfx/gthumb:http - Enable webservice integration through net-libs/webkit-gtk
+media-gfx/gthumb:slideshow - Enable slideshow plugin
 net-im/fractal:lto - link time optimization
 net-libs/restbed:lto - link time optimization
 net-misc/networkmanager:concheck - Enable connectivity checking support
