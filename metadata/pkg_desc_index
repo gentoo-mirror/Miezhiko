@@ -2,6 +2,7 @@ acct-group/clickhouse 0: System group: clickhouse
 acct-user/clickhouse 0: System user: clickhouse
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/vscode 1.66.0: Multiplatform Visual Studio Code from Microsoft
+app-misc/cryptowatch 0.5.0: fast & furious
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
 app-office/openoffice-bin 4.1.11: Apache OpenOffice productivity suite
