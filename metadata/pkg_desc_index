@@ -34,7 +34,7 @@ dev-qt/ghoul 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtwebengine 5.15.3_p20220329-r1: Library for rendering dynamic web content in Qt5 C++ and QML applications
 dev-qt/qtwebkit 5.212.0_pre20200309-r2: WebKit rendering library for the Qt5 framework (deprecated)
 dev-scheme/chezscheme 9.5.4: Open-source Chez Scheme implementation from Cisco
-dev-util/beekeeper-studio-bin 3.3.6: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
+dev-util/beekeeper-studio-bin 3.3.8: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.76.0-r2: A system for large project software construction, simple to use and powerful
 dev-util/gnome-builder 42.0: An IDE for writing GNOME-based software
 dev-util/meson 0.62.0-r1: Open source build system
