@@ -43,6 +43,7 @@ dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
 gnome-extra/gnome-tweaks 42.0_beta: Customize advanced GNOME options
+gnome-extra/sushi 41.2: A quick previewer for Nautilus, the GNOME file manager
 media-gfx/drawing 9999: A drawing application for the GNOME desktop
 media-gfx/gthumb 3.12.2: Image viewer and browser for Gnome
 media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
