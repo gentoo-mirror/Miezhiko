@@ -13,6 +13,17 @@ dev-lang/idris2:racket - build using dev-scheme/racket
 dev-lang/idris2:test-full - pull in depedndencies to run all tests
 dev-lang/mono:pax-kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
 dev-lang/mono:xen - Make mono generate code that is considerably faster on xen VMs but slightly slower on for normal systems.
+dev-lang/rust:clippy - Install clippy, Rust code linter
+dev-lang/rust:dist - Install dist tarballs (used for bootstrapping)
+dev-lang/rust:miri - Install miri, an interpreter for Rust's mid-level intermediate representation (requires USE=nightly)
+dev-lang/rust:nightly - Enable nightly (UNSTABLE) features
+dev-lang/rust:parallel-compiler - Build a multi-threaded rustc (experimental, not tested by upstream)
+dev-lang/rust:rls - Install rls, Rust Language Server (used with IDEs supporting RLS protocol)
+dev-lang/rust:rust-src - Install rust-src, needed by developer tools and for build-std (cross)
+dev-lang/rust:rustfmt - Install rustfmt, Rust code formatter
+dev-lang/rust:system-bootstrap - Bootstrap using installed rust compiler
+dev-lang/rust:system-llvm - Use the system LLVM install
+dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
 dev-libs/boost:context - Build and install the Boost.Context (and Boost.Fiber) library and all other Boost libraries that depend on it
 dev-libs/boost:debug - Build and install only the debug version of the Boost libraries. Only enable this flag if you're developing against boost.
 dev-libs/boost:doc - Install the full API documentation documentation. This takes over 200MB of extra disk space.
@@ -106,4 +117,5 @@ sci-libs/vtk:rendering - Building Redering modules
 sci-libs/vtk:tbb - Use dev-cpp/tbb to handle smp support
 sci-libs/vtk:views - Building Views modules
 sci-libs/vtk:web - Install web component
+virtual/rust:rustfmt - Install rustfmt, Rust code formatter
 x11-terms/console:nautilus - Build gnome-base/nautilus extension
