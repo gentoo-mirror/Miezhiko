@@ -43,7 +43,7 @@ dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
 gnome-extra/gnome-tweaks 42.0_beta: Customize advanced GNOME options
-media-gfx/drawing 1.0.0 9999: A drawing application for the GNOME desktop
+media-gfx/drawing 1.0.1 9999: A drawing application for the GNOME desktop
 media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
 net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord 0.0.131-r1: All-in-one voice and text chat
