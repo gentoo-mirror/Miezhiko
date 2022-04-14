@@ -40,6 +40,7 @@ dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
 dev-util/gnome-builder 42.0: An IDE for writing GNOME-based software
 dev-util/meson 0.62.0-r1: Open source build system
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
+dev-vcs/git 2.35.3: stupid content tracker: distributed VCS designed for speed and efficiency
 games-simulation/alchemy 9999: Alchemy SL Viewer
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
 gnome-extra/gnome-tweaks 42.0_beta: Customize advanced GNOME options
