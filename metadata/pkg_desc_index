@@ -5,6 +5,7 @@ app-editors/vscode 1.66.2: Multiplatform Visual Studio Code from Microsoft
 app-misc/cryptowatch 0.5.0: fast & furious
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
+app-office/gnumeric 1.12.52: The GNOME Spreadsheet
 app-office/openoffice-bin 4.1.11: Apache OpenOffice productivity suite
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.

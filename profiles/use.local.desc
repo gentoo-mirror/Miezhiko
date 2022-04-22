@@ -4,6 +4,8 @@
 
 app-crypt/gss-ntlmssp:lto - link time optimization
 app-misc/shelter:lto - link time optimization
+app-office/gnumeric:libgda - Enable database support through gnome-extra/libgda.
+app-office/gnumeric:perl - Enable perl plugin loader.
 dev-cpp/asio:lto - link time optimization
 dev-cpp/kashmir:lto - link time optimization
 dev-db/clickhouse-bin:client - Install CLI client
