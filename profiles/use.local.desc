@@ -56,14 +56,6 @@ gui-libs/gtk:sysprof - Enable profiling data capture support using dev-util/sysp
 gui-libs/gtk:vulkan - Enable support for the Vulkan graphics API
 media-gfx/drawing:lto - link time optimization
 net-im/fractal:lto - link time optimization
-net-libs/nodejs:inspector - Enable V8 inspector
-net-libs/nodejs:lto - Build with link-time optimisation
-net-libs/nodejs:npm - Enable NPM package manager
-net-libs/nodejs:pax-kernel - Enable building under a PaX enabled kernel
-net-libs/nodejs:snapshot - Enable snapshot creation for faster startup
-net-libs/nodejs:system-icu - Use system dev-libs/icu instead of the bundled version
-net-libs/nodejs:system-ssl - Use system OpenSSL instead of the bundled one
-net-libs/nodejs:systemtap - Enable SystemTAP/DTrace tracing
 net-libs/restbed:lto - link time optimization
 net-misc/networkmanager:concheck - Enable connectivity checking support
 net-misc/networkmanager:connection-sharing - Support connection sharing (uses net-dns/dnsmasq)

@@ -22,7 +22,6 @@ dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
 dev-libs/libndofdev 0.13: Replacement for the libndofdev library used by the Second Life client to handle joysticks and the 6DOF devices on Windows and Macs.
-dev-libs/libportal 0.6: A GObject plugins library
 dev-libs/olm 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
 dev-libs/xmlrpc-epi 0.54.2: An implementation of the xmlrpc protocol in C
 dev-python/billiard 3.6.4.0: Python multiprocessing fork
@@ -41,7 +40,6 @@ dev-util/beekeeper-studio-bin 3.4.1: SQL client for MySQL, Postgres, SQLite, SQL
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
 dev-util/gnome-builder 42.0: An IDE for writing GNOME-based software
-dev-util/meson 0.62.0-r1: Open source build system
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
@@ -54,7 +52,6 @@ net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord 0.0.131-r1: All-in-one voice and text chat
 net-im/fractal 4.4.1_beta: Matrix messaging app for GNOME written in Rust
 net-im/spectral 9999: A glossy client for Matrix, written in QtQuick Controls 2 and C++.
-net-libs/nodejs 17.9.0-r1: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/networkmanager 1.37.3: A set of co-operative tools that make networking simple and straightforward
 net-misc/rabbitmq-server 3.9.13: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
