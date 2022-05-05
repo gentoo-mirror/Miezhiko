@@ -113,4 +113,7 @@ sci-libs/vtk:tbb - Use dev-cpp/tbb to handle smp support
 sci-libs/vtk:views - Building Views modules
 sci-libs/vtk:web - Install web component
 x11-libs/fltk:games - Builds and installs some extra games
+x11-libs/wxGTK:egl - Enable EGL support.
+x11-libs/wxGTK:gstreamer - Enable the wxMediaCtrl class for playing audio and video through gstreamer.
+x11-libs/wxGTK:sdl - Use Simple Directmedia Layer (media-libs/libsdl) for audio.
 x11-terms/console:nautilus - Build gnome-base/nautilus extension
