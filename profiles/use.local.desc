@@ -22,6 +22,7 @@ dev-libs/boost:nls - Build libboost_locale. This library requires compatible C l
 dev-libs/boost:numpy - Optionally build NumPy extensions when Boost.Python is enabled
 dev-libs/boost:threads - Build multi-thread-compatible libraries instead of single-threaded only.
 dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspect, wave)
+dev-libs/ocl-icd:khronos-headers - Install Khronos OpenCL headers.
 dev-qt/ghoul:clang - Build clang-based plugins for C/C++ development (code model, formatting, static analysis)
 dev-qt/ghoul:cmake - Build plugin for CMake-based projects
 dev-qt/ghoul:cppcheck - Enable integration with dev-util/cppcheck
