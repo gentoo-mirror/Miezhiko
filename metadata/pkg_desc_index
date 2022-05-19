@@ -1,7 +1,7 @@
 acct-group/clickhouse 0: System group: clickhouse
 acct-user/clickhouse 0: System user: clickhouse
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
-app-editors/vscode 1.67.1: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.67.2: Multiplatform Visual Studio Code from Microsoft
 app-misc/cryptowatch 0.5.0: fast & furious
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
@@ -54,7 +54,6 @@ net-im/discord 0.0.131-r1: All-in-one voice and text chat
 net-im/fractal 4.4.1_beta: Matrix messaging app for GNOME written in Rust
 net-im/spectral 9999: A glossy client for Matrix, written in QtQuick Controls 2 and C++.
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
-net-misc/networkmanager 1.37.3: A set of co-operative tools that make networking simple and straightforward
 net-misc/rabbitmq-server 3.9.13: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
 net-vpn/protonvpn-cli 3.11.1: Official ProtonVPN Linux app (CLI)
