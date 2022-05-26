@@ -64,8 +64,6 @@ gui-libs/gtk:vulkan - Enable support for the Vulkan graphics API
 media-gfx/drawing:lto - link time optimization
 net-im/fractal:lto - link time optimization
 net-libs/restbed:lto - link time optimization
-sci-libs/onnx:python - Build Python binary tools
-sci-libs/onnx:test - Enable tests
 sci-libs/pytorch:asan - Build with address sanitizer (ASAN)
 sci-libs/pytorch:cuda - Enable support for nVidia CUDA
 sci-libs/pytorch:fbgemm - Enable FBGEMM (Facebook GEneral Matrix Multiplication) support
