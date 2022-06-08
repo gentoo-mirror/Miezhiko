@@ -56,8 +56,8 @@ net-libs/restbed 9999: For applications that require seamless and secure communi
 net-misc/rabbitmq-server 3.9.13: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
 net-vpn/protonvpn-cli 3.12.0: Official ProtonVPN Linux app (CLI)
-net-vpn/protonvpn-gui 1.9.0: Official ProtonVPN Linux app
-net-vpn/protonvpn-nm-lib 3.10.0: ProtonVPN NetworkManager library
+net-vpn/protonvpn-gui 1.10.0: Official ProtonVPN Linux app
+net-vpn/protonvpn-nm-lib 3.11.0: ProtonVPN NetworkManager library
 sci-libs/pydicom 2.2.2: A pure python package for parsing DICOM files
 sci-libs/pytorch 1.10.2: Tensors and Dynamic neural networks in Python with strong GPU acceleration
 sci-libs/vtk 9.1.0: The Visualization Toolkit
