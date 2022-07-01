@@ -37,7 +37,6 @@ dev-python/pyro 4.80: Distributed object middleware for Python (RPC)
 dev-python/wxpython 4.1.1: A blending of the wxWindows C++ class library with Python
 dev-qt/ghoul 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 framework (deprecated)
-dev-scheme/chezscheme 9.5.4: Open-source Chez Scheme implementation from Cisco
 dev-util/beekeeper-studio-bin 3.4.3: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
