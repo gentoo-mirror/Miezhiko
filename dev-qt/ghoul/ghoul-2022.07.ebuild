@@ -11,8 +11,8 @@ DESCRIPTION="Lightweight IDE for C++/QML development centering around Qt"
 HOMEPAGE="https://doc.qt.io/qtcreator/"
 
 EGIT_REPO_URI="https://github.com/Miezhiko/Ghoul.git"
-EGIT_BRANCH="mawa"
-KEYWORDS=""
+EGIT_BRANCH="mawa-2022-07"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -21,7 +21,7 @@ IUSE="systemd drp test webengine +clang help serialterminal cvs git subversion m
 RESTRICT="!test? ( test )"
 
 # minimum Qt version required
-QT_PV="5.6:5"
+QT_PV="5.15:5"
 
 BDEPEND="
 	>=dev-qt/linguist-tools-${QT_PV}
