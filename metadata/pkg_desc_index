@@ -42,6 +42,7 @@ dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 fra
 dev-util/beekeeper-studio-bin 3.6.2: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
+dev-util/lucky-commit 9999: Customize your git commit hashes!
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
