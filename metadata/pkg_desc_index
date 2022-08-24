@@ -37,7 +37,7 @@ dev-python/fastprogress 1.0.0: progress lib for fastai
 dev-python/proton-client 0.7.1: Proton account login backend
 dev-python/pyro 4.80: Distributed object middleware for Python (RPC)
 dev-python/wxpython 4.1.1: A blending of the wxWindows C++ class library with Python
-dev-qt/ghoul 2022.07 9999: Lightweight IDE for C++/QML development centering around Qt
+dev-qt/ghoul 2022.07 2022.08 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 framework (deprecated)
 dev-util/beekeeper-studio-bin 3.6.2: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
