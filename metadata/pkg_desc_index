@@ -20,7 +20,7 @@ dev-lang/idris2 9999: Purely functional programming language with first class ty
 dev-lang/lua 5.1.5-r110 5.3.6-r6 5.4.4-r3: A powerful light-weight programming language designed for extending applications
 dev-lang/mono 6.12.0.173: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/rust 1.63.0: Systems programming language from Mozilla
-dev-lang/spidermonkey 104.0: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
+dev-lang/spidermonkey 102.2.0-r1 104.0: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
 dev-libs/boost 1.78.0-r2: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
