@@ -17,6 +17,7 @@ dev-haskell/T 9999: time tracker
 dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents directly
 dev-haskell/hake 9999: scripty thing
 dev-lang/idris2 9999: Purely functional programming language with first class types
+dev-lang/lua 5.1.5-r110 5.3.6-r6 5.4.4-r3: A powerful light-weight programming language designed for extending applications
 dev-lang/mono 6.12.0.173: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/rust 1.63.0: Systems programming language from Mozilla
 dev-lang/spidermonkey 104.0: SpiderMonkey is Mozilla's JavaScript engine written in C and C++

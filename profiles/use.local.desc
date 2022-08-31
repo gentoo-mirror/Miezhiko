@@ -37,6 +37,8 @@ dev-db/clickhouse-bin:server - Install server
 dev-lang/idris2:chez - build using dev-scheme/chez
 dev-lang/idris2:racket - build using dev-scheme/racket
 dev-lang/idris2:test-full - pull in depedndencies to run all tests
+dev-lang/lua:deprecated - make deprecated data structures/routines available
+dev-lang/lua:test-complete - Run the complete (non-portable) testsuite
 dev-lang/mono:pax-kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
 dev-lang/mono:xen - Make mono generate code that is considerably faster on xen VMs but slightly slower on for normal systems.
 dev-lang/rust:clippy - Install clippy, Rust code linter
