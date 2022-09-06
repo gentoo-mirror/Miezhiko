@@ -73,6 +73,5 @@ sys-apps/snooze 0.5: run a command at a particular time
 virtual/rust 1.63.0: Virtual for Rust language compiler
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-libs/wxGTK 3.1.5-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
-x11-misc/slock 9999: simple X display locker
 x11-terms/console 42.0_beta: A terminal emulator for GNOME
 x11-wm/jwm 9999: JWM
