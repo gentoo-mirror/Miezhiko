@@ -10,6 +10,13 @@ dev-cpp/asio:lto - link time optimization
 dev-cpp/kashmir:lto - link time optimization
 dev-db/clickhouse-bin:client - Install CLI client
 dev-db/clickhouse-bin:server - Install server
+dev-haskell/cabal-install:debug-conflict-sets - Add additional information to ConflictSets
+dev-haskell/cabal-install:lukko - Use @lukko@ for file-locking
+dev-haskell/cabal-install:native-dns - Enable use of the [resolv](https://hackage.haskell.org/package/resolv) & [windns](https://hackage.haskell.org/package/windns) packages for performing DNS lookups
+dev-haskell/cabal-install-solver:debug-conflict-sets - Add additional information to ConflictSets
+dev-haskell/cabal-install-solver:lukko - Use @lukko@ for file-locking
+dev-haskell/cabal-install-solver:native-dns - Enable use of the [resolv](https://hackage.haskell.org/package/resolv) & [windns](https://hackage.haskell.org/package/windns) packages for performing DNS lookups
+dev-haskell/hackage-security:lukko - Use @lukko@ for file-locking, otherwise use @GHC.IO.Handle.Lock@
 dev-lang/idris2:chez - build using dev-scheme/chez
 dev-lang/idris2:racket - build using dev-scheme/racket
 dev-lang/idris2:test-full - pull in depedndencies to run all tests

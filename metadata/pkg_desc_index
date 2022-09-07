@@ -15,8 +15,14 @@ dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-db/clickhouse-bin 21.9.1.7811: An OSS column-oriented database management system for real-time data analysis
 dev-haskell/T 9999: time tracker
+dev-haskell/cabal 9999: A framework for packaging Haskell software
+dev-haskell/cabal-install 9999: The command-line interface for Cabal and Hackage
+dev-haskell/cabal-install-solver 9999: Solver component of the cabal tool
+dev-haskell/cabal-syntax 9999: The .cabal file format library
 dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents directly
+dev-haskell/hackage-security 0.6.2.2: Hackage security library
 dev-haskell/hake 9999: scripty thing
+dev-haskell/safe-exceptions 0.1.7.3: Safe, consistent, and easy exception handling
 dev-lang/idris2 9999: Purely functional programming language with first class types
 dev-lang/lua 5.1.5-r110 5.3.6-r6 5.4.4-r3: A powerful light-weight programming language designed for extending applications
 dev-lang/mono 6.12.0.173: Mono runtime and class libraries, a C# compiler/interpreter
