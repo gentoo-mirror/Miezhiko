@@ -28,8 +28,8 @@ dev-haskell/stylish-haskell 0.14.2.0: Haskell code prettifier
 dev-lang/idris2 9999: Purely functional programming language with first class types
 dev-lang/lua 5.1.5-r110 5.3.6-r6 5.4.4-r3: A powerful light-weight programming language designed for extending applications
 dev-lang/mono 6.12.0.173: Mono runtime and class libraries, a C# compiler/interpreter
-dev-lang/rust 1.63.0: Systems programming language from Mozilla
-dev-lang/spidermonkey 102.2.0-r1 104.0: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
+dev-lang/rust 1.64.0_beta: Systems programming language from Mozilla
+dev-lang/spidermonkey 102.2.0-r2: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
 dev-libs/boost 1.78.0-r2: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/gjs 1.73.2.666: Javascript bindings for GNOME
@@ -80,7 +80,7 @@ sci-libs/vtk 9.1.0: The Visualization Toolkit
 sys-apps/lr 1.5.1: list files, recursively
 sys-apps/nq 0.4: unix command line queue utility
 sys-apps/snooze 0.5: run a command at a particular time
-virtual/rust 1.63.0: Virtual for Rust language compiler
+virtual/rust 1.64.0_beta: Virtual for Rust language compiler
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-libs/wxGTK 3.1.5-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
 x11-terms/console 42.0_beta: A terminal emulator for GNOME
