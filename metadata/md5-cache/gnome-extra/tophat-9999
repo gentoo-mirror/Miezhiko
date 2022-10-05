@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=dev-libs/glib
+DESCRIPTION=An elegant system resource monitor for the GNOME shell
+EAPI=8
+HOMEPAGE=https://github.com/fflewddur/tophat
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=dev-libs/glib app-eselect/eselect-gnome-shell-extensions >=gnome-base/gnome-shell-40.0
+RESTRICT=mirror test
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=98de20b818f8b2671cccbb1fc1ab0e84
