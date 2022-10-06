@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=dev-libs/glib
+DESCRIPTION=New email notification icon for GNOME Shell.
+EAPI=8
+HOMEPAGE=https://github.com/Qeenon/new-mail-indicator
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=dev-libs/glib app-eselect/eselect-gnome-shell-extensions >=gnome-base/gnome-shell-40.0
+RESTRICT=mirror test
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=c4bd2b1cce00b777e65fdf6d07438b0b
