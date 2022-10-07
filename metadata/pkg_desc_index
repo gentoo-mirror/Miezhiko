@@ -70,7 +70,6 @@ net-im/discord 0.0.131-r1: All-in-one voice and text chat
 net-im/fractal 4.4.1_beta: Matrix messaging app for GNOME written in Rust
 net-im/spectral 9999: A glossy client for Matrix, written in QtQuick Controls 2 and C++.
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
-net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
 net-vpn/protonvpn-cli 3.13.0: Official ProtonVPN Linux app (CLI)
 net-vpn/protonvpn-gui 1.11.0: Official ProtonVPN Linux app
 net-vpn/protonvpn-nm-lib 3.13.0: ProtonVPN NetworkManager library
