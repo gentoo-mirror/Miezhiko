@@ -23,6 +23,7 @@ dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents dir
 dev-haskell/hackage-security 0.6.2.2: Hackage security library
 dev-haskell/hake 9999: scripty thing
 dev-haskell/haku 9999: scripty thing experiment
+dev-haskell/regex-compat 0.95.2.1-r2: Replaces/enhances "Text.Regex"
 dev-haskell/safe-exceptions 0.1.7.3: Safe, consistent, and easy exception handling
 dev-haskell/stylish-haskell 0.14.2.0: Haskell code prettifier
 dev-lang/idris2 9999: Purely functional programming language with first class types
