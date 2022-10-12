@@ -20,7 +20,7 @@ dev-haskell/cabal-install 9999: The command-line interface for Cabal and Hackage
 dev-haskell/cabal-install-solver 9999: Solver component of the cabal tool
 dev-haskell/cabal-syntax 9999: The .cabal file format library
 dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents directly
-dev-haskell/hackage-security 0.6.2.2: Hackage security library
+dev-haskell/hackage-security 9999: Hackage security library
 dev-haskell/hake 9999: scripty thing
 dev-haskell/haku 9999: scripty thing experiment
 dev-haskell/regex-compat 0.95.2.1-r2: Replaces/enhances "Text.Regex"
