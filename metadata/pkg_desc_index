@@ -10,6 +10,7 @@ app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
 app-office/myoffice 1.28.0.4: office
 app-office/openoffice-bin 4.1.13: Apache OpenOffice productivity suite
+app-portage/hackport 0.8.9999: Hackage and Portage integration tool
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-db/clickhouse-bin 21.9.1.7811: An OSS column-oriented database management system for real-time data analysis
@@ -23,6 +24,7 @@ dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents dir
 dev-haskell/hackage-security 9999: Hackage security library
 dev-haskell/hake 9999: scripty thing
 dev-haskell/haku 9999: scripty thing experiment
+dev-haskell/missingh 1.5.0.1: Large utility library
 dev-haskell/regex-compat 0.95.2.1-r2: Replaces/enhances "Text.Regex"
 dev-haskell/safe-exceptions 0.1.7.3: Safe, consistent, and easy exception handling
 dev-haskell/stylish-haskell 0.14.2.0: Haskell code prettifier

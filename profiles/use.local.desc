@@ -15,6 +15,7 @@ dev-haskell/cabal-install-solver:debug-conflict-sets - Add additional informatio
 dev-haskell/cabal-install-solver:lukko - Use @lukko@ for file-locking
 dev-haskell/cabal-install-solver:native-dns - Enable use of the [resolv](https://hackage.haskell.org/package/resolv) & [windns](https://hackage.haskell.org/package/windns) packages for performing DNS lookups
 dev-haskell/hackage-security:lukko - Use @lukko@ for file-locking, otherwise use @GHC.IO.Handle.Lock@
+dev-haskell/missingh:network--ge-3-0-0 - [network](http://hackage.haskell.org/package/network) ≥ 3.0.0
 dev-haskell/stylish-haskell:ghc-lib - Force dependency on ghc-lib-parser even if GHC API in the ghc package is supported
 dev-lang/idris2:chez - build using dev-scheme/chez
 dev-lang/idris2:racket - build using dev-scheme/racket
