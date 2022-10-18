@@ -44,7 +44,6 @@ dev-libs/olm 9999: An implementation of the Double Ratchet cryptographic ratchet
 dev-libs/xmlrpc-epi 0.54.2: An implementation of the xmlrpc protocol in C
 dev-python/billiard 3.6.4.0: Python multiprocessing fork
 dev-python/celery 5.2.0: Asynchronous task queue/job queue based on distributed message passing
-dev-python/click-didyoumean 0.0.3: Enable git-like did-you-mean feature in click.
 dev-python/click-repl 0.1.6: Subcommand REPL for click apps
 dev-python/fastai 2.5.3: The fastai deep learning library
 dev-python/fastcore 1.3.27: Python supercharged for the fastai library
@@ -60,11 +59,11 @@ dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
 dev-util/lucky-commit 9999: Customize your git commit hashes!
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 games-simulation/alchemy 9999: Alchemy SL Viewer
+gnome-base/gnome-control-center 43.1: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
 gnome-extra/gnome-tweaks 42.0_beta: Customize advanced GNOME options
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
 gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
-gui-libs/gtk 4.8.0: GTK is a multi-platform toolkit for creating graphical user interfaces
 gui-libs/libdecor 0.1.0: A client-side decorations library for Wayland clients
 media-gfx/drawing 1.0.1 9999: A drawing application for the GNOME desktop
 media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
