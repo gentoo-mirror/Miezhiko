@@ -58,6 +58,7 @@ dev-util/boost-build 1.79.0: A system for large project software construction, s
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
 dev-util/lucky-commit 9999: Customize your git commit hashes!
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
+dev-vcs/jj 9999: A Git-compatible DVCS that is both simple and powerful
 games-simulation/alchemy 9999: Alchemy SL Viewer
 gnome-base/gnome-control-center 43.1: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
