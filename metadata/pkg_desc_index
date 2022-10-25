@@ -10,7 +10,6 @@ app-misc/cryptowatch 0.5.0: fast & furious
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
 app-office/myoffice 1.28.0.4: office
-app-office/openoffice-bin 4.1.13: Apache OpenOffice productivity suite
 app-portage/hackport 0.8.9999: Hackage and Portage integration tool
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
