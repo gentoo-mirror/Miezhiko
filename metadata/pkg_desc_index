@@ -26,6 +26,8 @@ dev-haskell/hackage-security 9999: Hackage security library
 dev-haskell/hake 9999: scripty thing
 dev-haskell/haku 9999: scripty thing experiment
 dev-haskell/missingh 1.5.0.1: Large utility library
+dev-haskell/newtype-generics 0.6.2: A typeclass and set of functions for working with newtypes
+dev-haskell/ormolu 0.5.0.1: A formatter for Haskell source code
 dev-haskell/polyparse 1.13: A variety of alternative parser combinator libraries
 dev-haskell/regex-compat 0.95.2.1-r2: Replaces/enhances "Text.Regex"
 dev-haskell/safe-exceptions 0.1.7.3: Safe, consistent, and easy exception handling
