@@ -77,8 +77,8 @@ net-im/fractal 4.4.1_beta: Matrix messaging app for GNOME written in Rust
 net-im/spectral 9999: A glossy client for Matrix, written in QtQuick Controls 2 and C++.
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-vpn/protonvpn-cli 3.13.0: Official ProtonVPN Linux app (CLI)
-net-vpn/protonvpn-gui 1.11.0: Official ProtonVPN Linux app
-net-vpn/protonvpn-nm-lib 3.13.0: ProtonVPN NetworkManager library
+net-vpn/protonvpn-gui 1.12.0: Official ProtonVPN Linux app
+net-vpn/protonvpn-nm-lib 3.14.0: ProtonVPN NetworkManager library
 sci-libs/pydicom 2.2.2: A pure python package for parsing DICOM files
 sci-libs/vtk 9.1.0: The Visualization Toolkit
 sys-apps/lr 1.5.1: list files, recursively
