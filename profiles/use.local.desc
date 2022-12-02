@@ -72,8 +72,6 @@ games-simulation/alchemy:fork - use mawa fork with minor tweaks
 games-simulation/alchemy:j1 - compile in one thread...
 games-simulation/alchemy:lto - link time optimization (suggested)
 games-simulation/alchemy:system - use system libs (not supported at all)
-gnome-base/gnome-control-center:gnome-online-accounts - Enable configuration panel for net-libs/gnome-online-accounts accounts
-gnome-base/gnome-control-center:ibus - Enable support for enhanced input methods through app-i18n/ibus
 media-gfx/drawing:lto - link time optimization
 net-im/fractal:lto - link time optimization
 net-libs/restbed:lto - link time optimization
