@@ -60,6 +60,7 @@ dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 fra
 dev-util/beekeeper-studio-bin 3.7.10: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
+dev-util/easy-profiler 9999: Lightweight profiler library for c++
 dev-util/lucky-commit 9999: Customize your git commit hashes!
 dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 dev-vcs/jj 9999: A Git-compatible DVCS that is both simple and powerful
