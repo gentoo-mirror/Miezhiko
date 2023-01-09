@@ -12,4 +12,4 @@ RDEPEND=dev-libs/glib app-eselect/eselect-gnome-shell-extensions >=gnome-base/gn
 RESTRICT=mirror test
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=c4bd2b1cce00b777e65fdf6d07438b0b
+_md5_=b733a1b07761bbe52d503128a8da065a

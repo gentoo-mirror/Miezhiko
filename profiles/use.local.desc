@@ -68,7 +68,6 @@ games-simulation/alchemy:j1 - compile in one thread...
 games-simulation/alchemy:lto - link time optimization (suggested)
 games-simulation/alchemy:system - use system libs (not supported at all)
 media-gfx/drawing:lto - link time optimization
-net-im/fractal:lto - link time optimization
 net-libs/restbed:lto - link time optimization
 sci-libs/vtk:all-modules - Build all modules
 sci-libs/vtk:boost - Add support for boost
