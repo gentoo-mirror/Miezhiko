@@ -72,6 +72,7 @@ gui-apps/gnome-console 43.0-r666: A simple user-friendly terminal emulator for t
 gui-libs/libdecor 0.1.0: A client-side decorations library for Wayland clients
 media-gfx/drawing 1.0.1 9999: A drawing application for the GNOME desktop
 media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
+media-sound/qmmp 2.1.2: Qt6-based audio player with winamp/xmms skins support
 net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
