@@ -11,8 +11,8 @@ DESCRIPTION="Lightweight IDE for C++/QML development centering around Qt"
 HOMEPAGE="https://doc.qt.io/qtcreator/"
 
 EGIT_REPO_URI="https://github.com/Miezhiko/Ghoul.git"
-EGIT_BRANCH="mawa"
-KEYWORDS=""
+EGIT_BRANCH="mawa-2023-01"
+KEYWORDS="~amd64 ~x86"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -113,7 +113,6 @@ RDEPEND="${CDEPEND}
 		>=dev-qt/qtwayland-${QT_PV}
 	)
 	qml? ( >=dev-qt/qtquicktimeline-${QT_PV} )
-	x11-terms/xterm
 "
 
 # qt translations must also be installed or qt-creator translations won't be loaded
