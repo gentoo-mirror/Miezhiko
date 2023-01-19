@@ -8,6 +8,7 @@ app-emulation/proton-ge-custom-meta 1: Meta package for proton-ge-custom-bin, ma
 app-misc/crab 9999: a crab
 app-misc/cryptowatch 0.5.0: fast & furious
 app-misc/shelter 9999: MIGMA SHELTER
+app-misc/subete 9999: subete
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
 app-office/myoffice 1.28.0.4: office
 app-portage/hackport 0.8.9999: Hackage and Portage integration tool
