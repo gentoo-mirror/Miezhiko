@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
-DEPEND=>=dev-lang/ghc-8 dev-haskell/utf8-string dev-haskell/missingh dev-haskell/base-unicode-symbols dev-haskell/executable-path dev-haskell/lifted-base dev-haskell/yaml
+DEPEND=>=dev-lang/ghc-8 dev-haskell/utf8-string dev-haskell/missingh dev-haskell/base-unicode-symbols dev-haskell/executable-path dev-haskell/lifted-base dev-haskell/yaml dev-haskell/time-parsers
 DESCRIPTION=time tracker
 EAPI=8
 HOMEPAGE=https://github.com/Miezhiko/T
@@ -8,7 +8,7 @@ INHERIT=haskell-cabal git-r3
 KEYWORDS=~amd64
 LICENSE=AGPL-3
 PROPERTIES=live
-RDEPEND=>=dev-lang/ghc-8 dev-haskell/utf8-string dev-haskell/missingh dev-haskell/base-unicode-symbols dev-haskell/executable-path dev-haskell/lifted-base dev-haskell/yaml
+RDEPEND=>=dev-lang/ghc-8 dev-haskell/utf8-string dev-haskell/missingh dev-haskell/base-unicode-symbols dev-haskell/executable-path dev-haskell/lifted-base dev-haskell/yaml dev-haskell/time-parsers
 SLOT=0
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	haskell-cabal	2badba1acbf35455c7f41449cb825729	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=770429006d7ff63e0ee5e46f3528f395
+_md5_=7e22e4ec84856ddfb183364607217b0c
