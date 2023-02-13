@@ -80,7 +80,8 @@ net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as
 net-vpn/protonvpn-cli 3.13.0: Official ProtonVPN Linux app (CLI)
 net-vpn/protonvpn-gui 1.12.0: Official ProtonVPN Linux app
 net-vpn/protonvpn-nm-lib 3.14.0: ProtonVPN NetworkManager library
-sci-libs/pydicom 2.2.2: A pure python package for parsing DICOM files
+sci-libs/pydicom 2.3.1: A pure python package for parsing DICOM files
+sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/vtk 9.1.0: The Visualization Toolkit
 sys-apps/lr 1.5.1: list files, recursively
 sys-apps/nq 0.4: unix command line queue utility
