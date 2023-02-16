@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/0.14.2.0
 SRC_URI=https://hackage.haskell.org/package/stylish-haskell-0.14.2.0/stylish-haskell-0.14.2.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	haskell-cabal	2badba1acbf35455c7f41449cb825729
-_md5_=38183aff9ce193c833df86d161643e11
+_md5_=4a9368c1eb61a5a7e722bc419c334448

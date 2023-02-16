@@ -35,7 +35,7 @@ dev-haskell/pointfree 1.1.1.9: Tool for refactoring expressions into pointfree f
 dev-haskell/polyparse 1.13: A variety of alternative parser combinator libraries
 dev-haskell/regex-compat 0.95.2.1-r2: Replaces/enhances "Text.Regex"
 dev-haskell/safe-exceptions 0.1.7.3: Safe, consistent, and easy exception handling
-dev-haskell/stylish-haskell 0.14.2.0-r1 9999: Haskell code prettifier
+dev-haskell/stylish-haskell 0.14.2.0-r2 9999: Haskell code prettifier
 dev-lang/idris2 9999: Purely functional programming language with first class types
 dev-lang/mono 6.12.0.182: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/rust 9999: Systems programming language from Mozilla
