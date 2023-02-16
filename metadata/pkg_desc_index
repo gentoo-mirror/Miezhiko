@@ -7,6 +7,7 @@ app-emulation/proton-ge-custom-bin 7.31: A fancy custom distribution of Valves P
 app-emulation/proton-ge-custom-meta 1: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-misc/crab 9999: a crab
 app-misc/cryptowatch 0.5.0: fast & furious
+app-misc/hidamari 9999: Video wallpaper for Linux.
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/subete 9999: subete
 app-misc/xmind 10.3.1: A brainstorming and mind mapping software tool
