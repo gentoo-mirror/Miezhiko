@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=Boost-1.0
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=437e54af0df2555b6ea96b95cc13995e

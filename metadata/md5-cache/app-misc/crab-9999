@@ -9,5 +9,5 @@ LICENSE=GPLv3
 PROPERTIES=live
 RESTRICT=mirror test
 SLOT=0
-_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=c7f1a43247ab4d43c831640061446480
