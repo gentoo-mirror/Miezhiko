@@ -67,6 +67,9 @@ games-simulation/alchemy:fork - use mawa fork with minor tweaks
 games-simulation/alchemy:j1 - compile in one thread...
 games-simulation/alchemy:lto - link time optimization (suggested)
 games-simulation/alchemy:system - use system libs (not supported at all)
+gnome-base/nautilus:gstreamer - Enable the Audio/Video file properties page
+gnome-base/nautilus:previewer - Use gnome-extra/sushi to preview files from the file mananger
+gnome-base/nautilus:sendto - Enable the nautilus-sendto extension to send files to various locations/devices
 media-gfx/drawing:lto - link time optimization
 media-sound/qmmp:analyzer - Enable visual analyzer
 media-sound/qmmp:archive - Enable archiving plugin via app-arch/libarchive.
