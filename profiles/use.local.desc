@@ -97,6 +97,11 @@ media-sound/qmmp:stereo - Enable stereo effect
 media-sound/qmmp:tray - Build tray icon
 media-sound/qmmp:xmp - Enable module files renderer (modplug replacement)
 net-libs/restbed:lto - link time optimization
+net-libs/webkit-gtk:avif - Enable support for AVIF images via media-libs/libavif
+net-libs/webkit-gtk:egl - Enable EGL support
+net-libs/webkit-gtk:examples - Install the MiniBrowser example application
+net-libs/webkit-gtk:gamepad - Enable gamepad input support via dev-libs/libmanette
+net-libs/webkit-gtk:jumbo-build - Combine source files to speed up build process
 sci-libs/vtk:all-modules - Build all modules
 sci-libs/vtk:boost - Add support for boost
 sci-libs/vtk:cuda - Add support for CUDA
