@@ -1,5 +1,7 @@
 acct-group/clickhouse 0: System group: clickhouse
+acct-group/monero 0: System group: monero
 acct-user/clickhouse 0: System user: clickhouse
+acct-user/monero 0: System user: monero
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.77.1: Multiplatform Visual Studio Code from Microsoft
@@ -47,6 +49,8 @@ dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Mat
 dev-libs/libndofdev 0.13: Replacement for the libndofdev library used by the Second Life client to handle joysticks and the 6DOF devices on Windows and Macs.
 dev-libs/ocl-icd 2.3.1-r1: Alternative to vendor specific OpenCL ICD loaders
 dev-libs/olm 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
+dev-libs/randomx 1.1.9: Proof of work algorithm based on random code execution
+dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
 dev-python/billiard 3.6.4.0: Python multiprocessing fork
 dev-python/celery 5.2.0: Asynchronous task queue/job queue based on distributed message passing
 dev-python/click-repl 0.1.6: Subcommand REPL for click apps
@@ -81,6 +85,8 @@ net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based)
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-libs/webkit-gtk 2.40.0-r411: Open source web browser engine
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
+net-p2p/monero 0.18.2.2: The secure, private, untraceable cryptocurrency
+net-p2p/monero-gui 0.18.2.2: GUI for net-p2p/monero
 net-vpn/protonvpn-cli 3.13.0: Official ProtonVPN Linux app (CLI)
 net-vpn/protonvpn-gui 1.12.0-r1: Official ProtonVPN Linux app
 net-vpn/protonvpn-nm-lib 3.14.0: ProtonVPN NetworkManager library
