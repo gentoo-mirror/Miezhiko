@@ -39,12 +39,15 @@ dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents dir
 dev-haskell/hackage-security 9999: Hackage security library
 dev-haskell/hake 9999: scripty thing
 dev-haskell/haku 9999: scripty thing experiment
+dev-haskell/incipit-base 0.5.1.0: A Prelude for Polysemy – Base Reexports
+dev-haskell/incipit-core 0.5.1.0: A Prelude for Polysemy
 dev-haskell/lifted-async 0.10.2.3: Run lifted IO operations asynchronously and wait for their results
 dev-haskell/missingh 1.5.0.1: Large utility library
 dev-haskell/newtype-generics 0.6.2: A typeclass and set of functions for working with newtypes
 dev-haskell/ormolu 0.5.0.1: A formatter for Haskell source code
 dev-haskell/pointfree 1.1.1.9: Tool for refactoring expressions into pointfree form
 dev-haskell/polyparse 1.13: A variety of alternative parser combinator libraries
+dev-haskell/polysemy-time 0.6.0.0: Polysemy effects for time
 dev-haskell/pyf 0.11.1.1: Quasiquotations for a python like interpolated string formatter
 dev-haskell/regex-compat 0.95.2.1-r2: Replaces/enhances "Text.Regex"
 dev-haskell/safe-exceptions 0.1.7.3: Safe, consistent, and easy exception handling
