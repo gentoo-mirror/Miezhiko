@@ -72,6 +72,7 @@ dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
 dev-python/billiard 3.6.4.0: Python multiprocessing fork
 dev-python/celery 5.2.0: Asynchronous task queue/job queue based on distributed message passing
 dev-python/click-repl 0.1.6: Subcommand REPL for click apps
+dev-python/curl-cffi 0.2.1: Python binding for curl-impersonate via cffi
 dev-python/fastai 2.5.3: The fastai deep learning library
 dev-python/fastcore 1.3.27: Python supercharged for the fastai library
 dev-python/fastprogress 1.0.0: progress lib for fastai
@@ -102,6 +103,7 @@ net-im/discord-canary-bin 0.0.150: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-libs/webkit-gtk 2.40.0-r411: Open source web browser engine
+net-misc/curl-impersonate 0.5.4: A Client that groks URLs
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
 net-p2p/monero 0.18.2.2: The secure, private, untraceable cryptocurrency
 net-p2p/monero-gui 0.18.2.2: GUI for net-p2p/monero
