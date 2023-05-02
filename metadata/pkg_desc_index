@@ -91,7 +91,6 @@ dev-util/rust-analyzer 9999: An experimental Rust compiler front-end for IDEs
 dev-vcs/jj 9999: A Git-compatible DVCS that is both simple and powerful
 games-simulation/alchemy 9999: Alchemy SL Viewer
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
-gnome-base/nautilus 44.0: Default file manager for the GNOME desktop
 gnome-extra/gnome-tweaks 42.0_beta-r1: Customize advanced GNOME options
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
 gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
@@ -104,7 +103,6 @@ net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord-canary-bin 0.0.150: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
-net-libs/webkit-gtk 2.40.0-r411: Open source web browser engine
 net-misc/curl-impersonate 0.5.4: A Client that groks URLs
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
 net-p2p/monero 0.18.2.2: The secure, private, untraceable cryptocurrency

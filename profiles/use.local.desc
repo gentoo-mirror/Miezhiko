@@ -73,9 +73,6 @@ games-simulation/alchemy:fork - use mawa fork with minor tweaks
 games-simulation/alchemy:j1 - compile in one thread...
 games-simulation/alchemy:lto - link time optimization (suggested)
 games-simulation/alchemy:system - use system libs (not supported at all)
-gnome-base/nautilus:gstreamer - Enable the Audio/Video file properties page
-gnome-base/nautilus:previewer - Use gnome-extra/sushi to preview files from the file mananger
-gnome-base/nautilus:sendto - Enable the nautilus-sendto extension to send files to various locations/devices
 media-gfx/drawing:lto - link time optimization
 media-sound/qmmp:analyzer - Enable visual analyzer
 media-sound/qmmp:archive - Enable archiving plugin via app-arch/libarchive.
@@ -103,11 +100,6 @@ media-sound/qmmp:stereo - Enable stereo effect
 media-sound/qmmp:tray - Build tray icon
 media-sound/qmmp:xmp - Enable module files renderer (modplug replacement)
 net-libs/restbed:lto - link time optimization
-net-libs/webkit-gtk:avif - Enable support for AVIF images via media-libs/libavif
-net-libs/webkit-gtk:egl - Enable EGL support
-net-libs/webkit-gtk:examples - Install the MiniBrowser example application
-net-libs/webkit-gtk:gamepad - Enable gamepad input support via dev-libs/libmanette
-net-libs/webkit-gtk:jumbo-build - Combine source files to speed up build process
 net-misc/curl-impersonate:alt-svc - Enable alt-svc support
 net-misc/curl-impersonate:brotli - Enable brotli compression support
 net-misc/curl-impersonate:ftp - Enable FTP support
