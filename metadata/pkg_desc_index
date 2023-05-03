@@ -72,6 +72,7 @@ dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
 dev-python/altair 4.2.2 9999: Declarative statistical visualization library
 dev-python/cf-clearance 0.29.0: BPurpose To make a cloudflare v2 challenge pass successfully
 dev-python/curl-cffi 0.2.1: Python binding for curl-impersonate via cffi
+dev-python/fake-useragent 1.1.3: Up to date simple useragent faker with real world database
 dev-python/fastai 2.5.3: The fastai deep learning library
 dev-python/fastcore 1.3.27: Python supercharged for the fastai library
 dev-python/fastprogress 1.0.0: progress lib for fastai
