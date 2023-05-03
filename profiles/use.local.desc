@@ -49,6 +49,7 @@ dev-libs/boost:tools - Build and install the boost tools (bcp, quickbook, inspec
 dev-libs/librdkafka:lz4 - Enable support for Kafka's LZ4 compression based on KIP-57 (uses app-arch/lz4)
 dev-libs/ocl-icd:khronos-headers - Install Khronos OpenCL headers.
 dev-python/pyarrow:parquet - Build with Parquet data format support
+dev-python/pymailtm:charts - Generate charts from "pympler.charts"
 dev-python/pympler:charts - Generate charts from "pympler.charts"
 dev-qt/ghoul:clang - Build clang-based plugins for C/C++ development (code model, formatting, static analysis)
 dev-qt/ghoul:cmake - Build plugin for CMake-based projects
