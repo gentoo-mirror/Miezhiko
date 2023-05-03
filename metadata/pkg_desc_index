@@ -81,6 +81,7 @@ dev-python/pyarrow 11.0.0: Python library for Apache Arrow
 dev-python/pydeck 0.7.1: Large-scale interactive data visualization
 dev-python/pymailtm 1.1.1: command line interface and python web-api wrapper for mail.tm
 dev-python/pympler 1.0.1 9999: Measure, monitor and analyze the memory behavior of Python objects
+dev-python/random-username 1.0.2: command line interface and python web-api wrapper for mail.tm
 dev-python/streamlit 1.22.0: Build and share machine learning and data science web apps
 dev-qt/ghoul 2022.07 2022.08 2023.01 2023.02 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 framework (deprecated)
