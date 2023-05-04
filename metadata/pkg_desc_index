@@ -79,6 +79,7 @@ dev-python/fastprogress 1.0.0: progress lib for fastai
 dev-python/proton-client 0.7.1: Proton account login backend
 dev-python/pyarrow 11.0.0: Python library for Apache Arrow
 dev-python/pydeck 0.7.1: Large-scale interactive data visualization
+dev-python/pydub 0.25.1: Manipulate audio with an simple and easy high level interface
 dev-python/pymailtm 1.1.1: command line interface and python web-api wrapper for mail.tm
 dev-python/pympler 1.0.1 9999: Measure, monitor and analyze the memory behavior of Python objects
 dev-python/pypasser 0.0.5: pypasser
