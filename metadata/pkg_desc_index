@@ -76,6 +76,7 @@ dev-python/fake-useragent 1.1.3: Up to date simple useragent faker with real wor
 dev-python/fastai 2.5.3: The fastai deep learning library
 dev-python/fastcore 1.3.27: Python supercharged for the fastai library
 dev-python/fastprogress 1.0.0: progress lib for fastai
+dev-python/google-cloud-translate 3.11.1: google-cloud-translate
 dev-python/gpt4free 9999: gpt4free
 dev-python/proton-client 0.7.1: Proton account login backend
 dev-python/pyarrow 11.0.0: Python library for Apache Arrow
