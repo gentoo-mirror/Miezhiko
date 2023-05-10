@@ -28,7 +28,9 @@ RDEPEND="
 	dev-python/tls-client
 	dev-python/xtempmail
 	dev-python/pypasser
-	dev-python/Faker"
+	dev-python/Faker
+	dev-python/mailgw-temporary-email
+	dev-python/retrying"
 DEPEND="${RDEPEND}"
 
 KEYWORDS="~amd64 ~x86"
