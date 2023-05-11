@@ -95,6 +95,7 @@ dev-qt/ghoul 2022.07 2022.08 2023.01 2023.02 9999: Lightweight IDE for C++/QML d
 dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 framework (deprecated)
 dev-util/beekeeper-studio-bin 3.9.9: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
+dev-util/cargo-dependency-inheritor 9999: Utility to inherit dependencies from workspace
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
 dev-util/easy-profiler 9999: Lightweight profiler library for c++
 dev-util/lucky-commit 9999: Customize your git commit hashes!
