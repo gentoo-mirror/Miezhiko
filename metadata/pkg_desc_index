@@ -79,6 +79,7 @@ dev-python/fastprogress 1.0.0: progress lib for fastai
 dev-python/google-cloud-translate 3.11.1: google-cloud-translate
 dev-python/gpt4free 9999: gpt4free
 dev-python/mailgw-temporary-email 0.0.2: Mail.gw is a free 10 minute temporary mail service
+dev-python/names 0.3.0: names
 dev-python/proton-client 0.7.1: Proton account login backend
 dev-python/pydeck 0.7.1: Large-scale interactive data visualization
 dev-python/pydub 0.25.1: Manipulate audio with an simple and easy high level interface
