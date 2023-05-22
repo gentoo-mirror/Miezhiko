@@ -85,6 +85,7 @@ dev-python/pydub 0.25.1: Manipulate audio with an simple and easy high level int
 dev-python/pymailtm 1.1.1: command line interface and python web-api wrapper for mail.tm
 dev-python/pympler 1.0.1 9999: Measure, monitor and analyze the memory behavior of Python objects
 dev-python/pypasser 0.0.5: pypasser
+dev-python/random-password-generator 2.2.0: random-password-generator
 dev-python/random-username 1.0.2: random-username
 dev-python/reactivex 4.0.4: A library for composing asynchronous and event-based programs
 dev-python/speech-recognition 3.10.0: speech-recognition
