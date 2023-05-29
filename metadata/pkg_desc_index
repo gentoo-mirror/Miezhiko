@@ -94,7 +94,6 @@ dev-python/reactivex 4.0.4: A library for composing asynchronous and event-based
 dev-python/speech-recognition 3.10.0: speech-recognition
 dev-python/streamlit 1.22.0: Build and share machine learning and data science web apps
 dev-python/tls-client 0.2.1: ython-TLS-Client is an advanced HTTP library based on requests and tls-client.
-dev-python/typings 0.4.25: typings
 dev-python/xtempmail 0.10: Temporary Email
 dev-qt/ghoul 2022.07 2022.08 2023.01 2023.02 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 framework (deprecated)
