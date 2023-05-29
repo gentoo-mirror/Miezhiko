@@ -32,9 +32,7 @@ RDEPEND="
 	dev-python/mailgw-temporary-email
 	dev-python/retrying
 	dev-python/names
-	dev-python/random-password-generator
-	dev-python/typings
-	dev-python/motor"
+	dev-python/random-password-generator"
 DEPEND="${RDEPEND}"
 
 KEYWORDS="~amd64 ~x86"
