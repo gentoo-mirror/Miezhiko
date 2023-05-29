@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/aeson-0.6:=[profile?] <dev-haskell/aeson-2.2:=[profile?] >
 RESTRICT=!test? ( test )
 SLOT=0/0.14.4.0
 SRC_URI=https://hackage.haskell.org/package/stylish-haskell-0.14.4.0/stylish-haskell-0.14.4.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	104e1332efb829e2f7cbf89307a474f1	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	2badba1acbf35455c7f41449cb825729
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	haskell-cabal	2badba1acbf35455c7f41449cb825729
 _md5_=7a4ccfb47a53cfec187bdae6a349e82b
