@@ -19,18 +19,6 @@ dev-haskell/hw-kafka-client:it - Run integration tests
 dev-haskell/pyf:python-test - Enable extensive python testing
 dev-haskell/stylish-haskell:ghc-lib - Force dependency on ghc-lib-parser even if GHC API in the ghc package is supported
 dev-haskell/unboxing-vector:mono-traversable - Define instances for MonoTraversable
-dev-lang/crab:clippy - Install clippy, Rust code linter
-dev-lang/crab:dist - Install dist tarballs (used for bootstrapping)
-dev-lang/crab:miri - Install miri, an interpreter for Rust's mid-level intermediate representation (requires USE=nightly, sometimes is broken)
-dev-lang/crab:nightly - Enable nightly (UNSTABLE) features (NOTE: it does not install nightly version, just enables features marked as nightly at time of release)
-dev-lang/crab:parallel-compiler - Build a multi-threaded rustc (experimental, not tested by upstream)
-dev-lang/crab:profiler - Build the profiler runtime and rust-demangler tool (needed for '-C profile-generate' or '-C instrument-coverage' codegen opts)
-dev-lang/crab:rls - Install rls, Rust Language Server (used with IDEs supporting RLS protocol)
-dev-lang/crab:rust-src - Install rust-src, needed by developer tools and for build-std (cross)
-dev-lang/crab:rustfmt - Install rustfmt, Rust code formatter
-dev-lang/crab:system-bootstrap - Bootstrap using installed rust compiler
-dev-lang/crab:system-llvm - Use the system LLVM installation
-dev-lang/crab:wasm - Build support for the wasm32-unknown-unknown target
 dev-lang/idris2:chez - build using dev-scheme/chez
 dev-lang/idris2:racket - build using dev-scheme/racket
 dev-lang/idris2:test-full - pull in depedndencies to run all tests
