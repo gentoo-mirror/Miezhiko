@@ -69,6 +69,7 @@ dev-libs/ocl-icd 2.3.1-r1: Alternative to vendor specific OpenCL ICD loaders
 dev-libs/olm 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
 dev-libs/randomx 1.1.9: Proof of work algorithm based on random code execution
 dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
+dev-python/accelerate 0.20.3: accelerate
 dev-python/altair 4.2.2 9999: Declarative statistical visualization library
 dev-python/celery 5.2.0: Asynchronous task queue/job queue based on distributed message passing
 dev-python/cf-clearance 0.29.0: BPurpose To make a cloudflare v2 challenge pass successfully
@@ -131,6 +132,7 @@ net-p2p/monero-gui 0.18.2.2: GUI for net-p2p/monero
 net-vpn/protonvpn-cli 3.13.0: Official ProtonVPN Linux app (CLI)
 net-vpn/protonvpn-gui 1.12.0-r1: Official ProtonVPN Linux app
 net-vpn/protonvpn-nm-lib 3.14.0: ProtonVPN NetworkManager library
+sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
 sci-libs/huggingface_hub 0.15.1: a client library to interact with the Hugging Face Hub
 sci-libs/pydicom 2.3.1: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
