@@ -37,6 +37,7 @@ dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents dir
 dev-haskell/hackage-security 9999: Hackage security library
 dev-haskell/hake 9999: scripty thing
 dev-haskell/haku 9999: scripty thing experiment
+dev-haskell/hslogger 1.3.1.0-r7: Versatile logging framework
 dev-haskell/hw-kafka-client 5.0.0: Kafka bindings for Haskell
 dev-haskell/incipit-base 0.5.1.0: A Prelude for Polysemy – Base Reexports
 dev-haskell/incipit-core 0.5.1.0: A Prelude for Polysemy
