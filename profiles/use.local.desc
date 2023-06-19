@@ -124,8 +124,6 @@ net-misc/curl-impersonate:telnet - Enable Telnet protocol support
 net-misc/curl-impersonate:tftp - Enable TFTP support
 net-misc/curl-impersonate:websockets - Enable websockets support
 net-misc/curl-impersonate:zstd - Enable zstd compression
-net-misc/kafka-bin:connect - Install init for Kafka Connect Distributed mode
-net-misc/kafka-bin:internal-zookeeper - Use bundled local zookeeper instance
 net-p2p/monero:daemon - Build the Monero daemon used to connect to the P2P network.
 net-p2p/monero:tools - Build tools used to manipulate the blockchain as it is stored on disk.
 net-p2p/monero:wallet-cli - Build the command line wallet, monero-wallet-cli.
