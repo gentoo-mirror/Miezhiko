@@ -47,7 +47,6 @@ dev-haskell/pointfree 1.1.1.10: Tool for refactoring expressions into pointfree 
 dev-haskell/polyparse 1.13: A variety of alternative parser combinator libraries
 dev-haskell/polysemy-time 0.6.0.0: Polysemy effects for time
 dev-haskell/pyf 0.11.1.1: Quasiquotations for a python like interpolated string formatter
-dev-haskell/regex-compat 0.95.2.1-r2: Replaces/enhances "Text.Regex"
 dev-haskell/stylish-haskell 0.14.4.0-r666: Haskell code prettifier
 dev-haskell/typerep-map 0.6.0.0: Efficient implementation of a dependent map with types as keys
 dev-haskell/unboxing-vector 0.2.0.0: A newtype-friendly variant of unboxed vectors
