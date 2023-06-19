@@ -9,6 +9,7 @@ dev-cpp/kashmir:lto - link time optimization
 dev-db/clickhouse-bin:client - Install CLI client
 dev-db/clickhouse-bin:server - Install server
 dev-haskell/hslogger:network--gt-3-0-0 - [network](http://hackage.haskell.org/package/network) ≥ 3.0.0
+dev-haskell/hsyaml:exe - Enable @exe:yaml-test@ component
 dev-haskell/hw-kafka-client:it - Run integration tests
 dev-haskell/pyf:python-test - Enable extensive python testing
 dev-haskell/stylish-haskell:ghc-lib - Force dependency on ghc-lib-parser even if GHC API in the ghc package is supported
