@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
-DEPEND=dev-haskell/base-unicode-symbols:=[profile?] dev-haskell/split dev-haskell/parsec >=dev-lang/ghc-8.0:= >=dev-haskell/cabal-2.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=dev-haskell/base-unicode-symbols:=[profile?] dev-haskell/split dev-haskell/parsec dev-haskell/yaml >=dev-lang/ghc-8.0:= >=dev-haskell/cabal-2.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=scripty thing experiment
 EAPI=8
 HOMEPAGE=https://github.com/Miezhiko/Haku
@@ -9,7 +9,7 @@ IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPLv2
 PROPERTIES=live
-RDEPEND=dev-haskell/base-unicode-symbols:=[profile?] dev-haskell/split dev-haskell/parsec >=dev-lang/ghc-8.0:=
+RDEPEND=dev-haskell/base-unicode-symbols:=[profile?] dev-haskell/split dev-haskell/parsec dev-haskell/yaml >=dev-lang/ghc-8.0:=
 SLOT=0/9999
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	haskell-cabal	2badba1acbf35455c7f41449cb825729	git-r3	27e13c09a4c7e4c78ac812f74727e676
-_md5_=4b8f51ee9db21ec5f74e0bd50950d44e
+_md5_=70bc396a95836191156b77e243517372

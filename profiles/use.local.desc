@@ -12,6 +12,7 @@ dev-haskell/aeson:cffi - Controls whether to include c-ffi bits or pure haskell.
 dev-haskell/aeson:ordered-keymap - Use ordered @Data.Map.Strict@ for KeyMap implementation.
 dev-haskell/hslogger:network--gt-3-0-0 - [network](http://hackage.haskell.org/package/network) ≥ 3.0.0
 dev-haskell/hsyaml:exe - Enable @exe:yaml-test@ component
+dev-haskell/hsyaml-aeson:exe - Enable @exe:yaml-test@ component
 dev-haskell/hw-kafka-client:it - Run integration tests
 dev-haskell/pyf:python-test - Enable extensive python testing
 dev-haskell/stylish-haskell:ghc-lib - Force dependency on ghc-lib-parser even if GHC API in the ghc package is supported
