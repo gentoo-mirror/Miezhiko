@@ -8,6 +8,8 @@ dev-cpp/asio:lto - link time optimization
 dev-cpp/kashmir:lto - link time optimization
 dev-db/clickhouse-bin:client - Install CLI client
 dev-db/clickhouse-bin:server - Install server
+dev-haskell/aeson:cffi - Controls whether to include c-ffi bits or pure haskell. Default to False for security.
+dev-haskell/aeson:ordered-keymap - Use ordered @Data.Map.Strict@ for KeyMap implementation.
 dev-haskell/hslogger:network--gt-3-0-0 - [network](http://hackage.haskell.org/package/network) ≥ 3.0.0
 dev-haskell/hsyaml:exe - Enable @exe:yaml-test@ component
 dev-haskell/hw-kafka-client:it - Run integration tests
