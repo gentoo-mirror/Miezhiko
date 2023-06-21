@@ -14,6 +14,7 @@ dev-haskell/hslogger:network--gt-3-0-0 - [network](http://hackage.haskell.org/pa
 dev-haskell/hsyaml:exe - Enable @exe:yaml-test@ component
 dev-haskell/hsyaml-aeson:exe - Enable @exe:yaml-test@ component
 dev-haskell/hw-kafka-client:it - Run integration tests
+dev-haskell/polysemy-plugin:corelint - Perform the corelint tests
 dev-haskell/pyf:python-test - Enable extensive python testing
 dev-haskell/stylish-haskell:ghc-lib - Force dependency on ghc-lib-parser even if GHC API in the ghc package is supported
 dev-haskell/unboxing-vector:mono-traversable - Define instances for MonoTraversable
