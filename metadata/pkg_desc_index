@@ -50,6 +50,7 @@ dev-haskell/pyf 0.11.1.1: Quasiquotations for a python like interpolated string 
 dev-haskell/stylish-haskell 0.14.4.0-r666: Haskell code prettifier
 dev-haskell/typerep-map 0.6.0.0: Efficient implementation of a dependent map with types as keys
 dev-haskell/unboxing-vector 0.2.0.0: A newtype-friendly variant of unboxed vectors
+dev-haskell/vault 0.3.1.5-r2: a persistent store for values of arbitrary types
 dev-lang/idris2 9999: Purely functional programming language with first class types
 dev-lang/mono 6.12.0.182: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/rust 9999: Systems programming language from Mozilla
