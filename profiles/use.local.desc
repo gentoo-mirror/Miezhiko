@@ -18,6 +18,7 @@ dev-haskell/pyf:python-test - Enable extensive python testing
 dev-haskell/stylish-haskell:ghc-lib - Force dependency on ghc-lib-parser even if GHC API in the ghc package is supported
 dev-haskell/unboxing-vector:mono-traversable - Define instances for MonoTraversable
 dev-haskell/vault:useghc - Use GHC-specific packages and extensions.
+dev-haskell/websockets:example - Build the example server
 dev-lang/idris2:chez - build using dev-scheme/chez
 dev-lang/idris2:racket - build using dev-scheme/racket
 dev-lang/idris2:test-full - pull in depedndencies to run all tests
