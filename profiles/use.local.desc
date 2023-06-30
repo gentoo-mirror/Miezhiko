@@ -73,6 +73,7 @@ games-simulation/alchemy:fork - use mawa fork with minor tweaks
 games-simulation/alchemy:j1 - compile in one thread...
 games-simulation/alchemy:lto - link time optimization (suggested)
 games-simulation/alchemy:system - use system libs (not supported at all)
+gnome-base/librsvg:tools - Build svg viewer tool
 media-gfx/drawing:lto - link time optimization
 media-sound/qmmp:analyzer - Enable visual analyzer
 media-sound/qmmp:archive - Enable archiving plugin via app-arch/libarchive.
