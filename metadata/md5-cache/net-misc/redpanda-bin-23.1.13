@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=net-misc/lksctp-tools
+DESCRIPTION=streaming data platform for developers
+EAPI=8
+HOMEPAGE=https://github.com/redpanda-data
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+RDEPEND=net-misc/lksctp-tools
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/redpanda-data/redpanda/releases/download/v23.1.13/rpk-linux-amd64.zip
+_md5_=b9e25305f8828d25d30f5a8e2806f1d7
