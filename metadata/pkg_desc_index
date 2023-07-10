@@ -72,6 +72,7 @@ dev-python/accelerate 0.20.3: accelerate
 dev-python/altair 4.2.2 9999: Declarative statistical visualization library
 dev-python/celery 5.2.0: Asynchronous task queue/job queue based on distributed message passing
 dev-python/cf-clearance 0.29.0: BPurpose To make a cloudflare v2 challenge pass successfully
+dev-python/cryptography 41.0.1-r666: Library providing cryptographic recipes and primitives
 dev-python/curl-cffi 0.5.5: Python binding for curl-impersonate via cffi
 dev-python/execjs 9999: execjs
 dev-python/fake-useragent 1.1.3: Up to date simple useragent faker with real world database
