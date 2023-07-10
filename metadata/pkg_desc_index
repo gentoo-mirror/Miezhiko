@@ -19,7 +19,6 @@ dev-cpp/kashmir 9999: Library is provide functionality that not present in the C
 dev-db/clickhouse-bin 21.9.1.7811: An OSS column-oriented database management system for real-time data analysis
 dev-haskell/T 9999: time tracker
 dev-haskell/aeson 2.1.2.1: Fast JSON parsing and encoding
-dev-haskell/aeson-optics 1.2.0.1: Law-abiding optics for aeson
 dev-haskell/basement 0.0.16: Foundation scrap box of array & string
 dev-haskell/cpphs 1.20.9.1: A liberalised re-implementation of cpp, the C pre-processor
 dev-haskell/df1 0.4.1: Type, render and parse the df1 hierarchical structured log format
