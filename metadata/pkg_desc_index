@@ -20,6 +20,7 @@ dev-db/clickhouse-bin 21.9.1.7811: An OSS column-oriented database management sy
 dev-haskell/T 9999: time tracker
 dev-haskell/aeson 2.1.2.1: Fast JSON parsing and encoding
 dev-haskell/basement 0.0.16: Foundation scrap box of array & string
+dev-haskell/clay 0.14.0: CSS preprocessor as embedded Haskell
 dev-haskell/cpphs 1.20.9.1: A liberalised re-implementation of cpp, the C pre-processor
 dev-haskell/df1 0.4.1: Type, render and parse the df1 hierarchical structured log format
 dev-haskell/di 1.3: Typeful hierarchical structured logging using di, mtl and df1
