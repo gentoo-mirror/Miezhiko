@@ -54,6 +54,7 @@ dev-haskell/websockets 0.12.7.3: A sensible and clean way to write WebSocket-cap
 dev-lang/idris2 9999: Purely functional programming language with first class types
 dev-lang/mono 6.12.0.182: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/rust 9999: Systems programming language from Mozilla
+dev-lang/scala-bin 2.13.11: The Scala Programming Language
 dev-lang/spidermonkey 102.12.0-r666 102.13.0-r666: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
 dev-libs/boost 1.78.0-r3: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
