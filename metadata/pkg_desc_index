@@ -84,9 +84,11 @@ dev-python/g4f 9999: g4f
 dev-python/google-cloud-translate 3.11.1: google-cloud-translate
 dev-python/gpt4free 9999: gpt4free
 dev-python/jsonschema 4.18.4: An implementation of JSON-Schema validation for Python
+dev-python/llvmlite 9999: Python wrapper around the llvm C++ library
 dev-python/mailgw-temporary-email 0.0.2: Mail.gw is a free 10 minute temporary mail service
 dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
+dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
 dev-python/openai 0.27.8: Python client library for the OpenAI API
 dev-python/opengpt 9999: opengpt
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
@@ -137,7 +139,7 @@ net-p2p/monero 0.18.2.2: The secure, private, untraceable cryptocurrency
 net-p2p/monero-gui 0.18.2.2: GUI for net-p2p/monero
 net-vpn/protonvpn-cli 3.13.0: Official ProtonVPN Linux app (CLI)
 net-vpn/protonvpn-gui 1.12.0-r1: Official ProtonVPN Linux app
-net-vpn/protonvpn-nm-lib 3.14.0: ProtonVPN NetworkManager library
+net-vpn/protonvpn-nm-lib 3.16.0: ProtonVPN NetworkManager library
 sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
 sci-libs/huggingface_hub 0.15.1: a client library to interact with the Hugging Face Hub
 sci-libs/pydicom 2.3.1: A pure python package for parsing DICOM files
