@@ -1,5 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install unpack
+DEPEND=dev-libs/libgit2
 DESCRIPTION=MIGMA SHELTER
 EAPI=8
 HOMEPAGE=https://github.com/Miezhiko/Shelter
@@ -8,7 +9,8 @@ IUSE=+lto
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 PROPERTIES=live
+RDEPEND=dev-libs/libgit2
 RESTRICT=mirror test
 SLOT=0
 _eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
-_md5_=4d4cb4ad60c9ce2cdd3c3dd5255cbab1
+_md5_=f63b73e036c7d9d9219cec4e0084aa99
