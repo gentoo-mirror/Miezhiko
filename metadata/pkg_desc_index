@@ -1,6 +1,4 @@
-acct-group/clickhouse 0: System group: clickhouse
 acct-group/monero 0: System group: monero
-acct-user/clickhouse 0: System user: clickhouse
 acct-user/monero 0: System user: monero
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
@@ -17,7 +15,6 @@ app-office/myoffice 1.28.0.4: office
 dev-cpp/abseil-cpp 20230802.0-r666: Abseil Common Libraries (C++), LTS Branch
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
-dev-db/clickhouse-bin 21.9.1.7811: An OSS column-oriented database management system for real-time data analysis
 dev-haskell/T 9999: time tracker
 dev-haskell/aeson 2.1.2.1: Fast JSON parsing and encoding
 dev-haskell/basement 0.0.16: Foundation scrap box of array & string
