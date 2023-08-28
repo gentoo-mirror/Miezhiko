@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{9..11} )
+PYTHON_COMPAT=( python3_{9..12} )
 inherit distutils-r1
 
 DESCRIPTION="State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow"
@@ -30,6 +30,7 @@ RDEPEND="
 	dev-python/requests[${PYTHON_USEDEP}]
 	sci-libs/tokenizers[${PYTHON_USEDEP}]
 	dev-python/tqdm[${PYTHON_USEDEP}]
+	sci-libs/safetensors[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest
