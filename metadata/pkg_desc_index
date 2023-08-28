@@ -137,7 +137,8 @@ sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-fri
 sci-libs/huggingface_hub 0.16.4: a client library to interact with the Hugging Face Hub
 sci-libs/pydicom 2.3.1: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
-sci-libs/transformers 4.31.0-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
+sci-libs/transformers 4.32.1-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-libs/vtk 9.1.0: The Visualization Toolkit
 sys-apps/lr 1.5.1: list files, recursively
 sys-apps/nq 0.4: unix command line queue utility
