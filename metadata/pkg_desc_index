@@ -99,6 +99,7 @@ dev-python/random-username 1.0.2: random-username
 dev-python/reactivex 4.0.4: A library for composing asynchronous and event-based programs
 dev-python/speech-recognition 3.10.0: speech-recognition
 dev-python/streamlit 1.22.0: Build and share machine learning and data science web apps
+dev-python/text-generation 9999: Large Language Model Text Generation Inference
 dev-python/tls-client 0.2.1: ython-TLS-Client is an advanced HTTP library based on requests and tls-client.
 dev-python/toml 0.10.2-r1: Python library for handling TOML files
 dev-python/xtempmail 0.10: Temporary Email
