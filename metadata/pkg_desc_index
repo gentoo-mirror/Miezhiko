@@ -27,7 +27,6 @@ dev-haskell/di-handle 1.0.1: IO support for file handles in di-core
 dev-haskell/di-monad 1.3.1: mtl flavoured typeful hierarchical structured logging for di-core
 dev-haskell/di-polysemy 0.2.0.0: DI logger wrapped for Polysemy
 dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents directly
-dev-haskell/hake 9999: scripty thing
 dev-haskell/haku 9999: scripty thing experiment
 dev-haskell/hjsmin 0.2.1: Haskell implementation of a javascript minifier
 dev-haskell/hslogger 1.3.1.0-r7: Versatile logging framework
@@ -40,7 +39,6 @@ dev-haskell/kalmarity 9999:
 dev-haskell/lifted-async 0.10.2.3: Run lifted IO operations asynchronously and wait for their results
 dev-haskell/newtype-generics 0.6.2: A typeclass and set of functions for working with newtypes
 dev-haskell/pointfree 1.1.1.10: Tool for refactoring expressions into pointfree form
-dev-haskell/polyparse 1.13: A variety of alternative parser combinator libraries
 dev-haskell/polysemy 1.9.1.0: Higher-order, low-boilerplate free monads
 dev-haskell/polysemy-plugin 0.4.5.0: Disambiguate obvious uses of effects
 dev-haskell/polysemy-time 0.6.0.0: Polysemy effects for time
@@ -60,7 +58,6 @@ dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
-dev-libs/libndofdev 0.13: Replacement for the libndofdev library used by the Second Life client to handle joysticks and the 6DOF devices on Windows and Macs.
 dev-libs/librdkafka 2.2.0: Apache Kafka C/C++ client library
 dev-libs/nsync 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ocl-icd 2.3.1-r1: Alternative to vendor specific OpenCL ICD loaders
@@ -69,7 +66,6 @@ dev-libs/randomx 1.1.9: Proof of work algorithm based on random code execution
 dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
 dev-python/accelerate 0.20.3: accelerate
 dev-python/altair 4.2.2 9999: Declarative statistical visualization library
-dev-python/celery 5.2.0: Asynchronous task queue/job queue based on distributed message passing
 dev-python/cf-clearance 0.29.0: BPurpose To make a cloudflare v2 challenge pass successfully
 dev-python/curl-cffi 0.5.5: Python binding for curl-impersonate via cffi
 dev-python/execjs 9999: execjs
