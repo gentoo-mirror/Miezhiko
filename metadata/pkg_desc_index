@@ -27,6 +27,7 @@ dev-haskell/di-handle 1.0.1: IO support for file handles in di-core
 dev-haskell/di-monad 1.3.1: mtl flavoured typeful hierarchical structured logging for di-core
 dev-haskell/di-polysemy 0.2.0.0: DI logger wrapped for Polysemy
 dev-haskell/file-embed 0.0.15.0: Use Template Haskell to embed file contents directly
+dev-haskell/hake 9999: scripty thing
 dev-haskell/haku 9999: scripty thing experiment
 dev-haskell/hjsmin 0.2.1: Haskell implementation of a javascript minifier
 dev-haskell/hslogger 1.3.1.0-r7: Versatile logging framework
@@ -39,6 +40,7 @@ dev-haskell/kalmarity 9999:
 dev-haskell/lifted-async 0.10.2.3: Run lifted IO operations asynchronously and wait for their results
 dev-haskell/newtype-generics 0.6.2: A typeclass and set of functions for working with newtypes
 dev-haskell/pointfree 1.1.1.10: Tool for refactoring expressions into pointfree form
+dev-haskell/polyparse 1.13: A variety of alternative parser combinator libraries
 dev-haskell/polysemy 1.9.1.0: Higher-order, low-boilerplate free monads
 dev-haskell/polysemy-plugin 0.4.5.0: Disambiguate obvious uses of effects
 dev-haskell/polysemy-time 0.6.0.0: Polysemy effects for time
