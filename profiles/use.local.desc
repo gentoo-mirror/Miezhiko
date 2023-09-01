@@ -4,3 +4,4 @@
 
 app-containers/snapd:forced-devmode - Automatically disable application confinement if feature detection fails.
 dev-cpp/abseil-cpp:cxx17 - Build with -DCMAKE_CXX_STANDARD=17 (required by some revdeps)
+dev-haskell/hw-kafka-client:it - Run integration tests
