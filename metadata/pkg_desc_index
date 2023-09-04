@@ -19,6 +19,8 @@ dev-cpp/kashmir 9999: Library is provide functionality that not present in the C
 dev-haskell/T 9999: time tracker
 dev-haskell/aeson 2.1.2.1: Fast JSON parsing and encoding
 dev-haskell/basement 0.0.16: Foundation scrap box of array & string
+dev-haskell/casing 0.1.4.1: Convert between various source code casing conventions
+dev-haskell/concise 0.1.0.1: Utilities for Control.Lens.Cons
 dev-haskell/cpphs 1.20.9.1: A liberalised re-implementation of cpp, the C pre-processor
 dev-haskell/df1 0.4.1: Type, render and parse the df1 hierarchical structured log format
 dev-haskell/di 1.3: Typeful hierarchical structured logging using di, mtl and df1
@@ -37,6 +39,7 @@ dev-haskell/hsyaml-aeson 0.2.0.1: JSON to YAML Adapter
 dev-haskell/hw-kafka-client 5.3.0: Kafka bindings for Haskell
 dev-haskell/incipit-base 0.5.1.0: A Prelude for Polysemy – Base Reexports
 dev-haskell/incipit-core 0.5.1.0: A Prelude for Polysemy
+dev-haskell/jose 0.10: JSON Object Signing and Encryption (JOSE) and JSON Web Token (JWT) library
 dev-haskell/kalmarity 9999: 
 dev-haskell/lifted-async 0.10.2.3: Run lifted IO operations asynchronously and wait for their results
 dev-haskell/newtype-generics 0.6.2: A typeclass and set of functions for working with newtypes
@@ -48,6 +51,13 @@ dev-haskell/polysemy 1.9.1.0: Higher-order, low-boilerplate free monads
 dev-haskell/polysemy-plugin 0.4.5.0: Disambiguate obvious uses of effects
 dev-haskell/polysemy-time 0.6.0.0: Polysemy effects for time
 dev-haskell/pyf 0.11.1.1: Quasiquotations for a python like interpolated string formatter
+dev-haskell/servant-auth 0.4.1.0: Authentication combinators for servant
+dev-haskell/servant-auth-client 0.4.1.1: servant-client/servant-auth compatibility
+dev-haskell/servant-docs 0.13: generate API docs for your servant webservice
+dev-haskell/servant-foreign 0.16: Helpers for generating clients for servant APIs in any programming language
+dev-haskell/servant-multipart 0.12.1: multipart/form-data (e.g file upload) support for servant
+dev-haskell/servant-multipart-api 0.12.1: multipart/form-data (e.g file upload) support for servant
+dev-haskell/servant-multipart-client 0.12.1: multipart/form-data (e.g file upload) support for servant
 dev-haskell/typerep-map 0.6.0.0: Efficient implementation of a dependent map with types as keys
 dev-haskell/unboxing-vector 0.2.0.0: A newtype-friendly variant of unboxed vectors
 dev-haskell/vault 0.3.1.5-r2: a persistent store for values of arbitrary types
@@ -63,6 +73,7 @@ dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
+dev-libs/libndofdev 0.13: Replacement for the libndofdev library used by the Second Life client to handle joysticks and the 6DOF devices on Windows and Macs.
 dev-libs/librdkafka 2.2.0: Apache Kafka C/C++ client library
 dev-libs/nsync 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ocl-icd 2.3.1-r1: Alternative to vendor specific OpenCL ICD loaders

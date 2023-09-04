@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/servant-0.13:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/servant-auth-0.4:=[profile?] <dev-haskell/servant-auth-0.5:=[profile?] >=dev-haskell/servant-client-core-0.13:=[profile?] <dev-haskell/servant-client-core-0.21:=[profile?] >=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 test? ( >=dev-haskell/aeson-1.3.1.1 <dev-haskell/aeson-3 >=dev-haskell/hspec-2.5.5 <dev-haskell/hspec-2.12 >=dev-haskell/http-client-0.5.13.1 <dev-haskell/http-client-0.8 >=dev-haskell/http-types-0.12.2 <dev-haskell/http-types-0.13 >=dev-haskell/jose-0.10 <dev-haskell/jose-0.11 >=dev-haskell/quickcheck-2.11.3 <dev-haskell/quickcheck-2.15 >=dev-haskell/servant-auth-server-0.4.2.0 <dev-haskell/servant-auth-server-0.5 dev-haskell/servant-client >=dev-haskell/servant-server-0.13 <dev-haskell/servant-server-0.21 >=dev-haskell/wai-3.2.1.2 <dev-haskell/wai-3.3 >=dev-haskell/warp-3.2.25 <dev-haskell/warp-3.4 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=servant-client/servant-auth compatibility
+EAPI=8
+HOMEPAGE=https://github.com/haskell-servant/servant/tree/master/servant-auth#readme
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/servant-0.13:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/servant-auth-0.4:=[profile?] <dev-haskell/servant-auth-0.5:=[profile?] >=dev-haskell/servant-client-core-0.13:=[profile?] <dev-haskell/servant-client-core-0.21:=[profile?] >=dev-lang/ghc-8.10.6:=
+RESTRICT=!test? ( test )
+SLOT=0/0.4.1.1
+SRC_URI=https://hackage.haskell.org/package/servant-auth-client-0.4.1.1/servant-auth-client-0.4.1.1.tar.gz https://hackage.haskell.org/package/servant-auth-client-0.4.1.1/revision/1.cabal -> servant-auth-client-0.4.1.1-rev1.cabal
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	0dbba99e17689ffccbc8987e24ec32bb
+_md5_=0f2f0471c38eacc7790a37d1d3c3fa8d
