@@ -157,4 +157,5 @@ sys-apps/nq 0.4: unix command line queue utility
 sys-apps/snooze 0.5: run a command at a particular time
 virtual/rust 9999: Virtual for Rust language compiler
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
+x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-wm/jwm 9999: JWM
