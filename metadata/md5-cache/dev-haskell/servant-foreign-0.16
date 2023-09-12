@@ -5,12 +5,12 @@ DESCRIPTION=Helpers for generating clients for servant APIs in any programming l
 EAPI=8
 HOMEPAGE=https://docs.servant.dev/
 INHERIT=haskell-cabal
-IUSE=doc hscolour hoogle profile test
+IUSE=doc hscolour profile test
 KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-haskell/base-compat-0.10.5:=[profile?] <dev-haskell/base-compat-0.14:=[profile?] >=dev-haskell/http-types-0.12.2:=[profile?] <dev-haskell/http-types-0.13:=[profile?] >=dev-haskell/lens-4.17:=[profile?] <dev-haskell/lens-5.3:=[profile?] >=dev-haskell/servant-0.20:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/ghc-8.10.6:=
 RESTRICT=!test? ( test )
 SLOT=0/0.16
 SRC_URI=https://hackage.haskell.org/package/servant-foreign-0.16/servant-foreign-0.16.tar.gz https://hackage.haskell.org/package/servant-foreign-0.16/revision/1.cabal -> servant-foreign-0.16-rev1.cabal
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	0dbba99e17689ffccbc8987e24ec32bb
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	dbe1a8d17cacb390a3df7bbba6617679	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	13a2f21e4152733139de87f74c2f99dd
 _md5_=b55ff914ea86044a0d76bc8851d25f49

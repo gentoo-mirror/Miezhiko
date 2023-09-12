@@ -18,7 +18,6 @@ dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-haskell/T 9999: time tracker
 dev-haskell/aeson 2.1.2.1: Fast JSON parsing and encoding
-dev-haskell/basement 0.0.16: Foundation scrap box of array & string
 dev-haskell/casing 0.1.4.1: Convert between various source code casing conventions
 dev-haskell/concise 0.1.0.1: Utilities for Control.Lens.Cons
 dev-haskell/cpphs 1.20.9.1: A liberalised re-implementation of cpp, the C pre-processor
@@ -42,6 +41,7 @@ dev-haskell/incipit-core 0.5.1.0: A Prelude for Polysemy
 dev-haskell/jose 0.10: JSON Object Signing and Encryption (JOSE) and JSON Web Token (JWT) library
 dev-haskell/kalmarity 9999: 
 dev-haskell/lifted-async 0.10.2.3: Run lifted IO operations asynchronously and wait for their results
+dev-haskell/monad-time 0.4.0.0: Type class for monads which carry the notion of the current time
 dev-haskell/newtype-generics 0.6.2: A typeclass and set of functions for working with newtypes
 dev-haskell/openai-hs 9999: Unofficial OpenAI client
 dev-haskell/openai-servant 9999: Unofficial OpenAI servant types
