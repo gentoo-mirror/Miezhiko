@@ -48,6 +48,7 @@ dev-haskell/newtype-generics 0.6.2: A typeclass and set of functions for working
 dev-haskell/openai-hs 9999: Unofficial OpenAI client
 dev-haskell/openai-servant 9999: Unofficial OpenAI servant types
 dev-haskell/optics-th 0.4.1: Optics construction using TemplateHaskell
+dev-haskell/pipes 4.3.16-r2: Compositional pipelines
 dev-haskell/pointfree 1.1.1.10: Tool for refactoring expressions into pointfree form
 dev-haskell/polyparse 1.13: A variety of alternative parser combinator libraries
 dev-haskell/polysemy 1.9.1.0: Higher-order, low-boilerplate free monads
