@@ -18,6 +18,8 @@ dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-haskell/T 9999: time tracker
 dev-haskell/aeson 2.1.2.1: Fast JSON parsing and encoding
+dev-haskell/authenticate-oauth 1.6.0.1-r2: Library to authenticate with OAuth for Haskell web applications
+dev-haskell/calamity-commands 0.4.0.0: A library for declaring, parsing, and invoking text-input based commands
 dev-haskell/casing 0.1.4.1: Convert between various source code casing conventions
 dev-haskell/concise 0.1.0.1: Utilities for Control.Lens.Cons
 dev-haskell/cpphs 1.20.9.1: A liberalised re-implementation of cpp, the C pre-processor
@@ -59,6 +61,7 @@ dev-haskell/servant-foreign 0.16: Helpers for generating clients for servant API
 dev-haskell/servant-multipart 0.12.1: multipart/form-data (e.g file upload) support for servant
 dev-haskell/servant-multipart-api 0.12.1: multipart/form-data (e.g file upload) support for servant
 dev-haskell/servant-multipart-client 0.12.1: multipart/form-data (e.g file upload) support for servant
+dev-haskell/stm-containers 1.2.0.2: Containers for STM
 dev-haskell/typerep-map 0.6.0.0: Efficient implementation of a dependent map with types as keys
 dev-haskell/unboxing-vector 0.2.0.0: A newtype-friendly variant of unboxed vectors
 dev-haskell/unix-time 0.4.10-r1: Unix time parser/formatter and utilities
