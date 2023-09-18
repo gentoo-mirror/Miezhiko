@@ -65,6 +65,7 @@ dev-haskell/servant-multipart 0.12.1: multipart/form-data (e.g file upload) supp
 dev-haskell/servant-multipart-api 0.12.1: multipart/form-data (e.g file upload) support for servant
 dev-haskell/servant-multipart-client 0.12.1: multipart/form-data (e.g file upload) support for servant
 dev-haskell/stm-containers 1.2.0.2: Containers for STM
+dev-haskell/stylish-haskell 9999: Haskell code prettifier
 dev-haskell/typerep-map 0.6.0.0: Efficient implementation of a dependent map with types as keys
 dev-haskell/unboxing-vector 0.2.0.0: A newtype-friendly variant of unboxed vectors
 dev-haskell/unix-time 0.4.10-r1: Unix time parser/formatter and utilities

@@ -2,5 +2,3 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-dev-haskell/hadrian:test - Enables the hadrian selftest rules which require QuickCheck. Disabling it thus saves on a few dependencies which can be problematic when bootstrapping.
-dev-haskell/hadrian:threaded - Build with the threaded runtime for improved performance. Users with bootstrap compilers which don't support the threaded runtime should disable this flag.
