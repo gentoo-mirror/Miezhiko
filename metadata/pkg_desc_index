@@ -3,7 +3,7 @@ acct-user/monero 0: System user: monero
 app-containers/snapd 2.60.3: Service and tools for management of snap packages
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
-app-editors/vscode 1.82.0: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.82.2: Multiplatform Visual Studio Code from Microsoft
 app-emulation/proton-ge-custom-bin 7.31: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 1: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-misc/crab 9999: a crab
@@ -49,6 +49,7 @@ dev-haskell/newtype-generics 0.6.2: A typeclass and set of functions for working
 dev-haskell/openai-hs 9999: Unofficial OpenAI client
 dev-haskell/openai-servant 9999: Unofficial OpenAI servant types
 dev-haskell/optics-th 0.4.1: Optics construction using TemplateHaskell
+dev-haskell/pandoc-crossref 0.3.16.0-r1: Pandoc filter for cross-references
 dev-haskell/pipes 4.3.16-r2: Compositional pipelines
 dev-haskell/pointfree 1.1.1.10: Tool for refactoring expressions into pointfree form
 dev-haskell/polyparse 1.13: A variety of alternative parser combinator libraries
