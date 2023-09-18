@@ -104,7 +104,7 @@ dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
 dev-python/openai 0.28.0: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
-dev-python/proton-client 0.7.1: Proton account login backend
+dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/pydeck 0.7.1: Large-scale interactive data visualization
 dev-python/pydub 0.25.1: Manipulate audio with an simple and easy high level interface
 dev-python/pymailtm 1.1.1: command line interface and python web-api wrapper for mail.tm
