@@ -151,7 +151,7 @@ net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as
 net-p2p/monero 0.18.2.2: The secure, private, untraceable cryptocurrency
 net-p2p/monero-gui 0.18.2.2: GUI for net-p2p/monero
 net-vpn/protonvpn-cli 3.13.0: Official ProtonVPN Linux app (CLI)
-net-vpn/protonvpn-gui 1.12.0-r1: Official ProtonVPN Linux app
+net-vpn/protonvpn-gui 1.12.0-r2: Official ProtonVPN Linux app
 net-vpn/protonvpn-nm-lib 3.16.0: ProtonVPN NetworkManager library
 sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
 sci-libs/huggingface_hub 0.16.4: a client library to interact with the Hugging Face Hub
