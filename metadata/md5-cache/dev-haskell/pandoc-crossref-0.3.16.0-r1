@@ -13,4 +13,4 @@ RESTRICT=!test? ( test )
 SLOT=0/0.3.16.0
 SRC_URI=https://hackage.haskell.org/package/pandoc-crossref-0.3.16.0/pandoc-crossref-0.3.16.0.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	8ccf1f67a84ecb0622a52e0f3b7a8288	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	676d6d660ba4805bfa37fa254c67de39
-_md5_=aebd7e121c49b840b9c13feedc52ff30
+_md5_=1b6b6babf8239091540b388b1c720ca1
