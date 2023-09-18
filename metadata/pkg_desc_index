@@ -87,6 +87,7 @@ dev-libs/randomx 1.1.9: Proof of work algorithm based on random code execution
 dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
 dev-python/accelerate 0.20.3: accelerate
 dev-python/altair 4.2.2 9999: Declarative statistical visualization library
+dev-python/bcrypt 9999: Modern password hashing for software and servers
 dev-python/cf-clearance 0.29.0: BPurpose To make a cloudflare v2 challenge pass successfully
 dev-python/curl-cffi 0.5.5: Python binding for curl-impersonate via cffi
 dev-python/execjs 9999: execjs
