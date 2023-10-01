@@ -12,5 +12,5 @@ PROPERTIES=live
 RDEPEND=chez? ( dev-scheme/chez ) racket? ( dev-scheme/racket ) dev-libs/gmp
 REQUIRED_USE=^^ ( chez racket )
 SLOT=0
-_eclasses_=toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	xdg-utils	baea6080dd821f5562d715887954c9d3	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	xdg-utils	baea6080dd821f5562d715887954c9d3	git-r3	2358a7b20091609e24bd3a83b3ac5991
 _md5_=c994bfb4db77e0035b198051f237f42f

@@ -12,5 +12,5 @@ PROPERTIES=live
 RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/casing:=[profile?] dev-haskell/cpphs:=[profile?] dev-haskell/http-client:=[profile?] dev-haskell/http-types:=[profile?] >=dev-haskell/openai-servant-9999:=[profile?] dev-haskell/servant:=[profile?] dev-haskell/servant-auth-client:=[profile?] dev-haskell/servant-client:=[profile?] dev-haskell/servant-multipart-client:=[profile?] dev-haskell/text:=[profile?] >=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/9999
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	1ae196b3294229d0e57480b2b37a5eca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	haskell-cabal	1de6c362aa30055ef6206edeb496dae0	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ghc-package	1ae196b3294229d0e57480b2b37a5eca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	haskell-cabal	1de6c362aa30055ef6206edeb496dae0	git-r3	2358a7b20091609e24bd3a83b3ac5991
 _md5_=27ffec68b7437436a952f4bf6c025f58
