@@ -73,6 +73,7 @@ dev-haskell/unix-time 0.4.10-r1: Unix time parser/formatter and utilities
 dev-haskell/websockets 0.12.7.3: A sensible and clean way to write WebSocket-capable servers in Haskell
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/idris2 9999: Purely functional programming language with first class types
+dev-lang/ocaml 5.1.0: Programming language supporting functional, imperative & object-oriented styles
 dev-lang/rust 9999: Systems programming language from Mozilla
 dev-lang/scala-bin 2.13.11: The Scala Programming Language
 dev-lang/spidermonkey 102.15.0-r666 115.2.0-r666: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
