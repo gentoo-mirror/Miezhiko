@@ -89,6 +89,15 @@ dev-libs/ocl-icd 2.3.1-r1: Alternative to vendor specific OpenCL ICD loaders
 dev-libs/olm 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
 dev-libs/randomx 1.1.9: Proof of work algorithm based on random code execution
 dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
+dev-ml/opam 2.1.5: A source-based package manager for OCaml
+dev-ml/opam-client 2.1.5: opam client libraries
+dev-ml/opam-core 2.1.5: Core libraries for opam
+dev-ml/opam-format 2.1.5: Core libraries for opam
+dev-ml/opam-repository 2.1.5: opam repository libraries
+dev-ml/opam-solver 2.1.5: opam solver
+dev-ml/opam-state 2.1.5: opam state libraries
+dev-ml/re 1.11.0: Regular expression library for OCaml
+dev-ml/xml-light 2.5: Minimal Xml parser and printer for OCaml
 dev-python/Telethon 1.30.3: Full-featured Telegram client library
 dev-python/accelerate 0.20.3: accelerate
 dev-python/altair 4.2.2 9999: Declarative statistical visualization library
