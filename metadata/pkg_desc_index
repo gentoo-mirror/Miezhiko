@@ -90,13 +90,16 @@ dev-libs/randomx 1.1.9: Proof of work algorithm based on random code execution
 dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
 dev-ml/camlbz2 0.7.9999: OCaml bindings for libbz (AKA, bzip2)
 dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
+dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
 dev-ml/opam 2.1.5: A source-based package manager for OCaml
 dev-ml/opam-client 2.1.5: opam client libraries
 dev-ml/opam-core 2.1.5: Core libraries for opam
 dev-ml/opam-format 2.1.5: Core libraries for opam
+dev-ml/opam-installer 2.1.5: Core installer for opam packages
 dev-ml/opam-repository 2.1.5: opam repository libraries
 dev-ml/opam-solver 2.1.5: opam solver
 dev-ml/opam-state 2.1.5: opam state libraries
+dev-ml/ounit2 2.2.7: Unit testing framework for OCaml
 dev-ml/re 1.11.0: Regular expression library for OCaml
 dev-ml/xml-light 2.5: Minimal Xml parser and printer for OCaml
 dev-python/Telethon 1.30.3: Full-featured Telegram client library
