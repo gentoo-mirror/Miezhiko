@@ -91,7 +91,7 @@ dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
 dev-ml/camlbz2 0.7.9999: OCaml bindings for libbz (AKA, bzip2)
 dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
 dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
-dev-ml/dune 3.11.0: A composable build system for OCaml
+dev-ml/dune 3.11.1: A composable build system for OCaml
 dev-ml/extlib 1.7.9-r1: Standard library extensions for O'Caml
 dev-ml/opam 2.1.5: A source-based package manager for OCaml
 dev-ml/opam-client 2.1.5: opam client libraries
