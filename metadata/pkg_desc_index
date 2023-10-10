@@ -18,7 +18,6 @@ dev-cpp/abseil-cpp 20230802.0-r666: Abseil Common Libraries (C++), LTS Branch
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-haskell/T 9999: time tracker
-dev-haskell/aeson 2.1.2.1: Fast JSON parsing and encoding
 dev-haskell/authenticate-oauth 1.6.0.1-r2: Library to authenticate with OAuth for Haskell web applications
 dev-haskell/calamity 0.10.0.0: A library for writing discord bots in haskell
 dev-haskell/calamity-commands 0.4.0.0: A library for declaring, parsing, and invoking text-input based commands
