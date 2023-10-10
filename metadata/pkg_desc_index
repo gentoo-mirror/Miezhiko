@@ -46,6 +46,7 @@ dev-haskell/jose 0.10: JSON Object Signing and Encryption (JOSE) and JSON Web To
 dev-haskell/kalmarity 9999: 
 dev-haskell/lifted-async 0.10.2.3: Run lifted IO operations asynchronously and wait for their results
 dev-haskell/monad-time 0.4.0.0: Type class for monads which carry the notion of the current time
+dev-haskell/network-uri 2.7.0.0: URI manipulation
 dev-haskell/newtype-generics 0.6.2: A typeclass and set of functions for working with newtypes
 dev-haskell/openai-hs 9999: Unofficial OpenAI client
 dev-haskell/openai-servant 9999: Unofficial OpenAI servant types
