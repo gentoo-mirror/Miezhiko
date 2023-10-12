@@ -1,6 +1,6 @@
 BDEPEND=>=virtual/rust-1.53 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
-DEPEND=>=dev-lang/rust-1.62.0[rls]
+DEPEND=>=dev-lang/rust-1.70.0
 DESCRIPTION=Lightning-fast and Powerful Code Editor written in Rust
 EAPI=8
 HOMEPAGE=https://github.com/lapce/lapce
@@ -9,8 +9,8 @@ IUSE=debug
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0 Apache-2.0-with-LLVM-exceptions
 PROPERTIES=live
-RDEPEND=>=dev-lang/rust-1.62.0[rls]
+RDEPEND=>=dev-lang/rust-1.70.0
 RESTRICT=mirror
 SLOT=0
 _eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	e5cc383ea8420f92fe3737be790021dc	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	cargo	8520ae1bed0e6965d027399b471a3595	git-r3	2358a7b20091609e24bd3a83b3ac5991	desktop	021728fdc1b03b36357dbc89489e0f0d
-_md5_=88f756e5b9318fd26ee794a077c18d44
+_md5_=da332f46df1d57acf7d0b8aee3255f43
