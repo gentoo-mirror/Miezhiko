@@ -1,7 +1,7 @@
 acct-group/monero 0: System group: monero
 acct-user/monero 0: System user: monero
 app-arch/rpm 4.19.0: Red Hat Package Management Utils
-app-containers/snapd 2.60.4: Service and tools for management of snap packages
+app-containers/snapd 2.61: Service and tools for management of snap packages
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.83.1: Multiplatform Visual Studio Code from Microsoft
