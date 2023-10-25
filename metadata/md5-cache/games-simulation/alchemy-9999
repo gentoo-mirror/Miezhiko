@@ -1,4 +1,4 @@
-BDEPEND=dev-util/cmake system? ( dev-cpp/abseil-cpp dev-libs/boost media-libs/freealut dev-libs/glh dev-libs/uriparser media-libs/openjpeg[static-libs] net-libs/nghttp2[cxx,static-libs] media-libs/libwebp app-text/hunspell[static-libs] dev-libs/libndofdev dev-libs/collada-dom x11-libs/pango ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-util/cmake >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm preinst setup unpack
 DEPEND=media-libs/libpng sys-libs/zlib[abi_x86_64,abi_x86_32] gui-libs/gtk media-libs/mesa media-libs/libsdl2 dev-perl/XML-XPath media-video/vlc dev-python/pip dev-python/virtualenv
 DESCRIPTION=Alchemy SL Viewer
@@ -6,12 +6,11 @@ EAPI=8
 HOMEPAGE=https://alchemyviewer.org
 IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=git-r3 python-any-r1 desktop xdg wrapper
-IUSE=fork fmod kde lto system
+IUSE=fork fmod kde lto
 KEYWORDS=~amd64
 LICENSE=GPL-2-with-Linden-Lab-FLOSS-exception
 PROPERTIES=live
 RDEPEND=media-libs/libpng sys-libs/zlib[abi_x86_64,abi_x86_32] gui-libs/gtk media-libs/mesa media-libs/libsdl2 dev-perl/XML-XPath media-video/vlc dev-python/pip dev-python/virtualenv net-dns/libidn-compat kde? ( kde-plasma/kde-cli-tools )
-REQUIRED_USE=system? ( fork )
 SLOT=0
 _eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	f6221c2f55e5e832be9919fe1711f33b	python-any-r1	f5169813d1619761b459800587005fd2	desktop	021728fdc1b03b36357dbc89489e0f0d	xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e	wrapper	4a1902f969e5718126434fc35f3a0d9c
-_md5_=ead1f40faa39fc8e26e6bcfd02e78bcc
+_md5_=7499a3bec91982ee53563abec64b299f
