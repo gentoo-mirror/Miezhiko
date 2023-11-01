@@ -108,6 +108,7 @@ dev-python/Telethon 1.30.3: Full-featured Telegram client library
 dev-python/accelerate 0.20.3: accelerate
 dev-python/altair 4.2.2 9999: Declarative statistical visualization library
 dev-python/bcrypt 9999: Modern password hashing for software and servers
+dev-python/bidict 0.22.1: The bidirectional mapping library for Python
 dev-python/cf-clearance 0.29.0: BPurpose To make a cloudflare v2 challenge pass successfully
 dev-python/curl-cffi 0.5.5: Python binding for curl-impersonate via cffi
 dev-python/execjs 9999: execjs
@@ -132,6 +133,7 @@ dev-python/pymailtm 1.1.1: command line interface and python web-api wrapper for
 dev-python/pympler 1.0.1 9999: Measure, monitor and analyze the memory behavior of Python objects
 dev-python/pypasser 0.0.5: pypasser
 dev-python/pyro 4.80: Distributed object middleware for Python (RPC)
+dev-python/python-socketio 5.10.0: Python implementation of the Socket.IO realtime server.
 dev-python/python-telegram-bot 9999: Python wrapper of telegram bots API
 dev-python/quickjs 9999: quickjs
 dev-python/random-password-generator 2.2.0: random-password-generator
