@@ -11,5 +11,5 @@ LICENSE=LGPLv2
 PROPERTIES=live
 RDEPEND=dev-haskell/base-unicode-symbols:=[profile?] dev-haskell/split dev-haskell/parsec dev-haskell/yaml >=dev-lang/ghc-8.0:= dev-lang/ghc:=[profile?]
 SLOT=0/9999
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	haskell-cabal	1de6c362aa30055ef6206edeb496dae0	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	haskell-cabal	1de6c362aa30055ef6206edeb496dae0	git-r3	2358a7b20091609e24bd3a83b3ac5991
 _md5_=70bc396a95836191156b77e243517372

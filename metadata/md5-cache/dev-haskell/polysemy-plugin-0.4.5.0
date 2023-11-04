@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/ghc-tcplugins-extra-0.3:=[profile?] <dev-haskell/ghc-tcplu
 RESTRICT=!test? ( test )
 SLOT=0/0.4.5.0
 SRC_URI=https://hackage.haskell.org/package/polysemy-plugin-0.4.5.0/polysemy-plugin-0.4.5.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	haskell-cabal	1de6c362aa30055ef6206edeb496dae0
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	haskell-cabal	1de6c362aa30055ef6206edeb496dae0
 _md5_=df96ae65b2e450b5257767bf042ad1e3
