@@ -91,7 +91,7 @@ dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
 dev-ml/camlbz2 0.7.9999: OCaml bindings for libbz (AKA, bzip2)
 dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
 dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
-dev-ml/dune 3.11.1: A composable build system for OCaml
+dev-ml/dune 3.12.0: A composable build system for OCaml
 dev-ml/extlib 1.7.9-r1: Standard library extensions for O'Caml
 dev-ml/opam 2.1.5: A source-based package manager for OCaml
 dev-ml/opam-client 2.1.5: opam client libraries
@@ -126,7 +126,7 @@ dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
-dev-python/openai 1.3.5: Python client library for the OpenAI API
+dev-python/openai 1.3.6: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
