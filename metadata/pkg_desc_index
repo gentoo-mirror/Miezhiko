@@ -4,7 +4,7 @@ app-arch/rpm 4.19.0: Red Hat Package Management Utils
 app-containers/snapd 2.61.1: Service and tools for management of snap packages
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
-app-editors/vscode 1.85.0: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.85.1: Multiplatform Visual Studio Code from Microsoft
 app-emulation/proton-ge-custom-bin 7.31: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 1: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-misc/crab 9999: a crab
