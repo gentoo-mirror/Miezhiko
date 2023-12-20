@@ -12,5 +12,5 @@ PROPERTIES=live
 RDEPEND=dev-libs/libgit2
 RESTRICT=mirror test
 SLOT=0
-_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
 _md5_=f63b73e036c7d9d9219cec4e0084aa99
