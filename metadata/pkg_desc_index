@@ -154,6 +154,8 @@ dev-util/boost-build 1.79.0: A system for large project software construction, s
 dev-util/cargo-dependency-inheritor 9999: Utility to inherit dependencies from workspace
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
 dev-util/easy-profiler 9999: Lightweight profiler library for c++
+dev-util/idris2-lsp 9999: Language Server for Idris2
+dev-util/idris2-lsp-lib 9999: Language Server for Idris2
 dev-util/lucky-commit 9999: Customize your git commit hashes!
 dev-vcs/jj 9999: A Git-compatible DVCS that is both simple and powerful
 games-simulation/alchemy 9999: Alchemy SL Viewer

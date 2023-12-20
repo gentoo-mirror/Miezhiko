@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install unpack
+DEPEND=dev-lang/idris2 =dev-util/idris2-lsp-lib-9999
+DESCRIPTION=Language Server for Idris2
+EAPI=8
+HOMEPAGE=https://github.com/idris-community/idris2-lsp
+INHERIT=git-r3
+KEYWORDS=~amd64
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-lang/idris2 =dev-util/idris2-lsp-lib-9999
+SLOT=0
+_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
+_md5_=fbacbf027d38ddae400ef7b11d0da99e
