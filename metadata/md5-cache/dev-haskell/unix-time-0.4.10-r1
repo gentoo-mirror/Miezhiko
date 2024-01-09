@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/old-time:=[profile?] >=dev-lang/ghc-8.8.1:= dev-lang/ghc:=[p
 RESTRICT=!test? ( test )
 SLOT=0/0.4.10
 SRC_URI=https://hackage.haskell.org/package/unix-time-0.4.10/unix-time-0.4.10.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	1de6c362aa30055ef6206edeb496dae0
-_md5_=39c2ba7d89268f4af770228239a95a6f
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	01be64da2d1124718f942ca9662ede50
+_md5_=9a1249343cdda559395c8e347f681d60

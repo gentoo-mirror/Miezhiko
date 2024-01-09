@@ -12,4 +12,4 @@ RDEPEND=!static-libs? ( lz4? ( app-arch/lz4:= ) sasl? ( dev-libs/cyrus-sasl:= ) 
 SLOT=0/1
 SRC_URI=https://github.com/confluentinc/librdkafka/archive/v2.3.0.tar.gz -> librdkafka-2.3.0.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	042f4cc53680245bf99a84669b94155a	python-any-r1	f5169813d1619761b459800587005fd2
-_md5_=755fb88fb8a7ec78ae077bf71724661e
+_md5_=84b4b40efa304af1231ab02f25f64d06

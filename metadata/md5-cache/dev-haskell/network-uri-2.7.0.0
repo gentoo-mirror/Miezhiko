@@ -12,5 +12,5 @@ RDEPEND=>=dev-lang/ghc-8.4.3:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/2.7.0.0
 SRC_URI=https://hackage.haskell.org/package/network-uri-2.7.0.0/network-uri-2.7.0.0.tar.gz https://hackage.haskell.org/package/network-uri-2.7.0.0/revision/1.cabal -> network-uri-2.7.0.0-rev1.cabal
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	1de6c362aa30055ef6206edeb496dae0
-_md5_=a838fa3da7b3baa2eebc14b09366b060
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	01be64da2d1124718f942ca9662ede50
+_md5_=6b3ed3c2f07793877d588b24e5d542f1

@@ -9,4 +9,4 @@ RDEPEND=net-misc/lksctp-tools
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/redpanda-data/redpanda/releases/download/v23.1.13/rpk-linux-amd64.zip
-_md5_=b9e25305f8828d25d30f5a8e2806f1d7
+_md5_=ca5843d9ad6985a583b220b0654aad08

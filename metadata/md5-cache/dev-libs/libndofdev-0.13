@@ -9,4 +9,4 @@ RDEPEND=media-libs/libsdl
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/janoc/libndofdev/archive/refs/tags/v0.13.tar.gz -> libndofdev-0.13.tar.gz
-_md5_=1d5817c57ed39c0eef69b40fe83a0dd5
+_md5_=ba75f220f3f0ef828507b58812a86bb7

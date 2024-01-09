@@ -13,4 +13,4 @@ RDEPEND=dev-libs/libgit2
 RESTRICT=mirror test
 SLOT=0
 _eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
-_md5_=f63b73e036c7d9d9219cec4e0084aa99
+_md5_=8aadc08f8c7f89f137b028e0926b6ad0

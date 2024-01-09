@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=>=dev-haskell/megaparsec-8:=[profile?] <dev-haskell/megaparsec-10:=[profile?] >=dev-haskell/optics-0.4.1:=[profile?] <dev-haskell/optics-0.5:=[profile?] >=dev-haskell/polysemy-1.5:=[profile?] <dev-haskell/polysemy-2:=[profile?] >=dev-haskell/polysemy-plugin-0.3:=[profile?] <dev-haskell/polysemy-plugin-0.5:=[profile?] >=dev-haskell/text-1.2:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-haskell/text-show-3.8:=[profile?] <dev-haskell/text-show-4:=[profile?] >=dev-haskell/unordered-containers-0.2:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
 SLOT=0/0.4.0.0
 SRC_URI=https://hackage.haskell.org/package/calamity-commands-0.4.0.0/calamity-commands-0.4.0.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	0430a2d3b0629a95e0c5d64dbde450b3	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	1de6c362aa30055ef6206edeb496dae0
-_md5_=07a26985f1953011126f49f4cddb24c4
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	01be64da2d1124718f942ca9662ede50
+_md5_=0299a3ec9d59b9775075e8855069b1a6

@@ -12,4 +12,4 @@ RDEPEND=dev-lang/ocaml:=[ocamlopt?] dev-lang/ocaml:=[ocamlopt?]
 SLOT=0/1.7.9
 SRC_URI=https://github.com/ygrek/ocaml-extlib/archive/1.7.9.tar.gz -> extlib-1.7.9.tar.gz
 _eclasses_=findlib	cc1c14904708a0a28bcb256b342a808c	vcs-clean	d271b7bc7e6a009758d7d4ef749174e3
-_md5_=235c354315a8ba25c00e38dd2e6e2edf
+_md5_=c0ab5d80057338c0a42df5ee8661fa71

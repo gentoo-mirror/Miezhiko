@@ -12,4 +12,4 @@ RDEPEND=dev-libs/libfmt
 RESTRICT=test
 SLOT=0
 _eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
-_md5_=49874509f04898207ce01c899f6387d9
+_md5_=f60519d7a46aa8ad6c90ca968ae48ef0
