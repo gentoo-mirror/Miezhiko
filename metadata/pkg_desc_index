@@ -71,7 +71,7 @@ dev-haskell/websockets 0.12.7.3: A sensible and clean way to write WebSocket-cap
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.1.1: Programming language supporting functional, imperative & object-oriented styles
-dev-lang/rust 1.74.1-r666 9999: Systems programming language from Mozilla
+dev-lang/rust 1.75.0-r666 9999: Systems programming language from Mozilla
 dev-lang/scala-bin 2.13.11: The Scala Programming Language
 dev-lang/spidermonkey 115.3.1-r666: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
 dev-libs/boost 1.78.0-r3: Boost Libraries for C++
@@ -89,7 +89,7 @@ dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
 dev-ml/camlbz2 0.7.9999: OCaml bindings for libbz (AKA, bzip2)
 dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
 dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
-dev-ml/dune 3.12.1: A composable build system for OCaml
+dev-ml/dune 3.12.2: A composable build system for OCaml
 dev-ml/extlib 1.7.9-r1: Standard library extensions for O'Caml
 dev-ml/opam 2.1.5: A source-based package manager for OCaml
 dev-ml/opam-client 2.1.5: opam client libraries
@@ -172,7 +172,7 @@ net-im/discord-canary-bin 0.0.162: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/curl-impersonate 0.5.4: A Client that groks URLs
-net-misc/rabbitmq-server 3.12.11: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
+net-misc/rabbitmq-server 3.12.12: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/redpanda-bin 23.1.13: streaming data platform for developers
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
 net-p2p/monero 0.18.2.2: The secure, private, untraceable cryptocurrency
@@ -181,7 +181,7 @@ net-vpn/protonvpn-cli 3.13.0: Official ProtonVPN Linux app (CLI)
 net-vpn/protonvpn-gui 1.12.0-r2: Official ProtonVPN Linux app
 net-vpn/protonvpn-nm-lib 3.16.0-r1: ProtonVPN NetworkManager library
 sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
-sci-libs/huggingface_hub 0.20.1: a client library to interact with the Hugging Face Hub
+sci-libs/huggingface_hub 0.20.2: a client library to interact with the Hugging Face Hub
 sci-libs/pydicom 2.3.1: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
@@ -190,7 +190,7 @@ sci-libs/vtk 9.1.0: The Visualization Toolkit
 sys-apps/lr 1.5.1: list files, recursively
 sys-apps/nq 0.4: unix command line queue utility
 sys-apps/snooze 0.5: run a command at a particular time
-virtual/rust 1.74.1 9999: Virtual for Rust language compiler
+virtual/rust 1.75.0 9999: Virtual for Rust language compiler
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-wm/jwm 9999: JWM
