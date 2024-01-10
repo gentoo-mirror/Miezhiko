@@ -71,7 +71,7 @@ dev-haskell/websockets 0.12.7.3: A sensible and clean way to write WebSocket-cap
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.1.1: Programming language supporting functional, imperative & object-oriented styles
-dev-lang/rust 1.74.1-r666 9999: Systems programming language from Mozilla
+dev-lang/rust 1.75.0-r666 9999: Systems programming language from Mozilla
 dev-lang/scala-bin 2.13.11: The Scala Programming Language
 dev-lang/spidermonkey 115.3.1-r666: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
 dev-libs/boost 1.78.0-r3: Boost Libraries for C++
@@ -191,7 +191,7 @@ sci-libs/vtk 9.1.0: The Visualization Toolkit
 sys-apps/lr 1.5.1: list files, recursively
 sys-apps/nq 0.4: unix command line queue utility
 sys-apps/snooze 0.5: run a command at a particular time
-virtual/rust 1.74.1 9999: Virtual for Rust language compiler
+virtual/rust 1.75.0 9999: Virtual for Rust language compiler
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-wm/jwm 9999: JWM
