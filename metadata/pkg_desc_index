@@ -195,8 +195,8 @@ sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files int
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
 sci-libs/transformers 4.37.2-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-libs/vtk 9.1.0: The Visualization Toolkit
-sys-apps/lr 1.5.1: list files, recursively
-sys-apps/nq 0.4: unix command line queue utility
+sys-apps/lr 1.6: list files, recursively
+sys-apps/nq 0.5: unix command line queue utility
 sys-apps/snooze 0.5: run a command at a particular time
 virtual/rust 1.75.0 9999: Virtual for Rust language compiler
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
