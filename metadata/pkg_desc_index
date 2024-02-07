@@ -198,6 +198,7 @@ sci-libs/vtk 9.1.0: The Visualization Toolkit
 sys-apps/lr 1.6: list files, recursively
 sys-apps/nq 0.5: unix command line queue utility
 sys-apps/snooze 0.5: run a command at a particular time
+sys-apps/xe 1.0: simple xargs and apply replacement
 virtual/rust 1.75.0 9999: Virtual for Rust language compiler
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
