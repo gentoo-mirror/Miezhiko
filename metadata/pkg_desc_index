@@ -196,6 +196,7 @@ sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
 sci-libs/transformers 4.37.2-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-libs/vtk 9.1.0: The Visualization Toolkit
 sys-apps/lr 1.6: list files, recursively
+sys-apps/lsd 9999: An ls command with a lot of pretty colors and some other stuff.
 sys-apps/nq 0.5: unix command line queue utility
 sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
