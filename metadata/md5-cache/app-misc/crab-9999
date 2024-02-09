@@ -1,5 +1,5 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile configure install unpack
+DEFINED_PHASES=unpack
 DESCRIPTION=a crab
 EAPI=8
 HOMEPAGE=https://github.com/Miezhiko/crab
@@ -10,4 +10,4 @@ PROPERTIES=live
 RESTRICT=mirror test
 SLOT=0
 _eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
-_md5_=1d08db94c369b3c4e26f1cbd6dabc4eb
+_md5_=1a420b1c4fdc72a11a8fbedd592db36b
