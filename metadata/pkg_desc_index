@@ -191,7 +191,7 @@ net-vpn/protonvpn-gui 1.12.0-r2: Official ProtonVPN Linux app
 net-vpn/protonvpn-nm-lib 3.16.0-r1: ProtonVPN NetworkManager library
 sci-libs/atlas 3.11.41: Automatically Tuned Linear Algebra Software
 sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
-sci-libs/huggingface_hub 0.21.2: a client library to interact with the Hugging Face Hub
+sci-libs/huggingface_hub 0.21.3: a client library to interact with the Hugging Face Hub
 sci-libs/pydicom 2.3.1: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
