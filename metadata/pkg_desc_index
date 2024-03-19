@@ -1,6 +1,6 @@
 acct-group/monero 0: System group: monero
 acct-user/monero 0: System user: monero
-app-containers/snapd 2.61.2: Service and tools for management of snap packages
+app-containers/snapd 2.61.3: Service and tools for management of snap packages
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.87.2: Multiplatform Visual Studio Code from Microsoft
@@ -180,7 +180,7 @@ net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord-canary-bin 0.0.162: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
-net-misc/curl-impersonate 0.5.4 0.6.0: A Client that groks URLs
+net-misc/curl-impersonate 0.6.1: A Client that groks URLs
 net-misc/rabbitmq-server 3.12.13: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/redpanda-bin 23.1.13: streaming data platform for developers
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
@@ -191,7 +191,7 @@ net-vpn/protonvpn-gui 1.12.0-r2: Official ProtonVPN Linux app
 net-vpn/protonvpn-nm-lib 3.16.0-r1: ProtonVPN NetworkManager library
 sci-libs/atlas 3.11.41: Automatically Tuned Linear Algebra Software
 sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
-sci-libs/huggingface_hub 0.21.3: a client library to interact with the Hugging Face Hub
+sci-libs/huggingface_hub 0.21.4: a client library to interact with the Hugging Face Hub
 sci-libs/pydicom 2.3.1: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
