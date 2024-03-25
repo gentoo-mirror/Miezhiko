@@ -75,7 +75,7 @@ dev-haskell/tinkoff-invest-sdk 9999: gRPC based SDK for Tinkoff Invest API V2
 dev-haskell/typerep-map 0.6.0.0: Efficient implementation of a dependent map with types as keys
 dev-haskell/unboxing-vector 0.2.0.0: A newtype-friendly variant of unboxed vectors
 dev-haskell/unix-time 0.4.10-r1: Unix time parser/formatter and utilities
-dev-haskell/websockets 0.12.7.3: A sensible and clean way to write WebSocket-capable servers in Haskell
+dev-haskell/websockets 0.13.0.0: A sensible and clean way to write WebSocket-capable servers in Haskell
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.1.1: Programming language supporting functional, imperative & object-oriented styles
