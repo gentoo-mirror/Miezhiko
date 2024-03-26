@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/aeson-1.3.1.1:=[profile?] <dev-haskell/aeson-3:=[profile?] >=dev-haskell/jose-0.10:=[profile?] <dev-haskell/jose-0.11:=[profile?] >=dev-haskell/lens-4.16.1:=[profile?] <dev-haskell/lens-5.3:=[profile?] >=dev-haskell/servant-0.15:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-haskell/unordered-containers-0.2.9.0:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/aeson-1.3.1.1:=[profile?] <dev-haskell/aeson-3:=[profile?] >=dev-haskell/jose-0.10:=[profile?] <dev-haskell/jose-0.12:=[profile?] >=dev-haskell/lens-4.16.1:=[profile?] <dev-haskell/lens-5.3:=[profile?] >=dev-haskell/servant-0.15:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/unordered-containers-0.2.9.0:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Authentication combinators for servant
 EAPI=8
 HOMEPAGE=https://github.com/haskell-servant/servant/tree/master/servant-auth#readme
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/aeson-1.3.1.1:=[profile?] <dev-haskell/aeson-3:=[profile?] >=dev-haskell/jose-0.10:=[profile?] <dev-haskell/jose-0.11:=[profile?] >=dev-haskell/lens-4.16.1:=[profile?] <dev-haskell/lens-5.3:=[profile?] >=dev-haskell/servant-0.15:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-haskell/unordered-containers-0.2.9.0:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/aeson-1.3.1.1:=[profile?] <dev-haskell/aeson-3:=[profile?] >=dev-haskell/jose-0.10:=[profile?] <dev-haskell/jose-0.12:=[profile?] >=dev-haskell/lens-4.16.1:=[profile?] <dev-haskell/lens-5.3:=[profile?] >=dev-haskell/servant-0.15:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-haskell/unordered-containers-0.2.9.0:=[profile?] <dev-haskell/unordered-containers-0.3:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/0.4.1.0
-SRC_URI=https://hackage.haskell.org/package/servant-auth-0.4.1.0/servant-auth-0.4.1.0.tar.gz https://hackage.haskell.org/package/servant-auth-0.4.1.0/revision/7.cabal -> servant-auth-0.4.1.0-rev7.cabal
+SRC_URI=https://hackage.haskell.org/package/servant-auth-0.4.1.0/servant-auth-0.4.1.0.tar.gz https://hackage.haskell.org/package/servant-auth-0.4.1.0/revision/9.cabal -> servant-auth-0.4.1.0-rev9.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	01be64da2d1124718f942ca9662ede50
-_md5_=3cd8bab1d7d7676c533d7d3978360fc0
+_md5_=2d1e672bb7c15e49aedeb05356ef9211

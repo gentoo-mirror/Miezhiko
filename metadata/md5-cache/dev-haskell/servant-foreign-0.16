@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/base-compat-0.10.5:=[profile?] <dev-haskell/base-compat-0.14:=[profile?] >=dev-haskell/http-types-0.12.2:=[profile?] <dev-haskell/http-types-0.13:=[profile?] >=dev-haskell/lens-4.17:=[profile?] <dev-haskell/lens-5.3:=[profile?] >=dev-haskell/servant-0.20:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 test? ( >=dev-haskell/hspec-2.6.0 <dev-haskell/hspec-2.12 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/base-compat-0.10.5:=[profile?] <dev-haskell/base-compat-0.14:=[profile?] >=dev-haskell/http-types-0.12.2:=[profile?] <dev-haskell/http-types-0.13:=[profile?] >=dev-haskell/lens-4.17:=[profile?] <dev-haskell/lens-5.3:=[profile?] >=dev-haskell/servant-0.20:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/hspec-2.6.0 <dev-haskell/hspec-2.12 ) hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Helpers for generating clients for servant APIs in any programming language
 EAPI=8
 HOMEPAGE=https://docs.servant.dev/
@@ -8,9 +8,9 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile test
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/base-compat-0.10.5:=[profile?] <dev-haskell/base-compat-0.14:=[profile?] >=dev-haskell/http-types-0.12.2:=[profile?] <dev-haskell/http-types-0.13:=[profile?] >=dev-haskell/lens-4.17:=[profile?] <dev-haskell/lens-5.3:=[profile?] >=dev-haskell/servant-0.20:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/base-compat-0.10.5:=[profile?] <dev-haskell/base-compat-0.14:=[profile?] >=dev-haskell/http-types-0.12.2:=[profile?] <dev-haskell/http-types-0.13:=[profile?] >=dev-haskell/lens-4.17:=[profile?] <dev-haskell/lens-5.3:=[profile?] >=dev-haskell/servant-0.20:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.16
-SRC_URI=https://hackage.haskell.org/package/servant-foreign-0.16/servant-foreign-0.16.tar.gz https://hackage.haskell.org/package/servant-foreign-0.16/revision/1.cabal -> servant-foreign-0.16-rev1.cabal
+SRC_URI=https://hackage.haskell.org/package/servant-foreign-0.16/servant-foreign-0.16.tar.gz https://hackage.haskell.org/package/servant-foreign-0.16/revision/2.cabal -> servant-foreign-0.16-rev2.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	01be64da2d1124718f942ca9662ede50
-_md5_=505fb03cc6ef56b8cd8b1aab94e9d149
+_md5_=8693bebdb2328c2e9b1c4c5b047fe676

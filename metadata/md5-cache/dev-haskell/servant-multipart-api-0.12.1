@@ -1,6 +1,6 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/servant-0.16:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/servant-0.16:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=multipart/form-data (e.g file upload) support for servant
 EAPI=8
 HOMEPAGE=https://github.com/haskell-servant/servant-multipart#readme
@@ -8,8 +8,8 @@ INHERIT=haskell-cabal
 IUSE=doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=>=dev-haskell/servant-0.16:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.1:=[profile?] >=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RDEPEND=>=dev-haskell/servant-0.16:=[profile?] <dev-haskell/servant-0.21:=[profile?] >=dev-haskell/text-1.2.3.0:=[profile?] <dev-haskell/text-2.2:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/0.12.1
-SRC_URI=https://hackage.haskell.org/package/servant-multipart-api-0.12.1/servant-multipart-api-0.12.1.tar.gz https://hackage.haskell.org/package/servant-multipart-api-0.12.1/revision/4.cabal -> servant-multipart-api-0.12.1-rev4.cabal
+SRC_URI=https://hackage.haskell.org/package/servant-multipart-api-0.12.1/servant-multipart-api-0.12.1.tar.gz https://hackage.haskell.org/package/servant-multipart-api-0.12.1/revision/6.cabal -> servant-multipart-api-0.12.1-rev6.cabal
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	01be64da2d1124718f942ca9662ede50
-_md5_=165b99e21e3894e54b5029cb0c789c36
+_md5_=2d1b26a34d74b31a4cd557f9f9d069dd
