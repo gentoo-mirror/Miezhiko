@@ -3,7 +3,7 @@ acct-user/monero 0: System user: monero
 app-containers/snapd 2.61.3: Service and tools for management of snap packages
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
-app-editors/vscode 1.87.2: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.88.0: Multiplatform Visual Studio Code from Microsoft
 app-emulation/proton-ge-custom-bin 7.31: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 1: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-misc/crab 9999: a crab
@@ -162,7 +162,7 @@ dev-python/undetected-chromedriver 9999: Custom Selenium Chromedriver
 dev-python/xtempmail 0.10: Temporary Email
 dev-qt/ghoul 2022.07 2022.08 2023.01 2023.02 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 framework (deprecated)
-dev-util/beekeeper-studio-bin 4.2.8: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
+dev-util/beekeeper-studio-bin 4.2.9: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
 dev-util/cargo-dependency-inheritor 9999: Utility to inherit dependencies from workspace
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
