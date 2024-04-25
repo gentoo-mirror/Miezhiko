@@ -47,6 +47,7 @@ RDEPEND="
 	dev-python/async_property
 	dev-python/undetected-chromedriver
 	dev-python/beautifulsoup4
+	dev-python/aiohttp
 	"
 DEPEND="${RDEPEND}"
 
