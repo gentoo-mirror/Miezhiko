@@ -86,7 +86,7 @@ dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.1.1: Programming language supporting functional, imperative & object-oriented styles
 dev-lang/rust 1.77.2-r666 9999: Systems programming language from Mozilla
-dev-lang/scala-bin 2.13.13: The Scala Programming Language
+dev-lang/scala-bin 2.13.14: The Scala Programming Language
 dev-libs/boost 1.78.0-r3: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
@@ -137,7 +137,7 @@ dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
-dev-python/openai 1.23.6: Python client library for the OpenAI API
+dev-python/openai 1.25.0: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
@@ -162,7 +162,7 @@ dev-python/undetected-chromedriver 9999: Custom Selenium Chromedriver
 dev-python/xtempmail 0.10: Temporary Email
 dev-qt/ghoul 2022.07 2022.08 2023.01 2023.02 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 framework (deprecated)
-dev-util/beekeeper-studio-bin 4.3.0: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
+dev-util/beekeeper-studio-bin 4.3.1: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
 dev-util/cargo-dependency-inheritor 9999: Utility to inherit dependencies from workspace
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
@@ -187,6 +187,7 @@ net-im/discord-canary-bin 0.0.162: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/curl-impersonate 0.6.1: A Client that groks URLs
+net-misc/rabbitmq-server 3.13.2: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/redpanda-bin 23.1.13: streaming data platform for developers
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
 net-p2p/monero 0.18.2.2: The secure, private, untraceable cryptocurrency
