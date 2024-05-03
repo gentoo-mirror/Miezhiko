@@ -22,7 +22,7 @@ else
 	KEYWORDS="~amd64"
 fi
 
-RUST_STAGE0_VERSION="1.$(($(ver_cut 2) - 0)).1"
+RUST_STAGE0_VERSION="1.$(($(ver_cut 2) - 1)).2"
 
 DESCRIPTION="Systems programming language from Mozilla"
 HOMEPAGE="https://www.rust-lang.org/"
@@ -157,7 +157,6 @@ RESTRICT="test"
 VERIFY_SIG_OPENPGP_KEY_PATH=${BROOT}/usr/share/openpgp-keys/rust.asc
 
 PATCHES=(
-	"${FILESDIR}"/1.70.0-ignore-broken-and-non-applicable-tests.patch
 	"${FILESDIR}"/1.67.0-doc-wasm.patch
 )
 
@@ -281,7 +280,7 @@ esetup_unwind_hack() {
 
 src_prepare() {
 	# Clear vendor checksums for crates that we patched to bump libc.
-	for i in addr2line addr2line-0.19.0 bstr cranelift-jit crossbeam-channel elasticlunr-rs handlebars icu_locid libffi pin-project-lite \
+	for i in addr2line bstr cranelift-jit crossbeam-channel elasticlunr-rs handlebars icu_locid libffi pin-project-lite \
 		terminal_size tracing-tree; do
 		clear_vendor_checksums "${i}"
 	done
