@@ -211,6 +211,7 @@ sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xe 1.0: simple xargs and apply replacement
 virtual/rust 1.78.0 9999: Virtual for Rust language compiler
+x11-base/xwayland 24.1.0: Standalone X server running under Wayland
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-wm/jwm 9999: JWM
