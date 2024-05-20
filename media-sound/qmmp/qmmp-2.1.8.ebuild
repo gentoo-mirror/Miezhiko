@@ -13,11 +13,12 @@ KEYWORDS="amd64 x86"
 
 LICENSE="GPL-2"
 SLOT="0"
+
 # KEYWORDS further up
-IUSE="aac +alsa analyzer archive bs2b cdda cover crossfade cue curl +dbus enca
-ffmpeg flac game gnome jack ladspa lyrics +mad midi mms mplayer musepack
+IUSE="aac +alsa +analyzer archive bs2b cdda +cover crossfade +cue curl +dbus enca
+ffmpeg +flac game gnome jack ladspa lyrics +mad +midi mms mplayer musepack
 notifier opus oss pipewire projectm pulseaudio qsui qtmedia scrobbler shout sid
-sndfile soxr stereo tray udisks +vorbis wavpack xmp"
+sndfile soxr +stereo tray udisks +vorbis wavpack xmp"
 
 REQUIRED_USE="
 	gnome? ( dbus )
