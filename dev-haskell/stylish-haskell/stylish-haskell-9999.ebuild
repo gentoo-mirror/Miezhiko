@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-haskell/aeson-0.6:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
 	>=dev-haskell/cabal-3.4:=[profile?] <dev-haskell/cabal-5.0:=[profile?]
 	>=dev-haskell/file-embed-0.0.10:=[profile?] <dev-haskell/file-embed-0.1:=[profile?]
-	>=dev-haskell/ghc-lib-parser-ex-9.6:=[profile?] <dev-haskell/ghc-lib-parser-ex-9.7:=[profile?]
+	>=dev-haskell/ghc-lib-parser-ex-9.6:=[profile?] <dev-haskell/ghc-lib-parser-ex-9.9:=[profile?]
 	>=dev-haskell/hsyaml-0.2.0:=[profile?] <dev-haskell/hsyaml-0.4:=[profile?]
 	>=dev-haskell/hsyaml-aeson-0.2.0:=[profile?] <dev-haskell/hsyaml-aeson-0.4:=[profile?]
 	>=dev-haskell/optparse-applicative-0.12:=[profile?] <dev-haskell/optparse-applicative-0.20:=[profile?]
