@@ -20,6 +20,7 @@ CABAL_CHDEPS=(
 	'text                  >=1.2     && <2.1'  'text                  >=2.0 && <2.2'
 	'websockets            >=0.12    && <0.13' 'websockets            >=0.12    && <0.14'
 	'http-api-data         >=0.4.3   && <0.6'  'http-api-data         >=0.4.3   && <0.7'
+	'crypton-connection    >=0.2.6   && <0.4'  'crypton-connection    >=0.2.6   && <0.4.1'
 )
 
 RDEPEND=">=dev-haskell/aeson-2.2:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
@@ -28,7 +29,7 @@ RDEPEND=">=dev-haskell/aeson-2.2:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
 	>=dev-haskell/calamity-commands-0.4:=[profile?] <dev-haskell/calamity-commands-0.5:=[profile?]
 	>=dev-haskell/colour-2.3.5:=[profile?] <dev-haskell/colour-2.4:=[profile?]
 	>=dev-haskell/concurrent-extra-0.7:=[profile?] <dev-haskell/concurrent-extra-0.8:=[profile?]
-	>=dev-haskell/crypton-connection-0.2.6:=[profile?] <dev-haskell/crypton-connection-0.4:=[profile?]
+	>=dev-haskell/crypton-connection-0.2.6:=[profile?] <dev-haskell/crypton-connection-0.4.1:=[profile?]
 	>=dev-haskell/crypton-x509-system-1.6.6:=[profile?] <dev-haskell/crypton-x509-system-1.7:=[profile?]
 	>=dev-haskell/data-default-class-0.1:=[profile?] <dev-haskell/data-default-class-0.2:=[profile?]
 	>=dev-haskell/data-flags-0.0.3:=[profile?] <dev-haskell/data-flags-0.1:=[profile?]
