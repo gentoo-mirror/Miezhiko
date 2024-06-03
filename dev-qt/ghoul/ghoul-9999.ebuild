@@ -27,7 +27,7 @@ QTCREATOR_PLUGINS=(
 	silversearcher todo valgrind welcome
 
 	# Buildsystems
-	autotools +cmake compilationdatabase incredibuild meson qbs +qmake
+	autotools +cmake +cmakeprojectmanager compilationdatabase incredibuild meson qbs +qmake
 
 	# Languages
 	glsl +lsp nim python
@@ -36,7 +36,7 @@ QTCREATOR_PLUGINS=(
 	android baremetal boot2qt qnx remotelinux webassembly
 
 	# VCS
-	bazaar clearcase cvs git gitlab mercurial perforce subversion
+	+vcsbase bazaar clearcase cvs git gitlab mercurial perforce subversion
 	
 	# GHOUL
 	drp +minimap
