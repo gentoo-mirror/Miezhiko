@@ -1,0 +1,15 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/conduit-1.2.8:=[profile?] <dev-haskell/conduit-1.4:=[profile?] >=dev-haskell/resourcet-0.3:=[profile?] <dev-haskell/resourcet-1.4:=[profile?] >=dev-lang/ghc-9.0.2:= system-libyaml? ( dev-libs/libyaml ) !system-libyaml? ( dev-haskell/libyaml-clib:=[profile?] ) >=dev-haskell/cabal-3.4.1.0 system-libyaml? ( virtual/pkgconfig ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Low-level, streaming YAML interface
+EAPI=8
+HOMEPAGE=https://github.com/snoyberg/yaml#readme
+INHERIT=haskell-cabal
+IUSE=no-unicode system-libyaml doc hscolour hoogle profile
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/conduit-1.2.8:=[profile?] <dev-haskell/conduit-1.4:=[profile?] >=dev-haskell/resourcet-0.3:=[profile?] <dev-haskell/resourcet-1.4:=[profile?] >=dev-lang/ghc-9.0.2:= system-libyaml? ( dev-libs/libyaml ) !system-libyaml? ( dev-haskell/libyaml-clib:=[profile?] ) dev-lang/ghc:=[profile?]
+SLOT=0/0.1.4
+SRC_URI=https://hackage.haskell.org/package/libyaml-0.1.4/libyaml-0.1.4.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	haskell-cabal	01be64da2d1124718f942ca9662ede50
+_md5_=2c6c0cce2960e06d10f8450c544e3c7e
