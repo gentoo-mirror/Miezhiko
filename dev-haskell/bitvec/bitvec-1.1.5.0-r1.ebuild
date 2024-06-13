@@ -16,11 +16,14 @@ HOMEPAGE="https://github.com/Bodigrim/bitvec"
 LICENSE="BSD"
 SLOT="0/${PV}"
 KEYWORDS="~amd64"
-IUSE="+simd"
+IUSE="+simd +gmp"
 
 RDEPEND=">=dev-haskell/primitive-0.5:=[profile?]
 	>=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.14:=[profile?]
 	>=dev-lang/ghc-9.0.2:=
+	gmp? (
+		dev-libs/gmp
+	)
 "
 DEPEND="${RDEPEND}
 	>=dev-haskell/cabal-3.4.1.0
@@ -33,5 +36,6 @@ DEPEND="${RDEPEND}
 
 src_configure() {
 	haskell-cabal_src_configure \
-		$(cabal_flag simd simd)
+		$(cabal_flag simd simd) \
+		$(cabal_flag gmp libgmp)
 }
