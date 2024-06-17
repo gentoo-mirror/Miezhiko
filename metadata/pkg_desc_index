@@ -64,7 +64,6 @@ dev-haskell/openai-servant 9999: Unofficial OpenAI servant types
 dev-haskell/optics-extra 0.4.2.1: Extra utilities and instances for optics-core
 dev-haskell/optics-th 0.4.1: Optics construction using TemplateHaskell
 dev-haskell/pipes 4.3.16-r2: Compositional pipelines
-dev-haskell/polysemy-plugin 0.4.5.0: Disambiguate obvious uses of effects
 dev-haskell/polysemy-time 0.6.0.0: Polysemy effects for time
 dev-haskell/proto-lens 0.7.1.4: A lens-based implementation of protocol buffers in Haskell
 dev-haskell/proto-lens-protoc 0.8.0.0: Protocol buffer compiler for the proto-lens library
@@ -81,7 +80,6 @@ dev-haskell/servant-foreign 0.16: Helpers for generating clients for servant API
 dev-haskell/servant-multipart 0.12.1: multipart/form-data (e.g file upload) support for servant
 dev-haskell/servant-multipart-api 0.12.1: multipart/form-data (e.g file upload) support for servant
 dev-haskell/servant-multipart-client 0.12.1 0.12.2: multipart/form-data (e.g file upload) support for servant
-dev-haskell/stm-containers 1.2.0.2: Containers for STM
 dev-haskell/strict-list 0.1.7.4: Strict linked list
 dev-haskell/stylish-haskell 9999: Haskell code prettifier
 dev-haskell/text-show 3.10.4: Efficient conversion of values into Text
@@ -98,7 +96,6 @@ dev-lang/idris2 0.7.0 9999: Purely functional programming language with first cl
 dev-lang/ocaml 5.2.0: Programming language supporting functional, imperative & object-oriented styles
 dev-lang/rust 1.79.0-r666 9999: Systems programming language from Mozilla
 dev-lang/scala-bin 2.13.14: The Scala Programming Language
-dev-lang/spidermonkey 115.11.0-r666: SpiderMonkey is Mozilla's JavaScript engine written in C and C++
 dev-libs/boost 1.78.0-r3: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
@@ -190,7 +187,6 @@ gnome-base/gnome-settings-daemon 45.1-r666: Gnome Settings Daemon
 gnome-base/nautilus 45.2.1-r666: Default file manager for the GNOME desktop
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
 gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
-gui-libs/libdecor 0.1.0: A client-side decorations library for Wayland clients
 media-gfx/drawing 1.0.2-r1: A drawing application for the GNOME desktop
 media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
 media-sound/qmmp 2.1.8: Qt6-based audio player with winamp/xmms skins support
@@ -219,7 +215,6 @@ sys-apps/nq 0.5: unix command line queue utility
 sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xe 1.0: simple xargs and apply replacement
-sys-devel/llvm 18.1.6-r666: Low Level Virtual Machine
 sys-devel/mold 2.32.0: A Modern Linker
 virtual/rust 1.79.0 9999: Virtual for Rust language compiler
 x11-base/xwayland 24.1.0: Standalone X server running under Wayland
