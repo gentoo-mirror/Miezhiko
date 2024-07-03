@@ -106,11 +106,13 @@ dev-libs/ocl-icd 2.3.1-r1: Alternative to vendor specific OpenCL ICD loaders
 dev-libs/olm 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
 dev-libs/randomx 1.1.9: Proof of work algorithm based on random code execution
 dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
+dev-ml/0install-solver 2.18: SAT-based package dependency solver
 dev-ml/camlbz2 0.8.9999: OCaml bindings for libbz (AKA, bzip2)
 dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
 dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
 dev-ml/dune 3.16.0: A composable build system for OCaml
 dev-ml/extlib 1.7.9-r1: Standard library extensions for O'Caml
+dev-ml/fmt 0.9.0: Combinators to devise OCaml Format pretty-printing functions
 dev-ml/mccs 1.1.17: Multi Criteria CUDF Solver
 dev-ml/ocamlbuild 0.14.3: Generic build tool with built-in rules for building OCaml library and programs
 dev-ml/opam 2.2.0: A source-based package manager for OCaml
