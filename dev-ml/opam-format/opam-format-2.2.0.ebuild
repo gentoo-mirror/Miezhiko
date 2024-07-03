@@ -25,6 +25,7 @@ RDEPEND="
 	dev-ml/opam-file-format:=
 	>=dev-ml/dose3-6.0:=
 	dev-ml/mccs:=
+	dev-ml/spdx_licenses:=
 "
 DEPEND="${RDEPEND}
 	dev-ml/cppo"
