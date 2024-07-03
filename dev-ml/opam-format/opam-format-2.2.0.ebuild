@@ -26,6 +26,7 @@ RDEPEND="
 	>=dev-ml/dose3-6.0:=
 	dev-ml/mccs:=
 	dev-ml/spdx_licenses:=
+	dev-ml/opam-0install-cudf:=
 "
 DEPEND="${RDEPEND}
 	dev-ml/cppo"
