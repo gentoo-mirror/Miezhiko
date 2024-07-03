@@ -26,6 +26,7 @@ RDEPEND="
 	dev-ml/uutf:=
 	dev-ml/swhid_core:=
 	dev-ml/jsonm:=
+	dev-ml/ocaml-sha:=
 "
 DEPEND="${RDEPEND}
 	dev-ml/cppo"
