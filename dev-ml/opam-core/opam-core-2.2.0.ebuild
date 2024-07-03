@@ -24,6 +24,7 @@ RDEPEND="
 	dev-ml/opam-file-format:=
 	dev-ml/cmdliner:=
 	dev-ml/uutf:=
+	dev-ml/swhid_core:=
 "
 DEPEND="${RDEPEND}
 	dev-ml/cppo"
