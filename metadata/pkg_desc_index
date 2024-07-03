@@ -122,6 +122,7 @@ dev-ml/opam-solver 2.2.0: opam solver
 dev-ml/opam-state 2.2.0: opam state libraries
 dev-ml/ounit2 2.2.7: Unit testing framework for OCaml
 dev-ml/re 1.11.0: Regular expression library for OCaml
+dev-ml/swhid_core 0.1: Library to work with Software Heritage persistent identifiers (swhids)
 dev-ml/xml-light 2.5: Minimal Xml parser and printer for OCaml
 dev-python/Telethon 1.30.3: Full-featured Telegram client library
 dev-python/accelerate 0.20.3: accelerate
