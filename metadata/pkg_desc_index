@@ -114,6 +114,7 @@ dev-ml/extlib 1.7.9-r1: Standard library extensions for O'Caml
 dev-ml/mccs 1.1.17: Multi Criteria CUDF Solver
 dev-ml/ocamlbuild 0.14.3: Generic build tool with built-in rules for building OCaml library and programs
 dev-ml/opam 2.2.0: A source-based package manager for OCaml
+dev-ml/opam-0install-cudf 0.4.3: Opam solver using 0install backend using the CUDF interface
 dev-ml/opam-client 2.2.0: opam client libraries
 dev-ml/opam-core 2.2.0: Core libraries for opam
 dev-ml/opam-format 2.2.0: Core libraries for opam
