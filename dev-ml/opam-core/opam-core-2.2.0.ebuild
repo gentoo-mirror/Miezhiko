@@ -23,6 +23,7 @@ RDEPEND="
 	dev-ml/re:=
 	dev-ml/opam-file-format:=
 	dev-ml/cmdliner:=
+	dev-ml/uutf:=
 "
 DEPEND="${RDEPEND}
 	dev-ml/cppo"
