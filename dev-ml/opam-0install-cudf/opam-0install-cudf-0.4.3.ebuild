@@ -18,8 +18,8 @@ RDEPEND="
 	>=dev-lang/ocaml-4.08:=[ocamlopt=]
 	dev-ml/0install-solver:=
 	dev-ml/cudf:=
-	dev-ml/fmt:=
 "
+
 DEPEND+="${RDEPEND}"
 
 # missing test data
