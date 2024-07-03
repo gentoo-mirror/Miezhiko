@@ -25,6 +25,7 @@ RDEPEND="
 	dev-ml/cmdliner:=
 	dev-ml/uutf:=
 	dev-ml/swhid_core:=
+	dev-ml/jsonm:=
 "
 DEPEND="${RDEPEND}
 	dev-ml/cppo"
