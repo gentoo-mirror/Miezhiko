@@ -136,7 +136,7 @@ dev-python/async_property 9999: Python decorator for async properties
 dev-python/bcrypt 9999: Modern password hashing for software and servers
 dev-python/bidict 0.22.1: The bidirectional mapping library for Python
 dev-python/cf-clearance 0.29.0: BPurpose To make a cloudflare v2 challenge pass successfully
-dev-python/curl-cffi 0.6.2: Python binding for curl-impersonate via cffi
+dev-python/curl-cffi 0.6.2 0.7.0: Python binding for curl-impersonate via cffi
 dev-python/execjs 9999: execjs
 dev-python/fake-useragent 1.1.3: Up to date simple useragent faker with real world database
 dev-python/fastai 2.5.3: The fastai deep learning library
@@ -151,7 +151,7 @@ dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
-dev-python/openai 1.35.9: Python client library for the OpenAI API
+dev-python/openai 1.35.10: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
