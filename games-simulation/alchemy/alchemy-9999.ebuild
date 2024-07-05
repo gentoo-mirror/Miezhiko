@@ -71,7 +71,7 @@ src_unpack() {
 		EGIT_BRANCH="mawa"
 	else
 		# Official repository:
-		EGIT_REPO_URI="https://git.alchemyviewer.org/alchemy/alchemy-next.git"
+		EGIT_REPO_URI="https://github.com/AlchemyViewer/Alchemy.git"
 		EGIT_BRANCH="main"
 	fi
 	EGIT_SUBMODULES=( '*' )
