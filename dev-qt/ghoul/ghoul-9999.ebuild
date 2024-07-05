@@ -87,6 +87,7 @@ CDEPEND="
 	perfprofiler? (
 		app-arch/zstd
 		dev-libs/elfutils
+		dev-util/perf
 	)
 	systemd? ( sys-apps/systemd:= )
 	drp? ( dev-libs/discord-rpc )
