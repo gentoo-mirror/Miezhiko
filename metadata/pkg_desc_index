@@ -191,7 +191,7 @@ gnome-base/gnome-settings-daemon 45.1-r666: Gnome Settings Daemon
 gnome-base/nautilus 45.2.1-r666: Default file manager for the GNOME desktop
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
 gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
-media-gfx/drawing 1.0.2-r1: A drawing application for the GNOME desktop
+media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
 media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
 media-sound/qmmp 2.1.8: Qt6-based audio player with winamp/xmms skins support
 media-video/clapper 9999: A GNOME media player built using GJS with GTK4 toolkit and powered by GStreamer with OpenGL rendering.
