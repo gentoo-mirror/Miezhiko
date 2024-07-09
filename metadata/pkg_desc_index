@@ -165,7 +165,7 @@ dev-python/python-socketio 5.10.0: Python implementation of the Socket.IO realti
 dev-python/python-telegram-bot 9999: Python wrapper of telegram bots API
 dev-python/quickjs 9999: quickjs
 dev-python/random-password-generator 2.2.0: random-password-generator
-dev-python/random-username 1.0.2: random-username
+dev-python/random-username 9999: random-username
 dev-python/reactivex 4.0.4-r1: A library for composing asynchronous and event-based programs
 dev-python/speech-recognition 3.10.4: speech-recognition
 dev-python/streamlit 1.22.0: Build and share machine learning and data science web apps
