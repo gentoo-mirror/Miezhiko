@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..11} )
+PYTHON_COMPAT=( python3_{9..12} )
 
 inherit distutils-r1
 
@@ -18,9 +18,10 @@ RDEPEND=""
 DEPEND="${RDEPEND}"
 
 KEYWORDS="~amd64 ~x86"
-MY_PN=SpeechRecognition
+MY_PN=speech_recognition
 MY_P="${MY_PN}-${PV}"
 
-SRC_URI="mirror://pypi/${MY_PN:0:1}/${MY_PN}/${MY_P}.tar.gz"
+SRC_URI="https://github.com/Uberi/speech_recognition/archive/refs/tags/${PV}.tar.gz -> ${MY_P}.tar.gz"
+RESTRICT="mirror"
 
 S="${WORKDIR}/${MY_P}"
