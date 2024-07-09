@@ -9,7 +9,7 @@ inherit distutils-r1
 
 DESCRIPTION="pure-Python module for reading and writing NRRD files into and from numpy arrays"
 HOMEPAGE="https://pypi.org/project/pynrrd"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://github.com/mhe/pynrrd/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
