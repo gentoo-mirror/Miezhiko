@@ -23,6 +23,6 @@ KEYWORDS="~amd64 ~x86"
 MY_PN=PyPasser
 MY_P="${MY_PN}-${PV}"
 
-SRC_URI="mirror://pypi/${MY_PN:0:1}/${MY_PN}/${MY_P}.tar.gz"
+SRC_URI="https://github.com/xHossein/PyPasser/archive/refs/tags/${PV}.tar.gz -> ${MY_P}.tar.gz"
 
 S="${WORKDIR}/${MY_P}"
