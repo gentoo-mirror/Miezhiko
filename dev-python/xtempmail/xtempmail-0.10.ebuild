@@ -18,5 +18,5 @@ RDEPEND="dev-python/reactivex"
 DEPEND="${RDEPEND}"
 
 KEYWORDS="~amd64 ~x86"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
+SRC_URI="https://github.com/krypton-byte/xtempmail/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
