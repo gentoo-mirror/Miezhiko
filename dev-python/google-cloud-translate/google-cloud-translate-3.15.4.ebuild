@@ -20,6 +20,8 @@ DEPEND="${RDEPEND}"
 KEYWORDS="~amd64 ~x86"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
+S="${WORKDIR}/google-cloud-python-google-cloud-translate-v${PV}/packages/google-cloud-translate"
+
 python_install_all() {
 	distutils-r1_python_install_all
 	find "${ED}" -name '*.pth' -delete || die
