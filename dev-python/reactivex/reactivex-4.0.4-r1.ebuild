@@ -4,6 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{9..12} )
+DISTUTILS_USE_PEP517=poetry
 
 inherit distutils-r1
 
@@ -18,5 +19,6 @@ RDEPEND=""
 DEPEND="${RDEPEND}"
 
 KEYWORDS="~amd64 ~x86"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
-
+SRC_URI="https://github.com/ReactiveX/RxPY/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+RESTRICT="mirror"
+S="${WORKDIR}/RxPY-${PV}"
