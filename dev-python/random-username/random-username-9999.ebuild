@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{9..12} )
 
-inherit distutils-r1
+inherit distutils-r1 git-r3
 
 DESCRIPTION="${PN}"
 HOMEPAGE="https://pypi.org/project/${PN}"
@@ -18,5 +18,5 @@ RDEPEND=""
 DEPEND="${RDEPEND}"
 
 KEYWORDS="~amd64 ~x86"
-SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
-
+EGIT_REPO_URI="https://github.com/williexu/random_username.git"
+RESTRIC="mirror"
