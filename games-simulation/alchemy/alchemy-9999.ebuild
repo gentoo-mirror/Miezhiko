@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..12} )
+PYTHON_COMPAT=( python3_{9..13} )
 
 inherit git-r3 python-any-r1 desktop xdg wrapper
 
@@ -37,9 +37,9 @@ RDEPEND="${DEPEND}
 # https://www.fmod.com/download#fmodstudiosuite
 # register or login
 # FMOD Engine -> Linux -> Download
-# mv ~/Downloads/fmod* /var/tmp/
+# sudo mv ~/Downloads/fmod* /var/
 : ${FMOD_VERSION:="2.02.20"}
-: ${FMOD_FILE_PATH="/var/tmp"}
+: ${FMOD_FILE_PATH="/var"}
 
 FMOD_DIR="${WORKDIR}/fmod"
 FMOD_VERSION_NO_DOTS=${FMOD_VERSION//./}
