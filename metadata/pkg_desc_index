@@ -104,6 +104,7 @@ dev-libs/librdkafka 2.4.0: Apache Kafka C/C++ client library
 dev-libs/nsync 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ocl-icd 2.3.1-r1: Alternative to vendor specific OpenCL ICD loaders
 dev-libs/olm 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
+dev-libs/protobuf 27.2-r666: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-libs/randomx 1.1.9: Proof of work algorithm based on random code execution
 dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
 dev-ml/0install-solver 2.18: SAT-based package dependency solver
