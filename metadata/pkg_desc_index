@@ -14,7 +14,6 @@ app-misc/subete 9999: subete
 app-misc/tmux 3.4: Terminal multiplexer
 app-misc/xmind 10.3.1 24.03.04745: A brainstorming and mind mapping software tool
 app-office/myoffice 1.28.0.4: office
-dev-cpp/abseil-cpp 20230802.0-r666: Abseil Common Libraries (C++), LTS Branch
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-haskell/T 9999: time tracker
@@ -115,7 +114,6 @@ dev-ml/dune 3.16.0: A composable build system for OCaml
 dev-ml/extlib 1.7.9-r1: Standard library extensions for O'Caml
 dev-ml/fmt 0.9.0: Combinators to devise OCaml Format pretty-printing functions
 dev-ml/mccs 1.1.17: Multi Criteria CUDF Solver
-dev-ml/ocamlbuild 0.14.3: Generic build tool with built-in rules for building OCaml library and programs
 dev-ml/opam 2.2.0: A source-based package manager for OCaml
 dev-ml/opam-0install-cudf 0.4.3: Opam solver using 0install backend using the CUDF interface
 dev-ml/opam-client 2.2.0: opam client libraries
@@ -223,7 +221,6 @@ sys-apps/xe 1.0: simple xargs and apply replacement
 sys-devel/mold 2.32.1: A Modern Linker
 virtual/rust 1.79.0 9999: Virtual for Rust language compiler
 www-client/opera 112.0.5197.24: A fast and secure web browser
-x11-base/xwayland 24.1.0: Standalone X server running under Wayland
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-wm/jwm 9999: JWM
