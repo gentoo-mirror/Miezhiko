@@ -1,11 +1,12 @@
 [![CI](https://github.com/Miezhiko/Overlay/actions/workflows/repoman.yml/badge.svg)](https://github.com/Miezhiko/Overlay/actions/workflows/repoman.yml)
 
+# Overlay specifics
+
+ - EAPIS older than 7 banned
+ - no thin manifest
+ - no metadata.xml
+ - pull requests are very welcome
+
 # Install
 
-With [layman](https://wiki.gentoo.org/wiki/Layman):
-
-```sh
-layman -a Miezhiko
-```
-
-Setup manually: [Custom ebuild repository](https://wiki.gentoo.org/wiki/Custom_ebuild_repository)
+[Custom ebuild repository](https://wiki.gentoo.org/wiki/Custom_ebuild_repository)
