@@ -220,7 +220,7 @@ sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xe 1.0: simple xargs and apply replacement
 sys-devel/mold 2.32.1: A Modern Linker
 virtual/rust 1.80.0 9999: Virtual for Rust language compiler
-www-client/opera 112.0.5197.30: A fast and secure web browser
+www-client/opera-developer 114.0.5242.0: A fast and secure web browser
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-wm/jwm 9999: JWM
