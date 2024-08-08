@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=net-firewall/iptables
+DESCRIPTION=Bypasses Googlevideo detection systems that relies on SNI
+EAPI=8
+HOMEPAGE=https://github.com/Waujito/youtubeUnblock
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache
+PROPERTIES=live
+RDEPEND=net-firewall/iptables
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=68ead82dfc5081d2014e83f121cfeaa2
