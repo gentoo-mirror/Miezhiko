@@ -5,8 +5,8 @@ EAPI=8
 inherit git-r3
 
 DESCRIPTION="Bypasses Googlevideo detection systems that relies on SNI"
-EGIT_REPO_URI="https://github.com/Masha/youtubeUnblock.git"
-EGIT_BRANCH="mawa"
+EGIT_REPO_URI="https://github.com/Waujito/youtubeUnblock.git"
+EGIT_BRANCH="main"
 HOMEPAGE="https://github.com/Waujito/youtubeUnblock"
 
 LICENSE="Apache"
@@ -16,8 +16,6 @@ IUSE=""
 
 DEPEND="net-firewall/iptables"
 RDEPEND="${DEPEND}"
-
-PATCHES="${FILESDIR}/youtube.patch"
 
 src_install() {
 	emake DESTDIR="${D}" PREFIX="/usr" install
