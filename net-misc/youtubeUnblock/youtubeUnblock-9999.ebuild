@@ -17,6 +17,8 @@ IUSE=""
 DEPEND="net-firewall/iptables"
 RDEPEND="${DEPEND}"
 
+PATCHES="${FILESDIR}/youtube.patch"
+
 src_install() {
 	emake DESTDIR="${D}" PREFIX="/usr" install
 }
