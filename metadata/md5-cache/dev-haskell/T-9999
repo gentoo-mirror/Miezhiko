@@ -10,5 +10,5 @@ LICENSE=AGPL-3
 PROPERTIES=live
 RDEPEND=>=dev-lang/ghc-8 dev-haskell/utf8-string dev-haskell/base-unicode-symbols dev-haskell/executable-path dev-haskell/lifted-base dev-haskell/yaml dev-haskell/time-parsers
 SLOT=0
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e7e7331166166e7a516d19e264b098c2	haskell-cabal	01be64da2d1124718f942ca9662ede50	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	haskell-cabal	01be64da2d1124718f942ca9662ede50	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=f28801922eb050b9e095fcb002ac4629
