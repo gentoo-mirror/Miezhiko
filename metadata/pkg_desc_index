@@ -92,7 +92,7 @@ dev-haskell/wuss 2.0.1.9: Secure WebSocket (WSS) clients
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.2.0: Programming language supporting functional, imperative & object-oriented styles
-dev-lang/rust 1.80.0-r666 9999: Systems programming language from Mozilla
+dev-lang/rust 1.80.1-r666 9999: Systems programming language from Mozilla
 dev-lang/scala-bin 2.13.14: The Scala Programming Language
 dev-libs/boost 1.78.0-r3: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
@@ -224,7 +224,7 @@ sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xe 1.0: simple xargs and apply replacement
 sys-devel/mold 2.33.0: A Modern Linker
-virtual/rust 1.80.0 9999: Virtual for Rust language compiler
+virtual/rust 1.80.1 9999: Virtual for Rust language compiler
 www-client/opera-developer 114.0.5249.0: A fast and secure web browser
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
