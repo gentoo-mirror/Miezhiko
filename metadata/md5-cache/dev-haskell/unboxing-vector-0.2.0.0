@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/primitive:=[profile?] dev-haskell/vector:=[profile?] >=dev-l
 RESTRICT=!test? ( test )
 SLOT=0/0.2.0.0
 SRC_URI=https://hackage.haskell.org/package/unboxing-vector-0.2.0.0/unboxing-vector-0.2.0.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	haskell-cabal	01be64da2d1124718f942ca9662ede50
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	haskell-cabal	01be64da2d1124718f942ca9662ede50
 _md5_=d398a50b90d293ceac31dba4ed565bc2

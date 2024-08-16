@@ -11,5 +11,5 @@ LICENSE=LGPL-2.1
 RDEPEND=app-arch/bzip2 >=dev-lang/ocaml-5:=[ocamlopt] dev-lang/ocaml:=[ocamlopt?] >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 SLOT=0/0.8.9999
 SRC_URI=https://gitlab.com/irill/camlbz2/-/archive/588e186c4128e9d60fff9022bfa069fa22c727a2/camlbz2-588e186c4128e9d60fff9022bfa069fa22c727a2.tar.bz2 -> camlbz2-0.8.9999.tar.bz2
-_eclasses_=gnuconfig	a397adda6984a4c423e28ac274c1ba98	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	d12ccbad07b44642a75ac97a3334d8e0	findlib	49d5365fca4dea46f13825b9d763c89e	edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	339df00cc31668d437589817d093748d
+_eclasses_=gnuconfig	a397adda6984a4c423e28ac274c1ba98	toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	d12ccbad07b44642a75ac97a3334d8e0	findlib	49d5365fca4dea46f13825b9d763c89e	edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	dune	339df00cc31668d437589817d093748d
 _md5_=60f474c1c7ab8e535b71dc189c98ee9f
