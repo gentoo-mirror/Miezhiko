@@ -1,0 +1,23 @@
+#!/sbin/openrc-run
+
+command=/usr/bin/youtubeUnblock
+command_background="true"
+pidfile="/var/run/${RC_SVCNAME}.pid"
+name="youtubeUnblock"
+
+depend() {
+	use net
+}
+
+start_pre() {
+	iptables -t mangle -A OUTPUT -p tcp -m tcp --dport 443 \
+		-m connbytes --connbytes-dir original --connbytes-mode packets \
+		--connbytes 0:19 -j NFQUEUE --queue-num 537 --queue-bypass
+}
+
+stop_post() {
+	iptables -t mangle -D OUTPUT -p tcp -m tcp --dport 443 \
+		-m connbytes --connbytes-dir original --connbytes-mode packets \
+		--connbytes 0:19 -j NFQUEUE --queue-num 537 --queue-bypass
+}
+
