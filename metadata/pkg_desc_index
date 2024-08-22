@@ -189,8 +189,7 @@ dev-util/lucky-commit 9999: Customize your git commit hashes!
 dev-vcs/jj 9999: A Git-compatible DVCS that is both simple and powerful
 games-simulation/alchemy 9999: Alchemy SL Viewer
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
-gnome-base/gnome-settings-daemon 45.1-r666: Gnome Settings Daemon
-gnome-base/nautilus 45.2.1-r666: Default file manager for the GNOME desktop
+gnome-base/nautilus 46.2-r666: Default file manager for the GNOME desktop
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
 gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
 media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
@@ -226,7 +225,6 @@ sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xe 1.0: simple xargs and apply replacement
 sys-devel/mold 2.33.0: A Modern Linker
 virtual/rust 1.80.1 9999: Virtual for Rust language compiler
-www-client/opera-developer 114.0.5249.0: A fast and secure web browser
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-wm/jwm 9999: JWM

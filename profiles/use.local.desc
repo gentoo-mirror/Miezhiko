@@ -9,10 +9,3 @@ dev-haskell/libyaml:system-libyaml - Use the system-wide libyaml instead of the 
 dev-haskell/text-show:integer-gmp - When building with a version of GHC older than 9.0, depend on the @integer-gmp@ library. You can disable this if you do not wish to link against GMP, but at the expense of having a slower @TextShow Natural@ instance.
 dev-haskell/tls:devel - Development commands
 dev-haskell/websockets:example - Build the example server
-gnome-base/gnome-settings-daemon:elogind - Rely on sys-auth/elogind as runtime logind provider
-gnome-base/gnome-settings-daemon:modemmanager - Enable WWAN support via net-misc/modemmanager
-gnome-base/gnome-settings-daemon:systemd - Rely on sys-apps/systemd as runtime logind provider
-gnome-base/nautilus:cloudproviders - Enable the cloudproviders support
-gnome-base/nautilus:gstreamer - Enable the Audio/Video file properties page
-gnome-base/nautilus:previewer - Use gnome-extra/sushi to preview files from the file mananger
-gnome-base/nautilus:sendto - Enable the nautilus-sendto extension to send files to various locations/devices
