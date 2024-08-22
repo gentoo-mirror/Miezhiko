@@ -81,7 +81,6 @@ dev-haskell/servant-multipart-api 0.12.1: multipart/form-data (e.g file upload) 
 dev-haskell/servant-multipart-client 0.12.1 0.12.2: multipart/form-data (e.g file upload) support for servant
 dev-haskell/strict-list 0.1.7.4: Strict linked list
 dev-haskell/stylish-haskell 9999: Haskell code prettifier
-dev-haskell/text-show 3.10.4: Efficient conversion of values into Text
 dev-haskell/time-parsers 0.2: Parsers for types in 'time'
 dev-haskell/tinkoff-invest-sdk 9999: gRPC based SDK for Tinkoff Invest API V2
 dev-haskell/tls 2.0.6: TLS protocol native implementation

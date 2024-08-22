@@ -6,6 +6,5 @@ dev-haskell/bitvec:simd - Use a C SIMD implementation for the ultimate performan
 dev-haskell/cborg:optimize-gmp - Use optimized code paths for integer-gmp
 dev-haskell/libyaml:no-unicode - Don't enable unicode output. Instead, unicode characters will be escaped.
 dev-haskell/libyaml:system-libyaml - Use the system-wide libyaml instead of the bundled copy
-dev-haskell/text-show:integer-gmp - When building with a version of GHC older than 9.0, depend on the @integer-gmp@ library. You can disable this if you do not wish to link against GMP, but at the expense of having a slower @TextShow Natural@ instance.
 dev-haskell/tls:devel - Development commands
 dev-haskell/websockets:example - Build the example server
