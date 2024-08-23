@@ -1,5 +1,7 @@
 acct-group/monero 0: System group: monero
 acct-user/monero 0: System user: monero
+app-alternatives/v2ray-geoip 0-r2: symlink for v2ray-geoip
+app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
 app-containers/snapd 2.63: Service and tools for management of snap packages
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
@@ -106,6 +108,8 @@ dev-libs/olm 9999: An implementation of the Double Ratchet cryptographic ratchet
 dev-libs/protobuf 27.2-r666: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-libs/randomx 1.1.9: Proof of work algorithm based on random code execution
 dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
+dev-libs/v2ray-domain-list-community 20240817092737: Community managed domain list for V2Ray.
+dev-libs/v2ray-geoip 202408220047: GeoIP for V2Ray.
 dev-ml/0install-solver 2.18: SAT-based package dependency solver
 dev-ml/camlbz2 0.8.9999: OCaml bindings for libbz (AKA, bzip2)
 dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
@@ -209,6 +213,7 @@ net-misc/youtubeUnblock 9999: Bypasses Googlevideo detection systems that relies
 net-misc/zapret 9999: zapret
 net-p2p/monero 0.18.2.2: The secure, private, untraceable cryptocurrency
 net-p2p/monero-gui 0.18.2.2: GUI for net-p2p/monero
+net-proxy/Xray 1.8.23: Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
 sci-libs/atlas 3.11.41: Automatically Tuned Linear Algebra Software
 sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
 sci-libs/huggingface_hub 0.24.6: a client library to interact with the Hugging Face Hub
@@ -225,6 +230,8 @@ sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xe 1.0: simple xargs and apply replacement
 sys-devel/mold 2.33.0: A Modern Linker
 virtual/rust 1.80.1 9999: Virtual for Rust language compiler
+virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
+virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-wm/jwm 9999: JWM
