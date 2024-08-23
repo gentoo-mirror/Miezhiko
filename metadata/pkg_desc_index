@@ -114,15 +114,15 @@ dev-ml/dune 3.16.0: A composable build system for OCaml
 dev-ml/extlib 1.7.9-r1: Standard library extensions for O'Caml
 dev-ml/fmt 0.9.0: Combinators to devise OCaml Format pretty-printing functions
 dev-ml/mccs 1.1.17: Multi Criteria CUDF Solver
-dev-ml/opam 2.2.0: A source-based package manager for OCaml
+dev-ml/opam 2.2.1: A source-based package manager for OCaml
 dev-ml/opam-0install-cudf 0.4.3: Opam solver using 0install backend using the CUDF interface
-dev-ml/opam-client 2.2.0: opam client libraries
-dev-ml/opam-core 2.2.0: Core libraries for opam
-dev-ml/opam-format 2.2.0: Core libraries for opam
-dev-ml/opam-installer 2.2.0: Core installer for opam packages
-dev-ml/opam-repository 2.2.0: opam repository libraries
-dev-ml/opam-solver 2.2.0: opam solver
-dev-ml/opam-state 2.2.0: opam state libraries
+dev-ml/opam-client 2.2.1: opam client libraries
+dev-ml/opam-core 2.2.1: Core libraries for opam
+dev-ml/opam-format 2.2.1: Core libraries for opam
+dev-ml/opam-installer 2.2.1: Core installer for opam packages
+dev-ml/opam-repository 2.2.1: opam repository libraries
+dev-ml/opam-solver 2.2.1: opam solver
+dev-ml/opam-state 2.2.1: opam state libraries
 dev-ml/ounit2 2.2.7: Unit testing framework for OCaml
 dev-ml/re 1.11.0: Regular expression library for OCaml
 dev-ml/spdx_licenses 1.2.0: Library providing a strict SPDX License Expression parser
@@ -215,7 +215,7 @@ sci-libs/huggingface_hub 0.24.6: a client library to interact with the Hugging F
 sci-libs/pydicom 2.4.4: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
-sci-libs/transformers 4.44.1-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+sci-libs/transformers 4.44.2-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-libs/vtk 9.1.0: The Visualization Toolkit
 sys-apps/lr 1.6: list files, recursively
 sys-apps/lsd 9999: An ls command with a lot of pretty colors and some other stuff.
