@@ -138,6 +138,7 @@ dev-python/altair 4.2.2 9999: Declarative statistical visualization library
 dev-python/async_property 9999: Python decorator for async properties
 dev-python/bcrypt 9999: Modern password hashing for software and servers
 dev-python/bidict 0.22.1: The bidirectional mapping library for Python
+dev-python/celery 5.2.0: Asynchronous task queue/job queue based on distributed message passing
 dev-python/cf-clearance 0.29.0: BPurpose To make a cloudflare v2 challenge pass successfully
 dev-python/curl-cffi 0.6.2 0.7.1: Python binding for curl-impersonate via cffi
 dev-python/execjs 9999: execjs
