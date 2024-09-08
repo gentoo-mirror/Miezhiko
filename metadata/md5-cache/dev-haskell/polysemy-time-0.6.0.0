@@ -11,5 +11,5 @@ RDEPEND=>=dev-haskell/aeson-1.4:=[profile?] >=dev-haskell/incipit-core-0.4:=[pro
 RESTRICT=!test? ( test )
 SLOT=0/0.6.0.0
 SRC_URI=https://hackage.haskell.org/package/polysemy-time-0.6.0.0/polysemy-time-0.6.0.0.tar.gz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	haskell-cabal	01be64da2d1124718f942ca9662ede50
+_eclasses_=multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	7e1347c006a76bb812f3a9f663b79991	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	haskell-cabal	01be64da2d1124718f942ca9662ede50
 _md5_=987066eb9738021c8864472380be03d0
