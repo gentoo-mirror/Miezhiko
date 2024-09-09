@@ -216,7 +216,7 @@ net-misc/zapret 9999: zapret
 net-p2p/monero 0.18.2.2: The secure, private, untraceable cryptocurrency
 net-p2p/monero-gui 0.18.2.2: GUI for net-p2p/monero
 net-proxy/Xray 1.8.23: Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
-net-proxy/v2ray 5.16.1: A platform for building proxies to bypass network restrictions.
+net-proxy/v2ray 5.18.0: A platform for building proxies to bypass network restrictions.
 sci-libs/atlas 3.11.41: Automatically Tuned Linear Algebra Software
 sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
 sci-libs/huggingface_hub 0.24.6: a client library to interact with the Hugging Face Hub
