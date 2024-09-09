@@ -5,7 +5,7 @@ app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
 app-containers/snapd 2.65.1: Service and tools for management of snap packages
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
-app-editors/vscode 1.92.2: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.93.0: Multiplatform Visual Studio Code from Microsoft
 app-emulation/proton-ge-custom-bin 7.31: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 1: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-misc/crab 9999: a crab
@@ -93,7 +93,7 @@ dev-haskell/wuss 2.0.1.9: Secure WebSocket (WSS) clients
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.2.0: Programming language supporting functional, imperative & object-oriented styles
-dev-lang/rust 1.80.1-r666 9999: Systems programming language from Mozilla
+dev-lang/rust 1.81.0-r666 9999: Systems programming language from Mozilla
 dev-lang/scala-bin 2.13.14: The Scala Programming Language
 dev-libs/boost 1.78.0-r3: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
@@ -232,7 +232,7 @@ sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xe 1.0: simple xargs and apply replacement
 sys-devel/mold 2.33.0: A Modern Linker
-virtual/rust 1.80.1 9999: Virtual for Rust language compiler
+virtual/rust 1.81.0 9999: Virtual for Rust language compiler
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
