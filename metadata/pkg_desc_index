@@ -207,7 +207,7 @@ net-libs/grpc 1.66.0: Modern open source high performance RPC framework
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/curl 8.9.1-r666: A Client that groks URLs
 net-misc/curl-impersonate 0.6.1: A Client that groks URLs
-net-misc/hiddify-bin 2.3.0: Multi-platform auto-proxy client
+net-misc/hiddify-bin 2.3.1: Multi-platform auto-proxy client
 net-misc/rabbitmq-server 3.13.7: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/redpanda-bin 23.1.13: streaming data platform for developers
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
