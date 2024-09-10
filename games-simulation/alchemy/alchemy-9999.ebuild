@@ -52,8 +52,8 @@ src_unpack() {
 	fi
 
 	if use fmod; then
-		EGIT_REPO_URI="https://git.alchemyviewer.org/alchemy/thirdparty/3p-fmodstudio.git"
-		EGIT_BRANCH="master"
+		EGIT_REPO_URI="https://github.com/AlchemyViewer/3p-fmodstudio.git"
+		EGIT_BRANCH="main"
 		EGIT_SUBMODULES=()
 		EGIT_CHECKOUT_DIR="${FMOD_DIR}"
 		git-r3_src_unpack
