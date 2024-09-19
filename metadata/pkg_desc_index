@@ -2,7 +2,7 @@ acct-group/monero 0: System group: monero
 acct-user/monero 0: System user: monero
 app-alternatives/v2ray-geoip 0-r2: symlink for v2ray-geoip
 app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
-app-containers/snapd 2.65.1: Service and tools for management of snap packages
+app-containers/snapd 2.65.2: Service and tools for management of snap packages
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.93.1: Multiplatform Visual Studio Code from Microsoft
