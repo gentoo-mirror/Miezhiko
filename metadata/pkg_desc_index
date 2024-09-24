@@ -154,7 +154,7 @@ dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
-dev-python/openai 1.46.1: Python client library for the OpenAI API
+dev-python/openai 1.47.1: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
@@ -179,7 +179,7 @@ dev-python/undetected-chromedriver 9999: Custom Selenium Chromedriver
 dev-python/xtempmail 0.10: Temporary Email
 dev-qt/ghoul 2024.06 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 framework (deprecated)
-dev-util/beekeeper-studio-bin 4.6.2: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
+dev-util/beekeeper-studio-bin 4.6.8: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
 dev-util/cargo-about 0.6.2: Cargo plugin to generate list of all licenses for a crate
 dev-util/cargo-check-deadlock 9999: Find deadlocks in Rust code with Petri net model checking
@@ -206,7 +206,7 @@ net-libs/grpc 1.66.0: Modern open source high performance RPC framework
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/curl-impersonate 0.6.1: A Client that groks URLs
 net-misc/hiddify-bin 2.3.1: Multi-platform auto-proxy client
-net-misc/rabbitmq-server 3.13.7 4.0.1: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
+net-misc/rabbitmq-server 3.13.7 4.0.2: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/redpanda-bin 23.1.13: streaming data platform for developers
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
 net-misc/youtubeUnblock 9999: Bypasses Googlevideo detection systems that relies on SNI
@@ -217,7 +217,7 @@ net-proxy/Xray 1.8.23: Xray, Penetrates Everything. Also the best v2ray-core, wi
 net-proxy/v2ray 5.18.0: A platform for building proxies to bypass network restrictions.
 sci-libs/atlas 3.11.41: Automatically Tuned Linear Algebra Software
 sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
-sci-libs/huggingface_hub 0.25.0: a client library to interact with the Hugging Face Hub
+sci-libs/huggingface_hub 0.25.1: a client library to interact with the Hugging Face Hub
 sci-libs/pydicom 2.4.4: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
