@@ -3,12 +3,19 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..11} )
+# Keep an eye on both of these after releases for patches:
+# * https://www.boost.org/patches/
+# * https://www.boost.org/users/history/version_${MY_PV}.html
+# (e.g. https://www.boost.org/users/history/version_1_83_0.html)
+# Note that the latter may sometimes feature patches not on the former too.
+
+# FIXME: cleanup subslot after 1.85.0
+
+PYTHON_COMPAT=( python3_{10..12} )
 
 inherit flag-o-matic multiprocessing python-r1 toolchain-funcs multilib-minimal
 
 MY_PV="$(ver_rs 1- _)"
-MAJOR_V="$(ver_cut 1-2)"
 
 DESCRIPTION="Boost Libraries for C++"
 HOMEPAGE="https://www.boost.org/"
@@ -16,9 +23,9 @@ SRC_URI="https://boostorg.jfrog.io/artifactory/main/release/${PV}/source/boost_$
 S="${WORKDIR}/${PN}_${MY_PV}"
 
 LICENSE="Boost-1.0"
-SLOT="0/${PV}" # ${PV} instead ${MAJOR_V} due to bug 486122
-KEYWORDS="~alpha amd64 arm arm64 hppa ~ia64 ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris ~x86-winnt"
-IUSE="bzip2 context debug doc icu lzma +nls mpi numpy python tools zlib zstd"
+SLOT="0/${PV}.1" # ${PV} instead of the major version due to bug 486122
+KEYWORDS="~alpha amd64 arm arm64 hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux ~arm64-macos ~ppc-macos ~x64-macos ~x64-solaris"
+IUSE="bzip2 +context debug doc icu lzma +nls mpi numpy python +stacktrace tools zlib zstd"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 # the tests will never fail because these are not intended as sanity
 # tests at all. They are more a way for upstream to check their own code
@@ -28,42 +35,32 @@ REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 RESTRICT="test"
 
 RDEPEND="
-	!app-admin/eselect-boost
-	!dev-libs/boost-numpy
-	!<dev-libs/leatherman-1.12.0-r1
 	bzip2? ( app-arch/bzip2:=[${MULTILIB_USEDEP}] )
-	icu? ( >=dev-libs/icu-3.6:=[${MULTILIB_USEDEP}] )
+	icu? ( dev-libs/icu:=[${MULTILIB_USEDEP}] )
 	!icu? ( virtual/libiconv[${MULTILIB_USEDEP}] )
 	lzma? ( app-arch/xz-utils:=[${MULTILIB_USEDEP}] )
-	mpi? ( >=virtual/mpi-2.0-r4[${MULTILIB_USEDEP},cxx,threads] )
+	mpi? ( virtual/mpi[${MULTILIB_USEDEP},cxx,threads] )
 	python? (
 		${PYTHON_DEPS}
-		numpy? ( dev-python/numpy[${PYTHON_USEDEP}] )
+		numpy? ( dev-python/numpy:=[${PYTHON_USEDEP}] )
 	)
 	zlib? ( sys-libs/zlib:=[${MULTILIB_USEDEP}] )
 	zstd? ( app-arch/zstd:=[${MULTILIB_USEDEP}] )"
 DEPEND="${RDEPEND}"
-#BDEPEND=">=dev-util/boost-build-${MAJOR_V}"
-BDEPEND=">=dev-util/boost-build-1.78.0-r1"
+BDEPEND=">=dev-build/b2-5.0.0"
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-1.71.0-disable_icu_rpath.patch
-	"${FILESDIR}"/${PN}-1.71.0-context-x32.patch
-	"${FILESDIR}"/${PN}-1.71.0-build-auto_index-tool.patch
-	# Boost.MPI's __init__.py doesn't work on Py3
-	"${FILESDIR}"/${PN}-1.73-boost-mpi-python-PEP-328.patch
-	"${FILESDIR}"/${PN}-1.74-CVE-2012-2677.patch
-
-	"${FILESDIR}"/${P}-interprocess-musl-include.patch
+	"${FILESDIR}"/${PN}-1.81.0-disable_icu_rpath.patch
+	"${FILESDIR}"/${PN}-1.79.0-build-auto_index-tool.patch
+	"${FILESDIR}"/${PN}-1.85.0-bcp-filesystem.patch
+	"${FILESDIR}"/${PN}-1.85.0-python-numpy-2.patch
+	"${FILESDIR}"/${PN}-1.85.0-container-aliasing.patch
+	"${FILESDIR}"/${PN}-1.85.0-01-fix_unsupported_long_double_macros.patch
+	"${FILESDIR}"/${PN}-1.85.0-02-fix_unsupported_long_double_formats.patch
+	"${FILESDIR}"/${PN}-1.85.0-03-disable_tests_with_unsupported_long_double_layouts.patch
+	"${FILESDIR}"/${PN}-1.85.0-04-remove_cruft_codeblock.patch
+	"${FILESDIR}"/${PN}-1.85.0-05-fix_macro_name.patch
 )
-
-python_bindings_needed() {
-	multilib_is_native_abi && use python
-}
-
-tools_needed() {
-	multilib_is_native_abi && use tools
-}
 
 create_user-config.jam() {
 	local user_config_jam="${BUILD_DIR}"/user-config.jam
@@ -75,24 +72,19 @@ create_user-config.jam() {
 	fi
 
 	local compiler compiler_version compiler_executable="$(tc-getCXX)"
-	if [[ ${CHOST} == *-darwin* ]]; then
-		compiler="darwin"
-		compiler_version="$(gcc-fullversion)"
-	else
-		compiler="gcc"
-		compiler_version="$(gcc-version)"
-	fi
+	compiler="gcc"
+	compiler_version="$(gcc-version)"
 
 	if use mpi; then
 		local mpi_configuration="using mpi ;"
 	fi
 
 	cat > "${user_config_jam}" <<- __EOF__ || die
-		using ${compiler} : ${compiler_version} : ${compiler_executable} : <cflags>"${CFLAGS}" <cxxflags>"${CXXFLAGS}" <linkflags>"${LDFLAGS}" <archiver>"$(tc-getAR)" <ranlib>"$(tc-getRANLIB)" ;
+		using ${compiler} : ${compiler_version} : ${compiler_executable} : <cflags>"${CPPFLAGS} ${CFLAGS}" <cxxflags>"${CPPFLAGS} ${CXXFLAGS}" <linkflags>"${LDFLAGS}" <archiver>"$(tc-getAR)" <ranlib>"$(tc-getRANLIB)" ;
 		${mpi_configuration}
 	__EOF__
 
-	if python_bindings_needed; then
+	if multilib_native_use python; then
 		append_to_user_config() {
 			local py_config
 			if tc-is-cross-compiler; then
@@ -105,7 +97,7 @@ create_user-config.jam() {
 		python_foreach_impl append_to_user_config
 	fi
 
-	if python_bindings_needed && use numpy; then
+	if multilib_native_use python && use numpy; then
 		einfo "Enabling support for NumPy extensions in Boost.Python"
 	else
 		einfo "Disabling support for NumPy extensions in Boost.Python"
@@ -140,7 +132,7 @@ ejam() {
 	create_user-config.jam
 
 	local b2_opts=( "--user-config=${BUILD_DIR}/user-config.jam" )
-	if python_bindings_needed; then
+	if multilib_native_use python; then
 		append_to_b2_opts() {
 			b2_opts+=( python="${EPYTHON#python}" )
 		}
@@ -158,18 +150,24 @@ src_configure() {
 	# Workaround for too many parallel processes requested, bug #506064
 	[[ "$(makeopts_jobs)" -gt 64 ]] && MAKEOPTS="${MAKEOPTS} -j64"
 
+	# We don't want to end up with -L/usr/lib on our linker lines
+	# which then gives us lots of
+	#   skipping incompatible /usr/lib/libc.a when searching for -lc
+	# warnings
+	[[ -n ${ESYSROOT} ]] && local icuarg="-sICU_PATH=${ESYSROOT}/usr"
+
 	OPTIONS=(
 		$(usex debug gentoodebug gentoorelease)
 		"-j$(makeopts_jobs)"
 		-q
 		-d+2
 		pch=off
-		$(usex icu "-sICU_PATH=${ESYSROOT}/usr" '--disable-icu boost.locale.icu=off')
+		$(usex icu "${icuarg}" '--disable-icu boost.locale.icu=off')
 		$(usev !mpi --without-mpi)
 		$(usev !nls --without-locale)
 		$(usev !context '--without-context --without-coroutine --without-fiber')
-		--without-stacktrace
-		--boost-build="${BROOT}"/usr/share/boost-build/src
+		$(usev !stacktrace --without-stacktrace)
+		--boost-build="${BROOT}"/usr/share/b2/src
 		--layout=system
 		# building with threading=single is currently not possible
 		# https://svn.boost.org/trac/boost/ticket/7105
@@ -189,8 +187,18 @@ src_configure() {
 		append-ldflags -Wl,-headerpad_max_install_names
 	fi
 
-	# Use C++14 globally as of 1.62
-	append-cxxflags -std=c++14
+	# Use C++17 globally as of 1.80
+	append-cxxflags -std=c++17
+
+	if [[ ${CHOST} != *-darwin* ]]; then
+		# On modern macOS, file I/O is already 64-bit by default,
+		# there's no support for special options like O_LARGEFILE.
+		# Thus, LFS must be disabled.
+		#
+		# On other systems, we need to enable LFS explicitly for 64-bit
+		# offsets on 32-bit hosts (#894564)
+		append-lfs-flags
+	fi
 }
 
 multilib_src_compile() {
@@ -198,7 +206,7 @@ multilib_src_compile() {
 		--prefix="${EPREFIX}"/usr \
 		"${OPTIONS[@]}" || die
 
-	if tools_needed; then
+	if multilib_native_use tools; then
 		pushd tools >/dev/null || die
 		ejam \
 			--prefix="${EPREFIX}"/usr \
@@ -215,7 +223,7 @@ multilib_src_install() {
 		--libdir="${ED}"/usr/$(get_libdir) \
 		"${OPTIONS[@]}" install || die "Installation of Boost libraries failed"
 
-	if tools_needed; then
+	if multilib_native_use tools; then
 		dobin dist/bin/*
 
 		insinto /usr/share
@@ -237,16 +245,24 @@ multilib_src_install() {
 				install_name_tool -id "/${d#${D}}" "${d}"
 				eend $?
 				# fix references to other libs
+				# these paths look like this:
+				# bin.v2/libs/thread/build/gcc-12.1/gentoorelease/pch-off/
+				#  threadapi-pthread/threading-multi/visibility-hidden/
+				#  libboost_thread.dylib
 				refs=$(otool -XL "${d}" | \
 					sed -e '1d' -e 's/^\t//' | \
-					grep "^libboost_" | \
+					grep "libboost_" | \
 					cut -f1 -d' ')
 				local r
 				for r in ${refs}; do
-					ebegin "    correcting reference to ${r}"
+					# strip path prefix from references, so we obtain
+					# something like libboost_thread.dylib.
+					local r_basename=${r##*/}
+
+					ebegin "    correcting reference to ${r_basename}"
 					install_name_tool -change \
 						"${r}" \
-						"${EPREFIX}/usr/lib/${r}" \
+						"${EPREFIX}/usr/lib/${r_basename}" \
 						"${d}"
 					eend $?
 				done
@@ -264,7 +280,6 @@ multilib_src_install_all() {
 		if use mpi; then
 			move_mpi_py_into_sitedir() {
 				python_moduleinto boost
-				python_domodule "${S}"/libs/mpi/build/__init__.py
 
 				python_domodule "${ED}"/usr/$(get_libdir)/boost-${EPYTHON}/mpi.so
 				rm -r "${ED}"/usr/$(get_libdir)/boost-${EPYTHON} || die
