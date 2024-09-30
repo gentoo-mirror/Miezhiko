@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~arm ~arm64 ~loong ~ppc ~ppc64 ~riscv ~x86"
 IUSE="+cloudproviders doc gnome +gstreamer +introspection +previewer selinux"
 
 DEPEND="
-	>=dev-libs/glib-2.79.0:2
+	>=dev-libs/glib-2.82.0:2
 	>=media-libs/gexiv2-0.14.2
 	>=x11-libs/gdk-pixbuf-2.30.0:2
 	gstreamer? ( media-libs/gstreamer:1.0
