@@ -4,6 +4,7 @@ app-alternatives/v2ray-geoip 0-r2: symlink for v2ray-geoip
 app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
 app-containers/snapd 2.65.3: Service and tools for management of snap packages
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
+app-editors/gnome-text-editor 47.0: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.93.1: Multiplatform Visual Studio Code from Microsoft
 app-emulation/proton-ge-custom-bin 7.31: A fancy custom distribution of Valves Proton with various patches
@@ -17,6 +18,7 @@ app-misc/subete 9999: subete
 app-misc/tmux 3.5-r9999: Terminal multiplexer
 app-misc/xmind 10.3.1 24.03.04745: A brainstorming and mind mapping software tool
 app-office/myoffice 1.28.0.4: office
+app-text/libspelling 0.4.1: A GNOME library for spellchecking
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-haskell/T 9999: time tracker
