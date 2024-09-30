@@ -240,3 +240,4 @@ virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-wm/jwm 9999: JWM
+x11-wm/mutter 46.5: GNOME compositing window manager based on Clutter
