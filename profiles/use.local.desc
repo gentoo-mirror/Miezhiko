@@ -2,9 +2,3 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-dev-haskell/bitvec:simd - Use a C SIMD implementation for the ultimate performance of `zipBits`, `invertBits` and `countBits`. Disable this flag if there are problems with the C FFI.
-dev-haskell/cborg:optimize-gmp - Use optimized code paths for integer-gmp
-dev-haskell/libyaml:no-unicode - Don't enable unicode output. Instead, unicode characters will be escaped.
-dev-haskell/libyaml:system-libyaml - Use the system-wide libyaml instead of the bundled copy
-dev-haskell/tls:devel - Development commands
-dev-haskell/websockets:example - Build the example server
