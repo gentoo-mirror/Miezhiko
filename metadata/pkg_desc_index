@@ -196,11 +196,13 @@ dev-util/lucky-commit 9999: Customize your git commit hashes!
 dev-vcs/jj 9999: A Git-compatible DVCS that is both simple and powerful
 games-simulation/alchemy 9999: Alchemy SL Viewer
 games-util/mangohud 9999: Vulkan and OpenGL overlay for monitoring FPS, sensors, system load and more
+gnome-base/gdm 47.0: GNOME Display Manager for managing graphical display servers and user logins
 gnome-base/gnome-control-center 47.0.1: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-settings-daemon 47.1: Gnome Settings Daemon
 gnome-base/gsettings-desktop-schemas 47.1: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.56.0: Virtual filesystem implementation for GIO
+gnome-base/librsvg 2.58.5: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 47.0-r666: Default file manager for the GNOME desktop
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
 gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
@@ -332,6 +334,7 @@ virtual/rust 1.81.0-r666 9999: Virtual for Rust language compiler
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
+x11-libs/pango 1.54.0: Internationalized text layout and rendering library
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-wm/jwm 9999: JWM
 x11-wm/mutter 46.5: GNOME compositing window manager based on Clutter
