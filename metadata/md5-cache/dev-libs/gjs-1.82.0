@@ -1,0 +1,16 @@
+BDEPEND=virtual/pkgconfig app-arch/xz-utils >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array test? ( x11-base/xorg-server[xvfb] x11-apps/xhost )
+DEFINED_PHASES=compile configure install test
+DEPEND=>=dev-libs/glib-2.66.0:2 dev-libs/libffi:= >=dev-libs/gobject-introspection-1.71.1:= dev-lang/spidermonkey:128 x11-libs/cairo[X,glib] readline? ( sys-libs/readline:0= ) sysprof? ( >=dev-util/sysprof-capture-3.40.1:4 ) test? ( sys-apps/dbus >=x11-libs/gtk+-3.20:3[introspection] )
+DESCRIPTION=Javascript bindings for GNOME
+EAPI=8
+HOMEPAGE=https://gitlab.gnome.org/GNOME/gjs
+INHERIT=flag-o-matic gnome.org meson virtualx
+IUSE=+cairo examples readline sysprof test test
+KEYWORDS=~amd64 ~arm ~arm64 ~loong ~mips ~ppc ~ppc64 ~riscv ~x86
+LICENSE=MIT || ( MPL-1.1 LGPL-2+ GPL-2+ )
+RDEPEND=>=dev-libs/glib-2.66.0:2 dev-libs/libffi:= >=dev-libs/gobject-introspection-1.71.1:= dev-lang/spidermonkey:128 x11-libs/cairo[X,glib] readline? ( sys-libs/readline:0= )
+RESTRICT=!test? ( test ) !test? ( test )
+SLOT=0
+SRC_URI=mirror://gnome/sources/gjs/1.82/gjs-1.82.0.tar.xz
+_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94	gnome.org	e1b4f392dbfedfb8974b71b017937f08	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	6881b056477c23167d9a6b33e146374e	meson	99466844dd8d4fcfb07578a76f5a9922	virtualx	53fb93b5555470a64f14fde25cf1ad2c
+_md5_=d21d684b920ec54e469903a442c14052

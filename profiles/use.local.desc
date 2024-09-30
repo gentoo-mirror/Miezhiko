@@ -2,3 +2,4 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+dev-libs/gjs:sysprof - Enable profiling data capture support using dev-util/sysprof-capture
