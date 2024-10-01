@@ -18,6 +18,7 @@ app-misc/subete 9999: subete
 app-misc/tmux 3.5-r9999: Terminal multiplexer
 app-misc/xmind 10.3.1 24.03.04745: A brainstorming and mind mapping software tool
 app-office/myoffice 1.28.0.4: office
+app-text/evince 46.3.1: Simple document viewer for GNOME
 app-text/libspelling 0.4.1: A GNOME library for spellchecking
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
