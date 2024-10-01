@@ -109,6 +109,7 @@ dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
 dev-libs/libndofdev 0.13: Replacement for the libndofdev library used by the Second Life client to handle joysticks and the 6DOF devices on Windows and Macs.
 dev-libs/librdkafka 2.4.0: Apache Kafka C/C++ client library
+dev-libs/libxml2 2.13.4: XML C parser and toolkit
 dev-libs/nsync 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ocl-icd 2.3.1-r1: Alternative to vendor specific OpenCL ICD loaders
 dev-libs/olm 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
@@ -210,6 +211,7 @@ gnome-base/gvfs 1.56.0: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.58.5: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 46.2-r666 47.0-r666: Default file manager for the GNOME desktop
 gnome-extra/gnome-calendar 47.0: Manage your calendars with simple and modern interface
+gnome-extra/gnome-system-monitor 47.0: The Gnome System Monitor
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
 gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
 gui-libs/gtk 4.16.2: GTK is a multi-platform toolkit for creating graphical user interfaces
@@ -342,5 +344,7 @@ virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-libs/pango 1.54.0: Internationalized text layout and rendering library
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
+x11-themes/adwaita-icon-theme 47.0: GNOME default icon theme
+x11-themes/gnome-backgrounds 47.0: A set of backgrounds packaged with the GNOME desktop
 x11-wm/jwm 9999: JWM
 x11-wm/mutter 46.5 47.0: GNOME compositing window manager based on Clutter
