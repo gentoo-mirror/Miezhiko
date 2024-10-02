@@ -105,6 +105,7 @@ dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
 dev-libs/glib 2.82.1: The GLib library of C routines
 dev-libs/gobject-introspection 1.82.0: Introspection system for GObject-based libraries
 dev-libs/gobject-introspection-common 1.82.0: Build infrastructure for GObject Introspection
+dev-libs/json-glib 1.10.0: Library providing GLib serialization and deserialization for the JSON format
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
 dev-libs/libndofdev 0.13: Replacement for the libndofdev library used by the Second Life client to handle joysticks and the 6DOF devices on Windows and Macs.
