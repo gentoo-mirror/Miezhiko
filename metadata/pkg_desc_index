@@ -106,6 +106,7 @@ dev-libs/glib 2.82.1: The GLib library of C routines
 dev-libs/gobject-introspection 1.82.0: Introspection system for GObject-based libraries
 dev-libs/gobject-introspection-common 1.82.0: Build infrastructure for GObject Introspection
 dev-libs/json-glib 1.10.0: Library providing GLib serialization and deserialization for the JSON format
+dev-libs/jsonrpc-glib 3.44.1: JSON-RPC library for GLib
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
 dev-libs/libndofdev 0.13: Replacement for the libndofdev library used by the Second Life client to handle joysticks and the 6DOF devices on Windows and Macs.
@@ -205,18 +206,21 @@ games-util/mangohud 9999: Vulkan and OpenGL overlay for monitoring FPS, sensors,
 gnome-base/gdm 47.0: GNOME Display Manager for managing graphical display servers and user logins
 gnome-base/gnome-control-center 47.0.1: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
+gnome-base/gnome-session 47.0.1: Gnome session manager
 gnome-base/gnome-settings-daemon 47.1: Gnome Settings Daemon
 gnome-base/gnome-shell 46.5 47.0: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 47.1: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.56.0: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.58.5: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 46.2-r666 47.0-r666: Default file manager for the GNOME desktop
+gnome-extra/evolution-data-server 3.54.0: Evolution groupware backend
 gnome-extra/gnome-calendar 47.0: Manage your calendars with simple and modern interface
 gnome-extra/gnome-system-monitor 47.0: The Gnome System Monitor
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
 gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
 gui-libs/gtk 4.16.2: GTK is a multi-platform toolkit for creating graphical user interfaces
 gui-libs/libadwaita 1.6.0: Building blocks for modern GNOME applications
+mail-client/evolution 3.54.0: Integrated mail, addressbook and calendaring functionality
 media-fonts/lato 2: Lato font
 media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
 media-libs/gst-plugins-bad 1.24.8: Less plugins for GStreamer
@@ -338,6 +342,7 @@ sys-apps/lsd 9999: An ls command with a lot of pretty colors and some other stuf
 sys-apps/nq 0.5: unix command line queue utility
 sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
+sys-apps/xdg-desktop-portal-gnome 47.1: Backend implementation for xdg-desktop-portal using GNOME
 sys-apps/xe 1.0: simple xargs and apply replacement
 sys-devel/mold 2.34.0-r666: A Modern Linker
 virtual/rust 1.81.0-r666 9999: Virtual for Rust language compiler
