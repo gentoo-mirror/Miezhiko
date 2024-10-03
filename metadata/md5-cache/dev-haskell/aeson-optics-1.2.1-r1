@@ -12,4 +12,4 @@ RDEPEND=>=dev-haskell/aeson-2.0.3.0:=[profile?] <dev-haskell/aeson-2.3:=[profile
 SLOT=0/1.2.1
 SRC_URI=https://hackage.haskell.org/package/aeson-optics-1.2.1/aeson-optics-1.2.1.tar.gz
 _eclasses_=multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	7e1347c006a76bb812f3a9f663b79991	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	haskell-cabal	01be64da2d1124718f942ca9662ede50
-_md5_=e6358bdaa86ef356509efb4d9d64a537
+_md5_=809cb834ea0d81abbf2d9065332b0dd3

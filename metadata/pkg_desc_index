@@ -24,11 +24,11 @@ app-text/libspelling 0.4.1: A GNOME library for spellchecking
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-haskell/T 9999: time tracker
-dev-haskell/aeson-optics 1.2.1: Law-abiding optics for aeson
+dev-haskell/aeson-optics 1.2.1-r1: Law-abiding optics for aeson
 dev-haskell/authenticate-oauth 1.6.0.1-r2: Library to authenticate with OAuth for Haskell web applications
 dev-haskell/bitvec 1.1.5.0-r1: Space-efficient bit vectors
 dev-haskell/calamity 0.12.0.0: A library for writing discord bots in haskell
-dev-haskell/calamity-commands 0.4.0.0: A library for declaring, parsing, and invoking text-input based commands
+dev-haskell/calamity-commands 0.4.1.0: A library for declaring, parsing, and invoking text-input based commands
 dev-haskell/casing 0.1.4.1: Convert between various source code casing conventions
 dev-haskell/cborg 0.2.10.0: Concise Binary Object Representation (CBOR)
 dev-haskell/cborg-json 0.2.6.0: A library for encoding JSON as CBOR
