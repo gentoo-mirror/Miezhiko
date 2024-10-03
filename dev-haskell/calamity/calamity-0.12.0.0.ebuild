@@ -61,3 +61,8 @@ RDEPEND=">=dev-haskell/aeson-2.1:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
 DEPEND="${RDEPEND}
 	>=dev-haskell/cabal-3.4.1.0
 "
+
+PATCHES="
+	${FILESDIR}/037b9c60143c269b6ffc6e421e17474df6eb31b3.patch
+	${FILESDIR}/aeson.patch
+"
