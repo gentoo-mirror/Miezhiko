@@ -17,6 +17,8 @@ KEYWORDS="~amd64"
 
 CABAL_CHDEPS=(
 	'text          >=1.2.2.0  && <1.3 || >=2.0 && <2.1' 'text >=2.0 && <2.2'
+	'base          >=4.10     && <4.19' 'base          >=4.10     && <6'
+	'bytestring    >=0.10.8.1 && <0.12' 'bytestring    >=0.10.8.1 && <0.15'
 )
 
 RDEPEND=">=dev-haskell/aeson-2.0.3.0:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
