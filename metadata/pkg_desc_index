@@ -313,10 +313,10 @@ media-plugins/gst-plugins-x264 1.24.8: H.264 encoder plugin for GStreamer
 media-plugins/gst-plugins-x265 1.24.8: H.265 encoder plugin for GStreamer
 media-plugins/gst-plugins-ximagesrc 1.24.8: X11 video capture stream plugin for GStreamer
 media-plugins/gst-plugins-zbar 1.24.8: Bar codes detection in video streams for GStreamer
-media-sound/qmmp 2.1.8: Qt6-based audio player with winamp/xmms skins support
+media-sound/qmmp 2.2.0: Qt6-based audio player with winamp/xmms skins support
 media-video/clapper 9999: A GNOME media player built using GJS with GTK4 toolkit and powered by GStreamer with OpenGL rendering.
 net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
-net-im/discord-canary-bin 0.0.496: All-in-one voice and text chat
+net-im/discord-canary-bin 0.0.499: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-libs/gnome-online-accounts 3.52.0: GNOME framework for accessing online accounts
 net-libs/grpc 1.66.0: Modern open source high performance RPC framework
