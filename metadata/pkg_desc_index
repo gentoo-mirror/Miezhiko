@@ -322,7 +322,7 @@ net-libs/gnome-online-accounts 3.52.0: GNOME framework for accessing online acco
 net-libs/grpc 1.66.0: Modern open source high performance RPC framework
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/curl-impersonate 0.6.1: A Client that groks URLs
-net-misc/hiddify-bin 2.5.5: Multi-platform auto-proxy client
+net-misc/hiddify-bin 2.5.7: Multi-platform auto-proxy client
 net-misc/rabbitmq-server 3.13.7 4.0.2: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/redpanda-bin 23.1.13: streaming data platform for developers
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
@@ -349,7 +349,7 @@ sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xdg-desktop-portal-gnome 47.1: Backend implementation for xdg-desktop-portal using GNOME
 sys-apps/xe 1.0: simple xargs and apply replacement
-sys-devel/mold 2.34.0-r666: A Modern Linker
+sys-devel/mold 2.34.1-r666: A Modern Linker
 virtual/rust 1.81.0-r666 9999: Virtual for Rust language compiler
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
