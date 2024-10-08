@@ -7,7 +7,7 @@ app-crypt/gcr 4.3.0: Libraries for cryptographic UIs and accessing PKCS#11 modul
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/gnome-text-editor 47.0: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
-app-editors/vscode 1.93.1: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.94.0: Multiplatform Visual Studio Code from Microsoft
 app-emulation/proton-ge-custom-bin 7.31: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 1: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-misc/crab 9999: a crab
@@ -316,7 +316,7 @@ media-plugins/gst-plugins-zbar 1.24.8: Bar codes detection in video streams for 
 media-sound/qmmp 2.2.0: Qt6-based audio player with winamp/xmms skins support
 media-video/clapper 9999: A GNOME media player built using GJS with GTK4 toolkit and powered by GStreamer with OpenGL rendering.
 net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
-net-im/discord-canary-bin 0.0.499: All-in-one voice and text chat
+net-im/discord-canary-bin 0.0.500: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-libs/gnome-online-accounts 3.52.0: GNOME framework for accessing online accounts
 net-libs/grpc 1.66.0: Modern open source high performance RPC framework
