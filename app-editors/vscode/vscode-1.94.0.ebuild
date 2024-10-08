@@ -101,7 +101,7 @@ src_install() {
 	fperms 4711 /opt/${PN}/chrome-sandbox
 	fperms 755 /opt/${PN}/resources/app/extensions/git/dist/{askpass,git-editor,ssh-askpass}{,-empty}.sh
 	fperms -R +x /opt/${PN}/resources/app/out/vs/base/node
-	fperms +x /opt/${PN}/resources/app/node_modules.asar.unpacked/@vscode/ripgrep/bin/rg
+	fperms +x /opt/${PN}/resources/app/node_modules/@vscode/ripgrep/bin/rg
 	dosym "../../opt/${PN}/bin/code" "usr/bin/vscode"
 	dosym "../../opt/${PN}/bin/code" "usr/bin/code"
 	domenu "${FILESDIR}/vscode.desktop"
