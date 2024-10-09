@@ -27,6 +27,7 @@ dev-haskell/T 9999: time tracker
 dev-haskell/aeson-optics 1.2.1-r1: Law-abiding optics for aeson
 dev-haskell/authenticate-oauth 1.6.0.1-r2: Library to authenticate with OAuth for Haskell web applications
 dev-haskell/bitvec 1.1.5.0-r1: Space-efficient bit vectors
+dev-haskell/bybit 9999: 
 dev-haskell/calamity 0.12.0.0: A library for writing discord bots in haskell
 dev-haskell/calamity-commands 0.4.1.0: A library for declaring, parsing, and invoking text-input based commands
 dev-haskell/casing 0.1.4.1: Convert between various source code casing conventions
@@ -334,7 +335,7 @@ net-proxy/Xray 1.8.23: Xray, Penetrates Everything. Also the best v2ray-core, wi
 net-proxy/v2ray 5.18.0: A platform for building proxies to bypass network restrictions.
 net-wireless/gnome-bluetooth 47.0: Bluetooth graphical utilities integrated with GNOME
 sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
-sci-libs/huggingface_hub 0.25.1: a client library to interact with the Hugging Face Hub
+sci-libs/huggingface_hub 0.25.2: a client library to interact with the Hugging Face Hub
 sci-libs/pydicom 2.4.4: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
