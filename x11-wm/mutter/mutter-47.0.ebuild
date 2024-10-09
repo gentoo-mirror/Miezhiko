@@ -52,6 +52,7 @@ DEPEND="
 	>=media-libs/lcms-2.6:2
 	>=media-libs/harfbuzz-2.6.0:=
 	>=dev-libs/libei-1.0.901
+	>=media-libs/libdisplay-info-0.2.0
 
 	gnome? ( gnome-base/gnome-desktop:4= )
 
@@ -176,25 +177,18 @@ src_configure() {
 		-Dudev_dir=$(get_udevdir)
 		$(meson_use input_devices_wacom libwacom)
 		-Dsound_player=true
-		-Dpango_ft2=true
 		-Dstartup_notification=true
 		-Dsm=true
 		$(meson_use introspection)
 		$(meson_use gtk-doc docs)
 		$(meson_use test cogl_tests)
-		$(meson_use wayland core_tests) # core tests require wayland; overall -Dtests option is honored on top, so no extra conditional needed
-		-Dnative_tests=false
 		$(meson_use test clutter_tests)
-		$(meson_use test tests)
+		$(meson_use test mutter_tests)
 		-Dkvm_tests=false
 		-Dtty_tests=false
 		$(meson_use sysprof profiler)
 		-Dinstalled_tests=false
-
-		#verbose # Let upstream choose default for verbose mode
-		#xwayland_path
-		# TODO: relies on default settings, but in Gentoo we might have some more packages we want to give Xgrab access (mostly virtual managers and remote desktops)
-		#xwayland_grab_default_access_rules
+		-Dtests=disabled
 	)
 
 	if use wayland && use video_cards_nvidia; then
