@@ -1,77 +1,35 @@
-From 52f071299c99bcb23a568e2cd40fa984b9b05c02 Mon Sep 17 00:00:00 2001
-From: Miezhiko <Miezhiko@gmail.com>
-Date: Thu, 3 Oct 2024 16:58:59 +0400
-Subject: [PATCH 1/2] fix new aeson support
+From af93ac0dae3fed51865cce594287922893303522 Mon Sep 17 00:00:00 2001
+From: L0neGamer <benjaminbwm@gmail.com>
+Date: Thu, 10 Oct 2024 12:55:01 +0100
+Subject: [PATCH] fix a bit of syntax
 
 ---
- Calamity/Internal/Utils.hs | 12 ++++++++++++
- 1 file changed, 12 insertions(+)
+ Calamity/Internal/Utils.hs | 2 +-
+ calamity.cabal             | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/Calamity/Internal/Utils.hs b/Calamity/Internal/Utils.hs
-index 4cfe52e..dc65693 100644
+index 4cfe52e..0123835 100644
 --- a/Calamity/Internal/Utils.hs
 +++ b/Calamity/Internal/Utils.hs
-@@ -175,6 +175,17 @@ instance (Aeson.ToJSON a) => Aeson.ToJSON (MaybeNull a) where
-   toEncoding WasNull = null_
-   toEncoding (NotNull x) = Aeson.toEncoding x
- 
-+#if MIN_VERSION_aeson(2,2,3)
-+(.?=) :: (Aeson.ToJSON v, Aeson.KeyValue e kv) => Aeson.Key -> Maybe v -> Maybe kv
-+k .?= Just v = Just (k Aeson..= v)
-+_ .?= Nothing = Nothing
-+
-+(.=) :: (Aeson.ToJSON v, Aeson.KeyValue e kv) => Aeson.Key -> v -> Maybe kv
-+k .= v = Just (k Aeson..= v)
-+
-+class CalamityToJSON' a kv where
-+  toPairs :: Aeson.KeyValue kv => a -> [Maybe kv]
-+#else
- #if MIN_VERSION_aeson(2,2,0)
- (.?=) :: (Aeson.ToJSON v, Aeson.KeyValue e kv) => Aeson.Key -> Maybe v -> Maybe kv
- k .?= Just v = Just (k Aeson..= v)
-@@ -196,6 +207,7 @@ k .= v = Just (k Aeson..= v)
- class CalamityToJSON' a where
-   toPairs :: Aeson.KeyValue kv => a -> [Maybe kv]
- #endif
-+#endif
- 
- newtype CalamityToJSON a = CalamityToJSON a
- 
-
-From e7940b19d46734afc156a5a0b862452dcad154b7 Mon Sep 17 00:00:00 2001
-From: Miezhiko <Miezhiko@gmail.com>
-Date: Thu, 3 Oct 2024 17:29:42 +0400
-Subject: [PATCH 2/2] another weird try
-
----
- Calamity/Internal/Utils.hs | 10 ++++++++--
- 1 file changed, 8 insertions(+), 2 deletions(-)
-
-diff --git a/Calamity/Internal/Utils.hs b/Calamity/Internal/Utils.hs
-index dc65693..848c71f 100644
---- a/Calamity/Internal/Utils.hs
-+++ b/Calamity/Internal/Utils.hs
-@@ -183,8 +183,8 @@ _ .?= Nothing = Nothing
- (.=) :: (Aeson.ToJSON v, Aeson.KeyValue e kv) => Aeson.Key -> v -> Maybe kv
+@@ -184,7 +184,7 @@ _ .?= Nothing = Nothing
  k .= v = Just (k Aeson..= v)
  
--class CalamityToJSON' a kv where
+ class CalamityToJSON' a where
 -  toPairs :: Aeson.KeyValue kv => a -> [Maybe kv]
-+class CalamityToJSON' kv where
-+  toPairs :: Aeson.KeyValue a kv => a -> [Maybe kv]
++  toPairs :: Aeson.KeyValue v kv => a -> [Maybe kv]
  #else
- #if MIN_VERSION_aeson(2,2,0)
- (.?=) :: (Aeson.ToJSON v, Aeson.KeyValue e kv) => Aeson.Key -> Maybe v -> Maybe kv
-@@ -211,6 +211,12 @@ class CalamityToJSON' a where
- 
- newtype CalamityToJSON a = CalamityToJSON a
- 
-+#if MIN_VERSION_aeson(2,2,3)
-+instance (CalamityToJSON' a) => Aeson.ToJSON (CalamityToJSON a) where
-+  toJSON (CalamityToJSON x) = Aeson.object . catMaybes . toPairs $ (a x)
-+  toEncoding (CalamityToJSON x) = Aeson.pairs . mconcat . catMaybes . toPairs $ (a x)
-+#else
- instance (CalamityToJSON' a) => Aeson.ToJSON (CalamityToJSON a) where
-   toJSON (CalamityToJSON x) = Aeson.object . catMaybes . toPairs $ x
-   toEncoding (CalamityToJSON x) = Aeson.pairs . mconcat . catMaybes . toPairs $ x
-+#endif
+ (.?=) :: (Aeson.ToJSON v, Aeson.KeyValue kv) => Aeson.Key -> Maybe v -> Maybe kv
+ k .?= Just v = Just (k Aeson..= v)
+diff --git a/calamity.cabal b/calamity.cabal
+index 8af89b8..3172d74 100644
+--- a/calamity.cabal
++++ b/calamity.cabal
+@@ -1,6 +1,6 @@
+ cabal-version:      2.0
+ name:               calamity
+-version:            0.12.0.0
++version:            0.12.1.0
+ synopsis:           A library for writing discord bots in haskell
+ description:
+   Please see the README on GitHub at <https://github.com/simmsb/calamity#readme>
