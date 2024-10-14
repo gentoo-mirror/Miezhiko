@@ -35,8 +35,6 @@ RDEPEND=">=dev-haskell/aeson-2.0.3.0:=
 	>=dev-haskell/monad-logger-0.3.39:=
 	>=dev-haskell/optics-0.4.2:=
 	>=dev-haskell/optparse-generic-1.4.9:=
-	>=dev-haskell/persistent-2.14.0.3:=
-	>=dev-haskell/persistent-sqlite-2.13.1.0:=
 	>=dev-haskell/polysemy-1.7.1.0:=
 	>=dev-haskell/polysemy-plugin-0.4.3.1:=
 	>=dev-haskell/polysemy-time-0.6.0.0:=
