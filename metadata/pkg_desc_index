@@ -202,7 +202,7 @@ dev-util/cargo-check-deadlock 9999: Find deadlocks in Rust code with Petri net m
 dev-util/cargo-dependency-inheritor 9999: Utility to inherit dependencies from workspace
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
 dev-util/easy-profiler 9999: Lightweight profiler library for c++
-dev-util/gdbus-codegen 2.82.1: GDBus code and documentation generator
+dev-util/gdbus-codegen 2.82.2: GDBus code and documentation generator
 dev-util/idris2-lsp 9999: Language Server for Idris2
 dev-util/idris2-lsp-lib 9999: Language Server for Idris2
 dev-util/lucky-commit 9999: Customize your git commit hashes!
