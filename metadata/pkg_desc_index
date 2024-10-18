@@ -102,7 +102,7 @@ dev-haskell/wuss 2.0.1.9: Secure WebSocket (WSS) clients
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.2.0: Programming language supporting functional, imperative & object-oriented styles
-dev-lang/rust 1.81.0-r666 9999: Systems programming language from Mozilla
+dev-lang/rust 1.82.0-r666 9999: Systems programming language from Mozilla
 dev-lang/scala-bin 2.13.15: The Scala Programming Language
 dev-libs/boost 1.85.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
@@ -351,7 +351,7 @@ sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xdg-desktop-portal-gnome 47.1: Backend implementation for xdg-desktop-portal using GNOME
 sys-apps/xe 1.0: simple xargs and apply replacement
 sys-devel/mold 2.34.1-r666: A Modern Linker
-virtual/rust 1.81.0-r666 9999: Virtual for Rust language compiler
+virtual/rust 1.82.0-r666 9999: Virtual for Rust language compiler
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
