@@ -48,6 +48,7 @@ RDEPEND="
 	dev-python/undetected-chromedriver
 	dev-python/beautifulsoup4
 	dev-python/aiohttp
+	dev-python/cloudscraper
 	"
 DEPEND="${RDEPEND}"
 
