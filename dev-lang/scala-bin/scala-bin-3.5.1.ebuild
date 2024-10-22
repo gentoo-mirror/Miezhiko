@@ -1,34 +1,39 @@
 # Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
-
-JAVA_PKG_IUSE="doc"
+EAPI=8
 
 inherit java-pkg-2
 
 MY_PN="${PN%-*}"
-MY_P="${MY_PN}-${PV}"
+MY_P="${MY_PN}3-${PV}"
 
 DESCRIPTION="The Scala Programming Language"
-HOMEPAGE="https://scala.epfl.ch/"
-SRC_URI="https://downloads.lightbend.com/${MY_PN}/${PV}/${MY_P}.tgz"
+HOMEPAGE="https://www.scala-lang.org"
+SRC_URI="https://github.com/scala/scala3/releases/download/${PV}/scala3-${PV}-x86_64-pc-linux.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 x86"
-IUSE="doc"
+IUSE=""
 
 RDEPEND="
 	>=virtual/jre-1.8
 	!dev-lang/scala"
 
-S="${WORKDIR}/${MY_P}"
+S="${WORKDIR}/${MY_P}-x86_64-pc-linux"
 
 src_prepare() {
 	default
 	ebegin 'Cleaning .bat files'
 	rm -f bin/*.bat || die
+	eend $?
+
+	ebegin 'Patching VERSION of scala'
+	local f
+	for f in bin/*; do
+		sed -i -e 's#\$PROG_HOME/VERSION#/usr/share/scala-bin/VERSION#' "$f" || die
+	done
 	eend $?
 
 	ebegin 'Patching SCALA_HOME variable in bin/ directory'
@@ -52,26 +57,13 @@ src_install() {
 
 	cd lib/ || die
 
-	# Unversion those libs.
-	java-pkg_newjar jline-*.jar jline.jar
-	java-pkg_newjar scalap-*.jar scalap.jar
-
-	# Install these the usual way.
-	java-pkg_dojar scala-compiler.jar
-	java-pkg_dojar scala-library.jar
-	java-pkg_dojar scala-reflect.jar
+	java-pkg_dojar scaladoc.jar
+	java-pkg_dojar scala.jar
+	java-pkg_dojar with_compiler.jar
 
 	eend $?
 
 	cd ../ || die
-
-	ebegin 'Installing man pages'
-	doman man/man1/*.1
-	eend $?
-
-	if use doc; then
-		ebegin 'Installing documentation'
-		java-pkg_dohtml -r doc/tools
-		eend $?
-	fi
+	
+	echo "version:=${PV}" > "${ED}"/usr/share/scala-bin/VERSION
 }
