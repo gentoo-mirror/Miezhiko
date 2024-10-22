@@ -17,6 +17,7 @@ app-misc/hodl 9999: hodl
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/subete 9999: subete
 app-misc/tmux 3.5-r9999: Terminal multiplexer
+app-misc/tracker-miners 3.6.2-r666: Collection of data extractors for Tracker/Nepomuk
 app-misc/xmind 10.3.1 24.03.04745: A brainstorming and mind mapping software tool
 app-office/myoffice 1.28.0.4: office
 app-text/evince 46.3.1: Simple document viewer for GNOME
@@ -218,7 +219,7 @@ gnome-base/gnome-shell 46.5 47.0: Provides core UI functions for the GNOME deskt
 gnome-base/gsettings-desktop-schemas 47.1: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.56.0: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.58.5: Scalable Vector Graphics (SVG) rendering library
-gnome-base/nautilus 46.2-r666 47.0-r666: Default file manager for the GNOME desktop
+gnome-base/nautilus 47.0-r666: Default file manager for the GNOME desktop
 gnome-extra/evolution-data-server 3.54.0: Evolution groupware backend
 gnome-extra/gnome-calendar 47.0: Manage your calendars with simple and modern interface
 gnome-extra/gnome-system-monitor 47.0: The Gnome System Monitor
