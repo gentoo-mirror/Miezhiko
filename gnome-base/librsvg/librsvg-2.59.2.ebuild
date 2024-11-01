@@ -4,7 +4,7 @@
 EAPI=8
 PYTHON_COMPAT=( python3_{10..13} )
 
-inherit cargo gnome2 multilib-minimal python-any-r1 rust-toolchain vala git-r3
+inherit cargo gnome2 multilib-minimal python-any-r1 rust-toolchain vala meson git-r3
 
 DESCRIPTION="Scalable Vector Graphics (SVG) rendering library"
 HOMEPAGE="https://wiki.gnome.org/Projects/LibRsvg https://gitlab.gnome.org/GNOME/librsvg"
@@ -49,6 +49,7 @@ BDEPEND="
 
 	dev-libs/gobject-introspection-common
 	dev-libs/vala-common
+	dev-util/cargo-c
 "
 # dev-libs/gobject-introspection-common, dev-libs/vala-common needed by eautoreconf
 
@@ -153,39 +154,43 @@ src_prepare() {
 }
 
 multilib_src_configure() {
-	local myconf=(
-		--disable-static
-		--disable-debug
-		$(multilib_native_use_enable gtk-doc)
-		$(multilib_native_use_enable introspection)
-		$(multilib_native_use_enable vala)
-		--enable-pixbuf-loader
+	local emesonargs=(
+		$(meson_use gtk-doc docs)
+		$(meson_feature introspection)
+		$(meson_feature vala)
+		-Dpixbuf-loader=true
 	)
 
 	if ! multilib_is_native_abi; then
 		myconf+=(
-			# Set the rust target, which can differ from CHOST
-			RUST_TARGET="$(rust_abi)"
-			# RUST_TARGET is only honored if cross_compiling, but non-native ABIs aren't cross as
-			# far as C parts and configure auto-detection are concerned as CHOST equals CBUILD
-			cross_compiling=yes
+			-Dtriplet="$(rust_abi)"
 		)
 	fi
-
-	ECONF_SOURCE=${S} \
-	gnome2_src_configure "${myconf[@]}"
+	
+	meson_src_configure
 
 	if multilib_is_native_abi; then
 		ln -s "${S}"/doc/html doc/html || die
 	fi
 }
 
-multilib_src_compile() {
-	gnome2_src_compile
-}
 
-multilib_src_install() {
-	gnome2_src_install
+multilib_src_configure() {
+	local emesonargs=(
+		$(meson_use gtk-doc docs)
+		$(meson_native_use_feature introspection)
+		$(meson_native_use_feature vala)
+		-Dpixbuf=enabled
+		-Dpixbuf-loader=enabled
+	)
+	
+	if ! multilib_is_native_abi; then
+		myconf+=(
+			-Dtriplet="$(rust_abi)"
+		)
+	fi
+	
+	meson_src_configure
 }
 
 multilib_src_install_all() {
@@ -204,3 +209,4 @@ pkg_postinst() {
 pkg_postrm() {
 	multilib_foreach_abi gnome2_pkg_postrm
 }
+
