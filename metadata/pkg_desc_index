@@ -12,6 +12,7 @@ app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.94.2: Multiplatform Visual Studio Code from Microsoft
 app-emulation/proton-ge-custom-bin 9.18: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
+app-emulation/wine-proton 9999: Valve Software's fork of Wine
 app-misc/crab 9999: a crab
 app-misc/cryptowatch 0.5.0: fast & furious
 app-misc/hidamari 9999: Video wallpaper for Linux.
