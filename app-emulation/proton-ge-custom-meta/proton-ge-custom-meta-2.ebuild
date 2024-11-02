@@ -1,6 +1,5 @@
-# Copyright 2022 Gentoo Authors
+# Copyright 2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# taken from ebuild in the touchfish-os overlay
 
 EAPI=8
 
@@ -11,12 +10,10 @@ LICENSE="metapackage"
 
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="kde gnome"
+IUSE="kde gnome steam "
 
 DEPEND=""
 
-# converted and modified from AUR proton-ge-custom-bin 601fc5f2
-# python-kivy is missing
 RDEPEND="
 	dev-lang/python-exec
 	media-libs/vulkan-loader[abi_x86_32]
@@ -37,10 +34,8 @@ RDEPEND="
 	kde? ( kde-apps/kdialog )
 	gnome? ( gnome-extra/zenity )
 
-	app-emulation/winetricks
-	virtual/wine[abi_x86_32]
 	app-emulation/proton-ge-custom-bin
-	games-util/steam-meta"
+	steam? ( games-util/steam-meta )"
 
 pkg_pretend() {
 	einfo "The list of dependencies may be not complete, and some of ones listed may be not necessary. Feel free to try it on your favourite games and any issue & pull request is welcome."
