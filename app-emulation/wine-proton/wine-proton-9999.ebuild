@@ -57,6 +57,7 @@ WINE_DLOPEN_DEPEND="
 	ssl? (
 		dev-libs/gmp:=[${MULTILIB_USEDEP}]
 		net-libs/gnutls:=[${MULTILIB_USEDEP}]
+		wow64? ( net-libs/gnutls[abi_x86_32] )
 	)
 	udisks? ( sys-apps/dbus[${MULTILIB_USEDEP}] )
 	v4l? ( media-libs/libv4l[${MULTILIB_USEDEP}] )
@@ -259,8 +260,8 @@ src_configure() {
 		$(use_with pulseaudio pulse)
 		$(use_with sdl)
 
-		#$(use_with ssl gnutls)
-		--without-gnutls # wants schannel, something legacy?
+		$(use_with ssl gnutls)
+		#--without-gnutls # wants schannel, something legacy?
 
 		$(use_with udev)
 		$(use_with udisks dbus) # dbus is only used for udisks
