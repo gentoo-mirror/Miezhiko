@@ -72,21 +72,9 @@ DEPEND="
 
 	x11-libs/pango
 "
-# media-libs/libcanberra[pulseaudio,sound] needed for Speaker tests in
-# Settings/Sound/Output/Output Device, bug #814110
-# systemd/elogind USE flagged because package manager will potentially try to satisfy a
-# "|| ( systemd ( elogind openrc-settingsd)" via systemd if openrc-settingsd isn't already installed.
-# gnome-color-manager needed for gcm-calibrate and gcm-viewer calls from color panel
-# <gnome-color-manager-3.1.2 has file collisions with g-c-c-3.1.x
-#
-# mouse panel needs a concrete set of X11 drivers at runtime, bug #580474
-# Also we need newer driver versions to allow wacom and libinput drivers to
-# not collide
-#
-# system-config-printer provides org.fedoraproject.Config.Printing service and interface
-# cups-pk-helper provides org.opensuse.cupspkhelper.mechanism.all-edit policykit helper policy
+
 RDEPEND="${DEPEND}
-	media-libs/libcanberra[pulseaudio,sound]
+	media-libs/libcanberra[pulseaudio]
 	systemd? ( >=sys-apps/systemd-31 )
 	elogind? (
 		app-admin/openrc-settingsd
