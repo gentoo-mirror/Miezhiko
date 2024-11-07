@@ -1,0 +1,39 @@
+From 13a564ab2c92896ee076b384bed9f0622935749c Mon Sep 17 00:00:00 2001
+From: Miezhiko <Miezhiko@gmail.com>
+Date: Thu, 7 Nov 2024 10:44:13 +0400
+Subject: [PATCH] resolve implicit conversion warnings/werror compilation
+
+fixes building with clang 18/19 as werror is enabled by default
+
+Signed-off-by: Miezhiko <Miezhiko@gmail.com>
+---
+ src/rcw.c          | 2 +-
+ src/remmina_exec.c | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/rcw.c b/src/rcw.c
+index 45e227798..d35cd3e03 100644
+--- a/src/rcw.c
++++ b/src/rcw.c
+@@ -3565,7 +3565,7 @@ static GtkWidget *rco_create_tab_label(RemminaConnectionObject *cnnobj)
+ 	gtk_widget_show(widget);
+ 	gtk_box_pack_start(GTK_BOX(hbox), widget, FALSE, FALSE, 0);
+ 
+-	gchar* label = remmina_file_get_string(cnnobj->remmina_file, "name");
++	gchar* label = (gchar *)remmina_file_get_string(cnnobj->remmina_file, "name");
+ 	if (strlen(label) > 100){
+ 		label[99] = 0;
+ 	}
+diff --git a/src/remmina_exec.c b/src/remmina_exec.c
+index 21181c14b..e56a0b856 100644
+--- a/src/remmina_exec.c
++++ b/src/remmina_exec.c
+@@ -284,7 +284,7 @@ static void remmina_exec_connect(const gchar *data)
+ 
+ 	protocolserver = g_strsplit(data, "://", 2);
+ 	if (strncmp(protocol, "WWW", 3) == 0){
+-		server = data;
++		server = (gchar *)data;
+ 	}
+ 	else{
+ 		server = g_strdup(protocolserver[1]);
