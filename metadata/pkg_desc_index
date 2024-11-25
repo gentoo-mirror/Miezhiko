@@ -107,13 +107,13 @@ dev-haskell/wuss 2.0.1.9: Secure WebSocket (WSS) clients
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.2.0: Programming language supporting functional, imperative & object-oriented styles
-dev-lang/rust 1.82.0-r666 9999: Systems programming language from Mozilla
+dev-lang/rust 1.82.0-r666: Systems programming language from Mozilla
 dev-lang/scala-bin 3.6.1: The Scala Programming Language
 dev-libs/boost 1.85.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/gjs 1.82.0: Javascript bindings for GNOME
 dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
-dev-libs/glib 2.82.2: The GLib library of C routines
+dev-libs/glib 2.83.0: The GLib library of C routines
 dev-libs/gobject-introspection 1.82.0: Introspection system for GObject-based libraries
 dev-libs/gobject-introspection-common 1.82.0: Build infrastructure for GObject Introspection
 dev-libs/json-glib 1.10.0: Library providing GLib serialization and deserialization for the JSON format
@@ -206,7 +206,7 @@ dev-util/cargo-check-deadlock 9999: Find deadlocks in Rust code with Petri net m
 dev-util/cargo-dependency-inheritor 9999: Utility to inherit dependencies from workspace
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
 dev-util/easy-profiler 9999: Lightweight profiler library for c++
-dev-util/gdbus-codegen 2.82.2: GDBus code and documentation generator
+dev-util/gdbus-codegen 2.83.0: GDBus code and documentation generator
 dev-util/idris2-lsp 9999: Language Server for Idris2
 dev-util/idris2-lsp-lib 9999: Language Server for Idris2
 dev-util/lucky-commit 9999: Customize your git commit hashes!
@@ -241,6 +241,7 @@ media-libs/gstreamer 1.24.8: Open source multimedia framework
 media-libs/imgui 1.89.9-r3 1.91.1: Bloat-free graphical user interface library for C++
 media-libs/implot 0.16-r2: Immediate Mode Plotting
 media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
+media-libs/mesa 24.3.0-r666: OpenGL-like graphic library for Linux
 media-plugins/gst-plugins-a52dec 1.24.8: ATSC A/52 audio decoder plugin for GStreamer
 media-plugins/gst-plugins-adaptivedemux2 1.24.8: Adaptive demuxer plugins for Gstreamer
 media-plugins/gst-plugins-amr 1.24.8: AMRNB encoder/decoder and AMRWB decoder plugin for GStreamer
@@ -356,7 +357,7 @@ sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xdg-desktop-portal-gnome 47.1: Backend implementation for xdg-desktop-portal using GNOME
 sys-apps/xe 1.0: simple xargs and apply replacement
 sys-devel/mold 2.34.1-r666: A Modern Linker
-virtual/rust 1.82.0-r666 9999: Virtual for Rust language compiler
+virtual/rust 1.82.0-r666: Virtual for Rust language compiler
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
