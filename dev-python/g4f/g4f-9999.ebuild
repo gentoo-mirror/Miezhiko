@@ -29,7 +29,7 @@ RDEPEND="
 	dev-python/execjs
 	dev-python/xtempmail
 	dev-python/pypasser
-	dev-python/Faker
+	dev-python/faker
 	dev-python/mailgw-temporary-email
 	dev-python/retrying
 	dev-python/names
