@@ -9,10 +9,10 @@ DESCRIPTION="Virtual for Rust language compiler"
 
 LICENSE=""
 
-SLOT="0/llvm-18"
+SLOT="0/llvm-19"
 
 KEYWORDS="~amd64"
-IUSE="rustfmt"
+IUSE="rustfmt profiler"
 
 BDEPEND=""
-RDEPEND="~dev-lang/rust-${PV}[rustfmt?,${MULTILIB_USEDEP}]"
+RDEPEND="~dev-lang/rust-${PV}[profiler?,rustfmt?,${MULTILIB_USEDEP}]"
