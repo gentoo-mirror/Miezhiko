@@ -4,7 +4,7 @@ acct-user/monero 0: System user: monero
 acct-user/ollama 0: System user for ollama
 app-alternatives/v2ray-geoip 0-r2: symlink for v2ray-geoip
 app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
-app-containers/snapd 2.65.3: Service and tools for management of snap packages
+app-containers/snapd 2.66.1: Service and tools for management of snap packages
 app-crypt/gcr 4.3.0: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/gnome-text-editor 47.0: A simple text editor for the GNOME desktop
@@ -106,7 +106,7 @@ dev-haskell/websockets 0.13.0.0: A sensible and clean way to write WebSocket-cap
 dev-haskell/wuss 2.0.1.9: Secure WebSocket (WSS) clients
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
-dev-lang/ocaml 5.2.0: Programming language supporting functional, imperative & object-oriented styles
+dev-lang/ocaml 5.2.1: Programming language supporting functional, imperative & object-oriented styles
 dev-lang/rust 1.82.0-r666: Systems programming language from Mozilla
 dev-lang/scala-bin 3.6.1: The Scala Programming Language
 dev-libs/boost 1.85.0-r1: Boost Libraries for C++
@@ -121,7 +121,6 @@ dev-libs/jsonrpc-glib 3.44.1: JSON-RPC library for GLib
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
 dev-libs/libndofdev 0.13: Replacement for the libndofdev library used by the Second Life client to handle joysticks and the 6DOF devices on Windows and Macs.
-dev-libs/librdkafka 2.4.0: Apache Kafka C/C++ client library
 dev-libs/nsync 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ocl-icd 2.3.1-r1: Alternative to vendor specific OpenCL ICD loaders
 dev-libs/olm 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
@@ -136,15 +135,15 @@ dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
 dev-ml/dune 3.16.1: A composable build system for OCaml
 dev-ml/extlib 1.8.0-r1: Standard library extensions for O'Caml
 dev-ml/fmt 0.9.0: Combinators to devise OCaml Format pretty-printing functions
-dev-ml/opam 2.2.1: A source-based package manager for OCaml
+dev-ml/opam 2.3.0: A source-based package manager for OCaml
 dev-ml/opam-0install-cudf 0.4.3: Opam solver using 0install backend using the CUDF interface
-dev-ml/opam-client 2.2.1: opam client libraries
-dev-ml/opam-core 2.2.1: Core libraries for opam
-dev-ml/opam-format 2.2.1: Core libraries for opam
-dev-ml/opam-installer 2.2.1: Core installer for opam packages
-dev-ml/opam-repository 2.2.1: opam repository libraries
-dev-ml/opam-solver 2.2.1: opam solver
-dev-ml/opam-state 2.2.1: opam state libraries
+dev-ml/opam-client 2.3.0: opam client libraries
+dev-ml/opam-core 2.3.0: Core libraries for opam
+dev-ml/opam-format 2.3.0: Core libraries for opam
+dev-ml/opam-installer 2.3.0: Core installer for opam packages
+dev-ml/opam-repository 2.3.0: opam repository libraries
+dev-ml/opam-solver 2.3.0: opam solver
+dev-ml/opam-state 2.3.0: opam state libraries
 dev-ml/ounit2 2.2.7: Unit testing framework for OCaml
 dev-ml/spdx_licenses 1.2.0: Library providing a strict SPDX License Expression parser
 dev-ml/swhid_core 0.1: Library to work with Software Heritage persistent identifiers (swhids)
@@ -345,7 +344,7 @@ sci-libs/huggingface_hub 0.26.2: a client library to interact with the Hugging F
 sci-libs/pydicom 2.4.4: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
-sci-libs/transformers 4.46.2-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+sci-libs/transformers 4.46.3-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-libs/vtk 9.1.0: The Visualization Toolkit
 sys-apps/baobab 47.0: Disk usage browser for GNOME
 sys-apps/lr 1.6: list files, recursively
