@@ -121,6 +121,7 @@ dev-libs/json-glib 1.10.0: Library providing GLib serialization and deserializat
 dev-libs/jsonrpc-glib 3.44.1: JSON-RPC library for GLib
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
+dev-libs/libclc 19.1.4-r666: OpenCL C library
 dev-libs/libndofdev 0.13: Replacement for the libndofdev library used by the Second Life client to handle joysticks and the 6DOF devices on Windows and Macs.
 dev-libs/nsync 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ocl-icd 2.3.1-r1: Alternative to vendor specific OpenCL ICD loaders
@@ -133,7 +134,7 @@ dev-ml/0install-solver 2.18: SAT-based package dependency solver
 dev-ml/camlbz2 0.8.9999: OCaml bindings for libbz (AKA, bzip2)
 dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
 dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
-dev-ml/dune 3.16.1: A composable build system for OCaml
+dev-ml/dune 3.17.0: A composable build system for OCaml
 dev-ml/extlib 1.8.0-r1: Standard library extensions for O'Caml
 dev-ml/fmt 0.9.0: Combinators to devise OCaml Format pretty-printing functions
 dev-ml/opam 2.3.0: A source-based package manager for OCaml
@@ -173,7 +174,7 @@ dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
-dev-python/openai 1.55.1: Python client library for the OpenAI API
+dev-python/openai 1.55.2: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
@@ -197,6 +198,7 @@ dev-python/toml 0.10.2-r1: Python library for handling TOML files
 dev-python/undetected-chromedriver 9999: Custom Selenium Chromedriver
 dev-python/xtempmail 0.10: Temporary Email
 dev-qt/ghoul 2024.06 9999: Lightweight IDE for C++/QML development centering around Qt
+dev-qt/qttools 6.8.0-r666: Qt Tools Collection
 dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 framework (deprecated)
 dev-util/beekeeper-studio-bin 4.6.8: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
