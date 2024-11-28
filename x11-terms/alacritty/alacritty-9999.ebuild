@@ -7,7 +7,7 @@ CRATES=""
 
 MY_PV="${PV//_rc/-rc}"
 # https://bugs.gentoo.org/725962
-PYTHON_COMPAT=( python3_{9..12} )
+PYTHON_COMPAT=( python3_{9..13} )
 
 inherit bash-completion-r1 cargo desktop python-any-r1
 
@@ -54,6 +54,10 @@ BDEPEND="
 QA_FLAGS_IGNORED="usr/bin/alacritty"
 
 S="${WORKDIR}/${PN}-${MY_PV}"
+
+pkg_setup() {
+	rust_pkg_setup
+}
 
 src_unpack() {
 	if [[ "${PV}" == *9999* ]]; then
