@@ -6,11 +6,11 @@ EAPI=8
 inherit dune
 
 DESCRIPTION="Opam solver using 0install backend using the CUDF interface"
-HOMEPAGE="https://github.com/ocaml-opam/opam-0install-solver"
-SRC_URI="https://github.com/ocaml-opam/opam-0install-solver/releases/download/v${PV}/${P}.tbz"
+HOMEPAGE="https://github.com/ocaml-opam/opam-0install-cudf"
+SRC_URI="https://github.com/ocaml-opam/${PN}/releases/download/v${PV}/${P}.tar.gz"
 
 LICENSE="ISC"
-SLOT="0/${PV}"
+SLOT="0"
 KEYWORDS="amd64 arm arm64 ~ppc ppc64 ~riscv x86"
 IUSE="+ocamlopt"
 
