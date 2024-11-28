@@ -3,14 +3,14 @@ DEFINED_PHASES=compile install test
 DEPEND=>=dev-lang/ocaml-4.08:=[ocamlopt=] dev-ml/0install-solver:= dev-ml/cudf:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 DESCRIPTION=Opam solver using 0install backend using the CUDF interface
 EAPI=8
-HOMEPAGE=https://github.com/ocaml-opam/opam-0install-solver
+HOMEPAGE=https://github.com/ocaml-opam/opam-0install-cudf
 INHERIT=dune
 IUSE=+ocamlopt
 KEYWORDS=amd64 arm arm64 ~ppc ppc64 ~riscv x86
 LICENSE=ISC
 RDEPEND=>=dev-lang/ocaml-4.08:=[ocamlopt=] dev-ml/0install-solver:= dev-ml/cudf:= >=dev-lang/ocaml-4:=[ocamlopt?] dev-ml/dune:=
 RESTRICT=test
-SLOT=0/0.4.3
-SRC_URI=https://github.com/ocaml-opam/opam-0install-solver/releases/download/v0.4.3/opam-0install-cudf-0.4.3.tbz
+SLOT=0
+SRC_URI=https://github.com/ocaml-opam/opam-0install-cudf/releases/download/v0.5.0/opam-0install-cudf-0.5.0.tar.gz
 _eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	1e32df7deee68372153dca65f4a7c21f	dune	21c2970666b517829dc7b963ca1f4a4a
-_md5_=b77be7d646447b30bcc7ef333ba34b25
+_md5_=02acc2a60eb7e1dfa56f64d1ff933d4b

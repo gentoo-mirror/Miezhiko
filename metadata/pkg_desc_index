@@ -19,7 +19,7 @@ app-misc/crab 9999: a crab
 app-misc/cryptowatch 0.5.0: fast & furious
 app-misc/hidamari 9999: Video wallpaper for Linux.
 app-misc/hodl 9999: hodl
-app-misc/ollama-bin 0.4.5: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
+app-misc/ollama-bin 0.4.6: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/subete 9999: subete
 app-misc/tmux 3.5-r9999: Terminal multiplexer
@@ -138,7 +138,7 @@ dev-ml/dune 3.17.0: A composable build system for OCaml
 dev-ml/extlib 1.8.0-r1: Standard library extensions for O'Caml
 dev-ml/fmt 0.9.0: Combinators to devise OCaml Format pretty-printing functions
 dev-ml/opam 2.3.0: A source-based package manager for OCaml
-dev-ml/opam-0install-cudf 0.4.3: Opam solver using 0install backend using the CUDF interface
+dev-ml/opam-0install-cudf 0.5.0-r666: Opam solver using 0install backend using the CUDF interface
 dev-ml/opam-client 2.3.0: opam client libraries
 dev-ml/opam-core 2.3.0: Core libraries for opam
 dev-ml/opam-format 2.3.0: Core libraries for opam
