@@ -198,7 +198,6 @@ dev-python/toml 0.10.2-r1: Python library for handling TOML files
 dev-python/undetected-chromedriver 9999: Custom Selenium Chromedriver
 dev-python/xtempmail 0.10: Temporary Email
 dev-qt/ghoul 2024.06 9999: Lightweight IDE for C++/QML development centering around Qt
-dev-qt/qttools 6.8.0-r666: Qt Tools Collection
 dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 framework (deprecated)
 dev-util/beekeeper-studio-bin 4.6.8: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
@@ -219,7 +218,7 @@ gnome-base/gnome-control-center 47.0.1: GNOME's main interface to configure vari
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-session 47.0.1: Gnome session manager
 gnome-base/gnome-settings-daemon 47.1: Gnome Settings Daemon
-gnome-base/gnome-shell 46.5 47.0: Provides core UI functions for the GNOME desktop
+gnome-base/gnome-shell 47.0: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 47.1: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.56.0: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.59.2: Scalable Vector Graphics (SVG) rendering library
@@ -366,4 +365,4 @@ x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-themes/adwaita-icon-theme 47.0: GNOME default icon theme
 x11-themes/gnome-backgrounds 47.0: A set of backgrounds packaged with the GNOME desktop
 x11-wm/jwm 9999: JWM
-x11-wm/mutter 46.5 47.0: GNOME compositing window manager based on Clutter
+x11-wm/mutter 47.0: GNOME compositing window manager based on Clutter
