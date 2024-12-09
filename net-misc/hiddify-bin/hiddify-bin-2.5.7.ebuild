@@ -12,7 +12,9 @@ KEYWORDS="~amd64"
 IUSE=""
 RESTRICT="bindist mirror"
 
-RDEPEND=""
+RDEPEND="
+  dev-libs/libayatana-appindicator  
+"
 
 S="${WORKDIR}"
 
