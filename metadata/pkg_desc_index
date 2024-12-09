@@ -19,7 +19,7 @@ app-misc/crab 9999: a crab
 app-misc/cryptowatch 0.5.0: fast & furious
 app-misc/hidamari 9999: Video wallpaper for Linux.
 app-misc/hodl 9999: hodl
-app-misc/ollama-bin 0.4.7: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
+app-misc/ollama-bin 0.5.1: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/subete 9999: subete
 app-misc/tmux 3.5-r9999: Terminal multiplexer
@@ -174,7 +174,7 @@ dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
-dev-python/openai 1.56.1: Python client library for the OpenAI API
+dev-python/openai 1.57.0: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
@@ -342,11 +342,11 @@ net-proxy/Xray 1.8.23: Xray, Penetrates Everything. Also the best v2ray-core, wi
 net-proxy/v2ray 5.18.0: A platform for building proxies to bypass network restrictions.
 net-wireless/gnome-bluetooth 47.0: Bluetooth graphical utilities integrated with GNOME
 sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
-sci-libs/huggingface_hub 0.26.3: a client library to interact with the Hugging Face Hub
+sci-libs/huggingface_hub 0.26.5: a client library to interact with the Hugging Face Hub
 sci-libs/pydicom 2.4.4: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
-sci-libs/transformers 4.46.3-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+sci-libs/transformers 4.47.0-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-libs/vtk 9.1.0: The Visualization Toolkit
 sys-apps/baobab 47.0: Disk usage browser for GNOME
 sys-apps/lr 1.6: list files, recursively
@@ -356,7 +356,6 @@ sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xdg-desktop-portal-gnome 47.1: Backend implementation for xdg-desktop-portal using GNOME
 sys-apps/xe 1.0: simple xargs and apply replacement
-sys-devel/mold 2.34.1-r666: A Modern Linker
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
