@@ -13,7 +13,10 @@ HOMEPAGE="https://hackage.haskell.org/package/deepseq"
 
 LICENSE="BSD"
 SLOT="0/${PV}"
-KEYWORDS="~amd64"
+
+# THIS IS BUNDLED PACKAGE
+# TODO: drop this!
+#KEYWORDS="~amd64"
 
 RDEPEND=">=dev-lang/ghc-9.0.2:=
 "

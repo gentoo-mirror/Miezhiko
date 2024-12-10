@@ -25,7 +25,6 @@ CABAL_CHDEPS=(
 RDEPEND=">=dev-haskell/primitive-0.7.0:=[profile?] <dev-haskell/primitive-0.12:=[profile?]
 	>=dev-haskell/vector-0.12.0.1:=[profile?] <dev-haskell/vector-0.14:=[profile?]
 	>=dev-lang/ghc-9.0.2:=
-	dev-haskell/deepseq
 "
 DEPEND="${RDEPEND}
 	>=dev-haskell/cabal-3.4.1.0
