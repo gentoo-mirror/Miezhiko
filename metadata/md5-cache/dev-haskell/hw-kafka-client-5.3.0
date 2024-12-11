@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/bifunctors:=[profile?] dev-haskell/text:=[profile?] >=dev-la
 RESTRICT=!test? ( test )
 SLOT=0/5.3.0
 SRC_URI=https://hackage.haskell.org/package/hw-kafka-client-5.3.0/hw-kafka-client-5.3.0.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	01be64da2d1124718f942ca9662ede50
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	haskell-cabal	01be64da2d1124718f942ca9662ede50
 _md5_=6cf09629311e2aad129f09657f4dea83

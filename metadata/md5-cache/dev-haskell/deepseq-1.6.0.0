@@ -11,5 +11,5 @@ RDEPEND=>=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/1.6.0.0
 SRC_URI=https://hackage.haskell.org/package/deepseq-1.6.0.0/deepseq-1.6.0.0.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	haskell-cabal	01be64da2d1124718f942ca9662ede50
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	haskell-cabal	01be64da2d1124718f942ca9662ede50
 _md5_=f02f9057cafbc0a755701553fe90548a
