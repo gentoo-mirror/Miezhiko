@@ -108,7 +108,7 @@ dev-haskell/wuss 2.0.1.9: Secure WebSocket (WSS) clients
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.2.1: Programming language supporting functional, imperative & object-oriented styles
-dev-lang/scala-bin 3.6.2-r1: The Scala Programming Language
+dev-lang/scala-bin 3.6.2-r2: The Scala Programming Language
 dev-libs/boost 1.85.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/gjs 1.82.0: Javascript bindings for GNOME
