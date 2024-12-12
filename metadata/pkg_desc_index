@@ -105,6 +105,7 @@ dev-haskell/typerep-map 0.6.0.0-r2: Efficient implementation of a dependent map 
 dev-haskell/unboxing-vector 0.2.0.0: A newtype-friendly variant of unboxed vectors
 dev-haskell/websockets 0.13.0.0: A sensible and clean way to write WebSocket-capable servers in Haskell
 dev-haskell/wuss 2.0.1.9: Secure WebSocket (WSS) clients
+dev-java/sbt-bin 1.10.6: sbt, a build tool for Scala
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.2.1: Programming language supporting functional, imperative & object-oriented styles
