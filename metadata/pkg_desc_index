@@ -22,7 +22,6 @@ app-misc/hodl 9999: hodl
 app-misc/ollama-bin 0.5.1: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/subete 9999: subete
-app-misc/tmux 3.5-r9999: Terminal multiplexer
 app-misc/tracker-miners 3.6.2-r666: Collection of data extractors for Tracker/Nepomuk
 app-misc/xmind 10.3.1 24.03.04745: A brainstorming and mind mapping software tool
 app-office/myoffice 1.28.0.4: office
