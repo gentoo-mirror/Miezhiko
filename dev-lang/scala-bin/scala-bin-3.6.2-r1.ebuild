@@ -27,6 +27,7 @@ src_prepare() {
 	default
 	ebegin 'Cleaning .bat files'
 	rm -f bin/*.bat || die
+	rm -f libexec/*.bat || die
 	eend $?
 
 	ebegin 'Patching VERSION of scala'
@@ -34,11 +35,21 @@ src_prepare() {
 	for f in bin/*; do
 		sed -i -e 's#\$PROG_HOME/VERSION#/usr/share/scala-bin/VERSION#' "$f" || die
 	done
+
+	local f
+	for f in libexec/*; do
+		sed -i -e 's#\$PROG_HOME/VERSION#/usr/share/scala-bin/VERSION#' "$f" || die
+	done
 	eend $?
 
 	ebegin 'Patching SCALA_HOME variable in bin/ directory'
 	local f
 	for f in bin/*; do
+		sed -i -e 's#\(SCALA_HOME\)=.*#\1=/usr/share/scala-bin#' "$f" || die
+	done
+	
+	local f
+	for f in libexec/*; do
 		sed -i -e 's#\(SCALA_HOME\)=.*#\1=/usr/share/scala-bin#' "$f" || die
 	done
 	eend $?
@@ -51,6 +62,8 @@ src_compile() {
 src_install() {
 	ebegin 'Installing bin scripts'
 	dobin bin/*
+	exeinto /usr/libexec/
+	doexe libexec/*
 	eend $?
 
 	ebegin 'Installing jar files'
