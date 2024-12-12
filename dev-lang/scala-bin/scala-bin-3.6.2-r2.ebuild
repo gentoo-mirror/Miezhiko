@@ -29,28 +29,16 @@ src_prepare() {
 	rm -f bin/*.bat || die
 	rm -f libexec/*.bat || die
 	eend $?
-
-	ebegin 'Patching VERSION of scala'
+	
+	ebegin 'Patching PROG_HOME variable in bin/ directory'
 	local f
 	for f in bin/*; do
-		sed -i -e 's#\$PROG_HOME/VERSION#/usr/share/scala-bin/VERSION#' "$f" || die
-	done
-
-	local f
-	for f in libexec/*; do
-		sed -i -e 's#\$PROG_HOME/VERSION#/usr/share/scala-bin/VERSION#' "$f" || die
-	done
-	eend $?
-
-	ebegin 'Patching SCALA_HOME variable in bin/ directory'
-	local f
-	for f in bin/*; do
-		sed -i -e 's#\(SCALA_HOME\)=.*#\1=/usr/share/scala-bin#' "$f" || die
+		sed -i -e 's#\(PROG_HOME\)=.*#\1=/usr/share/scala-bin#' "$f" || die
 	done
 	
 	local f
 	for f in libexec/*; do
-		sed -i -e 's#\(SCALA_HOME\)=.*#\1=/usr/share/scala-bin#' "$f" || die
+		sed -i -e 's#\(PROG_HOME\)=.*#\1=/usr/share/scala-bin#' "$f" || die
 	done
 	eend $?
 }
@@ -62,8 +50,13 @@ src_compile() {
 src_install() {
 	ebegin 'Installing bin scripts'
 	dobin bin/*
-	exeinto /usr/libexec/
+	exeinto /usr/share/${PN}/libexec
 	doexe libexec/*
+	insinto
+	eend $?
+	
+	ebegin 'Installing maven2 scripts'
+	cp -r ${S}/maven2 ${ED}/usr/share/${PN} || die "failed to copy maven2 dir"
 	eend $?
 
 	ebegin 'Installing jar files'
@@ -78,5 +71,5 @@ src_install() {
 
 	cd ../ || die
 	
-	echo "version:=${PV}" > "${ED}"/usr/share/scala-bin/VERSION
+	echo "version:=${PV}" > "${ED}"/usr/share/${PN}/VERSION
 }
