@@ -12,7 +12,7 @@ app-editors/gnome-text-editor 47.0: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.95.3: Multiplatform Visual Studio Code from Microsoft
 app-editors/zed 0.160.7-r666: The fast, collaborative code editor
-app-emulation/proton-ge-custom-bin 9.18: A fancy custom distribution of Valves Proton with various patches
+app-emulation/proton-ge-custom-bin 9.21: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-emulation/wine-proton 9999: Valve Software's fork of Wine
 app-misc/crab 9999: a crab
@@ -240,7 +240,7 @@ media-libs/gstreamer 1.24.8: Open source multimedia framework
 media-libs/imgui 1.89.9-r3 1.91.1: Bloat-free graphical user interface library for C++
 media-libs/implot 0.16-r2: Immediate Mode Plotting
 media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
-media-libs/mesa 24.3.0-r666: OpenGL-like graphic library for Linux
+media-libs/mesa 24.3.1-r666: OpenGL-like graphic library for Linux
 media-plugins/gst-plugins-a52dec 1.24.8: ATSC A/52 audio decoder plugin for GStreamer
 media-plugins/gst-plugins-adaptivedemux2 1.24.8: Adaptive demuxer plugins for Gstreamer
 media-plugins/gst-plugins-amr 1.24.8: AMRNB encoder/decoder and AMRWB decoder plugin for GStreamer
