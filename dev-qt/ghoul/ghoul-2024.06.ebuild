@@ -65,7 +65,7 @@ BDEPEND="
 "
 
 CDEPEND="
-	>=sys-devel/clang-${LLVM_MAX_SLOT}:=
+	>=llvm-core/clang-${LLVM_MAX_SLOT}:=
 	>=dev-qt/qtbase-${QT_PV}[concurrent,gui,network,sql,widgets,libproxy]
 	>=dev-qt/qtdeclarative-${QT_PV}
 	dev-qt/qt5compat
