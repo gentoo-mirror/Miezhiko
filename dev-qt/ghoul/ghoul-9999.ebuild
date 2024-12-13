@@ -2,10 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-LLVM_MAX_SLOT=19
 PLOCALES="cs da de fr hr ja pl ru sl uk zh-CN zh-TW"
 
-inherit cmake llvm optfeature virtualx xdg git-r3
+LLVM_COMPAT=( {15..19} )
+LLVM_OPTIONAL=1
+
+inherit cmake llvm-r1 optfeature virtualx xdg git-r3
 
 DESCRIPTION="Lightweight IDE for C++/QML development centering around Qt"
 HOMEPAGE="https://doc.qt.io/qtcreator/"
@@ -65,7 +67,12 @@ BDEPEND="
 "
 
 CDEPEND="
-	>=llvm-core/clang-${LLVM_MAX_SLOT}:=
+	clang? (
+		$(llvm_gen_dep '
+			llvm-core/clang:${LLVM_SLOT}=
+			llvm-core/llvm:${LLVM_SLOT}=
+		')
+	)
 	>=dev-qt/qtbase-${QT_PV}[concurrent,gui,network,sql,widgets,libproxy]
 	>=dev-qt/qtdeclarative-${QT_PV}
 	dev-qt/qt5compat
@@ -119,8 +126,8 @@ llvm_check_deps() {
 }
 
 pkg_setup() {
-	llvm_pkg_setup
-	export CLANG_PREFIX="$(get_llvm_prefix ${LLVM_MAX_SLOT})"
+	python-any-r1_pkg_setup
+	use clang && llvm-r1_pkg_setup
 }
 
 src_prepare() {
