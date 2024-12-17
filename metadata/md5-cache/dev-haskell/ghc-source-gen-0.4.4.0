@@ -12,5 +12,5 @@ RDEPEND=>=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.4.4.0
 SRC_URI=https://hackage.haskell.org/package/ghc-source-gen-0.4.4.0/ghc-source-gen-0.4.4.0.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	haskell-cabal	01be64da2d1124718f942ca9662ede50
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	01be64da2d1124718f942ca9662ede50
 _md5_=bea881f7e3edbfb614876ffdb686d5b7

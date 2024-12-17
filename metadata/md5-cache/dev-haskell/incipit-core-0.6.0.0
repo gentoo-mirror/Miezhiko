@@ -10,5 +10,5 @@ KEYWORDS=~amd64 ~x86
 RDEPEND=~dev-haskell/incipit-base-0.6.0.0:=[profile?] >=dev-haskell/polysemy-1.6:=[profile?] <dev-haskell/polysemy-1.10:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
 SLOT=0/0.6.0.0
 SRC_URI=https://hackage.haskell.org/package/incipit-core-0.6.0.0/incipit-core-0.6.0.0.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	haskell-cabal	01be64da2d1124718f942ca9662ede50
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	01be64da2d1124718f942ca9662ede50
 _md5_=40fd27f180fb3b2c310653b2371caa80

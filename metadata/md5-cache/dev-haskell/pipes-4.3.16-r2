@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/exceptions-0.4:=[profile?] <dev-haskell/exceptions-0.11:=[
 RESTRICT=!test? ( test )
 SLOT=0/4.3.16
 SRC_URI=https://hackage.haskell.org/package/pipes-4.3.16/pipes-4.3.16.tar.gz https://hackage.haskell.org/package/pipes-4.3.16/revision/6.cabal -> pipes-4.3.16-r2.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	haskell-cabal	01be64da2d1124718f942ca9662ede50
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	01be64da2d1124718f942ca9662ede50
 _md5_=427cd421be196c925a3853d4b6f8b7d0

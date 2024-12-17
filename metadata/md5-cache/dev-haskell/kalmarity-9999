@@ -9,5 +9,5 @@ LICENSE=AGPL-3
 PROPERTIES=live
 RDEPEND=>=dev-haskell/aeson-2.0.3.0:= >=dev-haskell/base-unicode-symbols-0.2:= >=dev-haskell/calamity-0.7.1.0:= >=dev-haskell/calamity-commands-0.4.0.0:= >=dev-haskell/conduit-1.3.4.1:= >=dev-haskell/data-flags-0.0.3.4:= >=dev-haskell/df1-0.4.1:= >=dev-haskell/di-1.3:= >=dev-haskell/di-core-1.0.4:= >=dev-haskell/di-polysemy-0.2:= >=dev-haskell/lens-5.2:= >=dev-haskell/monad-logger-0.3.39:= >=dev-haskell/optics-0.4.2:= >=dev-haskell/optparse-generic-1.4.9:= >=dev-haskell/polysemy-1.7.1.0:= >=dev-haskell/polysemy-plugin-0.4.3.1:= >=dev-haskell/polysemy-time-0.6.0.0:= >=dev-haskell/text-1.2.5:= >=dev-haskell/text-show-3.9.7:= >=dev-haskell/yaml-0.11.10.0:= dev-haskell/hw-kafka-client dev-haskell/pointfree >=dev-lang/ghc-9.2.4:=
 SLOT=0
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	haskell-cabal	01be64da2d1124718f942ca9662ede50	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	01be64da2d1124718f942ca9662ede50	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=8902b5985e0d772f2a38c670a693527b
