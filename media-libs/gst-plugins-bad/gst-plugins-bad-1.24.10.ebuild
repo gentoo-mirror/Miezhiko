@@ -41,8 +41,6 @@ RDEPEND="
 DEPEND="${RDEPEND}"
 BDEPEND="dev-util/glib-utils"
 
-DOCS=( AUTHORS ChangeLog NEWS README.md RELEASE )
-
 src_prepare() {
 	default
 	addpredict /dev # Prevent sandbox violations bug #570624
@@ -69,4 +67,26 @@ multilib_src_configure() {
 multilib_src_test() {
 	# Tests are slower than upstream expects
 	CK_DEFAULT_TIMEOUT=300 gstreamer_multilib_src_test
+}
+
+multilib_src_install() {
+	gstreamer-meson_src_install
+	# DELETE THINGS FOR media-plugins/gst-plugins-opencv (NO IDEA WHAT ELSE TO DO WITH IT)
+	rm     ${ED}/usr/$(get_libdir)/libgstmpegts-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstadaptivedemux-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgsturidownloader-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstplay-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstphotography-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstinsertbin-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstcodecs-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstwebrtc-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstisoff-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstcuda-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstcodecparsers-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstplayer-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstsctp-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstanalytics-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstbadaudio-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstmse-1.0.so.0.2410.0
+	rm     ${ED}/usr/$(get_libdir)/libgstbasecamerabinsrc-1.0.so.0.2410.0
 }
