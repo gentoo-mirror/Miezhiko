@@ -26,7 +26,7 @@ DEPEND="
 	>=dev-libs/gobject-introspection-1.49.1:=
 	>=dev-libs/gjs-1.82.0[cairo]
 	>=gui-libs/gtk-4:4[introspection]
-	>=x11-wm/mutter-47.0:0/15[introspection,test?]
+	>=x11-wm/mutter-47.3:0/15[introspection,test?]
 	>=sys-auth/polkit-0.120_p20220509[introspection]
 	>=gnome-base/gsettings-desktop-schemas-46_beta[introspection]
 	>=app-i18n/ibus-1.5.19
