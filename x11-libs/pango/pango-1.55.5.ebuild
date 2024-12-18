@@ -69,12 +69,6 @@ multilib_src_configure() {
 	meson_src_configure
 }
 
-multilib_src_install_all() {
-	insinto /usr/share/gtk-doc/html
-	# This will install PangoXft API docs regardless of USE=-X, but this is intentional
-	doins -r "${S}"/docs/Pango*
-}
-
 pkg_postinst() {
 	xdg_pkg_postinst
 

@@ -7,6 +7,9 @@ PYTHON_COMPAT=( python3_{10..13} )
 
 inherit gnome.org gnome2-utils linux-info meson-multilib multilib python-any-r1 toolchain-funcs xdg
 
+# NO XZ SOURCES FO RTHIS RELEASE NO IDEA WHY
+SRC_URI="https://gitlab.gnome.org/GNOME/glib/-/archive/2.83.1/glib-${PV}.tar.gz"
+
 DESCRIPTION="The GLib library of C routines"
 HOMEPAGE="https://www.gtk.org/"
 

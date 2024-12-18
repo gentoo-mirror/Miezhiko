@@ -10,6 +10,9 @@ DISTUTILS_SINGLE_IMPL=1
 
 inherit gnome.org distutils-r1
 
+# NO XZ SOURCES FO RTHIS RELEASE NO IDEA WHY
+SRC_URI="https://gitlab.gnome.org/GNOME/glib/-/archive/2.83.1/glib-${PV}.tar.gz"
+
 DESCRIPTION="GDBus code and documentation generator"
 HOMEPAGE="https://www.gtk.org/"
 
