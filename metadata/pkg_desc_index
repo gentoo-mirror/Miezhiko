@@ -2,6 +2,8 @@ acct-group/monero 0: System group: monero
 acct-group/ollama 0: System group: ollama
 acct-user/monero 0: System user: monero
 acct-user/ollama 0: System user for ollama
+app-accessibility/at-spi2-atk 2.54.0: Gtk module for bridging AT-SPI to Atk
+app-accessibility/at-spi2-core 2.54.0: D-Bus accessibility specifications and registration daemon
 app-alternatives/v2ray-geoip 0-r2: symlink for v2ray-geoip
 app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
 app-containers/snapd 2.66.1: Service and tools for management of snap packages
