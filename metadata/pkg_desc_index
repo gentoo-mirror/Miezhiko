@@ -217,7 +217,7 @@ gnome-base/gnome-control-center 47.0.1: GNOME's main interface to configure vari
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-session 47.0.1: Gnome session manager
 gnome-base/gnome-settings-daemon 47.1: Gnome Settings Daemon
-gnome-base/gnome-shell 47.0: Provides core UI functions for the GNOME desktop
+gnome-base/gnome-shell 47.2: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 47.1: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.56.0: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.59.2: Scalable Vector Graphics (SVG) rendering library
@@ -365,4 +365,4 @@ x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-themes/adwaita-icon-theme 47.0: GNOME default icon theme
 x11-themes/gnome-backgrounds 47.0: A set of backgrounds packaged with the GNOME desktop
 x11-wm/jwm 9999: JWM
-x11-wm/mutter 47.0: GNOME compositing window manager based on Clutter
+x11-wm/mutter 47.3: GNOME compositing window manager based on Clutter
