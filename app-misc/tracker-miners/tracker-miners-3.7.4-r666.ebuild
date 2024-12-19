@@ -156,16 +156,14 @@ src_configure() {
 		-Dgeneric_media_extractor=${media_extractor}
 		# gupnp gstreamer_backend is in bad state, upstream suggests to use discoverer, which is the default
 		-Dsystemd_user_services_dir="$(systemd_get_userunitdir)"
+		
+		-Dlandlock=disabled
 	)
 	meson_src_configure
 }
 
 src_install() {
 	meson_src_install
-	# NO TRACKER MINERS, keep only schemas and libs
-	rm -rf "${ED}"/etc/xdg/autostart
-	rm -rf "${ED}"/usr/lib
-	rm -rf "${ED}"/usr/libexec
 }
 
 src_test() {
