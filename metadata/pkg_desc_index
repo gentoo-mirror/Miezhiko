@@ -248,7 +248,7 @@ media-libs/gstreamer 1.24.10: Open source multimedia framework
 media-libs/imgui 1.89.9-r3 1.91.1: Bloat-free graphical user interface library for C++
 media-libs/implot 0.16-r2: Immediate Mode Plotting
 media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
-media-libs/mesa 24.3.1-r666: OpenGL-like graphic library for Linux
+media-libs/mesa 24.3.2-r666: OpenGL-like graphic library for Linux
 media-plugins/gst-plugins-a52dec 1.24.10: ATSC A/52 audio decoder plugin for GStreamer
 media-plugins/gst-plugins-adaptivedemux2 1.24.10: Adaptive demuxer plugins for Gstreamer
 media-plugins/gst-plugins-amr 1.24.10: AMRNB encoder/decoder and AMRWB decoder plugin for GStreamer
