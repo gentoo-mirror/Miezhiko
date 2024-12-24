@@ -366,6 +366,7 @@ sys-apps/nq 0.5: unix command line queue utility
 sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xdg-desktop-portal-gnome 47.1: Backend implementation for xdg-desktop-portal using GNOME
+sys-apps/xdg-desktop-portal-gtk 1.15.1: Backend implementation for xdg-desktop-portal using GTK+
 sys-apps/xe 1.0: simple xargs and apply replacement
 sys-devel/mold 2.35.1: A Modern Linker
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
