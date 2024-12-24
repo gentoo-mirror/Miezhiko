@@ -2,7 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-COMMIT=ecb29e7830037dd3ee618472c80b5e8eaecf1ce0
 
 PYTHON_COMPAT=( python3_{10..13} )
 
@@ -12,8 +11,8 @@ MY_P="${PN^}-v${PV}"
 
 DESCRIPTION="A GTK+ RDP, SPICE, VNC and SSH client"
 HOMEPAGE="https://remmina.org/"
-SRC_URI="https://gitlab.com/Remmina/Remmina/-/archive/${COMMIT}/Remmina-${COMMIT}.tar.bz2"
-S="${WORKDIR}/${PN^}-${COMMIT}"
+SRC_URI="https://gitlab.com/Remmina/Remmina/-/archive/v${PV}/${MY_P}.tar.bz2"
+S="${WORKDIR}/${PN^}-v${PV}"
 
 LICENSE="GPL-2+-with-openssl-exception"
 SLOT="0"
