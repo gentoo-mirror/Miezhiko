@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit systemd
+inherit systemd meson
 
 MY_PV="${PV//_pre*}"
 MY_P="${PN}-${MY_PV}"
@@ -38,22 +38,3 @@ RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/${MY_P}"
 
-src_configure() {
-	# As done in Fedora:
-	# All backends that are disabled are instead provided by
-	# xdg-desktop-portal-gnome to keep this package free of GNOME dependencies.
-	# The appchooser and settings backends are enabled for non-GNOME GTK
-	# applications.
-	local myeconfargs=(
-		--with-systemduserunitdir="$(systemd_get_userunitdir)"
-		--enable-appchooser
-		--enable-settings
-		--disable-background
-		--disable-lockdown
-		--disable-screencast
-		--disable-screenshot
-		--disable-wallpaper
-	)
-
-	econf "${myeconfargs[@]}"
-}
