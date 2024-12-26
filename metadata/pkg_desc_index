@@ -210,6 +210,7 @@ dev-util/cargo-dependency-inheritor 9999: Utility to inherit dependencies from w
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
 dev-util/easy-profiler 9999: Lightweight profiler library for c++
 dev-util/gdbus-codegen 2.83.2: GDBus code and documentation generator
+dev-util/glib-utils 2.83.2: Build utilities for GLib using projects
 dev-util/idris2-lsp 9999: Language Server for Idris2
 dev-util/idris2-lsp-lib 9999: Language Server for Idris2
 dev-util/lucky-commit 9999: Customize your git commit hashes!
@@ -366,7 +367,7 @@ sys-apps/nq 0.5: unix command line queue utility
 sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xdg-desktop-portal-gnome 47.1: Backend implementation for xdg-desktop-portal using GNOME
-sys-apps/xdg-desktop-portal-gtk 1.15.1: Backend implementation for xdg-desktop-portal using GTK+
+sys-apps/xdg-desktop-portal-gtk 1.15.1-r1: Backend implementation for xdg-desktop-portal using GTK+
 sys-apps/xe 1.0: simple xargs and apply replacement
 sys-devel/mold 2.35.1: A Modern Linker
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
