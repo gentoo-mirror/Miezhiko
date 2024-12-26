@@ -106,6 +106,7 @@ BDEPEND="
 		media-fonts/cantarell
 		wayland? ( dev-libs/weston[headless] )
 	)
+	dev-lang/sassc
 "
 
 PATCHES=(
