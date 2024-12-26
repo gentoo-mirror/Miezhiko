@@ -13,7 +13,6 @@ app-crypt/rpm-sequoia 1.7.0-r666: Implementation of the RPM PGP interface using 
 app-editors/gnome-text-editor 47.2: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.96.2: Multiplatform Visual Studio Code from Microsoft
-app-editors/zed 0.160.7-r666: The fast, collaborative code editor
 app-emulation/proton-ge-custom-bin 9.21: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-emulation/wine-proton 9999: Valve Software's fork of Wine
@@ -120,8 +119,6 @@ dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/gjs 1.82.1: Javascript bindings for GNOME
 dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
 dev-libs/glib 2.83.2: The GLib library of C routines
-dev-libs/gobject-introspection 1.82.0: Introspection system for GObject-based libraries
-dev-libs/gobject-introspection-common 1.82.0: Build infrastructure for GObject Introspection
 dev-libs/jsonrpc-glib 3.44.1: JSON-RPC library for GLib
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
@@ -320,7 +317,6 @@ media-plugins/gst-plugins-taglib 1.24.10: ID3v2/APEv2 tagger plugin for GStreame
 media-plugins/gst-plugins-twolame 1.24.10: MPEG2 encoder plugin for GStreamer
 media-plugins/gst-plugins-uvch264 1.24.10: UVC compliant H264 encoding cameras plugin for GStreamer
 media-plugins/gst-plugins-v4l2 1.24.10: plugin for gstreamer
-media-plugins/gst-plugins-vaapi 1.22.11-r1: Hardware accelerated video decoding through VA-API plugin for GStreamer
 media-plugins/gst-plugins-voaacenc 1.24.10: AAC encoder plugin for GStreamer
 media-plugins/gst-plugins-voamrwbenc 1.24.10: AMR-WB audio encoder plugin for GStreamer
 media-plugins/gst-plugins-vpx 1.24.10: VP8/VP9 video encoder/decoder plugin for GStreamer
