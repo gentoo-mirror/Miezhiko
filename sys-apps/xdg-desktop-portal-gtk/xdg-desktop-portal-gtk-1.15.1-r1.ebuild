@@ -38,3 +38,12 @@ RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/${MY_P}"
 
+src_configure() {
+	local emesonargs=(
+	    -Dsystemd-user-unit-dir="$(systemd_get_userunitdir)"
+		-Dsettings=enabled
+		-Dwallpaper=enabled
+		-Dlockdown=disabled
+	)
+	meson_src_configure
+}
