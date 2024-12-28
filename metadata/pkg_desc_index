@@ -13,7 +13,7 @@ app-crypt/rpm-sequoia 1.7.0-r666: Implementation of the RPM PGP interface using 
 app-editors/gnome-text-editor 47.2: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.96.2: Multiplatform Visual Studio Code from Microsoft
-app-emulation/proton-ge-custom-bin 9.21: A fancy custom distribution of Valves Proton with various patches
+app-emulation/proton-ge-custom-bin 9.22: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-emulation/wine-proton 9999: Valve Software's fork of Wine
 app-misc/crab 9999: a crab
