@@ -109,7 +109,7 @@ dev-java/sbt-bin 1.10.7: sbt, a build tool for Scala
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/ghc 9.8.2-r666: The Glasgow Haskell Compiler
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
-dev-lang/ocaml 5.2.1: Programming language supporting functional, imperative & object-oriented styles
+dev-lang/ocaml 5.3.0: Programming language supporting functional, imperative & object-oriented styles
 dev-lang/scala-bin 3.6.2-r2: The Scala Programming Language
 dev-libs/boost 1.85.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
@@ -171,7 +171,7 @@ dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
-dev-python/openai 1.58.1: Python client library for the OpenAI API
+dev-python/openai 1.59.5: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
@@ -347,7 +347,7 @@ net-proxy/Xray 1.8.23: Xray, Penetrates Everything. Also the best v2ray-core, wi
 net-proxy/v2ray 5.18.0: A platform for building proxies to bypass network restrictions.
 net-wireless/gnome-bluetooth 47.0: Bluetooth graphical utilities integrated with GNOME
 sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
-sci-libs/huggingface_hub 0.26.5: a client library to interact with the Hugging Face Hub
+sci-libs/huggingface_hub 0.27.1: a client library to interact with the Hugging Face Hub
 sci-libs/pydicom 2.4.4: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
