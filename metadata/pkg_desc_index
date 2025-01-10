@@ -107,7 +107,6 @@ dev-haskell/websockets 0.13.0.0: A sensible and clean way to write WebSocket-cap
 dev-haskell/wuss 2.0.1.9: Secure WebSocket (WSS) clients
 dev-java/sbt-bin 1.10.7: sbt, a build tool for Scala
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
-dev-lang/ghc 9.8.2-r666: The Glasgow Haskell Compiler
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.3.0: Programming language supporting functional, imperative & object-oriented styles
 dev-lang/scala-bin 3.6.2-r2: The Scala Programming Language
