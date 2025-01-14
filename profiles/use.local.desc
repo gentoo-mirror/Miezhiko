@@ -31,3 +31,5 @@ media-libs/opencv:testprograms - Build and install programs for testing OpenCV (
 media-libs/opencv:truetype - Enable media-libs/freetype support for gapi module
 media-libs/opencv:video_cards_intel - Enable Video Acceleration API for hardware decoding for Intel cards
 media-libs/opencv:vtk - Build new 3D visualization module viz based on sci-libs/vtk
+net-libs/glib-networking:gnome - Extract HTTP/HTTPS/SOCKS proxy configuration stored using GSettings
+net-libs/glib-networking:libproxy - Use net-libs/libproxy for getting the HTTP/HTTPS/SOCKS proxy configuration
