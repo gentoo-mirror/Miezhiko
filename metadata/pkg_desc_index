@@ -112,7 +112,7 @@ dev-lang/ocaml 5.3.0: Programming language supporting functional, imperative & o
 dev-lang/scala-bin 3.6.2-r2: The Scala Programming Language
 dev-libs/boost 1.85.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
-dev-libs/gjs 1.82.1: Javascript bindings for GNOME
+dev-libs/gjs 1.83.1: Javascript bindings for GNOME
 dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
 dev-libs/glib 2.83.2: The GLib library of C routines
 dev-libs/jsonrpc-glib 3.44.1: JSON-RPC library for GLib
@@ -211,11 +211,11 @@ dev-vcs/jj 9999: A Git-compatible DVCS that is both simple and powerful
 games-simulation/alchemy 9999: Alchemy SL Viewer
 games-util/mangohud 9999: Vulkan and OpenGL overlay for monitoring FPS, sensors, system load and more
 gnome-base/gdm 47.0: GNOME Display Manager for managing graphical display servers and user logins
-gnome-base/gnome-control-center 47.2: GNOME's main interface to configure various aspects of the desktop
+gnome-base/gnome-control-center 47.3: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-session 47.0.1: Gnome session manager
 gnome-base/gnome-settings-daemon 47.2: Gnome Settings Daemon
-gnome-base/gnome-shell 47.2: Provides core UI functions for the GNOME desktop
+gnome-base/gnome-shell 47.3: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 47.1: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.56.0: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.59.2: Scalable Vector Graphics (SVG) rendering library
@@ -230,7 +230,7 @@ gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
 gui-apps/gnome-console 47.1: A simple user-friendly terminal emulator for the GNOME desktop
 gui-libs/gtk 4.17.2-r1: GTK is a multi-platform toolkit for creating graphical user interfaces
 gui-libs/gtksourceview 5.14.2: A text widget implementing syntax highlighting and other features
-gui-libs/libadwaita 1.6.2: Building blocks for modern GNOME applications
+gui-libs/libadwaita 1.6.3: Building blocks for modern GNOME applications
 gui-libs/vte 0.78.2: Library providing a virtual terminal emulator widget
 gui-libs/vte-common 0.78.2: Library providing a virtual terminal emulator widget
 llvm-core/libclc 19.1.6-r666: OpenCL C library
@@ -247,7 +247,7 @@ net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord-canary-bin 0.0.506: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-libs/glib-networking 2.80.1: Network-related giomodules for glib
-net-libs/gnome-online-accounts 3.52.2: GNOME framework for accessing online accounts
+net-libs/gnome-online-accounts 3.53.0: GNOME framework for accessing online accounts
 net-libs/grpc 1.66.0: Modern open source high performance RPC framework
 net-libs/libsoup 3.4.5: HTTP client/server library for GNOME
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
@@ -284,9 +284,10 @@ sys-devel/mold 2.36.0: A Modern Linker
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
-x11-libs/pango 1.55.5: Internationalized text layout and rendering library
+x11-libs/pango 1.56.0: Internationalized text layout and rendering library
+x11-misc/xdg-user-dirs-gtk 0.12: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-themes/adwaita-icon-theme 47.0: GNOME default icon theme
 x11-themes/gnome-backgrounds 47.0: A set of backgrounds packaged with the GNOME desktop
 x11-wm/jwm 9999: JWM
-x11-wm/mutter 47.3: GNOME compositing window manager based on Clutter
+x11-wm/mutter 47.4: GNOME compositing window manager based on Clutter
