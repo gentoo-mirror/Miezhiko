@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=dev-lang/idris2 =dev-util/idris2-lsp-lib-9999
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=78d53cdc746bb911ff8f1fd3511c0c2a
+_md5_=9cdad1388fd03e60c22dd197b8aa1e47

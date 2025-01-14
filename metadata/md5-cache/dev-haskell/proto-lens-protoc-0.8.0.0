@@ -11,5 +11,5 @@ LICENSE=BSD
 RDEPEND=>=dev-haskell/ghc-paths-0.1:=[profile?] <dev-haskell/ghc-paths-0.2:=[profile?] >=dev-haskell/ghc-source-gen-0.4:=[profile?] <dev-haskell/ghc-source-gen-0.5:=[profile?] >=dev-haskell/lens-family-1.2:=[profile?] <dev-haskell/lens-family-2.2:=[profile?] >=dev-haskell/proto-lens-0.7:=[profile?] <dev-haskell/proto-lens-0.8:=[profile?] >=dev-haskell/proto-lens-runtime-0.7:=[profile?] <dev-haskell/proto-lens-runtime-0.8:=[profile?] >=dev-haskell/text-1.2:=[profile?] <dev-haskell/text-2.2:=[profile?] dev-lang/ghc:=[profile?]
 SLOT=0/0.8.0.0
 SRC_URI=https://hackage.haskell.org/package/proto-lens-protoc-0.8.0.0/proto-lens-protoc-0.8.0.0.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	01be64da2d1124718f942ca9662ede50
-_md5_=07284338702e39fa92731fc39d75d613
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	90c0a2ac16d7e6d581a37078c278d6dc	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	6de903b5a7fe66ebd51235a146cc3a48
+_md5_=b75ca7d5b3b1a03eca3827559418c519

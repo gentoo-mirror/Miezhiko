@@ -12,5 +12,5 @@ RDEPEND=>=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
 RESTRICT=!test? ( test )
 SLOT=0/0.4.0.0
 SRC_URI=https://hackage.haskell.org/package/monad-time-0.4.0.0/monad-time-0.4.0.0.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	01be64da2d1124718f942ca9662ede50
-_md5_=ac4b1301683b739da94ddc195b239942
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	90c0a2ac16d7e6d581a37078c278d6dc	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	6de903b5a7fe66ebd51235a146cc3a48
+_md5_=f66ffd9b03ca280c4286e06e6cbdd18a

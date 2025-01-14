@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/aeson-0.7:=[profile?] <dev-haskell/aeson-2.3:=[profile?] >
 RESTRICT=!test? ( test )
 SLOT=0/0.2.6.0
 SRC_URI=https://hackage.haskell.org/package/cborg-json-0.2.6.0/cborg-json-0.2.6.0.tar.gz https://hackage.haskell.org/package/cborg-json-0.2.6.0/revision/1.cabal -> cborg-json-0.2.6.0-rev1.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	01be64da2d1124718f942ca9662ede50
-_md5_=f76ea3afbfa3aa03c9499907c5e45243
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	90c0a2ac16d7e6d581a37078c278d6dc	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	6de903b5a7fe66ebd51235a146cc3a48
+_md5_=0dde6a189a331a240747b4b456b64c5c

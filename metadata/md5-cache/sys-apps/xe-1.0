@@ -6,4 +6,4 @@ KEYWORDS=~x86 ~amd64 ~arm
 LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/chneukirchen/xe/archive/v1.0.tar.gz -> xe-1.0.tar.gz
-_md5_=43bc9f6cc1eb4b9942c9ffd7ce95a2c3
+_md5_=9627ce3d22948368766d451dced64636

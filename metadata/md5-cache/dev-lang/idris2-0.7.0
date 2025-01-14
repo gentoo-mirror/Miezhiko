@@ -13,4 +13,4 @@ REQUIRED_USE=^^ ( chez racket )
 SLOT=0
 SRC_URI=https://github.com/idris-lang/Idris2/archive/v0.7.0.tar.gz -> idris2-0.7.0.tar.gz
 _eclasses_=toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96
-_md5_=c3a77b1183e86abe9e3adfbf884959c5
+_md5_=56b16901eabd6bed560b00d50e549483

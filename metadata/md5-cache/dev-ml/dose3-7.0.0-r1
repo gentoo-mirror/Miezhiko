@@ -13,4 +13,4 @@ RESTRICT=test
 SLOT=0/7.0.0
 SRC_URI=https://gitlab.com/irill/dose3/-/archive/7.0.0/dose3-7.0.0.tar.bz2
 _eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	1e32df7deee68372153dca65f4a7c21f	dune	21c2970666b517829dc7b963ca1f4a4a
-_md5_=15f988d600afbedd1ee547e537d83c82
+_md5_=da50d21c5c24a98d37b9c167177f05b4

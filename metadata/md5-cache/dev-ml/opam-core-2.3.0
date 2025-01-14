@@ -12,4 +12,4 @@ RDEPEND=dev-ml/ocamlgraph:= dev-ml/re:= dev-ml/opam-file-format:= dev-ml/cmdline
 SLOT=0/2.3.0
 SRC_URI=https://github.com/ocaml/opam/archive/2.3.0.tar.gz -> opam-2.3.0.tar.gz
 _eclasses_=opam	2d0e114062b346818f6d0fee5e0df656	edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	1e32df7deee68372153dca65f4a7c21f	dune	21c2970666b517829dc7b963ca1f4a4a
-_md5_=ec228e423118e88600638db2d59595aa
+_md5_=a8f0cd1f48ed6368468a5c7c975ec90e

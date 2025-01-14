@@ -13,4 +13,4 @@ RESTRICT=test
 SLOT=0/2.3.0
 SRC_URI=https://github.com/ocaml/opam/archive/2.3.0.tar.gz -> opam-2.3.0.tar.gz
 _eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	multiprocessing	1e32df7deee68372153dca65f4a7c21f	dune	21c2970666b517829dc7b963ca1f4a4a
-_md5_=eab7684c87f5a33067e4460dd99e6aaf
+_md5_=238cd40cf5e7daa00426a6a80171503a

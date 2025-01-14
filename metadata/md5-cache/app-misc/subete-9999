@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=dev-db/sqlite:*
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=048326b647046cc95dfcbb18eaafd165
+_md5_=cd8ec716f37838daa67769b1152be5c8

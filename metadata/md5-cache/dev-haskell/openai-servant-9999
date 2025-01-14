@@ -11,5 +11,5 @@ LICENSE=BSD
 PROPERTIES=live
 RDEPEND=dev-haskell/aeson:=[profile?] dev-haskell/casing:=[profile?] dev-haskell/mime-types:=[profile?] dev-haskell/servant:=[profile?] dev-haskell/servant-auth:=[profile?] dev-haskell/servant-auth-client:=[profile?] dev-haskell/servant-multipart-api:=[profile?] dev-haskell/text:=[profile?] dev-haskell/vector:=[profile?] >=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
 SLOT=0/9999
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	c81fd5949b09b47135437d6cbd3b1a56	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	01be64da2d1124718f942ca9662ede50	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=9c3fab642dcdb068e7fbaabcc1fe8f44
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	90c0a2ac16d7e6d581a37078c278d6dc	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	6de903b5a7fe66ebd51235a146cc3a48	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=4a4aebf8ff100a5d85f5af971424a7ad
