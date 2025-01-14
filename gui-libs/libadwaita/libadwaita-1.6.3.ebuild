@@ -1,4 +1,4 @@
-# Copyright 2022-2024 Gentoo Authors
+# Copyright 2022-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -59,8 +59,4 @@ src_test() {
 
 src_install() {
 	meson_src_install
-
-	insinto /usr/share/gtk-doc/html
-	# This will install libadwaita API docs unconditionally, but this is intentional
-	doins -r "${S}"/doc/libadwaita-1
 }
