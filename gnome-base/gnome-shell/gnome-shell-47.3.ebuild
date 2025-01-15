@@ -106,8 +106,10 @@ RDEPEND="${DEPEND}
 	ibus? ( >=app-i18n/ibus-1.5.26[gtk3,gtk4,introspection] )
 	media-fonts/cantarell
 
-	sys-apps/xdg-desktop-portal-gnome
+	|| (	sys-apps/xdg-desktop-portal-gnome
+		sys-apps/dbus-broker )
 "
+
 # avoid circular dependency, see bug #546134
 PDEPEND="
 	>=gnome-base/gdm-3.5[introspection(+)]
