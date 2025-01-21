@@ -3,7 +3,6 @@ acct-group/ollama 0: System group: ollama
 acct-user/monero 0: System user: monero
 acct-user/ollama 0: System user for ollama
 app-accessibility/at-spi2-atk 2.54.0: Gtk module for bridging AT-SPI to Atk
-app-accessibility/at-spi2-core 2.54.0: D-Bus accessibility specifications and registration daemon
 app-alternatives/v2ray-geoip 0-r2: symlink for v2ray-geoip
 app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
 app-containers/snapd 2.67: Service and tools for management of snap packages
@@ -29,7 +28,6 @@ app-misc/tracker-miners 3.7.4-r666: Collection of data extractors for Tracker/Ne
 app-misc/xmind 10.3.1 24.03.04745: A brainstorming and mind mapping software tool
 app-office/myoffice 1.28.0.4: office
 app-text/evince 46.3.1: Simple document viewer for GNOME
-app-text/libspelling 0.4.1: A GNOME library for spellchecking
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-haskell/T 9999: time tracker
@@ -263,7 +261,6 @@ net-p2p/monero 0.18.2.2: The secure, private, untraceable cryptocurrency
 net-p2p/monero-gui 0.18.2.2: GUI for net-p2p/monero
 net-proxy/Xray 1.8.23: Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
 net-proxy/v2ray 5.18.0: A platform for building proxies to bypass network restrictions.
-net-wireless/gnome-bluetooth 47.0: Bluetooth graphical utilities integrated with GNOME
 sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
 sci-libs/huggingface_hub 0.27.1: a client library to interact with the Hugging Face Hub
 sci-libs/pydicom 2.4.4: A pure python package for parsing DICOM files
