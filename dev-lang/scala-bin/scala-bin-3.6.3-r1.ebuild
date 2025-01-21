@@ -21,7 +21,7 @@ RDEPEND="
 	>=virtual/jre-1.8
 	!dev-lang/scala"
 
-S="${WORKDIR}"
+S="${WORKDIR}/scala3-${PV}-x86_64-pc-linux"
 
 src_prepare() {
 	default
