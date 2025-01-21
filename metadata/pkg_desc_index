@@ -11,8 +11,8 @@ app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents 
 app-crypt/rpm-sequoia 1.7.0-r666: Implementation of the RPM PGP interface using Sequoia
 app-editors/gnome-text-editor 47.2: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
-app-editors/vscode 1.96.3: Multiplatform Visual Studio Code from Microsoft
-app-emulation/proton-ge-custom-bin 9.22: A fancy custom distribution of Valves Proton with various patches
+app-editors/vscode 1.96.4: Multiplatform Visual Studio Code from Microsoft
+app-emulation/proton-ge-custom-bin 9.23: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-emulation/wine-proton 9999: Valve Software's fork of Wine
 app-misc/crab 9999: a crab
@@ -107,7 +107,7 @@ dev-java/sbt-bin 1.10.7: sbt, a build tool for Scala
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.3.0: Programming language supporting functional, imperative & object-oriented styles
-dev-lang/scala-bin 3.6.2-r2: The Scala Programming Language
+dev-lang/scala-bin 3.6.3: The Scala Programming Language
 dev-libs/boost 1.85.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/gjs 1.83.1: Javascript bindings for GNOME
@@ -168,7 +168,7 @@ dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
-dev-python/openai 1.59.7: Python client library for the OpenAI API
+dev-python/openai 1.59.9: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
@@ -266,7 +266,7 @@ sci-libs/huggingface_hub 0.27.1: a client library to interact with the Hugging F
 sci-libs/pydicom 2.4.4: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
-sci-libs/transformers 4.48.0-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+sci-libs/transformers 4.48.1-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-libs/vtk 9.1.0: The Visualization Toolkit
 sys-apps/baobab 47.0: Disk usage browser for GNOME
 sys-apps/lr 1.6: list files, recursively
