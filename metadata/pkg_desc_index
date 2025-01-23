@@ -128,7 +128,7 @@ dev-ml/0install-solver 2.18: SAT-based package dependency solver
 dev-ml/camlbz2 0.8.9999: OCaml bindings for libbz (AKA, bzip2)
 dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
 dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
-dev-ml/dune 3.17.1: A composable build system for OCaml
+dev-ml/dune 3.17.2: A composable build system for OCaml
 dev-ml/extlib 1.8.0-r1: Standard library extensions for O'Caml
 dev-ml/fmt 0.9.0: Combinators to devise OCaml Format pretty-printing functions
 dev-ml/opam 2.3.0: A source-based package manager for OCaml
