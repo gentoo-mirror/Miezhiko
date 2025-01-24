@@ -31,7 +31,6 @@ RDEPEND="
 	afp? ( >=dev-libs/libgcrypt-1.2.2:0= )
 	sys-apps/dbus
 	app-crypt/gcr:0=
-	net-libs/msgraph
 	policykit? (
 		>=sys-auth/polkit-0.114
 		sys-libs/libcap
@@ -134,6 +133,7 @@ src_configure() {
 		-Ddevel_utils=false
 		-Dinstalled_tests=false
 		-Dman=true
+		-Donedrive=false
 		-Dprivileged_group=wheel
 	)
 	meson_src_configure
