@@ -112,7 +112,7 @@ dev-libs/boost 1.85.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/gjs 1.83.2: Javascript bindings for GNOME
 dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
-dev-libs/glib 2.83.2: The GLib library of C routines
+dev-libs/glib 2.83.3: The GLib library of C routines
 dev-libs/jsonrpc-glib 3.44.1: JSON-RPC library for GLib
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
@@ -200,7 +200,7 @@ dev-util/cargo-check-deadlock 9999: Find deadlocks in Rust code with Petri net m
 dev-util/cargo-dependency-inheritor 9999: Utility to inherit dependencies from workspace
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
 dev-util/easy-profiler 9999: Lightweight profiler library for c++
-dev-util/gdbus-codegen 2.83.2: GDBus code and documentation generator
+dev-util/gdbus-codegen 2.83.3: GDBus code and documentation generator
 dev-util/glib-utils 2.83.2: Build utilities for GLib using projects
 dev-util/idris2-lsp 9999: Language Server for Idris2
 dev-util/idris2-lsp-lib 9999: Language Server for Idris2
@@ -215,7 +215,7 @@ gnome-base/gnome-session 47.0.1: Gnome session manager
 gnome-base/gnome-settings-daemon 47.2: Gnome Settings Daemon
 gnome-base/gnome-shell 47.3: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 47.1: Collection of GSettings schemas for GNOME desktop
-gnome-base/gvfs 1.56.0: Virtual filesystem implementation for GIO
+gnome-base/gvfs 1.57.1: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.59.2: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 47.1-r666: Default file manager for the GNOME desktop
 gnome-extra/evolution-data-server 3.55.1: Evolution groupware backend
