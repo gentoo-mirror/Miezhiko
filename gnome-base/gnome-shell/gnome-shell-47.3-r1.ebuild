@@ -7,11 +7,11 @@ PYTHON_COMPAT=( python3_{10..13} )
 inherit gnome.org gnome2-utils meson optfeature python-single-r1 virtualx xdg
 
 DESCRIPTION="Provides core UI functions for the GNOME desktop"
-HOMEPAGE="https://wiki.gnome.org/Projects/GnomeShell https://gitlab.gnome.org/GNOME/gnome-shell"
+HOMEPAGE="https://gitlab.gnome.org/GNOME/gnome-shell"
 
 LICENSE="GPL-2+ LGPL-2+"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~loong ~ppc64 ~riscv ~x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~loong ~riscv ~x86"
 
 IUSE="elogind gtk-doc +ibus +networkmanager pipewire systemd test"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}
@@ -22,14 +22,15 @@ RESTRICT="!test? ( test )"
 DEPEND="
 	>=gnome-extra/evolution-data-server-3.46.0:=
 	>=app-crypt/gcr-3.90.0:4=[introspection]
-	>=dev-libs/glib-2.82.1:2
+	>=dev-libs/glib-2.68:2
 	>=dev-libs/gobject-introspection-1.49.1:=
-	>=dev-libs/gjs-1.82.0[cairo]
+	>=dev-libs/gjs-1.73.1[cairo(+)]
 	>=gui-libs/gtk-4:4[introspection]
-	>=x11-wm/mutter-47.3:0/15[introspection,test?]
+	>=x11-wm/mutter-47.0:0/15[introspection,test?]
 	>=sys-auth/polkit-0.120_p20220509[introspection]
-	>=gnome-base/gsettings-desktop-schemas-46_beta[introspection]
+	>=gnome-base/gsettings-desktop-schemas-47_alpha[introspection]
 	>=app-i18n/ibus-1.5.19
+	dev-python/docutils
 	>=gnome-base/gnome-desktop-40.0:4=
 	networkmanager? (
 		>=net-misc/networkmanager-1.10.4[introspection]
@@ -109,7 +110,6 @@ RDEPEND="${DEPEND}
 	|| (	sys-apps/xdg-desktop-portal-gnome
 		sys-apps/dbus-broker )
 "
-
 # avoid circular dependency, see bug #546134
 PDEPEND="
 	>=gnome-base/gdm-3.5[introspection(+)]
@@ -154,6 +154,7 @@ src_configure() {
 		-Dman=true
 		$(meson_use test tests)
 		$(meson_use networkmanager)
+		$(meson_use networkmanager portal_helper)
 		$(meson_use systemd) # this controls journald integration and desktop file user services related property only as of 3.34.4
 		# (structured logging and having gnome-shell launched apps use its own identifier instead of gnome-session)
 		# suspend support is runtime optional via /run/systemd/seats presence and org.freedesktop.login1.Manager dbus interface; elogind should provide what's necessary
