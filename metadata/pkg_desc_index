@@ -105,6 +105,7 @@ dev-haskell/websockets 0.13.0.0: A sensible and clean way to write WebSocket-cap
 dev-haskell/wuss 2.0.1.9: Secure WebSocket (WSS) clients
 dev-java/sbt-bin 1.10.7: sbt, a build tool for Scala
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
+dev-lang/ghc 9.12.1-r1: The Glasgow Haskell Compiler
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.3.0: Programming language supporting functional, imperative & object-oriented styles
 dev-lang/scala-bin 3.6.3-r1: The Scala Programming Language
@@ -213,7 +214,7 @@ gnome-base/gnome-control-center 47.3: GNOME's main interface to configure variou
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-session 47.0.1: Gnome session manager
 gnome-base/gnome-settings-daemon 47.2: Gnome Settings Daemon
-gnome-base/gnome-shell 47.3: Provides core UI functions for the GNOME desktop
+gnome-base/gnome-shell 47.3-r1: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 47.1: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.57.1: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.59.2: Scalable Vector Graphics (SVG) rendering library
