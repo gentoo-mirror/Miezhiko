@@ -23,6 +23,7 @@ RDEPEND="dev-haskell/base-unicode-symbols:=[profile?]
 	dev-haskell/split
 	dev-haskell/parsec
 	dev-haskell/yaml
+	dev-haskell/async
 	>=dev-lang/ghc-8.0:=
 "
 DEPEND="${RDEPEND}
