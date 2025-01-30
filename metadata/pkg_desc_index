@@ -65,12 +65,10 @@ dev-haskell/http2-grpc-types 0.5.0.1-r16012024: Types for gRPC over HTTP2 common
 dev-haskell/hw-kafka-client 5.3.0: Kafka bindings for Haskell
 dev-haskell/incipit-base 0.5.1.0 0.6.0.0: A Prelude for Polysemy – Base Reexports
 dev-haskell/incipit-core 0.5.1.0 0.6.0.0: A Prelude for Polysemy
-dev-haskell/invariant 0.6.3: Haskell98 invariant functors
 dev-haskell/jose 0.10: JSON Object Signing and Encryption (JOSE) and JSON Web Token (JWT) library
 dev-haskell/kalmarity 9999: 
 dev-haskell/libyaml 0.1.4: Low-level, streaming YAML interface
 dev-haskell/libyaml-clib 0.2.5: libyaml clibs
-dev-haskell/lifted-async 0.10.2.5: Run lifted IO operations asynchronously and wait for their results
 dev-haskell/monad-time 0.4.0.0: Type class for monads which carry the notion of the current time
 dev-haskell/network-uri 2.7.0.0: URI manipulation
 dev-haskell/newtype-generics 0.6.2: A typeclass and set of functions for working with newtypes
@@ -97,7 +95,6 @@ dev-haskell/servant-foreign 0.16: Helpers for generating clients for servant API
 dev-haskell/servant-multipart 0.12.1: multipart/form-data (e.g file upload) support for servant
 dev-haskell/servant-multipart-api 0.12.1: multipart/form-data (e.g file upload) support for servant
 dev-haskell/servant-multipart-client 0.12.1 0.12.2: multipart/form-data (e.g file upload) support for servant
-dev-haskell/strict-list 0.1.7.4: Strict linked list
 dev-haskell/stylish-haskell 9999: Haskell code prettifier
 dev-haskell/time-parsers 0.2: Parsers for types in 'time'
 dev-haskell/tinkoff-invest-sdk 9999: gRPC based SDK for Tinkoff Invest API V2
