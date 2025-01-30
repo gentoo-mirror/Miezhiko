@@ -18,11 +18,18 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE=""
 
+CABAL_CHDEPS=(
+	'containers        >= 0.3    && < 0.7' 	'containers		>= 0.3'
+	'filepath          >= 1.1    && < 1.5' 	'filepath 		>=1.1'
+	'ghc-lib-parser >= 9.8 && < 9.9' 'ghc-lib-parser >= 9.8'
+	'ghc-lib-parser-ex >= 9.8 && < 9.9' 'ghc-lib-parser-ex >= 9.8'
+)
+
 RDEPEND="
 	>=dev-haskell/aeson-0.6:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
 	>=dev-haskell/cabal-3.4:=[profile?] <dev-haskell/cabal-5.0:=[profile?]
 	>=dev-haskell/file-embed-0.0.10:=[profile?] <dev-haskell/file-embed-0.1:=[profile?]
-	>=dev-haskell/ghc-lib-parser-ex-9.6:=[profile?] <dev-haskell/ghc-lib-parser-ex-9.9:=[profile?]
+	>=dev-haskell/ghc-lib-parser-ex-9.6:=[profile?] <dev-haskell/ghc-lib-parser-ex-10:=[profile?]
 	>=dev-haskell/hsyaml-0.2.0:=[profile?] <dev-haskell/hsyaml-0.4:=[profile?]
 	>=dev-haskell/hsyaml-aeson-0.2.0:=[profile?] <dev-haskell/hsyaml-aeson-0.4:=[profile?]
 	>=dev-haskell/optparse-applicative-0.12:=[profile?] <dev-haskell/optparse-applicative-0.20:=[profile?]
