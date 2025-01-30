@@ -34,12 +34,14 @@ dev-haskell/T 9999: time tracker
 dev-haskell/aeson-optics 1.2.1-r1: Law-abiding optics for aeson
 dev-haskell/authenticate-oauth 1.6.0.1-r2: Library to authenticate with OAuth for Haskell web applications
 dev-haskell/bitvec 1.1.5.0-r1: Space-efficient bit vectors
+dev-haskell/brick 2.7: A declarative terminal user interface library
 dev-haskell/bybit 9999: 
 dev-haskell/calamity-commands 0.4.1.0: A library for declaring, parsing, and invoking text-input based commands
 dev-haskell/casing 0.1.4.1: Convert between various source code casing conventions
 dev-haskell/cborg 0.2.10.0: Concise Binary Object Representation (CBOR)
 dev-haskell/cborg-json 0.2.6.0: A library for encoding JSON as CBOR
 dev-haskell/concise 0.1.0.1: Utilities for Control.Lens.Cons
+dev-haskell/config-ini 0.2.7.0: A library for simple INI-based configuration files
 dev-haskell/cpphs 1.20.9.1: A liberalised re-implementation of cpp, the C pre-processor
 dev-haskell/deepseq 1.6.0.0: Deep evaluation of data structures
 dev-haskell/deque 0.4.4.1: Double-ended queues
