@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=dev-haskell/extra:=[profile?] dev-haskell/optparse-applicative:=[profile?] >=dev-haskell/uniplate-1.5:=[profile?] >=dev-lang/ghc-9.0.2:= auto? ( >=dev-haskell/ghc-lib-parser-9.12:=[profile?] <dev-haskell/ghc-lib-parser-9.13:=[profile?] ) !auto? ( no-ghc-lib? ( >=dev-lang/ghc-9.12:=[profile?] <dev-lang/ghc-9.13:=[profile?] ) ) !no-ghc-lib? ( >=dev-haskell/ghc-lib-parser-9.12:=[profile?] <dev-haskell/ghc-lib-parser-9.13:=[profile?] ) >=dev-haskell/cabal-3.4.1.0 test? ( >=dev-haskell/extra-1.6 >=dev-haskell/tasty-1.2 >=dev-haskell/tasty-hunit-0.10.0 >=dev-haskell/uniplate-1.6.12 ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Programming with GHC parse trees
+EAPI=8
+HOMEPAGE=https://github.com/shayne-fletcher/ghc-lib-parser-ex#readme
+INHERIT=haskell-cabal
+IUSE=auto no-ghc-lib doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=dev-haskell/extra:=[profile?] dev-haskell/optparse-applicative:=[profile?] >=dev-haskell/uniplate-1.5:=[profile?] >=dev-lang/ghc-9.0.2:= auto? ( >=dev-haskell/ghc-lib-parser-9.12:=[profile?] <dev-haskell/ghc-lib-parser-9.13:=[profile?] ) !auto? ( no-ghc-lib? ( >=dev-lang/ghc-9.12:=[profile?] <dev-lang/ghc-9.13:=[profile?] ) ) !no-ghc-lib? ( >=dev-haskell/ghc-lib-parser-9.12:=[profile?] <dev-haskell/ghc-lib-parser-9.13:=[profile?] ) dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/9.12.0.0
+SRC_URI=https://hackage.haskell.org/package/ghc-lib-parser-ex-9.12.0.0/ghc-lib-parser-ex-9.12.0.0.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	90c0a2ac16d7e6d581a37078c278d6dc	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	6de903b5a7fe66ebd51235a146cc3a48
+_md5_=e8bd9d5375a6c7daa2bfe95c9ec24a22
