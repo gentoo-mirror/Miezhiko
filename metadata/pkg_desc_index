@@ -262,7 +262,7 @@ net-p2p/monero-gui 0.18.2.2: GUI for net-p2p/monero
 net-proxy/Xray 1.8.23: Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
 net-proxy/v2ray 5.18.0: A platform for building proxies to bypass network restrictions.
 sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
-sci-libs/huggingface_hub 0.27.1: a client library to interact with the Hugging Face Hub
+sci-libs/huggingface_hub 0.28.1: a client library to interact with the Hugging Face Hub
 sci-libs/pydicom 2.4.4: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
