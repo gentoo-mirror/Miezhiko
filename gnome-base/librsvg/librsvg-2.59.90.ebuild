@@ -4,6 +4,9 @@
 EAPI=8
 PYTHON_COMPAT=( python3_{10..13} )
 
+RUST_MIN_VER="1.71.1"
+RUST_MULTILIB=1
+
 inherit cargo gnome2 multilib-minimal python-any-r1 rust-toolchain vala meson git-r3
 
 DESCRIPTION="Scalable Vector Graphics (SVG) rendering library"
@@ -39,7 +42,6 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}"
 BDEPEND="
-	>=virtual/rust-1.70.0[${MULTILIB_USEDEP}]
 	x11-libs/gdk-pixbuf
 	${PYTHON_DEPS}
 	$(python_gen_any_dep 'dev-python/docutils[${PYTHON_USEDEP}]')
@@ -141,6 +143,11 @@ my_live_src_unpack() {
 	# But since we already vendored crates and symlinked git, it has all it needs to build.
 	unset CARGO_HOME
 	cargo_gen_config
+}
+
+pkg_setup() {
+	rust_pkg_setup
+	python-any-r1_pkg_setup
 }
 
 src_unpack() {
