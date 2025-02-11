@@ -5,8 +5,9 @@ acct-user/ollama 0: System user for ollama
 app-accessibility/at-spi2-atk 2.54.0: Gtk module for bridging AT-SPI to Atk
 app-alternatives/v2ray-geoip 0-r2: symlink for v2ray-geoip
 app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
+app-arch/file-roller 44.5: Archive manager for GNOME
 app-containers/snapd 2.67: Service and tools for management of snap packages
-app-crypt/gcr 4.3.0: Libraries for cryptographic UIs and accessing PKCS#11 modules
+app-crypt/gcr 4.3.91: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-crypt/rpm-sequoia 1.7.0-r666: Implementation of the RPM PGP interface using Sequoia
 app-editors/gnome-text-editor 47.3: A simple text editor for the GNOME desktop
@@ -217,9 +218,9 @@ gnome-base/gnome-settings-daemon 47.2: Gnome Settings Daemon
 gnome-base/gnome-shell 47.3-r1: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 47.1: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.57.1: Virtual filesystem implementation for GIO
-gnome-base/librsvg 2.59.2: Scalable Vector Graphics (SVG) rendering library
+gnome-base/librsvg 2.59.90: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 47.1-r666: Default file manager for the GNOME desktop
-gnome-extra/evolution-data-server 3.55.1: Evolution groupware backend
+gnome-extra/evolution-data-server 3.55.2: Evolution groupware backend
 gnome-extra/gnome-calculator 47.1: A calculator application for GNOME
 gnome-extra/gnome-calendar 47.0: Manage your calendars with simple and modern interface
 gnome-extra/gnome-system-monitor 47.0: The Gnome System Monitor
@@ -229,7 +230,7 @@ gui-apps/gnome-console 47.1: A simple user-friendly terminal emulator for the GN
 gui-libs/gtk 4.17.3: GTK is a multi-platform toolkit for creating graphical user interfaces
 gui-libs/gtksourceview 5.14.2: A text widget implementing syntax highlighting and other features
 gui-libs/libadwaita 1.6.3: Building blocks for modern GNOME applications
-mail-client/evolution 3.55.1: Integrated mail, addressbook and calendaring functionality
+mail-client/evolution 3.55.2: Integrated mail, addressbook and calendaring functionality
 media-fonts/lato 2: Lato font
 media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
 media-libs/imgui 1.89.9-r3 1.91.1: Bloat-free graphical user interface library for C++
