@@ -12,5 +12,5 @@ RDEPEND=>=dev-haskell/base-compat-0.10.5:=[profile?] <dev-haskell/base-compat-0.
 RESTRICT=!test? ( test )
 SLOT=0/0.16
 SRC_URI=https://hackage.haskell.org/package/servant-foreign-0.16/servant-foreign-0.16.tar.gz https://hackage.haskell.org/package/servant-foreign-0.16/revision/2.cabal -> servant-foreign-0.16-rev2.cabal
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	90c0a2ac16d7e6d581a37078c278d6dc	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	haskell-cabal	6de903b5a7fe66ebd51235a146cc3a48
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	90c0a2ac16d7e6d581a37078c278d6dc	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	6de903b5a7fe66ebd51235a146cc3a48
 _md5_=f6aadc35805ed6de3999058022b4a291
