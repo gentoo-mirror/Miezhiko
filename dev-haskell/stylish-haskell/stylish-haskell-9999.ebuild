@@ -18,11 +18,13 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE=""
 
+#CABAL_CHDEPS=(
+#	'containers        >= 0.3    && < 0.7' 	'containers		>= 0.3'
+#	'filepath          >= 1.1    && < 1.5' 	'filepath 		>=1.1'
+
 CABAL_CHDEPS=(
-	'containers        >= 0.3    && < 0.7' 	'containers		>= 0.3'
-	'filepath          >= 1.1    && < 1.5' 	'filepath 		>=1.1'
-	'ghc-lib-parser >= 9.8 && < 9.9' 'ghc-lib-parser >= 9.8'
-	'ghc-lib-parser-ex >= 9.8 && < 9.9' 'ghc-lib-parser-ex >= 9.8'
+	'ghc-lib-parser >= 9.8 && < 9.11' 'ghc-lib-parser >= 9.8'
+	'ghc-lib-parser-ex >= 9.8 && < 9.11' 'ghc-lib-parser-ex >= 9.8'
 )
 
 RDEPEND="
