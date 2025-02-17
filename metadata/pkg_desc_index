@@ -6,7 +6,7 @@ app-accessibility/at-spi2-atk 2.54.0: Gtk module for bridging AT-SPI to Atk
 app-alternatives/v2ray-geoip 0-r2: symlink for v2ray-geoip
 app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
 app-arch/file-roller 44.5: Archive manager for GNOME
-app-containers/snapd 2.67: Service and tools for management of snap packages
+app-containers/snapd 2.67.1: Service and tools for management of snap packages
 app-crypt/gcr 4.3.91: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-crypt/rpm-sequoia 1.7.0-r666: Implementation of the RPM PGP interface using Sequoia
@@ -20,7 +20,7 @@ app-misc/crab 9999: a crab
 app-misc/cryptowatch 0.5.0: fast & furious
 app-misc/hidamari 9999: Video wallpaper for Linux.
 app-misc/hodl 9999: hodl
-app-misc/ollama-bin 0.5.7: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
+app-misc/ollama-bin 0.5.11: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/subete 9999: subete
 app-misc/tinysparql 3.8.2: A tagging metadata database, search tool and indexer
