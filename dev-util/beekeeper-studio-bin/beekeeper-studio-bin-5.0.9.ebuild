@@ -40,7 +40,7 @@ RDEPEND="app-accessibility/at-spi2-atk:2[${MULTILIB_USEDEP}]
   x11-libs/libXScrnSaver:0[${MULTILIB_USEDEP}]
   x11-libs/libXtst:0[${MULTILIB_USEDEP}]
   x11-libs/pango:0[${MULTILIB_USEDEP}]
-  appindicator? ( dev-libs/libappindicator:3[${MULTILIB_USEDEP}] )"
+  appindicator? ( dev-libs/libappindicator:2[${MULTILIB_USEDEP}] )"
 
 S="${WORKDIR}"
 
