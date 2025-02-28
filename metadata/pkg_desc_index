@@ -65,7 +65,6 @@ dev-haskell/http2-client-grpc 0.8.0.1-r16012024: Implement gRPC-over-HTTP2 clien
 dev-haskell/http2-grpc-proto-lens 0.1.0.1-r16012024: Encoders based on 'proto-lens' for gRPC over HTTP2
 dev-haskell/http2-grpc-types 0.5.0.1-r16012024: Types for gRPC over HTTP2 common for client and servers
 dev-haskell/hw-kafka-client 5.3.0: Kafka bindings for Haskell
-dev-haskell/incipit-core 0.5.1.0 0.6.0.0: A Prelude for Polysemy
 dev-haskell/jose 0.10: JSON Object Signing and Encryption (JOSE) and JSON Web Token (JWT) library
 dev-haskell/kalmarity 9999: 
 dev-haskell/libyaml 0.1.4: Low-level, streaming YAML interface
