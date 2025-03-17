@@ -55,10 +55,6 @@ BDEPEND="
 	)
 "
 
-PATCHES=(
-	"${FILESDIR}"/${P}-clang-glibc-2.41.patch
-)
-
 pkg_setup() {
 	python-single-r1_pkg_setup
 }
