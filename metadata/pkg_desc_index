@@ -10,7 +10,7 @@ app-containers/snapd 2.67.1: Service and tools for management of snap packages
 app-crypt/gcr 4.3.91: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-crypt/rpm-sequoia 1.7.0-r666: Implementation of the RPM PGP interface using Sequoia
-app-editors/gnome-text-editor 47.3: A simple text editor for the GNOME desktop
+app-editors/gnome-text-editor 48.0: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.97.2: Multiplatform Visual Studio Code from Microsoft
 app-emulation/proton-ge-custom-bin 9.25: A fancy custom distribution of Valves Proton with various patches
@@ -28,7 +28,7 @@ app-misc/tracker 3.7.2: A tagging metadata database, search tool and indexer
 app-misc/tracker-miners 3.7.4-r666: Collection of data extractors for Tracker/Nepomuk
 app-misc/xmind 10.3.1 24.03.04745: A brainstorming and mind mapping software tool
 app-office/myoffice 1.28.0.4: office
-app-text/evince 46.3.1: Simple document viewer for GNOME
+app-text/evince 48.0: Simple document viewer for GNOME
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-haskell/T 9999: time tracker
@@ -102,7 +102,7 @@ dev-haskell/typerep-map 0.6.0.0-r2: Efficient implementation of a dependent map 
 dev-haskell/unboxing-vector 0.2.0.0: A newtype-friendly variant of unboxed vectors
 dev-haskell/websockets 0.13.0.0: A sensible and clean way to write WebSocket-capable servers in Haskell
 dev-haskell/wuss 2.0.2.2: Secure WebSocket (WSS) clients
-dev-java/sbt-bin 1.10.7: sbt, a build tool for Scala
+dev-java/sbt-bin 1.10.11: sbt, a build tool for Scala
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/ghc 9.12.1-r1: The Glasgow Haskell Compiler
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
@@ -112,6 +112,8 @@ dev-libs/boost 1.85.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/gjs 1.83.4: Javascript bindings for GNOME
 dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
+dev-libs/gobject-introspection 1.84.0: Introspection system for GObject-based libraries
+dev-libs/gobject-introspection-common 1.84.0: Build infrastructure for GObject Introspection
 dev-libs/jsonrpc-glib 3.44.1: JSON-RPC library for GLib
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
@@ -210,7 +212,7 @@ gnome-base/gnome-control-center 47.3: GNOME's main interface to configure variou
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-session 47.0.1: Gnome session manager
 gnome-base/gnome-settings-daemon 47.2: Gnome Settings Daemon
-gnome-base/gnome-shell 47.4: Provides core UI functions for the GNOME desktop
+gnome-base/gnome-shell 48.0: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 47.1: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.57.2: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.59.90: Scalable Vector Graphics (SVG) rendering library
@@ -218,13 +220,13 @@ gnome-base/nautilus 48.0-r666: Default file manager for the GNOME desktop
 gnome-extra/evolution-data-server 3.55.2: Evolution groupware backend
 gnome-extra/gnome-calculator 47.1: A calculator application for GNOME
 gnome-extra/gnome-calendar 47.0: Manage your calendars with simple and modern interface
-gnome-extra/gnome-system-monitor 47.1: The Gnome System Monitor
+gnome-extra/gnome-system-monitor 48.0: The Gnome System Monitor
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
 gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
-gui-apps/gnome-console 47.1: A simple user-friendly terminal emulator for the GNOME desktop
+gui-apps/gnome-console 48.0.1: A simple user-friendly terminal emulator for the GNOME desktop
 gui-libs/gtk 4.18.2: GTK is a multi-platform toolkit for creating graphical user interfaces
 gui-libs/gtksourceview 5.14.2: A text widget implementing syntax highlighting and other features
-gui-libs/libadwaita 1.6.4: Building blocks for modern GNOME applications
+gui-libs/libadwaita 1.7.0: Building blocks for modern GNOME applications
 mail-client/evolution 3.55.2: Integrated mail, addressbook and calendaring functionality
 media-fonts/lato 2: Lato font
 media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
@@ -275,10 +277,10 @@ virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-base/xwayland 24.1.6-r666: Standalone X server running under Wayland
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-libs/libnotify 0.8.4: A library for sending desktop notifications
-x11-libs/pango 1.56.1: Internationalized text layout and rendering library
+x11-libs/pango 1.56.3: Internationalized text layout and rendering library
 x11-misc/xdg-user-dirs-gtk 0.14: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-themes/adwaita-icon-theme 47.0: GNOME default icon theme
 x11-themes/gnome-backgrounds 47.0: A set of backgrounds packaged with the GNOME desktop
 x11-wm/jwm 9999: JWM
-x11-wm/mutter 47.5: GNOME compositing window manager based on Clutter
+x11-wm/mutter 48.0: GNOME compositing window manager based on Clutter
