@@ -112,7 +112,6 @@ dev-libs/boost 1.85.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/gjs 1.83.4: Javascript bindings for GNOME
 dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
-dev-libs/glib 2.83.4: The GLib library of C routines
 dev-libs/jsonrpc-glib 3.44.1: JSON-RPC library for GLib
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
@@ -200,8 +199,6 @@ dev-util/cargo-check-deadlock 9999: Find deadlocks in Rust code with Petri net m
 dev-util/cargo-dependency-inheritor 9999: Utility to inherit dependencies from workspace
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
 dev-util/easy-profiler 9999: Lightweight profiler library for c++
-dev-util/gdbus-codegen 2.83.4: GDBus code and documentation generator
-dev-util/glib-utils 2.83.2: Build utilities for GLib using projects
 dev-util/idris2-lsp 9999: Language Server for Idris2
 dev-util/idris2-lsp-lib 9999: Language Server for Idris2
 dev-util/lucky-commit 9999: Customize your git commit hashes!
@@ -273,12 +270,10 @@ sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xdg-desktop-portal-gnome 47.3: Backend implementation for xdg-desktop-portal using GNOME
 sys-apps/xdg-desktop-portal-gtk 1.15.1-r1: Backend implementation for xdg-desktop-portal using GTK+
 sys-apps/xe 1.0: simple xargs and apply replacement
-sys-devel/mold 2.36.0: A Modern Linker
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-base/xwayland 24.1.6-r666: Standalone X server running under Wayland
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
-x11-libs/gtk+ 3.24.48: Gimp ToolKit +
 x11-libs/libnotify 0.8.4: A library for sending desktop notifications
 x11-libs/pango 1.56.1: Internationalized text layout and rendering library
 x11-misc/xdg-user-dirs-gtk 0.14: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
