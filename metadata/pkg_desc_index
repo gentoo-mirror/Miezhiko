@@ -218,7 +218,7 @@ gnome-base/gnome-settings-daemon 47.2: Gnome Settings Daemon
 gnome-base/gnome-shell 48.0: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 47.1: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.57.2: Virtual filesystem implementation for GIO
-gnome-base/librsvg 2.59.90: Scalable Vector Graphics (SVG) rendering library
+gnome-base/librsvg 2.59.91: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 48.0-r666: Default file manager for the GNOME desktop
 gnome-extra/evolution-data-server 3.56.0: Evolution groupware backend
 gnome-extra/gnome-calculator 47.1: A calculator application for GNOME
