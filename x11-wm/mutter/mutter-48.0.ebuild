@@ -169,7 +169,6 @@ src_configure() {
 		-Dglx=true
 		$(meson_use wayland)
 		$(meson_use wayland xwayland)
-		$(meson_use systemd)
 		$(meson_use wayland native_backend)
 		$(meson_use screencast remote_desktop)
 		$(meson_use gnome libgnome_desktop)
