@@ -45,7 +45,9 @@ src_configure() {
 
 		-Dprofiling=false
 		$(meson_feature introspection)
-		$(meson_use vala vapi)
+		# broken?
+		#$(meson_use vala vapi)
+		-Dvapi=false
 		-Dgtk_doc=false # we ship pregenerated docs
 		$(meson_use test tests)
 		-Dexamples=false
