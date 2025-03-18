@@ -33,6 +33,7 @@ BDEPEND="
 	>=sys-devel/gettext-0.19.8
 	virtual/pkgconfig
 	>=sys-auth/polkit-0.114
+	>=dev-cpp/catch-2
 " # polkit needed at buildtime for ITS rules of policy files, first available in 0.114
 
 src_configure() {
