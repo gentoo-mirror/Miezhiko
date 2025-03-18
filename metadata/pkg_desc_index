@@ -109,6 +109,7 @@ dev-lang/ghc 9.12.1-r1: The Glasgow Haskell Compiler
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.3.0: Programming language supporting functional, imperative & object-oriented styles
 dev-lang/scala-bin 3.6.4: The Scala Programming Language
+dev-lang/vala 0.56.18: Compiler for the GObject type system
 dev-libs/boost 1.85.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/gjs 1.83.90: Javascript bindings for GNOME
@@ -126,6 +127,7 @@ dev-libs/randomx 1.1.9: Proof of work algorithm based on random code execution
 dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
 dev-libs/v2ray-domain-list-community 20240817092737: Community managed domain list for V2Ray.
 dev-libs/v2ray-geoip 202408220047: GeoIP for V2Ray.
+dev-libs/vala-common 0.56.18: Build infrastructure for packages that use Vala
 dev-ml/0install-solver 2.18: SAT-based package dependency solver
 dev-ml/camlbz2 0.8.9999: OCaml bindings for libbz (AKA, bzip2)
 dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
