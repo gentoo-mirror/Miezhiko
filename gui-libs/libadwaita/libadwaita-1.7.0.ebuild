@@ -4,6 +4,8 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
+VALA_MIN_API_VERSION="0.56"
+
 inherit gnome.org meson python-any-r1 vala virtualx
 
 DESCRIPTION="Building blocks for modern GNOME applications"
@@ -27,7 +29,7 @@ DEPEND="${RDEPEND}
 	x11-base/xorg-proto"
 BDEPEND="
 	${PYTHON_DEPS}
-	vala? ( $(vala_depend) )
+	vala? ( >=dev-lang/vala-0.56.18 )
 	dev-util/glib-utils
 	sys-devel/gettext
 	virtual/pkgconfig

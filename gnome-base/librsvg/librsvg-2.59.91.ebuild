@@ -6,6 +6,7 @@ PYTHON_COMPAT=( python3_{10..13} )
 
 RUST_MIN_VER="1.71.1"
 RUST_MULTILIB=1
+VALA_MIN_API_VERSION="0.56"
 
 inherit cargo gnome2 multilib-minimal python-any-r1 rust-toolchain vala meson git-r3
 
@@ -47,7 +48,7 @@ BDEPEND="
 	$(python_gen_any_dep 'dev-python/docutils[${PYTHON_USEDEP}]')
 	gtk-doc? ( dev-util/gi-docgen )
 	virtual/pkgconfig
-	vala? ( $(vala_depend) )
+	vala? ( >=dev-lang/vala-0.56.18 )
 
 	dev-libs/gobject-introspection-common
 	dev-libs/vala-common
