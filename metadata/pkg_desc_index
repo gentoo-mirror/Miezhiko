@@ -221,6 +221,7 @@ gnome-base/nautilus 48.0-r666: Default file manager for the GNOME desktop
 gnome-extra/evolution-data-server 3.56.0: Evolution groupware backend
 gnome-extra/gnome-calculator 47.1: A calculator application for GNOME
 gnome-extra/gnome-calendar 47.0: Manage your calendars with simple and modern interface
+gnome-extra/gnome-shell-extensions 48.0: JavaScript extensions for GNOME Shell
 gnome-extra/gnome-system-monitor 48.0: The Gnome System Monitor
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
 gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
