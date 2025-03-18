@@ -41,7 +41,6 @@ BDEPEND="
 
 src_configure() {
 	local emesonargs=(
-		$(meson_feature spell enchant)
 		-Dbugreport_url="https://bugs.gentoo.org"
 	)
 	meson_src_configure
