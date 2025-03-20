@@ -216,7 +216,7 @@ gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications
 gnome-base/gnome-session 47.0.1: Gnome session manager
 gnome-base/gnome-settings-daemon 48.0: Gnome Settings Daemon
 gnome-base/gnome-shell 48.0: Provides core UI functions for the GNOME desktop
-gnome-base/gsettings-desktop-schemas 47.1: Collection of GSettings schemas for GNOME desktop
+gnome-base/gsettings-desktop-schemas 48.0: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.57.2: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.59.91: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 48.0-r666: Default file manager for the GNOME desktop
@@ -273,8 +273,6 @@ sys-apps/lsd 9999: An ls command with a lot of pretty colors and some other stuf
 sys-apps/nq 0.5: unix command line queue utility
 sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
-sys-apps/xdg-desktop-portal-gnome 48.0: Backend implementation for xdg-desktop-portal using GNOME
-sys-apps/xdg-desktop-portal-gtk 1.15.1-r1: Backend implementation for xdg-desktop-portal using GTK+
 sys-apps/xe 1.0: simple xargs and apply replacement
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
