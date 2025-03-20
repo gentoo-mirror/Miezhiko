@@ -219,11 +219,11 @@ gnome-base/gnome-settings-daemon 48.0: Gnome Settings Daemon
 gnome-base/gnome-shell 48.0: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 48.0: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.57.2: Virtual filesystem implementation for GIO
-gnome-base/librsvg 2.59.91: Scalable Vector Graphics (SVG) rendering library
+gnome-base/librsvg 2.60.0: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 48.0-r666: Default file manager for the GNOME desktop
 gnome-extra/evolution-data-server 3.56.0: Evolution groupware backend
 gnome-extra/gnome-calculator 47.1: A calculator application for GNOME
-gnome-extra/gnome-calendar 47.0: Manage your calendars with simple and modern interface
+gnome-extra/gnome-calendar 48.1: Manage your calendars with simple and modern interface
 gnome-extra/gnome-shell-extensions 48.0: JavaScript extensions for GNOME Shell
 gnome-extra/gnome-system-monitor 48.0: The Gnome System Monitor
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
