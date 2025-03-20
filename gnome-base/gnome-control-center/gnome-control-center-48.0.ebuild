@@ -43,7 +43,7 @@ DEPEND="
 	>=gnome-base/gnome-settings-daemon-47.1[colord,input_devices_wacom?]
 	>=gnome-base/gsettings-desktop-schemas-48
 	dev-libs/libxml2:2
-	>=sys-power/upower-0.99.8:=
+	>=sys-power/upower-1.90.6:=
 	>=dev-libs/libgudev-232
 	>=x11-libs/libX11-1.8
 	>=x11-libs/libXi-1.2
