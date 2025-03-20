@@ -134,6 +134,7 @@ BDEPEND="
 		>=sys-kernel/linux-headers-4.4
 		x11-libs/libxcvt
 	)
+	dev-python/argcomplete
 "
 
 PATCHES=(
