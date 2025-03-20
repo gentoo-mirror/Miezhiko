@@ -20,11 +20,6 @@ BDEPEND="
 	virtual/pkgconfig
 "
 
-PATCHES=(
-	# Revert change to 'Source Code Pro 10' and 'Cantarell 11' fonts back to generic sans and monospace aliases
-	"${FILESDIR}"/3.32.0-default-fonts.patch
-)
-
 src_configure() {
 	local emesonargs=(
 		$(meson_use introspection)
