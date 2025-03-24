@@ -232,6 +232,7 @@ gui-libs/gtk 4.18.2: GTK is a multi-platform toolkit for creating graphical user
 gui-libs/gtksourceview 5.16.0: A text widget implementing syntax highlighting and other features
 gui-libs/libadwaita 1.7.0: Building blocks for modern GNOME applications
 mail-client/evolution 3.56.0: Integrated mail, addressbook and calendaring functionality
+media-fonts/adwaita-fonts 48.2: Adwaita fonts, the default font set for GNOME
 media-fonts/lato 2: Lato font
 media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
 media-libs/imgui 1.89.9-r3 1.91.1: Bloat-free graphical user interface library for C++
