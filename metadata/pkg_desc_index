@@ -172,7 +172,7 @@ dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
-dev-python/openai 1.69.0: Python client library for the OpenAI API
+dev-python/openai 1.70.0: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
@@ -268,7 +268,7 @@ sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files int
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
 sci-libs/transformers 4.50.3-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-libs/vtk 9.1.0: The Visualization Toolkit
-sci-ml/huggingface_hub 0.29.3: a client library to interact with the Hugging Face Hub
+sci-ml/huggingface_hub 0.30.1: a client library to interact with the Hugging Face Hub
 sys-apps/baobab 48.0: Disk usage browser for GNOME
 sys-apps/lr 1.6: list files, recursively
 sys-apps/lsd 9999: An ls command with a lot of pretty colors and some other stuff.
