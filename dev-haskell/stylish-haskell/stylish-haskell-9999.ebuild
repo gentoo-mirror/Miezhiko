@@ -10,8 +10,8 @@ inherit haskell-cabal git-r3
 
 DESCRIPTION="Haskell code prettifier"
 HOMEPAGE="https://github.com/haskell/stylish-haskell"
-EGIT_REPO_URI="https://github.com/Masha/stylish-haskell.git"
-EGIT_BRANCH="mawa"
+EGIT_REPO_URI="https://github.com/GuillaumedeVolpiano/stylish-haskell.git"
+EGIT_BRANCH="ghc9.12"
 
 LICENSE="BSD"
 SLOT="0/${PV}"
@@ -19,13 +19,9 @@ KEYWORDS="~amd64"
 IUSE=""
 
 #CABAL_CHDEPS=(
-#	'containers        >= 0.3    && < 0.7' 	'containers		>= 0.3'
-#	'filepath          >= 1.1    && < 1.5' 	'filepath 		>=1.1'
-
-CABAL_CHDEPS=(
-	'ghc-lib-parser >= 9.8 && < 9.11' 'ghc-lib-parser >= 9.8'
-	'ghc-lib-parser-ex >= 9.8 && < 9.11' 'ghc-lib-parser-ex >= 9.8'
-)
+#	'ghc-lib-parser >= 9.8 && < 9.11' 'ghc-lib-parser >= 9.8'
+#	'ghc-lib-parser-ex >= 9.8 && < 9.11' 'ghc-lib-parser-ex >= 9.8'
+#)
 
 RDEPEND="
 	>=dev-haskell/aeson-0.6:=[profile?] <dev-haskell/aeson-2.3:=[profile?]
