@@ -20,7 +20,7 @@ app-misc/crab 9999: a crab
 app-misc/cryptowatch 0.5.0: fast & furious
 app-misc/hidamari 9999: Video wallpaper for Linux.
 app-misc/hodl 9999: hodl
-app-misc/ollama-bin 0.6.4: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
+app-misc/ollama-bin 0.6.5: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/subete 9999: subete
 app-misc/tinysparql 3.8.2: A tagging metadata database, search tool and indexer
@@ -119,7 +119,7 @@ dev-libs/jsonrpc-glib 3.44.1: JSON-RPC library for GLib
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
 dev-libs/libndofdev 0.13: Replacement for the libndofdev library used by the Second Life client to handle joysticks and the 6DOF devices on Windows and Macs.
-dev-libs/libxml2 2.14.0: XML C parser and toolkit
+dev-libs/libxml2 2.14.1: XML C parser and toolkit
 dev-libs/nsync 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ocl-icd 2.3.1-r1: Alternative to vendor specific OpenCL ICD loaders
 dev-libs/olm 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
@@ -229,7 +229,7 @@ gnome-extra/gnome-system-monitor 48.0: The Gnome System Monitor
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
 gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
 gui-apps/gnome-console 48.0.1: A simple user-friendly terminal emulator for the GNOME desktop
-gui-libs/gtk 4.18.3: GTK is a multi-platform toolkit for creating graphical user interfaces
+gui-libs/gtk 4.19.0: GTK is a multi-platform toolkit for creating graphical user interfaces
 gui-libs/gtksourceview 5.16.0: A text widget implementing syntax highlighting and other features
 gui-libs/libadwaita 1.7.0: Building blocks for modern GNOME applications
 mail-client/evolution 3.56.0: Integrated mail, addressbook and calendaring functionality
