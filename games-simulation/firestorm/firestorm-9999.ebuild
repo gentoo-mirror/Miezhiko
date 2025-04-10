@@ -82,7 +82,8 @@ src_unpack() {
 	cd "${S}"
 	virtualenv ".venv" -p python3 || die "failed to create virtual env"
 	source .venv/bin/activate
-	pip3 install --upgrade llbase certifi autobuild || die
+	#pip3 install --upgrade llbase certifi autobuild || die
+	pip install -r requirements.txt || die
 
 	if use fmod; then
 		cd "${FMOD_DIR}"
@@ -116,6 +117,9 @@ src_unpack() {
 		-DUSE_FMODSTUDIO=$(usex fmod ON OFF) || die "configure failed"
 
 	autobuild build -A 64 -c ReleaseFS_open --no-configure || die "build failed"
+	
+	export XZ_DEFAULTS="-T0"
+	autobuild build -A 64 -c ReleaseFS_open -- --package || die "package failed"
 }
 
 src_configure() {
@@ -128,7 +132,7 @@ src_compile() {
 
 src_install() {
 	insinto "/opt/firestorm-install"
-	doins -r "${WORKDIR}/${P}"/build-linux-64/newview/packaged/*
+	doins -r "${WORKDIR}/${P}"/build-linux-x86_64/newview/packaged/*
 
 	fperms +x /opt/firestorm-install/bin/llplugin/chrome-sandbox
 	fperms +x /opt/firestorm-install/bin/llplugin/dullahan_host
