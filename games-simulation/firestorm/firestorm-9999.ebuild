@@ -97,8 +97,9 @@ src_unpack() {
 		fi
 	fi
 
+	sed -i '/if (NOT GCC_DISABLE_FATAL_WARNINGS)$/d;/    set(GCC_WARNINGS "${GCC_WARNINGS} -Werror")$/d;/endif (NOT GCC_DISABLE_FATAL_WARNINGS)$/d' "${S}/indra/cmake/00-Common.cmake" || die
+
 	autobuild configure -A 64 -c ReleaseFS_open -- \
-		-DGCC_DISABLE_FATAL_WARNINGS:BOOL=FALSE \
 		-DLL_TESTS:BOOL=FALSE \
 		-DLLCOREHTTP_TESTS=FALSE \
 		-DDISABLE_FATAL_WARNINGS=ON \
