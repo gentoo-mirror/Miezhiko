@@ -207,6 +207,7 @@ dev-util/idris2-lsp-lib 9999: Language Server for Idris2
 dev-util/lucky-commit 9999: Customize your git commit hashes!
 dev-vcs/jj 9999: A Git-compatible DVCS that is both simple and powerful
 games-simulation/alchemy 9999: Alchemy SL Viewer
+games-simulation/firestorm 9999: Firestorm SL Viewer
 games-util/mangohud 9999: Vulkan and OpenGL overlay for monitoring FPS, sensors, system load and more
 gnome-base/gdm 48.0: GNOME Display Manager for managing graphical display servers and user logins
 gnome-base/gnome-control-center 48.0: GNOME's main interface to configure various aspects of the desktop
