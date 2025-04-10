@@ -113,7 +113,7 @@ src_unpack() {
 		-DUSESYSTEMLIBS=OFF \
 		-DUSE_FMODSTUDIO=$(usex fmod ON OFF) || die "configure failed"
 
-	autobuild build -A 64 -c ReleaseOS --no-configure || die "build failed"
+	autobuild build -A 64 -c ReleaseFS_open --no-configure || die "build failed"
 }
 
 src_configure() {
