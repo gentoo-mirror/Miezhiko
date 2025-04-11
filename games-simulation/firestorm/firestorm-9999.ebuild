@@ -16,6 +16,7 @@ KEYWORDS="~amd64"
 LICENSE="GPL-2-with-Linden-Lab-FLOSS-exception"
 
 BDEPEND="${BDEPEND}
+	games-simulation/llsd
 	dev-build/cmake"
 
 DEPEND="${DEPEND}
