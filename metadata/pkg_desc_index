@@ -232,7 +232,7 @@ gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
 gui-apps/gnome-console 48.0.1: A simple user-friendly terminal emulator for the GNOME desktop
 gui-libs/gtk 4.19.0: GTK is a multi-platform toolkit for creating graphical user interfaces
 gui-libs/gtksourceview 5.16.0: A text widget implementing syntax highlighting and other features
-gui-libs/libadwaita 1.7.0: Building blocks for modern GNOME applications
+gui-libs/libadwaita 1.7.1: Building blocks for modern GNOME applications
 mail-client/evolution 3.56.1: Integrated mail, addressbook and calendaring functionality
 media-fonts/adwaita-fonts 48.2: Adwaita fonts, the default font set for GNOME
 media-fonts/lato 2: Lato font
@@ -248,7 +248,6 @@ net-im/discord-canary-bin 0.0.506: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-libs/glib-networking 2.80.1: Network-related giomodules for glib
 net-libs/gnome-online-accounts 3.54.1: GNOME framework for accessing online accounts
-net-libs/grpc 1.66.0: Modern open source high performance RPC framework
 net-libs/libsoup 3.4.5: HTTP client/server library for GNOME
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/curl-impersonate 0.6.1: A Client that groks URLs
