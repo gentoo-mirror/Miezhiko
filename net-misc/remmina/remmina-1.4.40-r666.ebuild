@@ -17,7 +17,7 @@ S="${WORKDIR}/${PN^}-v${PV}"
 LICENSE="GPL-2+-with-openssl-exception"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~riscv ~x86"
-IUSE="+appindicator crypt cups examples keyring gvnc kwallet nls python spice ssh rdp vnc wayland webkit zeroconf X"
+IUSE="+appindicator crypt cups examples keyring gvnc kwallet nls python spice rdp vnc wayland webkit zeroconf X +ssh"
 
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} ) || ( X wayland )"
 
@@ -42,8 +42,8 @@ COMMON_DEPEND="
 	rdp? ( net-misc/freerdp:3=
 		cups? ( net-print/cups:= ) )
 	spice? ( net-misc/spice-gtk[gtk3] )
-	ssh? ( net-libs/libssh:0=[sftp]
-		x11-libs/vte:2.91 )
+	net-libs/libssh:0=[sftp]
+	x11-libs/vte:2.91
 	vnc? ( net-libs/libvncserver[jpeg] )
 	webkit? ( net-libs/webkit-gtk:4.1 )
 	zeroconf? ( >=net-dns/avahi-0.8-r2[dbus,gtk] )
@@ -92,7 +92,7 @@ src_configure() {
 		-DWITH_ICON_CACHE=OFF
 		-DWITH_KF5WALLET=$(usex kwallet)
 		-DWITH_LIBSECRET=$(usex keyring)
-		-DWITH_LIBSSH=$(usex ssh)
+		-DWITH_LIBSSH=ON
 		-DWITH_LIBVNCSERVER=$(usex vnc)
 		-DWITH_PYTHONLIBS=$(usex python ON OFF)
 		-DWITH_SPICE=$(usex spice)
