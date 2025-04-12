@@ -11,5 +11,5 @@ LICENSE=MIT
 RDEPEND=>=dev-haskell/aeson-2.0.3.0:=[profile?] <dev-haskell/aeson-2.3:=[profile?] >=dev-haskell/optics-core-0.4.1:=[profile?] <dev-haskell/optics-core-0.5:=[profile?] >=dev-haskell/optics-extra-0.4.1:=[profile?] <dev-haskell/optics-extra-0.5:=[profile?] >=dev-haskell/scientific-0.3.4.9:=[profile?] <dev-haskell/scientific-0.4:=[profile?] >=dev-haskell/text-short-0.1.5:=[profile?] <dev-haskell/text-short-0.2:=[profile?] >=dev-haskell/vector-0.11:=[profile?] <dev-haskell/vector-0.14:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/text-2.0:=[profile?] <dev-haskell/text-2.2:=[profile?] dev-lang/ghc:=[profile?]
 SLOT=0/1.2.1
 SRC_URI=https://hackage.haskell.org/package/aeson-optics-1.2.1/aeson-optics-1.2.1.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	90c0a2ac16d7e6d581a37078c278d6dc	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	6de903b5a7fe66ebd51235a146cc3a48
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	90c0a2ac16d7e6d581a37078c278d6dc	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	6de903b5a7fe66ebd51235a146cc3a48
 _md5_=7932af9606db2d7dd343d44ec928de1d

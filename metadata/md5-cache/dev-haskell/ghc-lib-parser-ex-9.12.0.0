@@ -12,5 +12,5 @@ RDEPEND=dev-haskell/extra:=[profile?] dev-haskell/optparse-applicative:=[profile
 RESTRICT=!test? ( test )
 SLOT=0/9.12.0.0
 SRC_URI=https://hackage.haskell.org/package/ghc-lib-parser-ex-9.12.0.0/ghc-lib-parser-ex-9.12.0.0.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	90c0a2ac16d7e6d581a37078c278d6dc	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	haskell-cabal	6de903b5a7fe66ebd51235a146cc3a48
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	90c0a2ac16d7e6d581a37078c278d6dc	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	6de903b5a7fe66ebd51235a146cc3a48
 _md5_=e8bd9d5375a6c7daa2bfe95c9ec24a22
