@@ -129,7 +129,7 @@ dev-ml/0install-solver 2.18: SAT-based package dependency solver
 dev-ml/camlbz2 0.8.9999: OCaml bindings for libbz (AKA, bzip2)
 dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
 dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
-dev-ml/dune 3.18.0: A composable build system for OCaml
+dev-ml/dune 3.18.1: A composable build system for OCaml
 dev-ml/extlib 1.8.0-r1: Standard library extensions for O'Caml
 dev-ml/fmt 0.9.0: Combinators to devise OCaml Format pretty-printing functions
 dev-ml/opam 2.3.0: A source-based package manager for OCaml
@@ -251,7 +251,7 @@ net-libs/libsoup 3.4.5: HTTP client/server library for GNOME
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/curl-impersonate 0.6.1: A Client that groks URLs
 net-misc/hiddify-bin 2.5.7: Multi-platform auto-proxy client
-net-misc/rabbitmq-server 4.0.9: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
+net-misc/rabbitmq-server 4.1.0: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/redpanda-bin 23.1.13: streaming data platform for developers
 net-misc/remmina 1.4.40-r666: A GTK+ RDP, SPICE, VNC and SSH client
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
