@@ -116,7 +116,7 @@ dev-libs/jsonrpc-glib 3.44.1: JSON-RPC library for GLib
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
 dev-libs/libndofdev 0.13: Replacement for the libndofdev library used by the Second Life client to handle joysticks and the 6DOF devices on Windows and Macs.
-dev-libs/libxml2 2.14.1: XML C parser and toolkit
+dev-libs/libxml2 2.14.2: XML C parser and toolkit
 dev-libs/nsync 1.26.0: C library that exports various synchronization primitives, such as mutexes
 dev-libs/ocl-icd 2.3.1-r1: Alternative to vendor specific OpenCL ICD loaders
 dev-libs/olm 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
@@ -215,7 +215,7 @@ gnome-base/gnome-control-center 48.1: GNOME's main interface to configure variou
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-keyring 48.0: Password and keyring managing daemon
 gnome-base/gnome-session 48.0: Gnome session manager
-gnome-base/gnome-settings-daemon 48.0: Gnome Settings Daemon
+gnome-base/gnome-settings-daemon 48.1: Gnome Settings Daemon
 gnome-base/gnome-shell 48.1: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 48.0: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.57.2: Virtual filesystem implementation for GIO
