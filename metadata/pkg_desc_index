@@ -105,6 +105,7 @@ dev-lang/ghc 9.12.1-r1: The Glasgow Haskell Compiler
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/ocaml 5.3.0: Programming language supporting functional, imperative & object-oriented styles
 dev-lang/scala-bin 3.6.4: The Scala Programming Language
+dev-lang/spidermonkey 128.9.0-r666: Mozilla's JavaScript engine written in C and C++
 dev-lang/vala 0.56.18: Compiler for the GObject type system
 dev-libs/boost 1.85.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
@@ -239,6 +240,7 @@ media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
 media-libs/imgui 1.89.9-r3 1.91.1: Bloat-free graphical user interface library for C++
 media-libs/implot 0.16-r2: Immediate Mode Plotting
 media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
+media-libs/mesa 25.0.4-r666: OpenGL-like graphic library for Linux
 media-libs/opencv 4.11.0: A collection of algorithms and sample code for various computer vision problems
 media-sound/qmmp 2.2.3: Qt6-based audio player with winamp/xmms skins support
 media-video/clapper 9999: A GNOME media player built using GJS with GTK4 toolkit and powered by GStreamer with OpenGL rendering.
@@ -247,7 +249,7 @@ net-im/discord-canary-bin 0.0.506: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-libs/glib-networking 2.80.1: Network-related giomodules for glib
 net-libs/gnome-online-accounts 3.54.2: GNOME framework for accessing online accounts
-net-libs/libsoup 3.4.5: HTTP client/server library for GNOME
+net-libs/libsoup 3.6.5: HTTP client/server library for GNOME
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/curl-impersonate 0.6.1: A Client that groks URLs
 net-misc/hiddify-bin 2.5.7: Multi-platform auto-proxy client
@@ -275,6 +277,7 @@ sys-apps/nq 0.5: unix command line queue utility
 sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xe 1.0: simple xargs and apply replacement
+sys-kernel/scx 1.0.11-r666: sched_ext schedulers and tools
 sys-libs/libosinfo 1.12.0-r666: GObject library for managing information about real and virtual OSes
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
