@@ -17,6 +17,7 @@ LICENSE="GPL-2-with-Linden-Lab-FLOSS-exception"
 
 BDEPEND="${BDEPEND}
 	games-simulation/llsd
+	games-simulation/autobuild
 	dev-build/cmake"
 
 DEPEND="${DEPEND}
@@ -27,8 +28,6 @@ DEPEND="${DEPEND}
 	media-libs/libsdl2
 	dev-perl/XML-XPath
 	media-video/vlc
-	dev-python/pip
-	dev-python/virtualenv
 	"
 
 RDEPEND="${DEPEND}
@@ -83,7 +82,6 @@ src_unpack() {
 	cd "${S}"
 	virtualenv ".venv" -p python3 || die "failed to create virtual env"
 	source .venv/bin/activate
-	#pip3 install --upgrade llbase certifi autobuild || die
 	pip install -r requirements.txt || die
 
 	if use fmod; then
