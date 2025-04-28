@@ -207,6 +207,7 @@ dev-util/idris2-lsp-lib 9999: Language Server for Idris2
 dev-util/lucky-commit 9999: Customize your git commit hashes!
 dev-vcs/jj 9999: A Git-compatible DVCS that is both simple and powerful
 games-simulation/alchemy 9999: Alchemy SL Viewer
+games-simulation/autobuild 9999: A framework for building packages and for managing the dependencies
 games-simulation/firestorm 9999: Firestorm SL Viewer
 games-simulation/llbase 9999: Utility modules used from Linden Lab
 games-simulation/llsd 9999: Python LLSD serialization library

@@ -1,6 +1,6 @@
-BDEPEND=games-simulation/llsd dev-build/cmake >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=games-simulation/llsd games-simulation/autobuild dev-build/cmake >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm preinst setup unpack
-DEPEND=media-libs/libpng sys-libs/zlib[abi_x86_64,abi_x86_32] gui-libs/gtk media-libs/mesa media-libs/libsdl2 dev-perl/XML-XPath media-video/vlc dev-python/pip dev-python/virtualenv
+DEPEND=media-libs/libpng sys-libs/zlib[abi_x86_64,abi_x86_32] gui-libs/gtk media-libs/mesa media-libs/libsdl2 dev-perl/XML-XPath media-video/vlc
 DESCRIPTION=Firestorm SL Viewer
 EAPI=8
 HOMEPAGE=https://firestorm.org
@@ -10,7 +10,7 @@ IUSE=fmod kde lto
 KEYWORDS=~amd64
 LICENSE=GPL-2-with-Linden-Lab-FLOSS-exception
 PROPERTIES=live
-RDEPEND=media-libs/libpng sys-libs/zlib[abi_x86_64,abi_x86_32] gui-libs/gtk media-libs/mesa media-libs/libsdl2 dev-perl/XML-XPath media-video/vlc dev-python/pip dev-python/virtualenv net-dns/libidn-compat kde? ( kde-plasma/kde-cli-tools )
+RDEPEND=media-libs/libpng sys-libs/zlib[abi_x86_64,abi_x86_32] gui-libs/gtk media-libs/mesa media-libs/libsdl2 dev-perl/XML-XPath media-video/vlc net-dns/libidn-compat kde? ( kde-plasma/kde-cli-tools )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	974462533ec80cd68e5f366ad8a86002	python-any-r1	891415dfe39ad9b41b461f2b86354af0	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575	wrapper	11a2a3bd712784986679b60a0cab34a0
-_md5_=5f3293da16032d1755b7df1d58e6413a
+_md5_=930e2fc3d8a9a1ccc1ed389f07467dc3
