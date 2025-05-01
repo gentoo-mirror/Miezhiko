@@ -152,15 +152,11 @@ dev-python/altair 4.2.2 9999: Declarative statistical visualization library
 dev-python/async_property 9999: Python decorator for async properties
 dev-python/bcrypt 9999: Modern password hashing for software and servers
 dev-python/bidict 0.22.1: The bidirectional mapping library for Python
-dev-python/celery 5.2.0: Asynchronous task queue/job queue based on distributed message passing
 dev-python/cf-clearance 0.29.0: BPurpose To make a cloudflare v2 challenge pass successfully
 dev-python/cloudscraper 1.2.69-r1: A Python module to bypass Cloudflare's anti-bot page
 dev-python/curl-cffi 0.6.2 0.7.1: Python binding for curl-impersonate via cffi
 dev-python/execjs 9999: execjs
 dev-python/fake-useragent 1.1.3 1.5.1: Up to date simple useragent faker with real world database
-dev-python/fastai 2.5.3: The fastai deep learning library
-dev-python/fastcore 1.3.27: Python supercharged for the fastai library
-dev-python/fastprogress 1.0.0: progress lib for fastai
 dev-python/g4f 9999: g4f
 dev-python/google-cloud-translate 3.11.1 3.15.4: google-cloud-translate
 dev-python/llvmlite 9999: Python wrapper around the llvm C++ library
@@ -179,7 +175,6 @@ dev-python/pydub 0.25.1: Manipulate audio with an simple and easy high level int
 dev-python/pymailtm 1.1.1: command line interface and python web-api wrapper for mail.tm
 dev-python/pympler 1.0.1 9999: Measure, monitor and analyze the memory behavior of Python objects
 dev-python/pypasser 0.0.5: pypasser
-dev-python/pyro 4.80: Distributed object middleware for Python (RPC)
 dev-python/python-socketio 5.10.0: Python implementation of the Socket.IO realtime server.
 dev-python/python-telegram-bot 9999: Python wrapper of telegram bots API
 dev-python/quickjs 9999: quickjs
@@ -194,7 +189,6 @@ dev-python/toml 0.10.2-r1: Python library for handling TOML files
 dev-python/undetected-chromedriver 9999: Custom Selenium Chromedriver
 dev-python/xtempmail 0.10: Temporary Email
 dev-qt/ghoul 9999: Lightweight IDE for C++/QML development centering around Qt
-dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 framework (deprecated)
 dev-util/beekeeper-studio-bin 5.1.5: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
 dev-util/cargo-about 0.6.2: Cargo plugin to generate list of all licenses for a crate
@@ -257,7 +251,6 @@ net-misc/hiddify-bin 2.5.7: Multi-platform auto-proxy client
 net-misc/rabbitmq-server 4.1.0: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/redpanda-bin 23.1.13: streaming data platform for developers
 net-misc/remmina 1.4.40-r666: A GTK+ RDP, SPICE, VNC and SSH client
-net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
 net-misc/youtubeUnblock 9999: Bypasses Googlevideo detection systems that relies on SNI
 net-misc/zapret 9999: zapret
 net-p2p/monero 0.18.2.2: The secure, private, untraceable cryptocurrency
@@ -269,7 +262,6 @@ sci-libs/pydicom 2.4.4: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
 sci-libs/transformers 4.51.3-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
-sci-libs/vtk 9.1.0: The Visualization Toolkit
 sci-ml/huggingface_hub 0.30.2: a client library to interact with the Hugging Face Hub
 sys-apps/baobab 48.0: Disk usage browser for GNOME
 sys-apps/lr 1.6: list files, recursively
