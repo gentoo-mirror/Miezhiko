@@ -19,8 +19,8 @@ IUSE="+introspection test +vala"
 REQUIRED_USE="vala? ( introspection )"
 
 RDEPEND="
-	>=dev-libs/glib-2.76:2
-	>=gui-libs/gtk-4.13.4:4[introspection?]
+	>=dev-libs/glib-2.80:2
+	>=gui-libs/gtk-4.17.5:4[introspection?]
 	dev-libs/appstream:=
 	dev-libs/fribidi
 	introspection? ( >=dev-libs/gobject-introspection-1.54:= )
