@@ -20,11 +20,11 @@ KEYWORDS="~alpha amd64 arm arm64 ~loong ppc ppc64 ~riscv sparc x86"
 
 # TODO: Optional gst build dep on >=gst-plugins-base-1.23.1, so depend on it once we can
 COMMON_DEPEND="
-	>=dev-libs/glib-2.76.0:2
-	>=x11-libs/cairo-1.17.6[aqua?,glib,svg(+),X?]
-	>=x11-libs/pango-1.50.0[introspection?]
+	>=dev-libs/glib-2.82.0:2
+	>=x11-libs/cairo-1.18.2[aqua?,glib,svg(+),X?]
+	>=x11-libs/pango-1.56.0[introspection?]
 	>=dev-libs/fribidi-1.0.6
-	>=media-libs/harfbuzz-2.6.0:=
+	>=media-libs/harfbuzz-8.4.0:=
 	>=x11-libs/gdk-pixbuf-2.30:2[introspection?]
 	media-libs/libpng:=
 	media-libs/tiff:=
@@ -34,7 +34,7 @@ COMMON_DEPEND="
 	app-text/iso-codes
 	x11-misc/shared-mime-info
 
-	cloudproviders? ( net-libs/libcloudproviders )
+	cloudproviders? ( >=net-libs/libcloudproviders-0.3.1 )
 	colord? ( >=x11-misc/colord-0.1.9:0= )
 	cups? ( >=net-print/cups-2.0 )
 	examples? ( gnome-base/librsvg:2 )
@@ -46,10 +46,10 @@ COMMON_DEPEND="
 			>=media-libs/gst-plugins-base-1.24.0:1.0[opengl]
 		)
 	)
-	introspection? ( >=dev-libs/gobject-introspection-1.76:= )
+	introspection? ( >=dev-libs/gobject-introspection-1.84:= )
 	vulkan? ( >=media-libs/vulkan-loader-1.3:= )
 	wayland? (
-		>=dev-libs/wayland-1.21.0
+		>=dev-libs/wayland-1.41.0
 		>=dev-libs/wayland-protocols-1.31
 		media-libs/mesa[wayland]
 		>=x11-libs/libxkbcommon-0.2
