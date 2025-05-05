@@ -26,7 +26,7 @@ REQUIRED_USE="
 KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~loong ~mips ~ppc ~ppc64 ~riscv ~sparc ~x86 ~amd64-linux ~x86-linux"
 
 RDEPEND="
-	>=dev-libs/glib-2.70.0:2
+	>=dev-libs/glib-2.83.0:2
 	>=gnome-base/gsettings-desktop-schemas-3.33.0
 	afp? ( >=dev-libs/libgcrypt-1.2.2:0= )
 	sys-apps/dbus
@@ -52,7 +52,7 @@ RDEPEND="
 		>=app-pda/libimobiledevice-1.2:=
 		>=app-pda/libplist-1:=
 	)
-	gnome-online-accounts? ( >=net-libs/gnome-online-accounts-3.17.1:= )
+	gnome-online-accounts? ( >=net-libs/gnome-online-accounts-3.53.1:= )
 	keyring? ( app-crypt/libsecret )
 	bluray? ( media-libs/libbluray:= )
 	mtp? (
