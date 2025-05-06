@@ -33,9 +33,9 @@ DEPEND="
 	x11-libs/gtk+:3
 	>=net-libs/gnome-online-accounts-3.52.0:=
 	>=media-libs/libpulse-2.0[glib]
-	>=gui-libs/gtk-4.11.2:4[X,wayland=]
-	>=gui-libs/libadwaita-1.4_alpha:1
-	>=sys-apps/accountsservice-0.6.39
+	>=gui-libs/gtk-4.15.2:4[X,wayland=]
+	>=gui-libs/libadwaita-1.7_alpha:1
+	>=sys-apps/accountsservice-23.11.69
 	>=x11-misc/colord-0.1.34:0=
 	>=x11-libs/gdk-pixbuf-2.23.0:2
 	>=dev-libs/glib-2.76.6:2
@@ -86,7 +86,7 @@ RDEPEND="${DEPEND}
 		app-admin/system-config-printer
 		net-print/cups-pk-helper
 	)
-	gnome-extra/tecla
+	>=gnome-extra/tecla-47.0
 	wayland? ( dev-libs/libinput )
 	!wayland? (
 		>=x11-drivers/xf86-input-libinput-0.19.0
