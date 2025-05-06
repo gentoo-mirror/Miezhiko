@@ -6,7 +6,7 @@ app-accessibility/at-spi2-atk 2.54.0: Gtk module for bridging AT-SPI to Atk
 app-alternatives/v2ray-geoip 0-r2: symlink for v2ray-geoip
 app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
 app-arch/file-roller 44.5: Archive manager for GNOME
-app-containers/snapd 2.68.3: Service and tools for management of snap packages
+app-containers/snapd 2.68.4: Service and tools for management of snap packages
 app-crypt/gcr 4.4.0.1: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-crypt/rpm-sequoia 1.7.0-r666: Implementation of the RPM PGP interface using Sequoia
@@ -20,7 +20,7 @@ app-misc/crab 9999: a crab
 app-misc/cryptowatch 0.5.0: fast & furious
 app-misc/hidamari 9999: Video wallpaper for Linux.
 app-misc/hodl 9999: hodl
-app-misc/ollama-bin 0.6.5: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
+app-misc/ollama-bin 0.6.8: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/subete 9999: subete
 app-misc/tinysparql 3.8.2: A tagging metadata database, search tool and indexer
@@ -165,7 +165,7 @@ dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
-dev-python/openai 1.76.2: Python client library for the OpenAI API
+dev-python/openai 1.77.0: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
@@ -224,7 +224,7 @@ gnome-extra/gnome-system-monitor 48.1: The Gnome System Monitor
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
 gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
 gui-apps/gnome-console 48.0.1: A simple user-friendly terminal emulator for the GNOME desktop
-gui-libs/gtk 4.19.0-r1: GTK is a multi-platform toolkit for creating graphical user interfaces
+gui-libs/gtk 4.19.1: GTK is a multi-platform toolkit for creating graphical user interfaces
 gui-libs/gtksourceview 5.16.0: A text widget implementing syntax highlighting and other features
 gui-libs/libadwaita 1.7.2-r1: Building blocks for modern GNOME applications
 mail-client/evolution 3.56.1: Integrated mail, addressbook and calendaring functionality
