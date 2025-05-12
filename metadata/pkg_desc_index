@@ -9,7 +9,6 @@ app-arch/file-roller 44.5: Archive manager for GNOME
 app-containers/snapd 2.68.4: Service and tools for management of snap packages
 app-crypt/gcr 4.4.0.1: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
-app-crypt/rpm-sequoia 1.7.0-r666: Implementation of the RPM PGP interface using Sequoia
 app-editors/gnome-text-editor 48.2: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.100.0: Multiplatform Visual Studio Code from Microsoft
@@ -267,6 +266,7 @@ sys-apps/nq 0.5: unix command line queue utility
 sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xe 1.0: simple xargs and apply replacement
+sys-devel/mold 2.39.1: A Modern Linker
 sys-kernel/scx 1.0.11-r666: sched_ext schedulers and tools
 sys-libs/libosinfo 1.12.0-r666: GObject library for managing information about real and virtual OSes
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
