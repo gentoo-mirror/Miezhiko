@@ -187,6 +187,7 @@ dev-python/toml 0.10.2-r1: Python library for handling TOML files
 dev-python/undetected-chromedriver 9999: Custom Selenium Chromedriver
 dev-python/xtempmail 0.10: Temporary Email
 dev-qt/ghoul 9999: Lightweight IDE for C++/QML development centering around Qt
+dev-qt/qtwebengine 5.15.16_p20241115: Library for rendering dynamic web content in Qt5 C++ and QML applications
 dev-util/beekeeper-studio-bin 5.2.6: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
 dev-util/cargo-about 0.6.2: Cargo plugin to generate list of all licenses for a crate
