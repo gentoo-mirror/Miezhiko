@@ -11,7 +11,7 @@ app-crypt/gcr 4.4.0.1: Libraries for cryptographic UIs and accessing PKCS#11 mod
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/gnome-text-editor 48.2: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
-app-editors/vscode 1.100.1: Multiplatform Visual Studio Code from Microsoft
+app-editors/vscode 1.100.2: Multiplatform Visual Studio Code from Microsoft
 app-emulation/proton-ge-custom-bin 10.1: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-emulation/wine-proton 9999: Valve Software's fork of Wine
