@@ -8,7 +8,7 @@ exceptions=(
 	"net-vpn/protonvpn-cli"
 	"gnome-base/gnome-core-apps"
 	"app-editors/vscode"
-	"sci-libs/vtk"
+	"dev-qt/qtwebengine"
 )
 
 while read e; do
