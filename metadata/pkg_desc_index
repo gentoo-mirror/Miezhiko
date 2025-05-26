@@ -109,6 +109,7 @@ dev-libs/boost 1.85.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
 dev-libs/gjs 1.84.2: Javascript bindings for GNOME
 dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
+dev-libs/glib 2.85.0: The GLib library of C routines
 dev-libs/gobject-introspection 1.84.0: Introspection system for GObject-based libraries
 dev-libs/gobject-introspection-common 1.84.0: Build infrastructure for GObject Introspection
 dev-libs/jsonrpc-glib 3.44.1: JSON-RPC library for GLib
@@ -164,7 +165,7 @@ dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
-dev-python/openai 1.81.0: Python client library for the OpenAI API
+dev-python/openai 1.82.0: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
@@ -195,6 +196,7 @@ dev-util/cargo-check-deadlock 9999: Find deadlocks in Rust code with Petri net m
 dev-util/cargo-dependency-inheritor 9999: Utility to inherit dependencies from workspace
 dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
 dev-util/easy-profiler 9999: Lightweight profiler library for c++
+dev-util/gdbus-codegen 2.85.0: GDBus code and documentation generator
 dev-util/idris2-lsp 9999: Language Server for Idris2
 dev-util/idris2-lsp-lib 9999: Language Server for Idris2
 dev-util/lucky-commit 9999: Customize your git commit hashes!
@@ -215,8 +217,8 @@ gnome-base/gnome-shell 48.1: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 48.0: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.57.2: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.60.0: Scalable Vector Graphics (SVG) rendering library
-gnome-base/nautilus 48.1-r666: Default file manager for the GNOME desktop
-gnome-extra/evolution-data-server 3.56.1: Evolution groupware backend
+gnome-base/nautilus 48.2-r666: Default file manager for the GNOME desktop
+gnome-extra/evolution-data-server 3.56.2: Evolution groupware backend
 gnome-extra/gnome-calculator 47.1: A calculator application for GNOME
 gnome-extra/gnome-calendar 48.1: Manage your calendars with simple and modern interface
 gnome-extra/gnome-shell-extensions 48.1: JavaScript extensions for GNOME Shell
@@ -226,8 +228,8 @@ gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
 gui-apps/gnome-console 48.0.1: A simple user-friendly terminal emulator for the GNOME desktop
 gui-libs/gtk 4.19.1: GTK is a multi-platform toolkit for creating graphical user interfaces
 gui-libs/gtksourceview 5.16.0: A text widget implementing syntax highlighting and other features
-gui-libs/libadwaita 1.7.2-r1: Building blocks for modern GNOME applications
-mail-client/evolution 3.56.1: Integrated mail, addressbook and calendaring functionality
+gui-libs/libadwaita 1.7.3: Building blocks for modern GNOME applications
+mail-client/evolution 3.56.2: Integrated mail, addressbook and calendaring functionality
 media-fonts/adwaita-fonts 48.2: Adwaita fonts, the default font set for GNOME
 media-fonts/lato 2: Lato font
 media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
@@ -239,7 +241,7 @@ net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord-canary-bin 0.0.506: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-libs/glib-networking 2.80.1: Network-related giomodules for glib
-net-libs/gnome-online-accounts 3.54.2: GNOME framework for accessing online accounts
+net-libs/gnome-online-accounts 3.54.3: GNOME framework for accessing online accounts
 net-libs/libsoup 3.6.5: HTTP client/server library for GNOME
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/curl-impersonate 0.6.1: A Client that groks URLs
@@ -257,8 +259,8 @@ sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-fri
 sci-libs/pydicom 2.4.4: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
-sci-libs/transformers 4.52.2-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
-sci-ml/huggingface_hub 0.31.4: a client library to interact with the Hugging Face Hub
+sci-libs/transformers 4.52.3-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+sci-ml/huggingface_hub 0.32.0: a client library to interact with the Hugging Face Hub
 sys-apps/baobab 48.0: Disk usage browser for GNOME
 sys-apps/lr 1.6: list files, recursively
 sys-apps/lsd 9999: An ls command with a lot of pretty colors and some other stuff.
@@ -266,7 +268,7 @@ sys-apps/nq 0.5: unix command line queue utility
 sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xe 1.0: simple xargs and apply replacement
-sys-devel/mold 2.39.1: A Modern Linker
+sys-devel/mold 2.40.0: A Modern Linker
 sys-libs/libosinfo 1.12.0-r666: GObject library for managing information about real and virtual OSes
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
@@ -277,6 +279,6 @@ x11-libs/pango 1.56.3: Internationalized text layout and rendering library
 x11-misc/xdg-user-dirs-gtk 0.14: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-themes/adwaita-icon-theme 48.0: GNOME default icon theme
-x11-themes/gnome-backgrounds 48.0: A set of backgrounds packaged with the GNOME desktop
+x11-themes/gnome-backgrounds 48.2.1: A set of backgrounds packaged with the GNOME desktop
 x11-wm/jwm 9999: JWM
 x11-wm/mutter 48.2: GNOME compositing window manager based on Clutter
