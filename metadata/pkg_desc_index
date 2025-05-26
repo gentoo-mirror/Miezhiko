@@ -213,7 +213,7 @@ gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications
 gnome-base/gnome-keyring 48.0: Password and keyring managing daemon
 gnome-base/gnome-session 48.0: Gnome session manager
 gnome-base/gnome-settings-daemon 48.1: Gnome Settings Daemon
-gnome-base/gnome-shell 48.1: Provides core UI functions for the GNOME desktop
+gnome-base/gnome-shell 48.2: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 48.0: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.57.2: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.60.0: Scalable Vector Graphics (SVG) rendering library
@@ -221,7 +221,7 @@ gnome-base/nautilus 48.2-r666: Default file manager for the GNOME desktop
 gnome-extra/evolution-data-server 3.56.2: Evolution groupware backend
 gnome-extra/gnome-calculator 47.1: A calculator application for GNOME
 gnome-extra/gnome-calendar 48.1: Manage your calendars with simple and modern interface
-gnome-extra/gnome-shell-extensions 48.1: JavaScript extensions for GNOME Shell
+gnome-extra/gnome-shell-extensions 48.2: JavaScript extensions for GNOME Shell
 gnome-extra/gnome-system-monitor 48.1: The Gnome System Monitor
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
 gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
@@ -281,4 +281,4 @@ x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-themes/adwaita-icon-theme 48.0: GNOME default icon theme
 x11-themes/gnome-backgrounds 48.2.1: A set of backgrounds packaged with the GNOME desktop
 x11-wm/jwm 9999: JWM
-x11-wm/mutter 48.2: GNOME compositing window manager based on Clutter
+x11-wm/mutter 48.3: GNOME compositing window manager based on Clutter
