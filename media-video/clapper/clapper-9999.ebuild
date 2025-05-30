@@ -28,6 +28,13 @@ DEPEND="
 	${RDEPEND}
 "
 
+src_configure() {
+	local emesonargs=(
+		-Denhancers-loader=disabled
+	)
+	meson_src_configure
+}
+
 pkg_preinst() {
 	gnome2_schemas_savelist
 	xdg_environment_reset
