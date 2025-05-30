@@ -24,6 +24,7 @@ RDEPEND="dev-haskell/base-unicode-symbols:=[profile?]
 	dev-haskell/parsec
 	dev-haskell/yaml
 	dev-haskell/async
+	dev-haskell/unliftio
 	>=dev-lang/ghc-8.0:=
 "
 DEPEND="${RDEPEND}
