@@ -219,7 +219,6 @@ gnome-base/gvfs 1.57.2: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.60.0: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 48.2-r666: Default file manager for the GNOME desktop
 gnome-extra/evolution-data-server 3.56.2: Evolution groupware backend
-gnome-extra/gnome-calculator 47.1: A calculator application for GNOME
 gnome-extra/gnome-calendar 48.1: Manage your calendars with simple and modern interface
 gnome-extra/gnome-shell-extensions 48.2: JavaScript extensions for GNOME Shell
 gnome-extra/gnome-system-monitor 48.1: The Gnome System Monitor
@@ -259,7 +258,7 @@ sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-fri
 sci-libs/pydicom 2.4.4: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.0.0: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
-sci-libs/transformers 4.52.3-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+sci-libs/transformers 4.52.4-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-ml/huggingface_hub 0.32.3: a client library to interact with the Hugging Face Hub
 sys-apps/baobab 48.0: Disk usage browser for GNOME
 sys-apps/lr 1.6: list files, recursively
