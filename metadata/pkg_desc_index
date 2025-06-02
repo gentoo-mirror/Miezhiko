@@ -12,7 +12,7 @@ app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents 
 app-editors/gnome-text-editor 48.3: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.100.2: Multiplatform Visual Studio Code from Microsoft
-app-emulation/proton-ge-custom-bin 10.3: A fancy custom distribution of Valves Proton with various patches
+app-emulation/proton-ge-custom-bin 10.4: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-emulation/wine-proton 9999: Valve Software's fork of Wine
 app-misc/crab 9999: a crab
@@ -98,7 +98,7 @@ dev-haskell/tinkoff-invest-sdk 9999: gRPC based SDK for Tinkoff Invest API V2
 dev-haskell/typerep-map 0.6.0.0-r2: Efficient implementation of a dependent map with types as keys
 dev-haskell/unboxing-vector 0.2.0.0: A newtype-friendly variant of unboxed vectors
 dev-haskell/websockets 0.13.0.0: A sensible and clean way to write WebSocket-capable servers in Haskell
-dev-java/sbt-bin 1.10.11: sbt, a build tool for Scala
+dev-java/sbt-bin 1.11.1: sbt, a build tool for Scala
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/ghc 9.12.1-r1: The Glasgow Haskell Compiler
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
