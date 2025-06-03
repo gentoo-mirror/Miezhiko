@@ -280,4 +280,4 @@ x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-themes/adwaita-icon-theme 48.0: GNOME default icon theme
 x11-themes/gnome-backgrounds 48.2.1: A set of backgrounds packaged with the GNOME desktop
 x11-wm/jwm 9999: JWM
-x11-wm/mutter 48.3: GNOME compositing window manager based on Clutter
+x11-wm/mutter 48.3.1: GNOME compositing window manager based on Clutter
