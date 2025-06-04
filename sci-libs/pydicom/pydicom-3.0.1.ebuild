@@ -3,7 +3,8 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{8..12} )
+PYTHON_COMPAT=( python3_{8..13} )
+DISTUTILS_USE_PEP517=flit
 
 inherit distutils-r1
 
@@ -21,7 +22,3 @@ RESTRICT="test"
 
 DEPEND="test? ( dev-python/pytest[${PYTHON_USEDEP}] )"
 
-python_test() {
-	distutils-r1_install_for_testing
-	py.test --cov=pydicom -r sx --pyargs pydicom --verbose || die
-}
