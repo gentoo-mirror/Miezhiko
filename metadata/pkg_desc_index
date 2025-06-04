@@ -6,7 +6,7 @@ app-accessibility/at-spi2-atk 2.54.0: Gtk module for bridging AT-SPI to Atk
 app-alternatives/v2ray-geoip 0-r2: symlink for v2ray-geoip
 app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
 app-arch/file-roller 44.5: Archive manager for GNOME
-app-containers/snapd 2.68.4: Service and tools for management of snap packages
+app-containers/snapd 2.69: Service and tools for management of snap packages
 app-crypt/gcr 4.4.0.1: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/gnome-text-editor 48.3: A simple text editor for the GNOME desktop
@@ -164,8 +164,10 @@ dev-python/pydeck 0.7.1: Large-scale interactive data visualization
 dev-python/pydub 0.25.1: Manipulate audio with an simple and easy high level interface
 dev-python/pymailtm 1.1.1: command line interface and python web-api wrapper for mail.tm
 dev-python/pympler 1.0.1 9999: Measure, monitor and analyze the memory behavior of Python objects
+dev-python/pypasser 0.0.5: pypasser
 dev-python/python-socketio 5.10.0: Python implementation of the Socket.IO realtime server.
 dev-python/reactivex 4.0.4-r1: A library for composing asynchronous and event-based programs
+dev-python/speech-recognition 3.10.4: speech-recognition
 dev-python/streamlit 1.22.0: Build and share machine learning and data science web apps
 dev-python/text-generation 9999: Large Language Model Text Generation Inference
 dev-python/toml 0.10.2-r1: Python library for handling TOML files
@@ -238,9 +240,11 @@ net-p2p/monero-gui 0.18.2.2: GUI for net-p2p/monero
 net-proxy/Xray 1.8.23: Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support.
 net-proxy/v2ray 5.18.0: A platform for building proxies to bypass network restrictions.
 sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm.
+sci-libs/pydicom 3.0.1: A pure python package for parsing DICOM files
+sci-libs/pynrrd 1.1.3: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
 sci-libs/transformers 4.52.4-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
-sci-ml/huggingface_hub 0.32.3: a client library to interact with the Hugging Face Hub
+sci-ml/huggingface_hub 0.32.4: a client library to interact with the Hugging Face Hub
 sys-apps/baobab 48.0: Disk usage browser for GNOME
 sys-apps/lr 1.6: list files, recursively
 sys-apps/lsd 9999: An ls command with a lot of pretty colors and some other stuff.
