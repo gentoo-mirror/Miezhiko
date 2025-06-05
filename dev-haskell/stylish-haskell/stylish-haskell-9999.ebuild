@@ -10,8 +10,8 @@ inherit haskell-cabal git-r3
 
 DESCRIPTION="Haskell code prettifier"
 HOMEPAGE="https://github.com/haskell/stylish-haskell"
-EGIT_REPO_URI="https://github.com/GuillaumedeVolpiano/stylish-haskell.git"
-EGIT_BRANCH="ghc9.12"
+EGIT_REPO_URI="https://github.com/Masha/stylish-haskell.git"
+EGIT_BRANCH="mawa"
 
 LICENSE="BSD"
 SLOT="0/${PV}"
