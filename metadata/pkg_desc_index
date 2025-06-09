@@ -128,7 +128,6 @@ dev-ml/cudf 0.10-r1: Library to parse, pretty print, and evaluate CUDF documents
 dev-ml/dose3 7.0.0-r1: Library to perform analysis on package repositories
 dev-ml/dune 3.19.0: A composable build system for OCaml
 dev-ml/extlib 1.8.0-r1: Standard library extensions for O'Caml
-dev-ml/fmt 0.9.0: Combinators to devise OCaml Format pretty-printing functions
 dev-ml/opam 2.3.0: A source-based package manager for OCaml
 dev-ml/opam-0install-cudf 0.5.0-r666: Opam solver using 0install backend using the CUDF interface
 dev-ml/opam-client 2.3.0: opam client libraries
