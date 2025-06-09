@@ -33,9 +33,6 @@ DEPEND="
 	cloudproviders? ( >=net-libs/libcloudproviders-0.3.1 )
 	introspection? ( >=dev-libs/gobject-introspection-1.54:= )
 "
-RDEPEND="${DEPEND}
-	>=app-misc/tinysparql-miners-3.0:3=
-" # uses org.freedesktop.Tracker.Miner.Files gsettings schema from tracker-miners
 BDEPEND="
 	>=dev-util/gdbus-codegen-2.51.2
 	dev-util/glib-utils
