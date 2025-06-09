@@ -95,7 +95,7 @@ dev-haskell/tinkoff-invest-sdk 9999: gRPC based SDK for Tinkoff Invest API V2
 dev-haskell/typerep-map 0.6.0.0-r2: Efficient implementation of a dependent map with types as keys
 dev-haskell/unboxing-vector 0.2.0.0: A newtype-friendly variant of unboxed vectors
 dev-haskell/websockets 0.13.0.0: A sensible and clean way to write WebSocket-capable servers in Haskell
-dev-java/sbt-bin 1.11.1: sbt, a build tool for Scala
+dev-java/sbt-bin 1.11.2: sbt, a build tool for Scala
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/ghc 9.12.1-r1: The Glasgow Haskell Compiler
 dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
@@ -171,7 +171,7 @@ dev-python/toml 0.10.2-r1: Python library for handling TOML files
 dev-python/undetected-chromedriver 9999: Custom Selenium Chromedriver
 dev-qt/ghoul 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtwebengine 5.15.16_p20241115: Library for rendering dynamic web content in Qt5 C++ and QML applications
-dev-util/beekeeper-studio-bin 5.2.10: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
+dev-util/beekeeper-studio-bin 5.2.12: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
 dev-util/cargo-about 0.6.2: Cargo plugin to generate list of all licenses for a crate
 dev-util/cargo-check-deadlock 9999: Find deadlocks in Rust code with Petri net model checking
