@@ -153,7 +153,7 @@ dev-python/fake-useragent 1.1.3 1.5.1: Up to date simple useragent faker with re
 dev-python/g4f 9999: g4f
 dev-python/mmh3 9999: Python extension for MurmurHash
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
-dev-python/openai 1.85.0: Python client library for the OpenAI API
+dev-python/openai 1.86.0: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
@@ -241,7 +241,7 @@ sci-libs/pydicom 3.0.1: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.1.3: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
 sci-libs/transformers 4.52.4-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
-sci-ml/huggingface_hub 0.32.4: a client library to interact with the Hugging Face Hub
+sci-ml/huggingface_hub 0.32.5: a client library to interact with the Hugging Face Hub
 sys-apps/baobab 48.0: Disk usage browser for GNOME
 sys-apps/lr 1.6: list files, recursively
 sys-apps/lsd 9999: An ls command with a lot of pretty colors and some other stuff.
