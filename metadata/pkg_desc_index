@@ -252,6 +252,7 @@ sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xe 1.0: simple xargs and apply replacement
 sys-devel/mold 2.40.1: A Modern Linker
 sys-libs/libosinfo 1.12.0-r666: GObject library for managing information about real and virtual OSes
+sys-process/uksmd 6.12.2: Userspace KSM helper daemon
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-base/xwayland 24.1.6-r666: Standalone X server running under Wayland
