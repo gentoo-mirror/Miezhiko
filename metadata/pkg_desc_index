@@ -255,7 +255,6 @@ sys-libs/libosinfo 1.12.0-r666: GObject library for managing information about r
 sys-process/uksmd 6.12.2: Userspace KSM helper daemon
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
-x11-base/xwayland 24.1.6-r666: Standalone X server running under Wayland
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-libs/libnotify 0.8.6: A library for sending desktop notifications
 x11-libs/pango 1.56.3: Internationalized text layout and rendering library
