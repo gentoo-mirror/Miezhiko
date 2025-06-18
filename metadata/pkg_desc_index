@@ -200,6 +200,7 @@ gnome-base/gvfs 1.57.2: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.60.0: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 48.2-r666: Default file manager for the GNOME desktop
 gnome-extra/evolution-data-server 3.56.2: Evolution groupware backend
+gnome-extra/gnome-boxes 48.0: Simple GNOME application to access remote or virtual systems
 gnome-extra/gnome-calendar 48.1: Manage your calendars with simple and modern interface
 gnome-extra/gnome-shell-extensions 48.2: JavaScript extensions for GNOME Shell
 gnome-extra/gnome-system-monitor 48.1: The Gnome System Monitor
