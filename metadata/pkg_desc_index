@@ -18,7 +18,7 @@ app-emulation/wine-proton 9999: Valve Software's fork of Wine
 app-misc/crab 9999: a crab
 app-misc/cryptowatch 0.5.0: fast & furious
 app-misc/hodl 9999: hodl
-app-misc/ollama-bin 0.9.0: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
+app-misc/ollama-bin 0.9.2: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/subete 9999: subete
 app-misc/tinysparql 3.8.2: A tagging metadata database, search tool and indexer
