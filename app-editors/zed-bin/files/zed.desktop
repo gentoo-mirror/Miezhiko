@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=zed
+Comment=Editing evolved
+GenericName=Zed Editor
+Exec=/usr/bin/zed %F
+Icon=zed
+Type=Application
+StartupNotify=false
+StartupWMClass=Zed
+Categories=Utility;TextEditor;Development;IDE;
+MimeType=text/plain;inode/directory;application/x-code-workspace;
+Keywords=zed;
