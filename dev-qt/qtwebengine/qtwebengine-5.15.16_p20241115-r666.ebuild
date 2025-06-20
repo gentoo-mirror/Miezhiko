@@ -104,6 +104,9 @@ PATCHES=(
 	"${FILESDIR}/${PN}-5.15.14_p20240510-gcc15-cstdint.patch"
 	"${FILESDIR}/${PN}-5.15.14_p20240510-gcc15-template-id-cdtor.patch"
 	"${FILESDIR}/${P}-py3.13-pipes.patch" # thx to Fedora
+	"${FILESDIR}/qtwebengine-cstdint-fix.patch" # for new gcc
+	"${FILESDIR}/qtwebengine-cstdint-fix-pps.patch" # for new gcc
+	"${FILESDIR}/qtwebengine-cstdint-fix-types.patch" # for new gcc
 )
 
 python_check_deps() {

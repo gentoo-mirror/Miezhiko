@@ -1,0 +1,8 @@
+--- a/src/3rdparty/chromium/third_party/webrtc/modules/include/module_common_types_public.h
++++ b/src/3rdparty/chromium/third_party/webrtc/modules/include/module_common_types_public.h
+@@ -4,6 +4,7 @@
+  *  ...
+  */
+ 
++#include <cstdint>
+ #include <limits>

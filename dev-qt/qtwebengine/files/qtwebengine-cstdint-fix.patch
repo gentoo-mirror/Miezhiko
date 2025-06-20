@@ -1,0 +1,8 @@
+--- a/src/3rdparty/chromium/third_party/webrtc/common_video/h264/sps_parser.h
++++ b/src/3rdparty/chromium/third_party/webrtc/common_video/h264/sps_parser.h
+@@ -5,6 +5,7 @@
+ #ifndef COMMON_VIDEO_H264_SPS_PARSER_H_
+ #define COMMON_VIDEO_H264_SPS_PARSER_H_
+ 
++#include <cstdint>
+ #include "absl/types/optional.h"
