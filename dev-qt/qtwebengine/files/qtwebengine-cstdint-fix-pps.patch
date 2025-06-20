@@ -1,0 +1,9 @@
+--- a/src/3rdparty/chromium/third_party/webrtc/common_video/h264/pps_parser.h
++++ b/src/3rdparty/chromium/third_party/webrtc/common_video/h264/pps_parser.h
+@@ -12,6 +12,7 @@
+ #define COMMON_VIDEO_H264_PPS_PARSER_H_
+ 
+ #include "absl/types/optional.h"
++#include <cstdint>
+ 
+ namespace webrtc {
