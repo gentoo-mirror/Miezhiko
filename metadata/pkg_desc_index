@@ -150,7 +150,6 @@ dev-python/cf-clearance 0.29.0: BPurpose To make a cloudflare v2 challenge pass 
 dev-python/cloudscraper 1.2.69-r1: A Python module to bypass Cloudflare's anti-bot page
 dev-python/curl-cffi 0.6.2 0.7.1: Python binding for curl-impersonate via cffi
 dev-python/fake-useragent 1.1.3 1.5.1: Up to date simple useragent faker with real world database
-dev-python/g4f 9999: g4f
 dev-python/mmh3 9999: Python extension for MurmurHash
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/openai 1.91.0: Python client library for the OpenAI API
