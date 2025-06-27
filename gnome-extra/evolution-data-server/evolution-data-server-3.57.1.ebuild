@@ -95,9 +95,6 @@ src_prepare() {
 	cmake_src_prepare
 	gnome2_src_prepare
 
-	# TODO: remove if no need anymore
-	# eapply "${FILESDIR}"/3.36.5-gtk-doc-1.32-compat.patch
-
 	# Make CMakeLists versioned vala enabled
 	sed -e "s;\(find_program(VALAC\) valac);\1 ${VALAC});" \
 	  -e "s;\(find_program(VAPIGEN\) vapigen);\1 ${VAPIGEN});" \
