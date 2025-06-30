@@ -13,7 +13,7 @@ app-editors/gnome-text-editor 48.3: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.101.2: Multiplatform Visual Studio Code from Microsoft
 app-editors/zed-bin 0.192.6: Code editor from the creators of Atom
-app-emulation/proton-ge-custom-bin 10.4: A fancy custom distribution of Valves Proton with various patches
+app-emulation/proton-ge-custom-bin 10.7: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-emulation/wine-proton 9999: Valve Software's fork of Wine
 app-misc/crab 9999: a crab
@@ -110,7 +110,6 @@ dev-libs/glh 9999: glh - is a platform-indepenedent C++ OpenGL helper library
 dev-libs/glib 2.85.1: The GLib library of C routines
 dev-libs/gobject-introspection 1.84.0: Introspection system for GObject-based libraries
 dev-libs/gobject-introspection-common 1.84.0: Build infrastructure for GObject Introspection
-dev-libs/jsonrpc-glib 3.44.1: JSON-RPC library for GLib
 dev-libs/libQtOlm 9999: A Qt wrapper for libolm
 dev-libs/libQuotient 9999: A Qt5 library to write cross-platform clients for Matrix
 dev-libs/libndofdev 0.13: Replacement for the libndofdev library used by the Second Life client to handle joysticks and the 6DOF devices on Windows and Macs.
@@ -152,7 +151,7 @@ dev-python/curl-cffi 0.6.2 0.7.1: Python binding for curl-impersonate via cffi
 dev-python/fake-useragent 1.1.3 1.5.1: Up to date simple useragent faker with real world database
 dev-python/mmh3 9999: Python extension for MurmurHash
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
-dev-python/openai 1.92.2: Python client library for the OpenAI API
+dev-python/openai 1.93.0: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
@@ -259,7 +258,6 @@ virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-libs/libnotify 0.8.6: A library for sending desktop notifications
-x11-libs/pango 1.56.3: Internationalized text layout and rendering library
 x11-misc/xdg-user-dirs-gtk 0.14: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-themes/adwaita-icon-theme 48.1: GNOME default icon theme
