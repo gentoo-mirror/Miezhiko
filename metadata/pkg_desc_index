@@ -18,6 +18,7 @@ app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, ma
 app-emulation/wine-proton 9999: Valve Software's fork of Wine
 app-misc/crab 9999: a crab
 app-misc/cryptowatch 0.5.0: fast & furious
+app-misc/hidamari 9999: Video wallpaper for Linux.
 app-misc/hodl 9999: hodl
 app-misc/ollama-bin 0.9.5: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 app-misc/shelter 9999: MIGMA SHELTER
