@@ -56,7 +56,6 @@ src_prepare() {
 }
 
 src_configure() {
-	# TODO: Give users a way to set the G/FB/Windows Live secrets
 	local emesonargs=(
 		-Dgoabackend=true
 		-Dexchange=true
@@ -66,8 +65,7 @@ src_configure() {
 		$(meson_use kerberos)
 		-Downcloud=true
 		-Dwebdav=true
-		-Dwindows_live=true
-		$(meson_use gtk-doc gtk_doc)
+		$(meson_use gtk-doc documentation)
 		$(meson_use ms365 ms_graph)
 		$(meson_use introspection)
 		-Dman=true
