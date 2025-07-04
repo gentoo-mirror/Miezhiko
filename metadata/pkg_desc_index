@@ -3,6 +3,7 @@ acct-group/ollama 0: System group: ollama
 acct-user/monero 0: System user: monero
 acct-user/ollama 0: System user for ollama
 app-accessibility/at-spi2-atk 2.54.0: Gtk module for bridging AT-SPI to Atk
+app-admin/ananicy-cpp 9999: Ananicy rewritten in C++ for much lower CPU and memory usage (powered by CachyOS rules)
 app-alternatives/v2ray-geoip 0-r2: symlink for v2ray-geoip
 app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
 app-arch/file-roller 44.5: Archive manager for GNOME
