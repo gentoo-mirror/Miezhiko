@@ -43,7 +43,7 @@ BDEPEND="
 	)
 	${PYTHON_DEPS}
 "
-PDEPEND="miners? ( >=app-misc/tracker-miners-3.6_rc )"
+PDEPEND="miners? ( app-misc/localsearch )"
 
 python_check_deps() {
 	python_has_version -b \
