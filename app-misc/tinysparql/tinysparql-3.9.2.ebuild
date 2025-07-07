@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 
 inherit bash-completion-r1 flag-o-matic gnome.org gnome2-utils linux-info meson python-any-r1 systemd vala xdg
 
@@ -43,7 +43,7 @@ BDEPEND="
 	)
 	${PYTHON_DEPS}
 "
-PDEPEND="miners? ( app-misc/localsearch )"
+PDEPEND="miners? ( >=app-misc/localsearch-3.9.0 )"
 
 python_check_deps() {
 	python_has_version -b \
