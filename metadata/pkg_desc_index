@@ -101,7 +101,6 @@ dev-haskell/websockets 0.13.0.0: A sensible and clean way to write WebSocket-cap
 dev-java/sbt-bin 1.11.3: sbt, a build tool for Scala
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/ghc 9.12.1-r1: The Glasgow Haskell Compiler
-dev-lang/idris2 0.7.0 9999: Purely functional programming language with first class types
 dev-lang/scala-bin 3.7.1: The Scala Programming Language
 dev-lang/vala 0.56.18: Compiler for the GObject type system
 dev-libs/boost 1.85.0-r1 1.88.0-r1: Boost Libraries for C++
