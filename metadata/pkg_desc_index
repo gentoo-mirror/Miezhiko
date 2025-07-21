@@ -193,7 +193,6 @@ gui-libs/gtksourceview 5.16.0: A text widget implementing syntax highlighting an
 gui-libs/libadwaita 1.7.5: Building blocks for modern GNOME applications
 gui-wm/niri 9999: Scrollable-tiling Wayland compositor
 mail-client/evolution 3.57.1: Integrated mail, addressbook and calendaring functionality
-media-fonts/adwaita-fonts 48.2: Adwaita fonts, the default font set for GNOME
 media-fonts/lato 2: Lato font
 media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
 media-libs/grilo 0.3.19: A framework for easy media discovery and browsing
