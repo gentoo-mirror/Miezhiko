@@ -12,7 +12,7 @@ app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents 
 app-editors/gnome-text-editor 48.3: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.102.2: Multiplatform Visual Studio Code from Microsoft
-app-editors/zed-bin 0.196.5: Code editor from the creators of Atom
+app-editors/zed-bin 0.196.6: Code editor from the creators of Atom
 app-emulation/proton-ge-custom-bin 10.10: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-misc/crab 9999: a crab
@@ -147,7 +147,7 @@ dev-python/toml 0.10.2-r1: Python library for handling TOML files
 dev-python/undetected-chromedriver 9999: Custom Selenium Chromedriver
 dev-qt/ghoul 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtwebengine 5.15.16_p20241115-r666: Library for rendering dynamic web content in Qt5 C++ and QML applications
-dev-util/beekeeper-studio-bin 5.3.1: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
+dev-util/beekeeper-studio-bin 5.3.2: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
 dev-util/cargo-about 0.6.2: Cargo plugin to generate list of all licenses for a crate
 dev-util/cargo-check-deadlock 9999: Find deadlocks in Rust code with Petri net model checking
@@ -220,8 +220,8 @@ sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-fri
 sci-libs/pydicom 3.0.1: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.1.3: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
-sci-libs/transformers 4.53.3-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
-sci-ml/huggingface_hub 0.33.4: a client library to interact with the Hugging Face Hub
+sci-libs/transformers 4.54.0-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+sci-ml/huggingface_hub 0.34.1: a client library to interact with the Hugging Face Hub
 sys-apps/baobab 48.0: Disk usage browser for GNOME
 sys-apps/dbus-broker 37: Linux D-Bus Message Broker
 sys-apps/lr 1.6: list files, recursively
