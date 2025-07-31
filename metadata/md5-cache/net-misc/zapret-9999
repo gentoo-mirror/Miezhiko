@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install unpack
-DEPEND=net-libs/libnetfilter_queue net-firewall/iptables
+DEPEND=net-libs/libnetfilter_queue net-firewall/ipset net-firewall/iptables
 DESCRIPTION=zapret
 EAPI=8
 HOMEPAGE=https://github.com/bol-van/zapret
@@ -8,7 +8,7 @@ INHERIT=git-r3
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=net-libs/libnetfilter_queue net-firewall/iptables
+RDEPEND=net-libs/libnetfilter_queue net-firewall/ipset net-firewall/iptables
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=76b49a81f34e11d04a3dcf40c98aae0a
+_md5_=a597de4380a389c44efdec76bc6ee62f
