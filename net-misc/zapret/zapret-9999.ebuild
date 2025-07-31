@@ -14,6 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="net-libs/libnetfilter_queue
+	net-firewall/ipset
 	net-firewall/iptables"
 RDEPEND="${DEPEND}"
 
