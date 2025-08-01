@@ -30,7 +30,7 @@ DEPEND="
 	app-arch/unzip
 	app-text/docbook-xml-dtd:4.5
 	app-text/xmlto
-	>=dev-lang/elixir-1.13.4 <dev-lang/elixir-1.17.0
+	>=dev-lang/elixir-1.13.4 <dev-lang/elixir-1.18.0
 	dev-libs/libxslt
 	${PYTHON_DEPS}
 "
@@ -40,6 +40,7 @@ pkg_setup() {
 }
 
 src_compile() {
+        export PROJECT_VERSION=${PV}
 	# Disable parallel make
 	# https://bugs.gentoo.org/930093
 	# https://bugs.gentoo.org/930098
