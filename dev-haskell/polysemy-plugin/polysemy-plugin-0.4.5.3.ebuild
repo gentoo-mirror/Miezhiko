@@ -21,13 +21,12 @@ IUSE="corelint"
 RDEPEND=">=dev-haskell/ghc-tcplugins-extra-0.3:=[profile?] <dev-haskell/ghc-tcplugins-extra-0.6:=[profile?]
 	>=dev-haskell/polysemy-1.7:=[profile?]
 	>=dev-haskell/syb-0.7:=[profile?] <dev-haskell/syb-0.8:=[profile?]
-	>=dev-lang/ghc-8.6.5:=[profile?] <dev-lang/ghc-10:=[profile?]
 	>=dev-lang/ghc-9.0.2:=
 "
 DEPEND="${RDEPEND}
-	>=dev-haskell/cabal-3.4.1.0 <dev-haskell/cabal-3.15
-	>=dev-haskell/cabal-doctest-1.0.6 <dev-haskell/cabal-doctest-1.1
-	test? ( >=dev-haskell/doctest-0.16.0.1 <dev-haskell/doctest-0.25
+	>=dev-haskell/cabal-3.4.1.0
+	>=dev-haskell/cabal-doctest-1.0.6
+	test? ( >=dev-haskell/doctest-0.16.0.1
 		>=dev-haskell/hspec-2.6.0 <dev-haskell/hspec-3
 		dev-haskell/hspec-discover
 		>=dev-haskell/inspection-testing-0.4.2 <dev-haskell/inspection-testing-0.7
