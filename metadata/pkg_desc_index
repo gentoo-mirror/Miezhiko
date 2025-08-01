@@ -53,6 +53,7 @@ dev-haskell/errors 2.3.0-r5: Simplified error-handling
 dev-haskell/foldable1-classes-compat 0.1.1: Compatibility package for the Foldable1 and Bifoldable1 type classes
 dev-haskell/ghc-lib-parser 9.12.1.20250105: The GHC API, decoupled from GHC versions
 dev-haskell/ghc-lib-parser-ex 9.12.0.0: Programming with GHC parse trees
+dev-haskell/ghc-tcplugins-extra 0.5: Utilities for writing GHC type-checker plugins
 dev-haskell/hake 9999: scripty thing
 dev-haskell/haku 9999: scripty thing experiment
 dev-haskell/hjsmin 0.2.1: Haskell implementation of a javascript minifier
