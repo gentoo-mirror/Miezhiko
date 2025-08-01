@@ -16,8 +16,7 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64"
 IUSE="deverror"
 
-RDEPEND=">=dev-lang/ghc-9.0:=[profile?] <dev-lang/ghc-9.2:=[profile?]
-	>=dev-lang/ghc-9.0.2:=
+RDEPEND=">=dev-lang/ghc-9.0:=[profile?]
 "
 DEPEND="${RDEPEND}
 	>=dev-haskell/cabal-3.4.1.0
