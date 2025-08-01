@@ -177,7 +177,7 @@ gnome-base/gsettings-desktop-schemas 48.0: Collection of GSettings schemas for G
 gnome-base/gvfs 1.57.2: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.60.0: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 48.3-r666: Default file manager for the GNOME desktop
-gnome-extra/evolution-data-server 3.57.1: Evolution groupware backend
+gnome-extra/evolution-data-server 3.57.2: Evolution groupware backend
 gnome-extra/gnome-calendar 48.1: Manage your calendars with simple and modern interface
 gnome-extra/gnome-shell-extensions 48.3: JavaScript extensions for GNOME Shell
 gnome-extra/gnome-system-monitor 48.1: The Gnome System Monitor
@@ -190,7 +190,7 @@ gui-libs/gtk 4.19.2: GTK is a multi-platform toolkit for creating graphical user
 gui-libs/gtksourceview 5.16.0: A text widget implementing syntax highlighting and other features
 gui-libs/libadwaita 1.7.5: Building blocks for modern GNOME applications
 gui-wm/niri 9999: Scrollable-tiling Wayland compositor
-mail-client/evolution 3.57.1: Integrated mail, addressbook and calendaring functionality
+mail-client/evolution 3.57.2: Integrated mail, addressbook and calendaring functionality
 media-fonts/lato 2: Lato font
 media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
 media-libs/grilo 0.3.19: A framework for easy media discovery and browsing
