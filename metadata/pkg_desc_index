@@ -95,7 +95,7 @@ dev-haskell/servant-multipart-client 0.12.1 0.12.2: multipart/form-data (e.g fil
 dev-haskell/stylish-haskell 9999: Haskell code prettifier
 dev-haskell/time-parsers 0.2: Parsers for types in 'time'
 dev-haskell/tinkoff-invest-sdk 9999: gRPC based SDK for Tinkoff Invest API V2
-dev-haskell/typerep-map 0.6.0.0-r2: Efficient implementation of a dependent map with types as keys
+dev-haskell/typerep-map 0.6.0.0-r3: Efficient implementation of a dependent map with types as keys
 dev-haskell/unboxing-vector 0.2.0.0: A newtype-friendly variant of unboxed vectors
 dev-haskell/websockets 0.13.0.0: A sensible and clean way to write WebSocket-capable servers in Haskell
 dev-java/sbt-bin 1.11.3: sbt, a build tool for Scala
