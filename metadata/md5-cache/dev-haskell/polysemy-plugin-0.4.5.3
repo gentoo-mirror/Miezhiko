@@ -1,16 +1,16 @@
 BDEPEND=app-text/dos2unix
 DEFINED_PHASES=compile configure install postinst postrm prepare setup test
-DEPEND=>=dev-haskell/ghc-tcplugins-extra-0.3:=[profile?] <dev-haskell/ghc-tcplugins-extra-0.6:=[profile?] >=dev-haskell/polysemy-1.7:=[profile?] >=dev-haskell/syb-0.7:=[profile?] <dev-haskell/syb-0.8:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 >=dev-haskell/cabal-doctest-1.0.6 test? ( >=dev-haskell/doctest-0.16.0.1 >=dev-haskell/hspec-2.6.0 <dev-haskell/hspec-3 dev-haskell/hspec-discover >=dev-haskell/inspection-testing-0.4.2 <dev-haskell/inspection-testing-0.7 >=dev-haskell/should-not-typecheck-2.1.0 <dev-haskell/should-not-typecheck-3 ) hscolour? ( dev-haskell/hscolour )
+DEPEND=>=dev-haskell/ghc-tcplugins-extra-0.3:=[profile?] <dev-haskell/ghc-tcplugins-extra-0.6:=[profile?] >=dev-haskell/polysemy-1.7:=[profile?] >=dev-haskell/syb-0.7:=[profile?] <dev-haskell/syb-0.8:=[profile?] >=dev-lang/ghc-9.0.2:= >=dev-haskell/cabal-3.4.1.0 dev-haskell/cabal-doctest hscolour? ( dev-haskell/hscolour )
 DESCRIPTION=Disambiguate obvious uses of effects
 EAPI=8
 HOMEPAGE=https://github.com/polysemy-research/polysemy#readme
 INHERIT=haskell-cabal
-IUSE=corelint doc hscolour hoogle profile test
+IUSE=corelint doc hscolour hoogle profile
 KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=>=dev-haskell/ghc-tcplugins-extra-0.3:=[profile?] <dev-haskell/ghc-tcplugins-extra-0.6:=[profile?] >=dev-haskell/polysemy-1.7:=[profile?] >=dev-haskell/syb-0.7:=[profile?] <dev-haskell/syb-0.8:=[profile?] >=dev-lang/ghc-9.0.2:= dev-lang/ghc:=[profile?]
-RESTRICT=!test? ( test )
+RESTRICT=test
 SLOT=0/0.4.5.3
 SRC_URI=https://hackage.haskell.org/package/polysemy-plugin-0.4.5.3/polysemy-plugin-0.4.5.3.tar.gz https://hackage.haskell.org/package/polysemy-plugin-0.4.5.3/revision/1.cabal -> polysemy-plugin-0.4.5.3-rev1.cabal
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	90c0a2ac16d7e6d581a37078c278d6dc	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	6de903b5a7fe66ebd51235a146cc3a48
-_md5_=db7c629ff9daf5c29579735f6be062cc
+_md5_=7cda8a05a5c13277a3235014018be955
