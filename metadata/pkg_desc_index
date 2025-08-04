@@ -64,6 +64,7 @@ dev-haskell/http2-grpc-proto-lens 0.1.0.1-r16012024: Encoders based on 'proto-le
 dev-haskell/http2-grpc-types 0.5.0.1-r16012024: Types for gRPC over HTTP2 common for client and servers
 dev-haskell/hw-kafka-client 5.3.0: Kafka bindings for Haskell
 dev-haskell/incipit-base 0.6.1.1: A Prelude for Polysemy – Base Reexports
+dev-haskell/incipit-core 0.6.1.1: A Prelude for Polysemy
 dev-haskell/jose 0.10: JSON Object Signing and Encryption (JOSE) and JSON Web Token (JWT) library
 dev-haskell/kalmarity 9999: 
 dev-haskell/libyaml 0.1.4: Low-level, streaming YAML interface
@@ -75,6 +76,7 @@ dev-haskell/openai-hs 9999: Unofficial OpenAI client
 dev-haskell/openai-servant 9999: Unofficial OpenAI servant types
 dev-haskell/optics-extra 0.4.2.1: Extra utilities and instances for optics-core
 dev-haskell/optics-th 0.4.1-r9: Optics construction using TemplateHaskell
+dev-haskell/optparse-generic 1.5.2-r1: Auto-generate a command-line parser for your datatype
 dev-haskell/persistent 2.14.6.3: Type-safe, multi-backend data serialization
 dev-haskell/pipes 4.3.16-r2: Compositional pipelines
 dev-haskell/polysemy-plugin 0.4.5.3: Disambiguate obvious uses of effects
