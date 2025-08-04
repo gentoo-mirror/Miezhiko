@@ -17,9 +17,10 @@ KEYWORDS="~amd64 ~x86"
 
 CABAL_CHDEPS=(
        'base >= 4.10 && < 4.18' 'base >= 4.10 && < 6'
-       'ghc-prim >= 0.5.1.1 && < 0.10' 'ghc-prim >= 0.5.1.1 && < 0.12'
+       'ghc-prim >= 0.5.1.1 && < 0.10' 'ghc-prim >= 0.5.1.1 && < 0.15'
        'primitive ^>= 0.7.0' 'primitive >=0.7.0 && <0.12'
        'deepseq ^>= 1.4' 'deepseq >=1.4 && <2'
+       'containers >= 0.5.10.2 && < 0.7' 'containers >= 0.5.10.2 && < 0.8'
 )
 
 RDEPEND=">=dev-haskell/primitive-0.7.0:=[profile?] <dev-haskell/primitive-0.12:=[profile?]
