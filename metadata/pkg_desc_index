@@ -93,6 +93,7 @@ dev-haskell/servant-multipart 0.12.1: multipart/form-data (e.g file upload) supp
 dev-haskell/servant-multipart-api 0.12.1: multipart/form-data (e.g file upload) support for servant
 dev-haskell/servant-multipart-client 0.12.1 0.12.2: multipart/form-data (e.g file upload) support for servant
 dev-haskell/stylish-haskell 9999: Haskell code prettifier
+dev-haskell/text-show 3.11.2: Efficient conversion of values into Text
 dev-haskell/time-parsers 0.2: Parsers for types in 'time'
 dev-haskell/tinkoff-invest-sdk 9999: gRPC based SDK for Tinkoff Invest API V2
 dev-haskell/typerep-map 0.6.0.0-r3: Efficient implementation of a dependent map with types as keys
@@ -168,12 +169,12 @@ games-simulation/llbase 9999: Utility modules used from Linden Lab
 games-simulation/llsd 9999: Python LLSD serialization library
 games-util/mangohud 9999: Vulkan and OpenGL overlay for monitoring FPS, sensors, system load and more
 gnome-base/gdm 48.0: GNOME Display Manager for managing graphical display servers and user logins
-gnome-base/gnome-control-center 48.3: GNOME's main interface to configure various aspects of the desktop
+gnome-base/gnome-control-center 48.4: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-keyring 48.0: Password and keyring managing daemon
 gnome-base/gnome-session 48.0: Gnome session manager
 gnome-base/gnome-settings-daemon 48.1: Gnome Settings Daemon
-gnome-base/gnome-shell 48.3: Provides core UI functions for the GNOME desktop
+gnome-base/gnome-shell 48.4: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 48.0: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.57.2: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.60.0: Scalable Vector Graphics (SVG) rendering library
