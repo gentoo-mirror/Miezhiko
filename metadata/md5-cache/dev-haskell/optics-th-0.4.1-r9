@@ -1,0 +1,16 @@
+BDEPEND=app-text/dos2unix
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-haskell/optics-core-0.4.1:=[profile?] >=dev-haskell/th-abstraction-0.4:=[profile?] >=dev-lang/ghc-8.10.6:= >=dev-haskell/cabal-3.2.1.0 test? ( dev-haskell/tagged ) hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Optics construction using TemplateHaskell
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/optics-th
+INHERIT=haskell-cabal
+IUSE=doc hscolour hoogle profile test
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=dev-haskell/optics-core-0.4.1:=[profile?] >=dev-haskell/th-abstraction-0.4:=[profile?] >=dev-lang/ghc-8.10.6:= dev-lang/ghc:=[profile?]
+RESTRICT=!test? ( test )
+SLOT=0/0.4.1
+SRC_URI=https://hackage.haskell.org/package/optics-th-0.4.1/optics-th-0.4.1.tar.gz https://hackage.haskell.org/package/optics-th-0.4.1/revision/9.cabal -> optics-th-0.4.1-rev9.cabal
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	ghc-package	90c0a2ac16d7e6d581a37078c278d6dc	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	b2a329026f2e404e9e371097dda47f96	haskell-cabal	6de903b5a7fe66ebd51235a146cc3a48
+_md5_=18048210fcab47cd0054d73509f912ba
