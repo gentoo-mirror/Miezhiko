@@ -241,6 +241,7 @@ sys-process/uksmd 6.12.2: Userspace KSM helper daemon
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
+x11-libs/gdk-pixbuf 2.43.3: Image loading library for GTK+
 x11-libs/libnotify 0.8.6: A library for sending desktop notifications
 x11-misc/xdg-user-dirs-gtk 0.14: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
