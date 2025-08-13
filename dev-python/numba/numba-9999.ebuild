@@ -3,9 +3,12 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..11} )
+PYTHON_COMPAT=( python3_{9..13} )
 
 DISTUTILS_USE_SETUPTOOLS=rdepend
+
+DISTUTILS_USE_PEP517=setuptools
+
 inherit optfeature multiprocessing distutils-r1 git-r3
 
 DESCRIPTION="NumPy aware dynamic Python compiler using LLVM"

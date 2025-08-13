@@ -1,7 +1,7 @@
 # Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 if [[ ${PV} = *9999 ]]; then
 	EGIT_BRANCH="qtwebkit-5.212"
@@ -13,8 +13,8 @@ else
 	KEYWORDS="amd64 arm arm64 ppc64 x86"
 	S="${WORKDIR}/${MY_P}"
 fi
-PYTHON_COMPAT=( python3_{7..10} )
-USE_RUBY="ruby25 ruby26 ruby27 ruby30 ruby31"
+PYTHON_COMPAT=( python3_{9..13} )
+USE_RUBY="ruby25 ruby26 ruby27 ruby30 ruby31 ruby32"
 inherit check-reqs cmake flag-o-matic python-any-r1 qmake-utils ruby-single toolchain-funcs
 
 DESCRIPTION="WebKit rendering library for the Qt5 framework (deprecated)"
