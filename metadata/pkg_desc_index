@@ -217,7 +217,7 @@ media-libs/implot 0.16-r2: Immediate Mode Plotting
 media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
 media-video/clapper 9999: A GNOME media player built using GJS with GTK4 toolkit and powered by GStreamer with OpenGL rendering.
 net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
-net-im/discord-canary-bin 0.0.506: All-in-one voice and text chat
+net-im/discord-canary-bin 0.0.740: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-libs/glib-networking 2.80.1: Network-related giomodules for glib
 net-libs/gnome-online-accounts 3.55.1: GNOME framework for accessing online accounts
