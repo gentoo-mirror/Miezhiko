@@ -12,7 +12,7 @@ app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents 
 app-editors/gnome-text-editor 48.3: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.103.1: Multiplatform Visual Studio Code from Microsoft
-app-editors/zed-bin 0.199.6: Code editor from the creators of Atom
+app-editors/zed-bin 0.199.9: Code editor from the creators of Atom
 app-emulation/proton-ge-custom-bin 10.12: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-misc/crab 9999: a crab
@@ -193,7 +193,7 @@ gnome-base/gnome-settings-daemon 48.1: Gnome Settings Daemon
 gnome-base/gnome-shell 48.4: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 48.0: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.57.2: Virtual filesystem implementation for GIO
-gnome-base/librsvg 2.60.0: Scalable Vector Graphics (SVG) rendering library
+gnome-base/librsvg 2.61.0: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 48.3-r666: Default file manager for the GNOME desktop
 gnome-extra/evolution-data-server 3.57.2: Evolution groupware backend
 gnome-extra/gnome-calendar 48.1: Manage your calendars with simple and modern interface
@@ -249,7 +249,7 @@ sys-apps/nq 0.5: unix command line queue utility
 sys-apps/rwc 0.3: report when files change
 sys-apps/snooze 0.5: run a command at a particular time
 sys-apps/xe 1.0: simple xargs and apply replacement
-sys-devel/mold 2.40.3: A Modern Linker
+sys-devel/mold 2.40.4: A Modern Linker
 sys-libs/libosinfo 1.12.0-r666: GObject library for managing information about real and virtual OSes
 sys-process/uksmd 6.12.2: Userspace KSM helper daemon
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
