@@ -3,7 +3,7 @@
 
 EAPI=8
 
-LLVM_COMPAT=( {18..22} )
+LLVM_COMPAT=( {18..23} )
 RUST_MIN_VER="1.80.1"
 
 inherit cargo llvm-r2 optfeature systemd git-r3
@@ -34,7 +34,7 @@ DEPEND="
 	dev-libs/glib:2
 	dev-libs/libinput:=
 	dev-libs/wayland
-	media-libs/libdisplay-info:=
+	<media-libs/libdisplay-info-0.3
 	media-libs/mesa
 	sys-auth/seatd:=
 	virtual/libudev:=
