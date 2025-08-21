@@ -78,36 +78,60 @@ QA_PREBUILT="
 	/opt/vscode/swiftshader/libGLESv2.so
 "
 
+QA_PREBUILT="*"
+
+src_unpack() {
+	default
+	mv "${S}"/VSCode-linux-* "${S}/vscode" || die
+}
+
+src_configure() {
+	default
+	chromium_suid_sandbox_check_kernel_config
+}
+
+src_prepare() {
+	default
+	pushd "vscode/locales" > /dev/null || die
+	chromium_remove_language_paks
+	popd > /dev/null || die
+}
+
 src_install() {
-	if use amd64; then
-		cd "${WORKDIR}/VSCode-linux-x64" || die
-	elif use arm; then
-		cd "${WORKDIR}/VSCode-linux-armhf" || die
-	elif use arm64; then
-		cd "${WORKDIR}/VSCode-linux-arm64" || die
-	else
-		die "Visual Studio Code only supports amd64, arm and arm64"
-	fi
+	cd vscode || die
+
+	# Cleanup
+	rm -r ./resources/app/ThirdPartyNotices.txt || die
 
 	# Disable update server
 	sed -e "/updateUrl/d" -i ./resources/app/product.json || die
 
 	# Install
 	pax-mark m code
-	insinto "/opt/${PN}"
-	doins -r *
-	fperms +x /opt/${PN}/{,bin/}code
-	fperms +x /opt/${PN}/chrome_crashpad_handler
+	mkdir -p "${ED}/opt/${PN}" || die
+	cp -r . "${ED}/opt/${PN}" || die
 	fperms 4711 /opt/${PN}/chrome-sandbox
-	fperms 755 /opt/${PN}/resources/app/extensions/git/dist/{askpass,git-editor,ssh-askpass}{,-empty}.sh
-	fperms -R +x /opt/${PN}/resources/app/out/vs/base/node
-	fperms +x /opt/${PN}/resources/app/node_modules/@vscode/ripgrep/bin/rg
-	dosym "../../opt/${PN}/bin/code" "usr/bin/vscode"
-	dosym "../../opt/${PN}/bin/code" "usr/bin/code"
-	domenu "${FILESDIR}/vscode.desktop"
-	domenu "${FILESDIR}/vscode-url-handler.desktop"
-	domenu "${FILESDIR}/vscode-wayland.desktop"
-	domenu "${FILESDIR}/vscode-url-handler-wayland.desktop"
+
+	dosym -r "/opt/${PN}/bin/code" "usr/bin/vscode"
+	dosym -r "/opt/${PN}/bin/code" "usr/bin/code"
+
+	local EXEC_EXTRA_FLAGS=()
+
+	sed "s|@exec_extra_flags@|${EXEC_EXTRA_FLAGS[*]}|g" \
+		"${FILESDIR}/code-url-handler.desktop" \
+		> "${T}/code-url-handler.desktop" || die
+
+	sed "s|@exec_extra_flags@|${EXEC_EXTRA_FLAGS[*]}|g" \
+		"${FILESDIR}/code.desktop" \
+		> "${T}/code.desktop" || die
+
+	sed "s|@exec_extra_flags@|${EXEC_EXTRA_FLAGS[*]}|g" \
+		"${FILESDIR}/code-open-in-new-window.desktop" \
+		> "${T}/code-open-in-new-window.desktop" || die
+
+	domenu "${T}/code.desktop"
+	domenu "${T}/code-url-handler.desktop"
+	domenu "${T}/code-open-in-new-window.desktop"
 	newicon "resources/app/resources/linux/code.png" "vscode.png"
 }
 
