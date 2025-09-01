@@ -221,7 +221,7 @@ net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord-canary-bin 0.0.740: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-libs/glib-networking 2.80.1: Network-related giomodules for glib
-net-libs/gnome-online-accounts 3.55.1: GNOME framework for accessing online accounts
+net-libs/gnome-online-accounts 3.55.2: GNOME framework for accessing online accounts
 net-libs/libsoup 3.6.5: HTTP client/server library for GNOME
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/curl-impersonate 0.6.1: A Client that groks URLs
