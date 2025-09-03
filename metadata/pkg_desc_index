@@ -12,7 +12,7 @@ app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents 
 app-editors/gnome-text-editor 48.3: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.103.2: Multiplatform Visual Studio Code from Microsoft
-app-editors/zed-bin 0.201.8: Code editor from the creators of Atom
+app-editors/zed-bin 0.201.9: Code editor from the creators of Atom
 app-editors/zedless 9999: Code editor from the creators of Atom
 app-emulation/proton-ge-custom-bin 10.15: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
@@ -144,7 +144,7 @@ dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
-dev-python/openai 1.102.0: Python client library for the OpenAI API
+dev-python/openai 1.104.2: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
@@ -169,7 +169,7 @@ dev-python/xtempmail 0.10: Temporary Email
 dev-qt/ghoul 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtwebengine 5.15.16_p20241115-r666: Library for rendering dynamic web content in Qt5 C++ and QML applications
 dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 framework (deprecated)
-dev-util/beekeeper-studio-bin 5.3.4: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
+dev-util/beekeeper-studio-bin 5.3.5: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
 dev-util/cargo-about 0.6.2: Cargo plugin to generate list of all licenses for a crate
 dev-util/cargo-check-deadlock 9999: Find deadlocks in Rust code with Petri net model checking
