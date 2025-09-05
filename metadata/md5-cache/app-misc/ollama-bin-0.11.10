@@ -10,6 +10,6 @@ LICENSE=MIT
 RDEPEND=acct-user/ollama acct-group/ollama
 RESTRICT=strip
 SLOT=0
-SRC_URI=https://github.com/ollama/ollama/releases/download/v0.11.8/ollama-linux-amd64.tgz -> ollama-bin-0.11.8.amd64.tgz
+SRC_URI=https://github.com/ollama/ollama/releases/download/v0.11.10/ollama-linux-amd64.tgz -> ollama-bin-0.11.10.amd64.tgz
 _eclasses_=xdg-utils	42869b3c8d86a70ef3cf75165a395e09
 _md5_=e0a8847376fc77304f7d5e0be5c721f4
