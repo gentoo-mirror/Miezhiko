@@ -144,7 +144,7 @@ dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
-dev-python/openai 1.106.1: Python client library for the OpenAI API
+dev-python/openai 1.107.0: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
@@ -194,7 +194,7 @@ gnome-base/gnome-settings-daemon 48.1: Gnome Settings Daemon
 gnome-base/gnome-shell 48.4: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 48.0: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.57.2: Virtual filesystem implementation for GIO
-gnome-base/librsvg 2.61.0: Scalable Vector Graphics (SVG) rendering library
+gnome-base/librsvg 2.61.1: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 48.3-r666: Default file manager for the GNOME desktop
 gnome-extra/evolution-data-server 3.57.3: Evolution groupware backend
 gnome-extra/gnome-calendar 48.1: Manage your calendars with simple and modern interface
@@ -205,7 +205,7 @@ gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
 gui-apps/fuzzel 1.12.0: Application launcher for wlroots based Wayland compositors.
 gui-apps/gnome-console 48.0.1: A simple user-friendly terminal emulator for the GNOME desktop
 gui-apps/xwayland-satellite 0.6: Xwayland outside your Wayland
-gui-libs/gtk 4.20.0: GTK is a multi-platform toolkit for creating graphical user interfaces
+gui-libs/gtk 4.20.1: GTK is a multi-platform toolkit for creating graphical user interfaces
 gui-libs/gtksourceview 5.16.0: A text widget implementing syntax highlighting and other features
 gui-libs/libadwaita 1.7.6: Building blocks for modern GNOME applications
 gui-wm/niri 9999: Scrollable-tiling Wayland compositor
@@ -255,7 +255,7 @@ sys-process/uksmd 6.12.2: Userspace KSM helper daemon
 virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
-x11-libs/gdk-pixbuf 2.43.5: Image loading library for GTK+
+x11-libs/gdk-pixbuf 2.44.0: Image loading library for GTK+
 x11-libs/libnotify 0.8.6: A library for sending desktop notifications
 x11-libs/pango 1.57.0: Internationalized text layout and rendering library
 x11-misc/xdg-user-dirs-gtk 0.14: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
