@@ -36,6 +36,18 @@ BDEPEND="
 
 S="${WORKDIR}/${P}"
 
+pkg_pretend() {
+    ewarn ""
+    ewarn "=================================================================="
+    ewarn "BEFORE EMERGING ${PN}:"
+    ewarn ""
+    ewarn "you can instrall it following way:"
+    ewarn "FEATURES=\"-network-sandbox\" emerge -av1 media-libs/glycin"
+    ewarn ""
+    ewarn "=================================================================="
+    ewarn ""
+}
+
 src_unpack() {
 	git-r3_src_unpack
 	cargo_live_src_unpack
@@ -57,10 +69,10 @@ src_configure() {
 		-Db_lto=true
 		-Db_lto_mode=thin
 		-Dlibglycin=true
-		-Dvapi=false
+		-Dvapi=true
 		-Dglycin-loaders=false  # Use external loaders package
-		-Dintrospection=false
-		-Dglycin-thumbnailer=false
+		-Dintrospection=true
+		-Dglycin-thumbnailer=true
 		-Dtests=$(usex test true false)
 	)
 
