@@ -23,7 +23,7 @@ COMMON_DEPEND="
 	>=dev-libs/glib-2.70:2
 	>=gnome-base/gnome-desktop-3.37.1:3=
 	>=gnome-base/gsettings-desktop-schemas-46.0
-	>=x11-libs/gtk+-3.15.3:3[X,wayland?]
+	>=x11-libs/gtk+-3.15.3:3[X,wayland]
 	>=dev-libs/libgweather-4.2.0:4=
 	colord? ( >=x11-misc/colord-1.4.5:= )
 	media-libs/libcanberra
@@ -35,12 +35,10 @@ COMMON_DEPEND="
 	x11-libs/libX11
 	>=x11-libs/libXfixes-6.0.0
 	dev-libs/libgudev:=
-	wayland? ( dev-libs/wayland )
-	input_devices_wacom? (
-		>=dev-libs/libwacom-0.7:=
-		>=x11-libs/pango-1.20.0
-		x11-libs/gdk-pixbuf:2
-	)
+	dev-libs/wayland
+	>=dev-libs/libwacom-0.7:=
+	>=x11-libs/pango-1.20.0
+	x11-libs/gdk-pixbuf:2
 	smartcard? ( app-crypt/gcr:4= )
 	cups? ( >=net-print/cups-1.4[dbus] )
 	modemmanager? (
@@ -82,7 +80,6 @@ BDEPEND="
 "
 
 PATCHES=(
-	"${FILESDIR}"/42.1-build-Make-wacom-optional-and-controllable-via-meson.patch
 	"${FILESDIR}"/${PN}-3.38.1-build-Allow-NM-optional-on-Linux.patch
 )
 
@@ -110,8 +107,6 @@ src_configure() {
 		$(meson_use networkmanager network_manager)
 		-Drfkill=true
 		$(meson_use smartcard)
-		$(meson_use input_devices_wacom wacom)
-		$(meson_use wayland)
 		$(meson_use modemmanager wwan)
 	)
 	meson_src_configure
