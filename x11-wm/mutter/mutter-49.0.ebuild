@@ -87,8 +87,11 @@ DEPEND="
 		gnome-extra/zenity
 	)
 	sysprof? ( >=dev-util/sysprof-capture-3.40.1:4 >=dev-util/sysprof-3.46.0 )
+	media-libs/glycin
 "
+
 # for now upstream has "have_x11 = true" in the meson.build, but sooner or later upstream is going to make X optional.
+# OR THEY WILL NEVER DO IT (I hope)
 #	X? (
 DEPEND+="
 		>=gui-libs/gtk-4.0.0:4[X,introspection?]
@@ -137,10 +140,6 @@ BDEPEND="
 	dev-python/argcomplete
 "
 
-PATCHES=(
-	"${FILESDIR}"/${PN}-43.0-Disable-anonymous-file-test.patch
-)
-
 python_check_deps() {
 	if use test; then
 		python_has_version ">=dev-python/python-dbusmock-0.28[${PYTHON_USEDEP}]"
@@ -178,7 +177,6 @@ src_configure() {
 		$(meson_use input_devices_wacom libwacom)
 		-Dsound_player=true
 		-Dstartup_notification=true
-		-Dsm=true
 		$(meson_use introspection)
 		$(meson_use gtk-doc docs)
 		$(meson_use test cogl_tests)
