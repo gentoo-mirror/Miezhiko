@@ -188,12 +188,13 @@ dev-vcs/jj 9999: A Git-compatible DVCS that is both simple and powerful
 games-simulation/alchemy 9999: Alchemy SL Viewer
 games-simulation/firestorm-bin 7.2.2_beta: An open source metaverse viewer
 games-util/mangohud 9999: Vulkan and OpenGL overlay for monitoring FPS, sensors, system load and more
+gnome-base/dconf 0.49.0: Simple low-level configuration system
 gnome-base/dconf-editor 49.0: Graphical tool for editing the dconf configuration database
-gnome-base/gdm 48.0: GNOME Display Manager for managing graphical display servers and user logins
+gnome-base/gdm 49.0: GNOME Display Manager for managing graphical display servers and user logins
 gnome-base/gnome-control-center 49.0: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-keyring 48.0: Password and keyring managing daemon
-gnome-base/gnome-session 48.0: Gnome session manager
+gnome-base/gnome-session 49.0: Gnome session manager
 gnome-base/gnome-settings-daemon 49.0: Gnome Settings Daemon
 gnome-base/gnome-shell 49.0: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 49.0: Collection of GSettings schemas for GNOME desktop
