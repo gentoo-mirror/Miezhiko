@@ -128,6 +128,8 @@ pkg_setup() {
 }
 
 src_prepare() {
+    sed -i '/if (!is_supported_desktop ())/,+4d' "${S}/shell/cc-application.c" || die
+
 	default
 	xdg_environment_reset
 	# Mark python tests with shebang executable, so that meson will launch them directly, instead
