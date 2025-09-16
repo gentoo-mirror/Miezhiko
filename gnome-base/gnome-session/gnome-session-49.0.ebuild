@@ -60,15 +60,11 @@ BDEPEND="
 src_prepare() {
 	default
 	xdg_environment_reset
-
-	# Install USE=doc in ${PF} if enabled
-	sed -i -e "s:meson\.project_name(), 'dbus':'${PF}', 'dbus':" doc/dbus/meson.build || die
 }
 
 src_configure() {
 	local emesonargs=(
 		-Ddeprecation_flags=false
-		-Dsession_selector=true # gnome-custom-session
 		$(meson_use doc docbook)
 		-Dman=true
 		-Dsystemduserunitdir="$(systemd_get_userunitdir)"
