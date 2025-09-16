@@ -19,7 +19,7 @@ else
 	SLOT="0/$(($(ver_cut 1) - 32))" # 0/libmutter_api_version - ONLY gnome-shell (or anything using mutter-clutter-<api_version>.pc) should use the subslot
 fi
 
-IUSE="debug elogind gnome gtk-doc input_devices_wacom +introspection screencast sysprof systemd test udev wayland video_cards_nvidia"
+IUSE="+X debug elogind gnome gtk-doc input_devices_wacom +introspection screencast sysprof systemd test udev wayland video_cards_nvidia"
 # native backend requires gles3 for hybrid graphics blitting support, udev and a logind provider
 REQUIRED_USE="
 	gtk-doc? ( introspection )
@@ -187,6 +187,7 @@ src_configure() {
 		$(meson_use sysprof profiler)
 		-Dinstalled_tests=false
 		-Dtests=disabled
+		$(meson_use X x11)
 	)
 
 	if use wayland && use video_cards_nvidia; then
