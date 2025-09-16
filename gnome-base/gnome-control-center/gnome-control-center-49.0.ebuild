@@ -15,7 +15,7 @@ LICENSE="GPL-2+ CC-BY-SA-2.5"
 SLOT="2"
 KEYWORDS="~amd64 ~arm ~arm64 ~loong ~ppc ~ppc64 ~riscv ~x86"
 
-IUSE="+bluetooth +cups debug elogind +gnome-online-accounts +ibus +input_devices_wacom +kerberos +geolocation networkmanager systemd test wayland"
+IUSE="+bluetooth +cups debug elogind +gnome-online-accounts +ibus +input_devices_wacom +kerberos +geolocation networkmanager systemd test wayland +X"
 REQUIRED_USE="
 	^^ ( elogind systemd )
 " # Theoretically "?? ( elogind systemd )" is fine too, lacking some functionality at runtime,
@@ -152,6 +152,7 @@ src_configure() {
 		-Dprivileged_group=wheel
 		-Dsnap=false
 		$(meson_use test tests)
+		$(meson_use X x11)
 		-Dmalcontent=false # unpackaged
 		-Ddistributor_logo=/usr/share/pixmaps/gnome-control-center-gentoo-logo.svg
 		-Ddark_mode_distributor_logo=/usr/share/pixmaps/gnome-control-center-gentoo-logo-dark.svg
