@@ -251,7 +251,7 @@ sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-fri
 sci-libs/pydicom 3.0.1: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.1.3: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
-sci-libs/transformers 4.56.1-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+sci-libs/transformers 4.56.2-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-ml/huggingface_hub 0.35.0: a client library to interact with the Hugging Face Hub
 sys-apps/baobab 49.0: Disk usage browser for GNOME
 sys-apps/dbus-broker 37: Linux D-Bus Message Broker
