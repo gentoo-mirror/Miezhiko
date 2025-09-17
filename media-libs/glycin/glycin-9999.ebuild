@@ -4,11 +4,13 @@
 EAPI=8
 
 CRATE_PN="glycin"
+
 inherit meson git-r3 cargo vala
 
 DESCRIPTION="Glycin image loading library - sandboxed and extendable image decoding"
-HOMEPAGE="https://gitlab.gnome.org/GNOME/glycin  "
+HOMEPAGE="https://gitlab.gnome.org/GNOME/glycin"
 SRC_URI=""
+
 EGIT_REPO_URI="https://gitlab.gnome.org/GNOME/glycin.git"
 EGIT_COMMIT="2.0.0"
 
@@ -26,41 +28,29 @@ RDEPEND="
 	svg? ( gnome-base/librsvg:= )
 	media-libs/glycin-loaders[heif,svg?]
 "
+
 DEPEND="${RDEPEND}
 	dev-lang/vala
 	virtual/pkgconfig
 "
+
 BDEPEND="
 	$(vala_depend)
 "
 
 S="${WORKDIR}/${P}"
 
-pkg_pretend() {
-    ewarn ""
-    ewarn "=================================================================="
-    ewarn "BEFORE EMERGING ${PN}:"
-    ewarn ""
-    ewarn "you can instrall it following way:"
-    ewarn "FEATURES=\"-network-sandbox\" emerge -av1 media-libs/glycin"
-    ewarn ""
-    ewarn "=================================================================="
-    ewarn ""
-}
-
-src_unpack() {
+_custom_src_unpack() {
 	git-r3_src_unpack
 	cargo_live_src_unpack
+	
+	_do_configure_and_compile
 }
 
-src_prepare() {
+_do_configure_and_compile() {
+	pushd "${S}" || die
+
 	vala_setup
-	cargo_gen_config
-	default
-}
-
-src_configure() {
-	export CARGO_PROFILE_RELEASE_DEBUG=2 CARGO_PROFILE_RELEASE_STRIP=false
 
 	local emesonargs=(
 		-Dtest_skip_install=true
@@ -75,12 +65,60 @@ src_configure() {
 		-Dglycin-thumbnailer=true
 		-Dtests=$(usex test true false)
 	)
-
+	
+	einfo "Configuring with meson (in unpack phase)..."
 	meson_src_configure
+	
+	einfo "Compiling with meson (in unpack phase)..."
+	meson_src_compile
+	
+	popd || die
+}
+
+_custom_cargo_gen_config() {
+	mkdir -p "${ECARGO_HOME}" || die
+
+	cat > "${ECARGO_HOME}/config.toml" <<- _EOF_ || die "Failed to create cargo config"
+	[source.gentoo]
+	directory = "${ECARGO_VENDOR}"
+
+	[source.crates-io]
+	replace-with = "gentoo"
+	local-registry = "/nonexistent"
+
+	[net]
+	offline = true
+
+	[build]
+	jobs = $(makeopts_jobs)
+	incremental = false
+
+	[env]
+	RUST_TEST_THREADS = "$(makeopts_jobs)"
+
+	[term]
+	verbose = true
+	$([[ "${NOCOLOR}" = true || "${NOCOLOR}" = yes ]] && echo "color = 'never'")
+
+	_EOF_
+
+	export CARGO_HOME="${ECARGO_HOME}"
+}
+
+src_unpack() {
+	_custom_src_unpack
+}
+
+src_prepare() {
+	default
+}
+
+src_configure() {
+	:;
 }
 
 src_compile() {
-	meson_src_compile
+	:;
 }
 
 src_install() {
