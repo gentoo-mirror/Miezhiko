@@ -30,6 +30,8 @@ app-office/gnumeric 1.12.59: The GNOME Spreadsheet
 app-office/myoffice 1.28.0.4: office
 app-text/evince 48.1: Simple document viewer for GNOME
 dev-cpp/asio 9999: Asynchronous Network Library
+dev-cpp/glibmm 2.85.0: C++ interface for glib2
+dev-cpp/gtkmm 4.19.1: C++ interface for GTK+
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-haskell/T 9999: time tracker
 dev-haskell/aeson-optics 1.2.1-r1: Law-abiding optics for aeson
@@ -205,7 +207,7 @@ gnome-base/nautilus 49.0: Default file manager for the GNOME desktop
 gnome-extra/evolution-data-server 3.58.0: Evolution groupware backend
 gnome-extra/gnome-calendar 49.0.1: Manage your calendars with simple and modern interface
 gnome-extra/gnome-shell-extensions 49.0: JavaScript extensions for GNOME Shell
-gnome-extra/gnome-system-monitor 48.1: The Gnome System Monitor
+gnome-extra/gnome-system-monitor 49.0: The Gnome System Monitor
 gnome-extra/gnome-tweaks 49.0: Customize advanced GNOME options
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
 gnome-extra/tophat 9999: An elegant system resource monitor for the GNOME shell
