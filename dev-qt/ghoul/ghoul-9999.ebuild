@@ -4,7 +4,7 @@
 EAPI=8
 PLOCALES="cs da de fr hr ja pl ru sl uk zh-CN zh-TW"
 
-LLVM_COMPAT=( {15..19} )
+LLVM_COMPAT=( {15..21} )
 LLVM_OPTIONAL=1
 
 inherit cmake llvm-r1 optfeature virtualx xdg git-r3
