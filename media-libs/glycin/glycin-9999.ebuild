@@ -75,36 +75,6 @@ _do_configure_and_compile() {
 	popd || die
 }
 
-_custom_cargo_gen_config() {
-	mkdir -p "${ECARGO_HOME}" || die
-
-	cat > "${ECARGO_HOME}/config.toml" <<- _EOF_ || die "Failed to create cargo config"
-	[source.gentoo]
-	directory = "${ECARGO_VENDOR}"
-
-	[source.crates-io]
-	replace-with = "gentoo"
-	local-registry = "/nonexistent"
-
-	[net]
-	offline = true
-
-	[build]
-	jobs = $(makeopts_jobs)
-	incremental = false
-
-	[env]
-	RUST_TEST_THREADS = "$(makeopts_jobs)"
-
-	[term]
-	verbose = true
-	$([[ "${NOCOLOR}" = true || "${NOCOLOR}" = yes ]] && echo "color = 'never'")
-
-	_EOF_
-
-	export CARGO_HOME="${ECARGO_HOME}"
-}
-
 src_unpack() {
 	_custom_src_unpack
 }
