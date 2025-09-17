@@ -129,6 +129,13 @@ pkg_setup() {
 
 src_prepare() {
     sed -i '/if (!is_supported_desktop ())/,+4d' "${S}/shell/cc-application.c" || die
+    sed -i \
+		-e 's/title: _("Support GNOME");/title: _("Support Your Princess!");/' \
+		-e 's/subtitle: _("GNOME needs your help\. Please donate today\.");/subtitle: _("Twilight needs your help\. Please donate Mie\.");/' \
+		"${S}/panels/system/about/cc-about-page.blp" || die
+	sed -i \
+		-e 's|https://donate\.gnome\.org/|https://www.donationalerts.com/r/miezhiko|' \
+		"${S}/panels/system/about/cc-about-page.c" || die
 
 	default
 	xdg_environment_reset
