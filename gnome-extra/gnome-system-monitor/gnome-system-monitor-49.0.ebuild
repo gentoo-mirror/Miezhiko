@@ -17,7 +17,7 @@ IUSE="systemd"
 RDEPEND="
 	>=dev-cpp/glibmm-2.85
 	>=dev-libs/glib-2.56.0:2
-	>=gui-libs/gtk-4.12.0:4[X(+)?]
+	>=gui-libs/gtk-4.12.0:4
 	>=dev-cpp/gtkmm-4.19
 	>=gnome-base/libgtop-2.41.2:2=
 	>=gui-libs/libadwaita-1.4.0:1
