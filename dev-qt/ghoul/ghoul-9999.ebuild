@@ -257,10 +257,13 @@ src_test() {
 }
 
 src_install() {
-	cmake_src_install
+	# Use the pre-built artifacts from src_unpack
+	cd "${BUILD_DIR}" || die
+
+	DESTDIR="${D}" emake install || die "installation failed"
 
 	if use doc; then
-		cmake_src_install doc/{qch,html}_docs
+		emake install doc/{qch,html}_docs
 		docinto  html
 		dodoc -r "${BUILD_DIR}"/doc/html/.
 		insinto /usr/share/qt6-doc
