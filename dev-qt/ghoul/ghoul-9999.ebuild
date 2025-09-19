@@ -47,7 +47,7 @@ QTCREATOR_PLUGINS=(
 IUSE="+clang debug doc systemd +qml tools wayland webengine
 	${QTCREATOR_PLUGINS[@]}"
 
-RESTRICT="test network-sandbox"
+RESTRICT="test"
 
 REQUIRED_USE="
 	android? ( lsp )
@@ -241,42 +241,31 @@ src_unpack() {
 }
 
 src_prepare() {
-	# Everything already done in src_unpack
-	:;
+	default
 }
 
 src_configure() {
-	# Everything already done in src_unpack
 	:;
 }
 
 src_compile() {
-	# Everything already done in src_unpack
 	:;
 }
 
 src_test() {
-	# Keep original test functionality if needed
 	:; # I don't need it
 }
 
 src_install() {
-	# Use the pre-built artifacts from src_unpack
-	cd "${BUILD_DIR}" || die
-
-	DESTDIR="${D}" emake install || die "installation failed"
+	cmake_src_install
 
 	if use doc; then
-		emake install doc/{qch,html}_docs
+		cmake_src_install doc/{qch,html}_docs
 		docinto  html
 		dodoc -r "${BUILD_DIR}"/doc/html/.
 		insinto /usr/share/qt6-doc
 		doins "${BUILD_DIR}"/share/doc/qtcreator/*.qch
 	fi
-
-	# Install docs from source directory
-	cd "${CMAKE_USE_DIR}" || die
-	einstalldocs
 }
 
 pkg_postinst() {
