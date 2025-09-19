@@ -36,7 +36,7 @@ DEPEND="
 	x11-libs/pango[introspection?]
 "
 RDEPEND="${DEPEND}
-	~gui-libs/vte-common-${PV}[systemd?]
+	~gui-libs/vte-${PV}[systemd?]
 "
 BDEPEND="
 	${PYTHON_DEPS}
@@ -86,7 +86,7 @@ src_install() {
 	# would result in file collisions with gui-libs/vte
 	meson_install
 
-	# Remove files that are provided by gui-libs/vte-common
+	# Remove files that are provided by gui-libs/vte
 	rm "${ED}"/usr/libexec/vte-urlencode-cwd || die
 	rm "${ED}"/etc/profile.d/vte.sh || die
 	rm "${ED}"/etc/profile.d/vte.csh || die

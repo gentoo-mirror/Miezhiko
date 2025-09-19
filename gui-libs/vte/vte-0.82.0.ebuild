@@ -21,6 +21,7 @@ REQUIRED_USE="
 "
 
 DEPEND="
+	!gui-libs/vte-common
 	>=gui-libs/gtk-4.14:4[introspection?]
 	>=x11-libs/cairo-1.0
 	dev-cpp/fast_float
@@ -35,9 +36,7 @@ DEPEND="
 	introspection? ( >=dev-libs/gobject-introspection-1.56:= )
 	x11-libs/pango[introspection?]
 "
-RDEPEND="${DEPEND}
-	~gui-libs/vte-common-${PV}[systemd?]
-"
+RDEPEND="${DEPEND}"
 BDEPEND="
 	${PYTHON_DEPS}
 	dev-libs/libxml2:2
@@ -86,10 +85,6 @@ src_install() {
 	# would result in file collisions with x11-libs/vte
 	meson_install
 
-	# Remove files that are provided by gui-libs/vte-common
-	rm "${ED}"/usr/libexec/vte-urlencode-cwd || die
-	rm "${ED}"/etc/profile.d/vte.sh || die
-	rm "${ED}"/etc/profile.d/vte.csh || die
 	if use systemd; then
 		rm "${ED}"/usr/lib/systemd/user/vte-spawn-.scope.d/defaults.conf || die
 	fi
