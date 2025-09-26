@@ -21,7 +21,7 @@ app-misc/cryptowatch 0.5.0: fast & furious
 app-misc/hidamari 9999: Video wallpaper for Linux.
 app-misc/hodl 9999: hodl
 app-misc/localsearch 3.9.0: Indexer and search engine that powers desktop search for core GNOME components
-app-misc/ollama-bin 0.12.2: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
+app-misc/ollama-bin 0.12.3: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/subete 9999: subete
 app-misc/tinysparql 3.9.2: A tagging metadata database, search tool and indexer
@@ -268,7 +268,7 @@ virtual/v2ray-domain-list-community 0: Virtual for v2ray-domain-list-community
 virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-libs/gdk-pixbuf 2.44.2: Image loading library for GTK+
-x11-libs/libnotify 0.8.6: A library for sending desktop notifications
+x11-libs/libnotify 0.8.7: A library for sending desktop notifications
 x11-libs/pango 1.57.0: Internationalized text layout and rendering library
 x11-libs/vte 0.82.0: Library providing a virtual terminal emulator widget
 x11-misc/xdg-user-dirs-gtk 0.14: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
