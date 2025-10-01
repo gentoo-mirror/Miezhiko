@@ -1,6 +1,6 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-build/ninja net-misc/wget >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install unpack
-DEPEND=dev-libs/libfmt dev-build/cmake
+DEPEND=dev-libs/libfmt
 DESCRIPTION=High-performance, zero-overhead, extensible Python compiler using LLVM
 EAPI=8
 HOMEPAGE=https://github.com/exaloop/codon
@@ -9,7 +9,7 @@ KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
 LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=dev-libs/libfmt
-RESTRICT=test
+RESTRICT=test network-sandbox
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=19fce282ab42b675beea2db40d248968
+_md5_=c809a4eaa046dc3dbf9069f8ee8f03bd
