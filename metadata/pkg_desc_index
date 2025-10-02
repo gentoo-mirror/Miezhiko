@@ -285,6 +285,7 @@ media-plugins/gst-plugins-pulse 1.27.2: PulseAudio sound server plugin for GStre
 media-plugins/gst-plugins-qt6 1.24.11-r1: Qt6 QML video sink plugin for GStreamer
 media-plugins/gst-plugins-raw1394 1.27.2: Fiwewire DV/HDV capture plugin for GStreamer
 media-plugins/gst-plugins-resindvd 1.27.2: DVD playback support plugin for GStreamer
+media-plugins/gst-plugins-rs 9999: GStreamer plugins written in Rust
 media-plugins/gst-plugins-rtmp 1.27.2: RTMP source/sink plugin for GStreamer
 media-plugins/gst-plugins-sbc 1.27.2: SBC encoder and decoder plugin for GStreamer
 media-plugins/gst-plugins-sctp 1.27.2: SCTP plugins for GStreamer
