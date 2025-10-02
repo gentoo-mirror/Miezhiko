@@ -10,7 +10,7 @@ HOMEPAGE="https://www.gtk.org/ https://gitlab.gnome.org/GNOME/gtk/"
 
 LICENSE="LGPL-2+"
 SLOT="4"
-IUSE="aqua broadway cloudproviders colord cups examples gstreamer +introspection sysprof test vulkan wayland +X cpu_flags_x86_f16c"
+IUSE="aqua broadway cloudproviders colord cups examples +gstreamer +introspection sysprof test vulkan wayland +X cpu_flags_x86_f16c"
 REQUIRED_USE="
 	|| ( aqua wayland X )
 	test? ( introspection )
