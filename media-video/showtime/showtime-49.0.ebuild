@@ -19,6 +19,7 @@ DEPEND="
 	>=media-libs/gstreamer-1.22:1.0
 	>=media-libs/gst-plugins-base-1.22:1.0
 	>=gui-libs/gtk-4.15:4
+	media-plugins/gst-plugins-rs
 "
 RDEPEND="${DEPEND}"
 
