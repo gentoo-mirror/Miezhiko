@@ -12,7 +12,7 @@ HOMEPAGE="https://gitlab.gnome.org/GNOME/glycin"
 SRC_URI=""
 
 EGIT_REPO_URI="https://gitlab.gnome.org/GNOME/glycin.git"
-EGIT_COMMIT="2.0.0"
+EGIT_COMMIT="2.0.2"
 
 LICENSE="MIT"
 SLOT="2"
