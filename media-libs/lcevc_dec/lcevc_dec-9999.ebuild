@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit cmake git-r3
+inherit cmake git-r3 multilib-minimal
 
 DESCRIPTION="MPEG-5 LCEVC Decoder SDK by V-Nova"
 HOMEPAGE="https://github.com/v-novaltd/LCEVCdec"
@@ -26,10 +26,14 @@ src_unpack() {
 	git-r3_src_unpack
 }
 
-src_configure() {
+multilib_src_configure() {
 	cmake_src_configure
 }
 
-src_install() {
+multilib_src_compile() {
+	cmake_src_compile
+}
+
+multilib_src_install() {
 	cmake_src_install
 }
