@@ -2,7 +2,7 @@
 
 NEW_VERSION="1.27.2"
 
-for d in */; do
+for d in gst*/; do
   cd "$d"
   for f in *.ebuild; do
     OLD_VERSION=$(echo "$f" | sed -r 's/^(.*)-([0-9.]+)\.ebuild$/\2/')
