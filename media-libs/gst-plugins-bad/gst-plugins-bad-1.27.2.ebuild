@@ -41,10 +41,6 @@ RDEPEND="
 DEPEND="${RDEPEND}"
 BDEPEND="dev-util/glib-utils"
 
-PATCHES=(
-	"${FILESDIR}"/0002-codec2json-move-option-to-right-section.patch
-)
-
 src_prepare() {
 	default
 	addpredict /dev # Prevent sandbox violations bug #570624
