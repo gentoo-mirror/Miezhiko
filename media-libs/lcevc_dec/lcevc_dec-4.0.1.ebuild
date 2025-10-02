@@ -3,16 +3,16 @@
 
 EAPI=8
 
-inherit cmake git-r3 multilib-minimal
+inherit cmake multilib-minimal
 
 DESCRIPTION="MPEG-5 LCEVC Decoder SDK by V-Nova"
 HOMEPAGE="https://github.com/v-novaltd/LCEVCdec"
-SRC_URI=""
-EGIT_REPO_URI="https://github.com/v-novaltd/LCEVCdec.git"
+SRC_URI="https://github.com/v-novaltd/LCEVCdec/archive/refs/tags/${PV}.tar.gz"
+#EGIT_REPO_URI="https://github.com/v-novaltd/LCEVCdec.git"
 
 LICENSE="V-Nova-LCEVC"
 SLOT="0"
-#KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 # This package uses a custom non-free license
@@ -22,9 +22,7 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND="virtual/pkgconfig"
 
-src_unpack() {
-	git-r3_src_unpack
-}
+S="${WORKDIR}/LCEVCdec-${PV}"
 
 multilib_src_configure() {
 	cmake_src_configure
