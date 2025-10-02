@@ -22,6 +22,11 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 
+src_prepare() {
+	default
+	sed -i "s|Gst\.init()|Gst.init([])|" "${S}/showtime/main.py" || die
+}
+
 pkg_postinst() {
 	xdg_pkg_postinst
 	if [[ -d "${EROOT}/usr/share/glib-2.0/schemas" ]]; then
