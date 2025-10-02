@@ -265,7 +265,6 @@ media-plugins/gst-plugins-lame 1.27.2: MP3 encoder plugin for GStreamer
 media-plugins/gst-plugins-ldac 1.27.2: LDAC plugin for GStreamer
 media-plugins/gst-plugins-libav 1.27.2: FFmpeg based gstreamer plugin
 media-plugins/gst-plugins-libde265 1.27.2: H.265 decoder plugin for GStreamer
-media-plugins/gst-plugins-libnice 1.27.2: GStreamer plugin for ICE (RFC 5245) support
 media-plugins/gst-plugins-libpng 1.27.2: PNG image encoder/decoder plugin for GStreamer
 media-plugins/gst-plugins-libvisual 1.27.2: Visualization elements for GStreamer
 media-plugins/gst-plugins-lv2 1.27.2: Lv2 elements for Gstreamer
