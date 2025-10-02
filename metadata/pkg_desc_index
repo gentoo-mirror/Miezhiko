@@ -195,7 +195,7 @@ gnome-base/dconf 0.49.0: Simple low-level configuration system
 gnome-base/dconf-editor 49.0: Graphical tool for editing the dconf configuration database
 gnome-base/gdm 49.0.1: GNOME Display Manager for managing graphical display servers and user logins
 gnome-base/gnome-control-center 49.0: GNOME's main interface to configure various aspects of the desktop
-gnome-base/gnome-core-apps 41.3-r666: Sub-meta package for the core applications integrated with GNOME
+gnome-base/gnome-core-apps 49.0: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-keyring 48.0: Password and keyring managing daemon
 gnome-base/gnome-session 49.0: Gnome session manager
 gnome-base/gnome-settings-daemon 49.0: Gnome Settings Daemon
@@ -222,12 +222,14 @@ gui-wm/niri 9999: Scrollable-tiling Wayland compositor
 mail-client/evolution 3.58.0: Integrated mail, addressbook and calendaring functionality
 media-fonts/lato 2: Lato font
 media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
+media-gfx/loupe 9999: A simple, modern image viewer for GNOME
 media-libs/glycin 9999: Glycin image loading library - sandboxed and extendable image decoding
 media-libs/grilo 0.3.19: A framework for easy media discovery and browsing
 media-libs/imgui 1.89.9-r3 1.91.1: Bloat-free graphical user interface library for C++
 media-libs/implot 0.16-r2: Immediate Mode Plotting
 media-libs/jasper 9999: Implementation of the codec specified in the JPEG-2000 Part-1 standard
 media-video/clapper 9999: A GNOME media player built using GJS with GTK4 toolkit and powered by GStreamer with OpenGL rendering.
+media-video/showtime 49.0: A modern video player for GNOME
 net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord-canary-bin 0.0.740: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
