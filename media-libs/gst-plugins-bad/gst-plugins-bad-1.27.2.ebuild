@@ -21,6 +21,7 @@ RDEPEND="
 
 	>=media-libs/gstreamer-${PV}:${SLOT}[${MULTILIB_USEDEP},introspection?]
 	>=media-libs/gst-plugins-base-${PV}:${SLOT}[${MULTILIB_USEDEP},introspection?]
+	media-libs/lcevc_dec
 	introspection? ( >=dev-libs/gobject-introspection-1.31.1:= )
 
 	bzip2? ( >=app-arch/bzip2-1.0.6-r4[${MULTILIB_USEDEP}] )
