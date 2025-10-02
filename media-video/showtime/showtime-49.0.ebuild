@@ -22,3 +22,18 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 
+pkg_postinst() {
+	xdg_pkg_postinst
+	if [[ -d "${EROOT}/usr/share/glib-2.0/schemas" ]]; then
+		einfo "Compiling GSettings schemas..."
+		glib-compile-schemas "${EROOT}/usr/share/glib-2.0/schemas" || die
+	fi
+}
+
+pkg_postrm() {
+	xdg_pkg_postrm
+	if [[ -d "${EROOT}/usr/share/glib-2.0/schemas" ]]; then
+		einfo "Recompiling GSettings schemas..."
+		glib-compile-schemas "${EROOT}/usr/share/glib-2.0/schemas" || die
+	fi
+}
