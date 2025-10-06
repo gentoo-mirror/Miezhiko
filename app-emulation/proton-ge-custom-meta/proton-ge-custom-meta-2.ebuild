@@ -19,7 +19,7 @@ RDEPEND="
 	media-libs/vulkan-loader[abi_x86_32]
 	virtual/libusb[abi_x86_32]
 	media-libs/openal[abi_x86_32]
-	x11-libs/libva[abi_x86_32]
+	media-libs/libva[abi_x86_32]
 	media-video/ffmpeg
 	media-libs/speex[abi_x86_32]
 	media-libs/libtheora[abi_x86_32]
@@ -35,7 +35,7 @@ RDEPEND="
 	gnome? ( gnome-extra/zenity )
 
 	app-emulation/proton-ge-custom-bin
-	steam? ( games-util/steam-meta )"
+	steam? ( games-util/steam-launcher )"
 
 pkg_pretend() {
 	einfo "The list of dependencies may be not complete, and some of ones listed may be not necessary. Feel free to try it on your favourite games and any issue & pull request is welcome."
