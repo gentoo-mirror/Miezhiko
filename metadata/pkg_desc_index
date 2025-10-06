@@ -106,7 +106,7 @@ dev-haskell/tinkoff-invest-sdk 9999: gRPC based SDK for Tinkoff Invest API V2
 dev-haskell/typerep-map 0.6.0.0-r3: Efficient implementation of a dependent map with types as keys
 dev-haskell/unboxing-vector 0.2.0.0: A newtype-friendly variant of unboxed vectors
 dev-haskell/websockets 0.13.0.0: A sensible and clean way to write WebSocket-capable servers in Haskell
-dev-java/sbt-bin 1.11.6: sbt, a build tool for Scala
+dev-java/sbt-bin 1.11.7: sbt, a build tool for Scala
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/ghc 9.12.1-r1: The Glasgow Haskell Compiler
 dev-lang/scala-bin 3.7.3: The Scala Programming Language
