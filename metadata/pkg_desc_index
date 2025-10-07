@@ -12,7 +12,7 @@ app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents 
 app-editors/gnome-text-editor 49.0: A simple text editor for the GNOME desktop
 app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.104.3: Multiplatform Visual Studio Code from Microsoft
-app-editors/zed-bin 0.206.6: Code editor from the creators of Atom
+app-editors/zed-bin 0.206.7: Code editor from the creators of Atom
 app-editors/zedless 9999: Code editor from the creators of Atom
 app-emulation/proton-ge-custom-bin 10.17: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
@@ -151,7 +151,7 @@ dev-python/motor 3.1.2: motor
 dev-python/names 0.3.0: names
 dev-python/nptyping 2.5.0-r1: Type hints for Numpy
 dev-python/numba 9999: NumPy aware dynamic Python compiler using LLVM
-dev-python/openai 2.1.0: Python client library for the OpenAI API
+dev-python/openai 2.2.0: Python client library for the OpenAI API
 dev-python/poe-api 9999: A reverse engineered Python API wrapper for Quora's Poe
 dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
@@ -269,7 +269,7 @@ media-plugins/gst-plugins-libde265 1.27.2: H.265 decoder plugin for GStreamer
 media-plugins/gst-plugins-libpng 1.27.2: PNG image encoder/decoder plugin for GStreamer
 media-plugins/gst-plugins-libvisual 1.27.2: Visualization elements for GStreamer
 media-plugins/gst-plugins-lv2 1.27.2: Lv2 elements for Gstreamer
-media-plugins/gst-plugins-meta 1.24.10-r1 1.27.2: Meta ebuild to pull in gst plugins for apps
+media-plugins/gst-plugins-meta 1.27.2: Meta ebuild to pull in gst plugins for apps
 media-plugins/gst-plugins-modplug 1.27.2: MOD audio decoder plugin for GStreamer
 media-plugins/gst-plugins-mpeg2dec 1.27.2: MPEG2 decoder plugin for GStreamer
 media-plugins/gst-plugins-mpeg2enc 1.27.2: MPEG-1/2 video encoding plugin for GStreamer
