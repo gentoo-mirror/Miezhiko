@@ -32,7 +32,6 @@ app-text/evince 48.1: Simple document viewer for GNOME
 app-text/papers 49.0: A document viewer for the GNOME desktop
 dev-cpp/asio 9999: Asynchronous Network Library
 dev-cpp/glibmm 2.85.0: C++ interface for glib2
-dev-cpp/gtkmm 4.19.1: C++ interface for GTK+
 dev-cpp/kashmir 9999: Library is provide functionality that not present in the C++ standard library.
 dev-haskell/T 9999: time tracker
 dev-haskell/aeson-optics 1.2.1-r1: Law-abiding optics for aeson
@@ -110,7 +109,6 @@ dev-java/sbt-bin 1.11.7: sbt, a build tool for Scala
 dev-lang/codon 9999: High-performance, zero-overhead, extensible Python compiler using LLVM
 dev-lang/ghc 9.12.1-r1: The Glasgow Haskell Compiler
 dev-lang/scala-bin 3.7.3: The Scala Programming Language
-dev-lang/spidermonkey 140.2.0-r666: Mozilla's JavaScript engine written in C and C++
 dev-lang/vala 0.56.18: Compiler for the GObject type system
 dev-libs/boost 1.85.0-r1 1.88.0-r1: Boost Libraries for C++
 dev-libs/discord-rpc 3.4.0: Discord RPC lib
