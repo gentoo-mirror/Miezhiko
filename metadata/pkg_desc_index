@@ -6,7 +6,7 @@ app-accessibility/at-spi2-atk 2.54.0: Gtk module for bridging AT-SPI to Atk
 app-alternatives/v2ray-geoip 0-r2: symlink for v2ray-geoip
 app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
 app-arch/file-roller 44.5: Archive manager for GNOME
-app-containers/snapd 2.71: Service and tools for management of snap packages
+app-containers/snapd 2.72: Service and tools for management of snap packages
 app-crypt/gcr 4.4.0.1: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
 app-editors/gnome-text-editor 49.0: A simple text editor for the GNOME desktop
