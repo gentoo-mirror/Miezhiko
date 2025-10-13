@@ -21,7 +21,7 @@ app-misc/cryptowatch 0.5.0: fast & furious
 app-misc/hidamari 9999: Video wallpaper for Linux.
 app-misc/hodl 9999: hodl
 app-misc/localsearch 3.9.0: Indexer and search engine that powers desktop search for core GNOME components
-app-misc/ollama-bin 0.12.3: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
+app-misc/ollama-bin 0.12.5: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/subete 9999: subete
 app-misc/tinysparql 3.9.2: A tagging metadata database, search tool and indexer
@@ -196,7 +196,7 @@ gnome-base/gdm 49.0.1: GNOME Display Manager for managing graphical display serv
 gnome-base/gnome-control-center 49.0: GNOME's main interface to configure various aspects of the desktop
 gnome-base/gnome-core-apps 49.0: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-keyring 48.0: Password and keyring managing daemon
-gnome-base/gnome-session 49.0: Gnome session manager
+gnome-base/gnome-session 49.1: Gnome session manager
 gnome-base/gnome-settings-daemon 49.0: Gnome Settings Daemon
 gnome-base/gnome-shell 49.0: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 49.0: Collection of GSettings schemas for GNOME desktop
@@ -317,7 +317,7 @@ net-dns/libidn-compat 1.33: Internationalized Domain Names (IDN) implementation
 net-im/discord-canary-bin 0.0.740: All-in-one voice and text chat
 net-im/ripcord 0.4.29: Desktop chat client for Slack and Discord (not web-based).
 net-libs/glib-networking 2.80.1: Network-related giomodules for glib
-net-libs/gnome-online-accounts 3.56.0: GNOME framework for accessing online accounts
+net-libs/gnome-online-accounts 3.56.1: GNOME framework for accessing online accounts
 net-libs/libsoup 3.6.5: HTTP client/server library for GNOME
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/curl-impersonate 0.6.1: A Client that groks URLs
