@@ -174,7 +174,7 @@ dev-python/xtempmail 0.10: Temporary Email
 dev-qt/ghoul 9999: Lightweight IDE for C++/QML development centering around Qt
 dev-qt/qtwebengine 5.15.16_p20241115-r666: Library for rendering dynamic web content in Qt5 C++ and QML applications
 dev-qt/qtwebkit 5.212.0_pre20200309-r3: WebKit rendering library for the Qt5 framework (deprecated)
-dev-util/beekeeper-studio-bin 5.4.1: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
+dev-util/beekeeper-studio-bin 5.4.2: SQL client for MySQL, Postgres, SQLite, SQL Server, and more
 dev-util/boost-build 1.79.0: A system for large project software construction, simple to use and powerful
 dev-util/cargo-about 0.6.2: Cargo plugin to generate list of all licenses for a crate
 dev-util/cargo-check-deadlock 9999: Find deadlocks in Rust code with Petri net model checking
@@ -202,7 +202,7 @@ gnome-base/gnome-shell 49.0: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 49.0: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.58.0: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.61.1: Scalable Vector Graphics (SVG) rendering library
-gnome-base/nautilus 49.0: Default file manager for the GNOME desktop
+gnome-base/nautilus 49.1: Default file manager for the GNOME desktop
 gnome-extra/evolution-data-server 3.58.1: Evolution groupware backend
 gnome-extra/gnome-calendar 49.0.1: Manage your calendars with simple and modern interface
 gnome-extra/gnome-shell-extensions 49.0: JavaScript extensions for GNOME Shell
