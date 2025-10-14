@@ -198,7 +198,7 @@ gnome-base/gnome-control-center 49.1: GNOME's main interface to configure variou
 gnome-base/gnome-core-apps 49.0: Sub-meta package for the core applications integrated with GNOME
 gnome-base/gnome-keyring 48.0: Password and keyring managing daemon
 gnome-base/gnome-session 49.1: Gnome session manager
-gnome-base/gnome-settings-daemon 49.0: Gnome Settings Daemon
+gnome-base/gnome-settings-daemon 49.1: Gnome Settings Daemon
 gnome-base/gnome-shell 49.0: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 49.0: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.58.0: Virtual filesystem implementation for GIO
