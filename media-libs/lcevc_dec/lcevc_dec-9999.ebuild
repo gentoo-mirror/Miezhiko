@@ -12,7 +12,7 @@ EGIT_REPO_URI="https://github.com/v-novaltd/LCEVCdec.git"
 
 LICENSE="V-Nova-LCEVC"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS=""
 IUSE=""
 
 # This package uses a custom non-free license

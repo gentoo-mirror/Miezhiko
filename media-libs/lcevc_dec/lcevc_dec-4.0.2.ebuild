@@ -24,6 +24,12 @@ BDEPEND="virtual/pkgconfig"
 
 S="${WORKDIR}/LCEVCdec-${PV}"
 
+src_prepare() {
+	sed -i 's/if (nids < 7)/if (cpuInfo[0] < 7)/' "${S}"/src/common/src/acceleration.c || die "failed to sed"
+	cmake_src_prepare
+	default
+}
+
 multilib_src_configure() {
 	cmake_src_configure
 }
