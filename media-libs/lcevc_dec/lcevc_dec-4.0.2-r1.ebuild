@@ -25,7 +25,12 @@ BDEPEND="virtual/pkgconfig"
 S="${WORKDIR}/LCEVCdec-${PV}"
 
 src_prepare() {
-	sed -i 's/if (nids < 7)/if (cpuInfo[0] < 7)/' "${S}"/src/common/src/acceleration.c || die "failed to sed"
+	sed -i '/static bool detectAVX2/,/^}/ {
+    /loadCPUInfo(cpuInfo, 0);/{
+        N
+        s/loadCPUInfo(cpuInfo, 0);\n    if (nids < 7) {/loadCPUInfo(cpuInfo, 0);\n    if (cpuInfo[0] < 1) {\n        return false;\n    }\n    loadCPUInfo(cpuInfo, 1);\n    if (cpuInfo[0] < 7) {/
+    }
+}' "${S}"/src/common/src/acceleration.c || die "sed failed"
 	cmake_src_prepare
 	default
 }
