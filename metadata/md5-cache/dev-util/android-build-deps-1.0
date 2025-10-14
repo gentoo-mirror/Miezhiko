@@ -1,0 +1,10 @@
+DEFINED_PHASES=postinst setup
+DESCRIPTION=Meta package for Android build dependencies
+EAPI=8
+HOMEPAGE=https://source.android.com/
+KEYWORDS=~amd64 ~x86
+LICENSE=metapackage
+RDEPEND=sys-devel/bc sys-devel/bison dev-util/ccache net-misc/curl sys-devel/flex sys-devel/gcc[multilib] dev-vcs/git dev-vcs/git-lfs app-crypt/gnupg dev-util/gperf media-gfx/imagemagick dev-libs/protobuf dev-python/protobuf sys-libs/readline sys-libs/zlib dev-libs/elfutils app-arch/lz4 media-libs/libsdl dev-libs/openssl dev-libs/libxml2 app-arch/lzop media-gfx/pngcrush net-misc/rsync sys-process/schedtool sys-fs/squashfs-tools dev-libs/libxslt app-arch/zip
+RESTRICT=mirror
+SLOT=0
+_md5_=6e408b74a756e59749a253db0298fd5e
