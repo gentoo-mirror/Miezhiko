@@ -198,7 +198,7 @@ gnome-base/gnome-core-apps 49.0: Sub-meta package for the core applications inte
 gnome-base/gnome-keyring 48.0: Password and keyring managing daemon
 gnome-base/gnome-session 49.1: Gnome session manager
 gnome-base/gnome-settings-daemon 49.1: Gnome Settings Daemon
-gnome-base/gnome-shell 49.0: Provides core UI functions for the GNOME desktop
+gnome-base/gnome-shell 49.1: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 49.0: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.58.0: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.61.1: Scalable Vector Graphics (SVG) rendering library
@@ -334,7 +334,7 @@ sci-libs/auto-gptq 0.2.2: An easy-to-use LLMs quantization package with user-fri
 sci-libs/pydicom 3.0.1: A pure python package for parsing DICOM files
 sci-libs/pynrrd 1.1.3: pure-Python module for reading and writing NRRD files into and from numpy arrays
 sci-libs/safetensors 9999: Simple, safe way to store and distribute tensors
-sci-libs/transformers 4.57.0-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
+sci-libs/transformers 4.57.1-r666: State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow
 sci-ml/huggingface_hub 0.35.3: a client library to interact with the Hugging Face Hub
 sys-apps/baobab 49.0: Disk usage browser for GNOME
 sys-apps/dbus-broker 37: Linux D-Bus Message Broker
@@ -360,4 +360,4 @@ x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-themes/adwaita-icon-theme 49.0: GNOME default icon theme
 x11-themes/gnome-backgrounds 49.0: A set of backgrounds packaged with the GNOME desktop
 x11-wm/jwm 9999: JWM
-x11-wm/mutter 49.0: GNOME compositing window manager based on Clutter
+x11-wm/mutter 49.1: GNOME compositing window manager based on Clutter
