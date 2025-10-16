@@ -154,7 +154,7 @@ src_configure() {
 	filter-lto
 
 	local emesonargs=(
-		-Ddeprecated-declarations=disabled
+		-Ddeprecated-declarations=enabled
 		-Ddocumentation=true # manpage
 		-Dlocation-services=$(usex geolocation enabled disabled)
 		$(meson_use ibus)
