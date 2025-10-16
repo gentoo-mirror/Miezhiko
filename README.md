@@ -4,6 +4,9 @@
 
 <img align="right" src="http://files.gamebanana.com/img/ico/sprays/50decef29d1ed.gif">
 
+<h1>Because of github bugs I can't move this repository anyhow</h1>
+<h1>Please wait for some time before I find new platform</h1>
+
 <h3>Overlay specifics</h3>
 
  - EAPIS older than 7 banned
