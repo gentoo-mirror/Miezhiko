@@ -46,6 +46,7 @@ src_prepare() {
 
 src_configure() {
 	local emesonargs=(
+	    -Dbuild-testsuite=false
 		-Dinstall-tests=false
 		$(meson_feature introspection)
 		$(meson_use vala vapi)
