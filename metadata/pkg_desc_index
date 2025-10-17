@@ -187,7 +187,7 @@ dev-util/lucky-commit 9999: Customize your git commit hashes!
 dev-util/meld 3.23.0: A graphical diff and merge tool
 dev-vcs/jj 9999: A Git-compatible DVCS that is both simple and powerful
 games-simulation/alchemy 9999: Alchemy SL Viewer
-games-simulation/firestorm-bin 7.2.2_beta: An open source metaverse viewer
+games-simulation/firestorm-bin 7.2.2_beta2: An open source metaverse viewer
 games-util/mangohud 9999: Vulkan and OpenGL overlay for monitoring FPS, sensors, system load and more
 gnome-base/dconf 0.49.0: Simple low-level configuration system
 gnome-base/dconf-editor 49.0: Graphical tool for editing the dconf configuration database
