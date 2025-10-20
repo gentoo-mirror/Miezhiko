@@ -79,7 +79,7 @@ src_unpack() {
 
 	git-r3_src_unpack
 
-	export LL_BUILD_RELEASE = "1"
+	export LL_BUILD_RELEASE=1
 
 	cd "${S}"
 	virtualenv ".venv" -p python3 || die "failed to create virtual env"
