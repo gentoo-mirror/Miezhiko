@@ -98,6 +98,7 @@ src_unpack() {
 	fi
 
 	autobuild configure -A 64 -c ReleaseOS -- \
+		-DLL_BUILD_RELEASE=TRUE \
 		-DLL_TESTS:BOOL=FALSE \
 		-DLLCOREHTTP_TESTS=FALSE \
 		-DDISABLE_FATAL_WARNINGS=ON \
