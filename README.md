@@ -10,6 +10,7 @@
  - no thin manifest
  - no metadata.xml
  - pull requests are very welcome
+ - many patches taken from Arch Linux
 
 <h3>Install</h3>
 
