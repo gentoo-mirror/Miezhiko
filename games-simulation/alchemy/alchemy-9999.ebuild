@@ -68,7 +68,7 @@ src_unpack() {
 	if use fork; then
 		# Personal fork:
 		EGIT_REPO_URI="https://github.com/Miezhiko/Alchemy.git"
-		EGIT_BRANCH="mie"
+		EGIT_BRANCH="mawa"
 	else
 		# Official repository:
 		EGIT_REPO_URI="https://github.com/AlchemyViewer/Alchemy.git"
