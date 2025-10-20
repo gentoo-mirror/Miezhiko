@@ -1,32 +1,20 @@
 #!/bin/bash
 
-# Ensure eix is installed and up to date
 if ! command -v eix &> /dev/null; then
     echo "Error: eix is not installed." >&2
     exit 1
 fi
 
-# Update eix database (optional but recommended for accuracy)
-# Uncomment the next line if you want to auto-update before checking
-# eix-update --quiet
-
-# Get total number of installed packages
 total=$(eix --installed --only-names | wc -l)
-
-# Get number of installed packages from ::Miezhiko overlay
 from_miezhiko=$(eix --installed --in-overlay Miezhiko --only-names | wc -l)
 
-# Handle edge case: no installed packages
 if [ "$total" -eq 0 ]; then
     echo "No installed packages found."
     exit 0
 fi
 
-# Calculate percentage
-# Use awk for floating-point arithmetic
 percentage=$(awk "BEGIN {printf \"%.2f\", ($from_miezhiko / $total) * 100}")
 
-# Output results
 echo "Total installed packages: $total"
 echo "Packages from ::Miezhiko: $from_miezhiko"
 echo "Percentage from ::Miezhiko: ${percentage}%"
