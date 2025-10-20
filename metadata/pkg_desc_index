@@ -14,7 +14,7 @@ app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.105.1: Multiplatform Visual Studio Code from Microsoft
 app-editors/zed-bin 0.208.5: Code editor from the creators of Atom
 app-editors/zedless 9999: Code editor from the creators of Atom
-app-emulation/proton-ge-custom-bin 10.20: A fancy custom distribution of Valves Proton with various patches
+app-emulation/proton-ge-custom-bin 10.21: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-misc/crab 9999: a crab
 app-misc/cryptowatch 0.5.0: fast & furious
