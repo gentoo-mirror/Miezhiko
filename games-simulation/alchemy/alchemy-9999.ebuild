@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..13} )
+PYTHON_COMPAT=( python3_{9..14} )
 
 inherit git-r3 python-any-r1 desktop xdg wrapper
 
@@ -79,6 +79,8 @@ src_unpack() {
 
 	git-r3_src_unpack
 
+	export LL_BUILD_RELEASE = "1"
+
 	cd "${S}"
 	virtualenv ".venv" -p python3 || die "failed to create virtual env"
 	source .venv/bin/activate
@@ -98,7 +100,7 @@ src_unpack() {
 	fi
 
 	autobuild configure -A 64 -c ReleaseOS -- \
-		-DLL_BUILD_RELEASE=TRUE \
+		-DLL_BUILD_RELEASE=1 \
 		-DLL_TESTS:BOOL=FALSE \
 		-DLLCOREHTTP_TESTS=FALSE \
 		-DDISABLE_FATAL_WARNINGS=ON \
