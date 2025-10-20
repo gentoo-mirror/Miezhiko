@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..14} )
+PYTHON_COMPAT=( python3_{9..13} )
 
 inherit git-r3 python-any-r1 desktop xdg wrapper
 
@@ -68,7 +68,7 @@ src_unpack() {
 	if use fork; then
 		# Personal fork:
 		EGIT_REPO_URI="https://github.com/Miezhiko/Alchemy.git"
-		EGIT_BRANCH="mie"
+		EGIT_BRANCH="mawa"
 	else
 		# Official repository:
 		EGIT_REPO_URI="https://github.com/AlchemyViewer/Alchemy.git"
@@ -78,8 +78,6 @@ src_unpack() {
 	EGIT_CHECKOUT_DIR="${WORKDIR}/${P}"
 
 	git-r3_src_unpack
-
-	export LL_BUILD_RELEASE=1
 
 	cd "${S}"
 	virtualenv ".venv" -p python3 || die "failed to create virtual env"
@@ -100,7 +98,6 @@ src_unpack() {
 	fi
 
 	autobuild configure -A 64 -c ReleaseOS -- \
-		-DLL_BUILD_RELEASE=1 \
 		-DLL_TESTS:BOOL=FALSE \
 		-DLLCOREHTTP_TESTS=FALSE \
 		-DDISABLE_FATAL_WARNINGS=ON \
