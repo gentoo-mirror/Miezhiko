@@ -26,5 +26,3 @@ media-plugins/gst-plugins-gtk:gles2 - Enable gtkglsink OpenGL sink based on GLES
 media-plugins/gst-plugins-gtk:opengl - Enable gtkglsink OpenGL sink based on desktop OpenGL API
 net-libs/glib-networking:gnome - Extract HTTP/HTTPS/SOCKS proxy configuration stored using GSettings
 net-libs/glib-networking:libproxy - Use net-libs/libproxy for getting the HTTP/HTTPS/SOCKS proxy configuration
-x11-libs/vte:icu - Enable legacy charset support using dev-libs/icu
-x11-libs/vte:systemd - Support moving terminal child processes to their own systemd user scopes to avoid terminal getting killed due to child causing OOM
