@@ -3,6 +3,7 @@ acct-group/ollama 0: System group: ollama
 acct-user/monero 0: System user: monero
 acct-user/ollama 0: System user for ollama
 app-accessibility/at-spi2-atk 2.54.0: Gtk module for bridging AT-SPI to Atk
+app-accessibility/at-spi2-core 2.58.1: D-Bus accessibility specifications and registration daemon
 app-alternatives/v2ray-geoip 0-r2: symlink for v2ray-geoip
 app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
 app-arch/file-roller 44.6: Archive manager for GNOME
@@ -24,7 +25,7 @@ app-misc/localsearch 3.9.0: Indexer and search engine that powers desktop search
 app-misc/ollama-bin 0.12.5: Get up and running with Llama 3, Mistral, Gemma, and other large language models.
 app-misc/shelter 9999: MIGMA SHELTER
 app-misc/subete 9999: subete
-app-misc/tinysparql 3.9.2: A tagging metadata database, search tool and indexer
+app-misc/tinysparql 3.10.1: A tagging metadata database, search tool and indexer
 app-misc/xmind 10.3.1 24.03.04745: A brainstorming and mind mapping software tool
 app-office/gnumeric 1.12.59: The GNOME Spreadsheet
 app-office/myoffice 1.28.0.4: office
@@ -154,6 +155,7 @@ dev-python/proton-client 0.7.1-r1: Proton account login backend
 dev-python/py-arkose-token-generator 9999: Large Language Model Text Generation Inference
 dev-python/pydeck 0.7.1: Large-scale interactive data visualization
 dev-python/pydub 0.25.1: Manipulate audio with an simple and easy high level interface
+dev-python/pygobject 3.54.5: Python bindings for GObject Introspection
 dev-python/pymailtm 1.1.1: command line interface and python web-api wrapper for mail.tm
 dev-python/pympler 1.0.1 9999: Measure, monitor and analyze the memory behavior of Python objects
 dev-python/pypasser 0.0.5: pypasser
@@ -198,7 +200,7 @@ gnome-base/gnome-keyring 48.0: Password and keyring managing daemon
 gnome-base/gnome-session 49.1: Gnome session manager
 gnome-base/gnome-settings-daemon 49.1: Gnome Settings Daemon
 gnome-base/gnome-shell 49.1: Provides core UI functions for the GNOME desktop
-gnome-base/gsettings-desktop-schemas 49.0: Collection of GSettings schemas for GNOME desktop
+gnome-base/gsettings-desktop-schemas 49.1: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.58.0: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.61.2-r1: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 49.1: Default file manager for the GNOME desktop
@@ -352,6 +354,7 @@ virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-libs/gdk-pixbuf 2.44.3: Image loading library for GTK+
 x11-libs/libnotify 0.8.7: A library for sending desktop notifications
+x11-libs/libxkbcommon 1.12.1: Keymap handling library for toolkits and window systems
 x11-libs/pango 1.57.0: Internationalized text layout and rendering library
 x11-libs/vte 0.82.0: Library providing a virtual terminal emulator widget
 x11-misc/xdg-user-dirs-gtk 0.14: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
