@@ -5,7 +5,7 @@ acct-user/ollama 0: System user for ollama
 app-accessibility/at-spi2-atk 2.54.0: Gtk module for bridging AT-SPI to Atk
 app-alternatives/v2ray-geoip 0-r2: symlink for v2ray-geoip
 app-alternatives/v2ray-geosite 0-r2: symlink for v2ray-geosite
-app-arch/file-roller 44.5: Archive manager for GNOME
+app-arch/file-roller 44.6: Archive manager for GNOME
 app-containers/snapd 2.72: Service and tools for management of snap packages
 app-crypt/gcr 4.4.0.1: Libraries for cryptographic UIs and accessing PKCS#11 modules
 app-crypt/gss-ntlmssp 1.0.0: A complete implementation of the MS-NLMP documents as a GSSAPI mechanism
@@ -200,7 +200,7 @@ gnome-base/gnome-settings-daemon 49.1: Gnome Settings Daemon
 gnome-base/gnome-shell 49.1: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 49.0: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.58.0: Virtual filesystem implementation for GIO
-gnome-base/librsvg 2.61.2: Scalable Vector Graphics (SVG) rendering library
+gnome-base/librsvg 2.61.2-r1: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 49.1: Default file manager for the GNOME desktop
 gnome-extra/evolution-data-server 3.58.1: Evolution groupware backend
 gnome-extra/gnome-calendar 49.0.1: Manage your calendars with simple and modern interface
