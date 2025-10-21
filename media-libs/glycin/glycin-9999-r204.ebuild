@@ -12,7 +12,7 @@ HOMEPAGE="https://gitlab.gnome.org/GNOME/glycin"
 SRC_URI=""
 
 EGIT_REPO_URI="https://gitlab.gnome.org/GNOME/glycin.git"
-EGIT_COMMIT="2.0.2"
+EGIT_COMMIT="2.0.4"
 
 LICENSE="MIT"
 SLOT="2"
@@ -26,7 +26,7 @@ RDEPEND="
 	>=media-libs/lcms-2.12:=
 	jpeg2000? ( media-libs/openjpeg:= )
 	svg? ( gnome-base/librsvg:= )
-	media-libs/glycin-loaders[heif,svg?]
+	!media-libs/glycin-loaders
 "
 
 DEPEND="${RDEPEND}
@@ -43,7 +43,7 @@ S="${WORKDIR}/${P}"
 _custom_src_unpack() {
 	git-r3_src_unpack
 	cargo_live_src_unpack
-	
+
 	_do_configure_and_compile
 }
 
@@ -60,18 +60,18 @@ _do_configure_and_compile() {
 		-Db_lto_mode=thin
 		-Dlibglycin=true
 		-Dvapi=true
-		-Dglycin-loaders=false  # Use external loaders package
+		-Dglycin-loaders=true
 		-Dintrospection=true
 		-Dglycin-thumbnailer=true
 		-Dtests=$(usex test true false)
 	)
-	
+
 	einfo "Configuring with meson (in unpack phase)..."
 	meson_src_configure
-	
+
 	einfo "Compiling with meson (in unpack phase)..."
 	meson_src_compile
-	
+
 	popd || die
 }
 

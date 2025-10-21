@@ -22,7 +22,6 @@ DEPEND="
 	>=gui-libs/gtk-4.12:4
 	>=x11-libs/gdk-pixbuf-2.42:2
 	>=media-libs/glycin-0.3
-	>=media-libs/glycin-loaders-0.3
 "
 RDEPEND="${DEPEND}"
 
