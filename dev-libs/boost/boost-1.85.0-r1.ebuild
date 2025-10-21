@@ -19,7 +19,7 @@ MY_PV="$(ver_rs 1- _)"
 
 DESCRIPTION="Boost Libraries for C++"
 HOMEPAGE="https://www.boost.org/"
-SRC_URI="https://boostorg.jfrog.io/artifactory/main/release/${PV}/source/boost_${MY_PV}.tar.bz2"
+SRC_URI="https://github.com/boostorg/boost/releases/download/boost-1.85.0/boost-1.85.0-b2-nodocs.tar.xz"
 S="${WORKDIR}/${PN}_${MY_PV}"
 
 LICENSE="Boost-1.0"
@@ -32,7 +32,7 @@ REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 # on new compilers. Since they would either be completely unreliable
 # (failing for no good reason) or completely useless (never failing)
 # there is no point in having them in the ebuild to begin with.
-RESTRICT="test"
+RESTRICT="test mirror"
 
 RDEPEND="
 	bzip2? ( app-arch/bzip2:=[${MULTILIB_USEDEP}] )
@@ -61,6 +61,8 @@ PATCHES=(
 	"${FILESDIR}"/${PN}-1.85.0-04-remove_cruft_codeblock.patch
 	"${FILESDIR}"/${PN}-1.85.0-05-fix_macro_name.patch
 )
+
+S="${WORKDIR}/boost-${PV}"
 
 create_user-config.jam() {
 	local user_config_jam="${BUILD_DIR}"/user-config.jam
