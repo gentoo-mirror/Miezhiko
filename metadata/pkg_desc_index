@@ -356,7 +356,7 @@ virtual/v2ray-geoip 0: Virtual for v2ray-geoip
 x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-libs/gdk-pixbuf 2.44.3: Image loading library for GTK+
 x11-libs/libnotify 0.8.7: A library for sending desktop notifications
-x11-libs/libxkbcommon 1.12.1: Keymap handling library for toolkits and window systems
+x11-libs/libxkbcommon 1.12.2: Keymap handling library for toolkits and window systems
 x11-libs/pango 1.57.0: Internationalized text layout and rendering library
 x11-libs/vte 0.82.1: Library providing a virtual terminal emulator widget
 x11-misc/xdg-user-dirs-gtk 0.14: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
