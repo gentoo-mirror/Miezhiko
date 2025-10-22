@@ -52,7 +52,7 @@ multilib_src_configure() {
 		-Dothers=enabled
 		$(meson_feature tiff)
 		$(meson_feature jpeg)
-		-Dbuiltin_loaders=png,jpeg
+		-Dbuiltin_loaders=png,jpeg,glycin
 		-Drelocatable=false
 		#native_windows_loaders
 		$(meson_use test tests)
@@ -61,7 +61,7 @@ multilib_src_configure() {
 		$(meson_native_use_bool gtk-doc gtk_doc)
 		$(meson_native_use_feature introspection)
 		$(meson_native_true man)
-		-Dglycin=disabled
+		-Dglycin=enabled
 	)
 
 	meson_src_configure
