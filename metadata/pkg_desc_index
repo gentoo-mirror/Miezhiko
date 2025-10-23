@@ -207,7 +207,7 @@ gnome-extra/evolution-data-server 3.58.1: Evolution groupware backend
 gnome-extra/gnome-browser-connector 42.1-r1: OS-native connector counterpart for GNOME Shell browser extension
 gnome-extra/gnome-calculator 49.1.1: A calculator application for GNOME
 gnome-extra/gnome-calendar 49.0.1: Manage your calendars with simple and modern interface
-gnome-extra/gnome-shell-extensions 49.0: JavaScript extensions for GNOME Shell
+gnome-extra/gnome-shell-extensions 49.0-r1: JavaScript extensions for GNOME Shell
 gnome-extra/gnome-system-monitor 49.1: The Gnome System Monitor
 gnome-extra/gnome-tweaks 49.0: Customize advanced GNOME options
 gnome-extra/new-mail-indicator 9999: New email notification icon for GNOME Shell.
@@ -358,7 +358,7 @@ x11-libs/fltk 1.4.9999: C++ user interface toolkit for X and OpenGL
 x11-libs/gdk-pixbuf 2.44.4-r1: Image loading library for GTK+
 x11-libs/libnotify 0.8.7: A library for sending desktop notifications
 x11-libs/libxkbcommon 1.12.2: Keymap handling library for toolkits and window systems
-x11-libs/pango 1.57.0: Internationalized text layout and rendering library
+x11-libs/pango 1.57.0-r1: Internationalized text layout and rendering library
 x11-libs/vte 0.82.1: Library providing a virtual terminal emulator widget
 x11-misc/xdg-user-dirs-gtk 0.14: Integrates xdg-user-dirs into the Gnome desktop and Gtk+ applications
 x11-terms/alacritty 9999: GPU-accelerated terminal emulator
