@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=( python3_{10..13} )
+PYTHON_COMPAT=( python3_{10..14} )
 inherit gnome.org gnome2-utils meson python-any-r1 udev xdg
 
 DESCRIPTION="GNOME compositing window manager based on Clutter"
@@ -19,7 +19,7 @@ else
 	SLOT="0/$(($(ver_cut 1) - 32))" # 0/libmutter_api_version - ONLY gnome-shell (or anything using mutter-clutter-<api_version>.pc) should use the subslot
 fi
 
-IUSE="+X debug elogind gnome gtk-doc input_devices_wacom +introspection screencast sysprof systemd test udev wayland video_cards_nvidia"
+IUSE="+X debug elogind gnome gtk-doc input_devices_wacom +introspection screencast sysprof systemd test udev +wayland video_cards_nvidia"
 # native backend requires gles3 for hybrid graphics blitting support, udev and a logind provider
 REQUIRED_USE="
 	gtk-doc? ( introspection )
@@ -172,6 +172,7 @@ src_configure() {
 		#gles2_libname
 		-Degl=true
 		-Dglx=true
+		-Dfonts=true
 		$(meson_use wayland)
 		$(meson_use wayland xwayland)
 		$(meson_use wayland native_backend)
