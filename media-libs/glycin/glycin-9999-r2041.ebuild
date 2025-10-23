@@ -17,15 +17,16 @@ EGIT_COMMIT="2.0.4"
 LICENSE="MIT"
 SLOT="2"
 KEYWORDS="~amd64"
-IUSE="jpeg2000 +svg test"
+IUSE="+jpeg2k +raw +svg +heif test"
 
 RDEPEND="
 	dev-libs/glib:2
 	media-libs/libjpeg-turbo:=
 	media-libs/libpng:=
 	>=media-libs/lcms-2.12:=
-	jpeg2000? ( media-libs/openjpeg:= )
+	jpeg2k? ( media-libs/openjpeg:= )
 	svg? ( gnome-base/librsvg:= )
+	heif? ( media-libs/libheif:= )
 	!media-libs/glycin-loaders
 "
 
@@ -58,6 +59,7 @@ _do_configure_and_compile() {
 		-Db_pch=false
 		-Db_lto=true
 		-Db_lto_mode=thin
+		-Dprofile='release'
 		-Dlibglycin=true
 		-Dvapi=true
 		-Dglycin-loaders=true
@@ -65,6 +67,16 @@ _do_configure_and_compile() {
 		-Dglycin-thumbnailer=true
 		-Dtests=$(usex test true false)
 	)
+
+	#default loaders (except heif moved to use flag)
+	local loaders=( glycin-image-rs glycin-jxl glycin-svg )
+
+	use jpeg2k && loaders+=( glycin-jpeg2000 )
+	use raw && loaders+=( glycin-raw )
+	use heif && loaders+=( glycin-heif )
+
+	local loader_list=$(IFS=,; echo "${loaders[*]}")
+	emesonargs+=( -Dloaders="${loader_list}" )
 
 	einfo "Configuring with meson (in unpack phase)..."
 	meson_src_configure
