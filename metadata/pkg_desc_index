@@ -224,7 +224,7 @@ mail-client/evolution 3.58.1: Integrated mail, addressbook and calendaring funct
 media-fonts/lato 2: Lato font
 media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
 media-gfx/loupe 9999-r491: A simple, modern image viewer for GNOME
-media-libs/glycin 9999-r204: Glycin image loading library - sandboxed and extendable image decoding
+media-libs/glycin 9999-r2041: Glycin image loading library - sandboxed and extendable image decoding
 media-libs/grilo 0.3.19: A framework for easy media discovery and browsing
 media-libs/gst-plugins-bad 1.27.2: Less plugins for GStreamer
 media-libs/gst-plugins-base 1.27.2: Basepack of plugins for gstreamer
