@@ -140,11 +140,6 @@ BDEPEND="
 	dev-python/argcomplete
 "
 
-PATCHES=(
-	"${FILESDIR}/0001-xwayland-Fix-guards-in-meta_window_xwayland_stage_to.patch"
-	"${FILESDIR}/0002-xwayland-dnd-Pass-dest-to-meta_x11_display_lookup_x_.patch"
-)
-
 python_check_deps() {
 	if use test; then
 		python_has_version ">=dev-python/python-dbusmock-0.28[${PYTHON_USEDEP}]"
