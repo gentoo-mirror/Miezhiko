@@ -20,10 +20,6 @@ BDEPEND="
 	virtual/pkgconfig
 "
 
-PDEPEND="
-	media-fonts/adwaita-fonts
-"
-
 src_configure() {
 	local emesonargs=(
 		$(meson_use introspection)
