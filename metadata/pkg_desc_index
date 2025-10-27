@@ -197,7 +197,7 @@ gnome-base/gnome-core-apps 49.0: Sub-meta package for the core applications inte
 gnome-base/gnome-keyring 48.0: Password and keyring managing daemon
 gnome-base/gnome-session 49.1: Gnome session manager
 gnome-base/gnome-settings-daemon 49.1: Gnome Settings Daemon
-gnome-base/gnome-shell 49.1: Provides core UI functions for the GNOME desktop
+gnome-base/gnome-shell 49.1-r1: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 49.1: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.58.0: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.61.2-r1: Scalable Vector Graphics (SVG) rendering library
@@ -223,7 +223,7 @@ mail-client/evolution 3.58.1-r1: Integrated mail, addressbook and calendaring fu
 media-fonts/lato 2: Lato font
 media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
 media-gfx/loupe 9999-r491: A simple, modern image viewer for GNOME
-media-libs/glycin 9999-r2041: Glycin image loading library - sandboxed and extendable image decoding
+media-libs/glycin 9999-r2041: Sandboxed and extendable image loading library
 media-libs/grilo 0.3.19: A framework for easy media discovery and browsing
 media-libs/gst-plugins-bad 1.27.2: Less plugins for GStreamer
 media-libs/gst-plugins-base 1.27.2: Basepack of plugins for gstreamer
@@ -365,4 +365,4 @@ x11-terms/alacritty 9999: GPU-accelerated terminal emulator
 x11-themes/adwaita-icon-theme 49.0: GNOME default icon theme
 x11-themes/gnome-backgrounds 49.0: A set of backgrounds packaged with the GNOME desktop
 x11-wm/jwm 9999: JWM
-x11-wm/mutter 49.1.1: GNOME compositing window manager based on Clutter
+x11-wm/mutter 49.1.1-r1: GNOME compositing window manager based on Clutter
