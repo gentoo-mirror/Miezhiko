@@ -3,10 +3,8 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..13} )
-VALA_MIN_API_VERSION="0.56"
-
-inherit gnome.org meson python-any-r1 vala virtualx
+PYTHON_COMPAT=( python3_{11..14} )
+inherit gnome.org meson python-any-r1 vala virtualx xdg
 
 DESCRIPTION="Building blocks for modern GNOME applications"
 HOMEPAGE="https://gnome.pages.gitlab.gnome.org/libadwaita/ https://gitlab.gnome.org/GNOME/libadwaita"
@@ -15,29 +13,36 @@ LICENSE="LGPL-2.1+"
 SLOT="1"
 KEYWORDS="~amd64 ~arm ~arm64 ~loong ~ppc ~ppc64 ~riscv ~x86"
 
-IUSE="+introspection test +vala"
-REQUIRED_USE="vala? ( introspection )"
+IUSE="doc +introspection test +vala"
+REQUIRED_USE="
+	doc? ( introspection )
+	vala? ( introspection )
+"
 
 RDEPEND="
-	>=dev-libs/glib-2.80:2
-	>=gui-libs/gtk-4.17.5:4[introspection?]
+	>=dev-libs/glib-2.80.0:2
+	>=gui-libs/gtk-4.19.4:4[introspection?]
 	dev-libs/appstream:=
 	dev-libs/fribidi
-	introspection? ( >=dev-libs/gobject-introspection-1.54:= )
+	introspection? ( >=dev-libs/gobject-introspection-1.83.2:= )
 "
 DEPEND="${RDEPEND}
-	x11-base/xorg-proto"
+	x11-base/xorg-proto
+"
 BDEPEND="
 	${PYTHON_DEPS}
-	vala? ( >=dev-lang/vala-0.56.18 )
+	doc? ( >=dev-util/gi-docgen-2021.1 )
+	vala? ( $(vala_depend) )
 	dev-util/glib-utils
 	sys-devel/gettext
 	virtual/pkgconfig
+	dev-lang/sassc
 "
 
 src_prepare() {
 	default
 	use vala && vala_setup
+	xdg_environment_reset
 }
 
 src_configure() {
@@ -48,7 +53,7 @@ src_configure() {
 		-Dprofiling=false
 		$(meson_feature introspection)
 		$(meson_use vala vapi)
-		-Dgtk_doc=false # we ship pregenerated docs
+		$(meson_use doc documentation)
 		$(meson_use test tests)
 		-Dexamples=false
 	)
@@ -56,9 +61,13 @@ src_configure() {
 }
 
 src_test() {
+	addwrite /dev/dri
 	virtx meson_src_test --timeout-multiplier 2
 }
 
 src_install() {
 	meson_src_install
+	if use doc; then
+		mv "${ED}"/usr/share/doc/{${PN}-${SLOT},${PF}/html} || die
+	fi
 }
