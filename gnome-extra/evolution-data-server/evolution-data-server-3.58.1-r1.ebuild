@@ -10,11 +10,11 @@ HOMEPAGE="https://gitlab.gnome.org/GNOME/evolution/-/wikis/home https://gitlab.g
 
 # Note: explicitly "|| ( LGPL-2 LGPL-3 )", not "LGPL-2+".
 LICENSE="|| ( LGPL-2 LGPL-3 ) BSD Sleepycat"
-SLOT="0/64-11-21-4-3-27-2-27-4-0" # subslot = libcamel-1.2/libebackend-1.2/libebook-1.2/libebook-contacts-1.2/libecal-2.0/libedata-book-1.2/libedata-cal-2.0/libedataserver-1.2/libedataserverui-1.2/libedataserverui4-1.0 soname version
+SLOT="0/66-11-21-4-3-27-2-27-4-0" # subslot = libcamel-1.2/libebackend-1.2/libebook-1.2/libebook-contacts-1.2/libecal-2.0/libedata-book-1.2/libedata-cal-2.0/libedataserver-1.2/libedataserverui-1.2/libedataserverui4-1.0 soname version
 
 KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~loong ~ppc ~ppc64 ~riscv ~sparc ~x86 ~amd64-linux ~x86-linux"
 
-IUSE="berkdb +gnome-online-accounts +gtk gtk-doc +introspection ldap kerberos oauth-gtk3 oauth-gtk4 vala +weather"
+IUSE="berkdb +gnome-online-accounts +gtk gtk-doc +introspection ldap kerberos oauth-gtk3 oauth-gtk4 sound vala +weather"
 REQUIRED_USE="
 	oauth-gtk3? ( gtk )
 	oauth-gtk4? ( gtk )
@@ -28,11 +28,11 @@ RDEPEND="
 	>=dev-db/sqlite-3.7.17:3
 	>=dev-libs/glib-2.70:2
 	>=dev-libs/libical-3.0.8:=[glib,introspection?]
-	>=dev-libs/libxml2-2
+	>=dev-libs/libxml2-2:=
 	>=dev-libs/nspr-4.4
 	>=dev-libs/nss-3.9
 	>=net-libs/libsoup-3.1.1:3.0
-	>=dev-libs/json-glib-1.0.4
+	>=dev-libs/json-glib-1.0.4[introspection]
 
 	dev-libs/icu:=
 	sys-libs/zlib:=
@@ -42,7 +42,12 @@ RDEPEND="
 	gtk? (
 		>=x11-libs/gtk+-3.20:3
 		>=gui-libs/gtk-4.4:4
-		>=media-libs/libcanberra-0.25
+		sound? (
+			|| (
+				media-libs/libcanberra-gtk3
+				>=media-libs/libcanberra-0.25[gtk3(-)]
+			)
+		)
 
 		oauth-gtk3? ( >=net-libs/webkit-gtk-2.34.0:4.1 )
 		oauth-gtk4? ( >=net-libs/webkit-gtk-2.39.90:6 )
@@ -122,7 +127,6 @@ src_configure() {
 		-DENABLE_SMIME=ON
 		-DENABLE_GTK=$(usex gtk)
 		-DENABLE_GTK4=$(usex gtk)
-		-DENABLE_CANBERRA=$(usex gtk)
 		-DENABLE_OAUTH2_WEBKITGTK=$(usex oauth-gtk3)
 		-DENABLE_OAUTH2_WEBKITGTK4=$(usex oauth-gtk4)
 		-DENABLE_EXAMPLES=OFF
@@ -135,6 +139,12 @@ src_configure() {
 		-DENABLE_VALA_BINDINGS=$(usex vala)
 		-DENABLE_TESTS=$(usex test)
 	)
+	if use gtk && use sound; then
+		mycmakeargs+=( -DENABLE_CANBERRA=ON )
+	else
+		mycmakeargs+=( -DENABLE_CANBERRA=OFF )
+	fi
+
 	cmake_src_configure
 }
 
@@ -143,8 +153,7 @@ src_compile() {
 }
 
 src_test() {
-	# -j1: https://gitlab.gnome.org/GNOME/evolution-data-server/-/issues/522
-	virtx cmake_src_test -j1
+	virtx cmake_src_test
 }
 
 src_install() {

@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=( python3_{10..13} )
+PYTHON_COMPAT=( python3_{10..14} )
 
 inherit gnome.org gnome2-utils python-any-r1 meson udev virtualx xdg
 
@@ -23,10 +23,13 @@ COMMON_DEPEND="
 	>=dev-libs/glib-2.70:2
 	>=gnome-base/gnome-desktop-3.37.1:3=
 	>=gnome-base/gsettings-desktop-schemas-46.0
-	>=x11-libs/gtk+-3.15.3:3[X,wayland]
+	>=x11-libs/gtk+-3.15.3:3[X,wayland?]
 	>=dev-libs/libgweather-4.2.0:4=
 	colord? ( >=x11-misc/colord-1.4.5:= )
-	media-libs/libcanberra
+	|| (
+		media-libs/libcanberra-gtk3
+		>=media-libs/libcanberra-0.25[gtk3(-)]
+	)
 	>=app-misc/geoclue-2.3.1:2.0
 	>=x11-libs/libnotify-0.7.3
 	>=media-libs/libpulse-16.1[glib]
@@ -35,15 +38,17 @@ COMMON_DEPEND="
 	x11-libs/libX11
 	>=x11-libs/libXfixes-6.0.0
 	dev-libs/libgudev:=
-	dev-libs/wayland
-	>=dev-libs/libwacom-0.7:=
-	>=x11-libs/pango-1.20.0
-	x11-libs/gdk-pixbuf:2
+	wayland? ( dev-libs/wayland )
+	input_devices_wacom? (
+		>=dev-libs/libwacom-0.7:=
+		>=x11-libs/pango-1.20.0
+		x11-libs/gdk-pixbuf:2
+	)
 	smartcard? ( app-crypt/gcr:4= )
 	cups? ( >=net-print/cups-1.4[dbus] )
 	modemmanager? (
 		>=app-crypt/gcr-3.90.0:4=
-		>=net-misc/modemmanager-1.0:=
+		>=net-misc/modemmanager-1.18:=
 	)
 	networkmanager? ( >=net-misc/networkmanager-1.0 )
 	media-libs/alsa-lib
