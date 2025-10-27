@@ -202,7 +202,7 @@ gnome-base/gsettings-desktop-schemas 49.1: Collection of GSettings schemas for G
 gnome-base/gvfs 1.58.0: Virtual filesystem implementation for GIO
 gnome-base/librsvg 2.61.2-r1: Scalable Vector Graphics (SVG) rendering library
 gnome-base/nautilus 49.1: Default file manager for the GNOME desktop
-gnome-extra/evolution-data-server 3.58.1: Evolution groupware backend
+gnome-extra/evolution-data-server 3.58.1-r1: Evolution groupware backend
 gnome-extra/gnome-browser-connector 42.1-r1: OS-native connector counterpart for GNOME Shell browser extension
 gnome-extra/gnome-calculator 49.1.1: A calculator application for GNOME
 gnome-extra/gnome-calendar 49.0.1: Manage your calendars with simple and modern interface
@@ -219,7 +219,7 @@ gui-libs/gtksourceview 5.18.0: A text widget implementing syntax highlighting an
 gui-libs/libadwaita 1.8.1: Building blocks for modern GNOME applications
 gui-libs/vte 0.82.1: Library providing a virtual terminal emulator widget
 gui-wm/niri 9999: Scrollable-tiling Wayland compositor
-mail-client/evolution 3.58.1: Integrated mail, addressbook and calendaring functionality
+mail-client/evolution 3.58.1-r1: Integrated mail, addressbook and calendaring functionality
 media-fonts/lato 2: Lato font
 media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
 media-gfx/loupe 9999-r491: A simple, modern image viewer for GNOME
