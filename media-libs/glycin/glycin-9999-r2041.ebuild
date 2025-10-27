@@ -7,17 +7,22 @@ CRATE_PN="glycin"
 
 inherit meson git-r3 cargo vala
 
-DESCRIPTION="Glycin image loading library - sandboxed and extendable image decoding"
+DESCRIPTION="Sandboxed and extendable image loading library"
 HOMEPAGE="https://gitlab.gnome.org/GNOME/glycin"
 SRC_URI=""
 
 EGIT_REPO_URI="https://gitlab.gnome.org/GNOME/glycin.git"
 EGIT_COMMIT="2.0.4"
 
-LICENSE="MIT"
+LICENSE+="
+	Apache-2.0 Apache-2.0-with-LLVM-exceptions BSD-2 BSD GPL-3+ IJG ISC
+	LGPL-3+ MIT Unicode-3.0
+	|| ( LGPL-2.1+ MPL-2.0 )
+"
+
 SLOT="2"
 KEYWORDS="~amd64"
-IUSE="+jpeg2k +raw +svg +heif test"
+IUSE="+jpeg2k +raw +svg +heif test +introspection"
 
 RDEPEND="
 	dev-libs/glib:2
@@ -63,12 +68,11 @@ _do_configure_and_compile() {
 		-Dlibglycin=true
 		-Dvapi=true
 		-Dglycin-loaders=true
-		-Dintrospection=true
+		$(meson_use introspection)
 		-Dglycin-thumbnailer=true
 		-Dtests=$(usex test true false)
 	)
 
-	#default loaders (except heif moved to use flag)
 	local loaders=( glycin-image-rs glycin-jxl glycin-svg )
 
 	use jpeg2k && loaders+=( glycin-jpeg2000 )
