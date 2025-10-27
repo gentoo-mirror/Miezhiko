@@ -1,6 +1,6 @@
 BDEPEND=|| ( >=dev-lang/rust-bin-1.74.1:* >=dev-lang/rust-1.74.1:* ) >=dev-vcs/git-1.8.2.1[curl] >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
 DEFINED_PHASES=compile configure install postinst postrm preinst setup test unpack
-DEPEND=media-libs/gstreamer:1.0 media-libs/gst-plugins-base:1.0 media-libs/dav1d gui-libs/gtk:4 dev-libs/libsodium media-libs/libwebp
+DEPEND=media-libs/gstreamer:1.0 media-libs/gst-plugins-base:1.0 media-libs/dav1d gui-libs/gtk:4 dev-libs/libsodium media-libs/libwebp !media-plugins/gst-plugin-gtk4
 DESCRIPTION=GStreamer plugins written in Rust
 EAPI=8
 HOMEPAGE=https://gstreamer.freedesktop.org/
@@ -10,8 +10,8 @@ IUSE=debug
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( LGPL-2.1+ MIT Apache-2.0 MPL-2.0 )
 PROPERTIES=live
-RDEPEND=media-libs/gstreamer:1.0 media-libs/gst-plugins-base:1.0 media-libs/dav1d gui-libs/gtk:4 dev-libs/libsodium media-libs/libwebp
+RDEPEND=media-libs/gstreamer:1.0 media-libs/gst-plugins-base:1.0 media-libs/dav1d gui-libs/gtk:4 dev-libs/libsodium media-libs/libwebp !media-plugins/gst-plugin-gtk4
 SLOT=1.0
 SRC_URI=https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs.git -> gst-plugins-rs-9999.git
 _eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	rust	86c81efc08f3f4c1104dbcb8df8e2885	rust-toolchain	76468983281b0a7fc167ca224f84ecfd	cargo	a1af74aa9e34cd73aeac642cd0dd54d8	git-r3	875eb471682d3e1f18da124be97dcc81	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	dbb8c4d794033ad7e7221eaf567a6c90	meson	99466844dd8d4fcfb07578a76f5a9922	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
-_md5_=6f1661b51484a951e38bfb8b5583eb7c
+_md5_=f4516f75f65cfa04f31e9f951b3f7584
