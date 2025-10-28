@@ -15,7 +15,7 @@ app-editors/lapce 9999: Lightning-fast and Powerful Code Editor written in Rust
 app-editors/vscode 1.105.1: Multiplatform Visual Studio Code from Microsoft
 app-editors/zed-bin 0.209.6: Code editor from the creators of Atom
 app-editors/zedless 9999: Code editor from the creators of Atom
-app-emulation/proton-ge-custom-bin 10.22: A fancy custom distribution of Valves Proton with various patches
+app-emulation/proton-ge-custom-bin 10.23: A fancy custom distribution of Valves Proton with various patches
 app-emulation/proton-ge-custom-meta 2: Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
 app-misc/crab 9999: a crab
 app-misc/cryptowatch 0.5.0: fast & furious
@@ -222,6 +222,7 @@ gui-wm/niri 9999: Scrollable-tiling Wayland compositor
 mail-client/evolution 3.58.1-r1: Integrated mail, addressbook and calendaring functionality
 media-fonts/lato 2: Lato font
 media-gfx/drawing 1.0.2-r2: A drawing application for the GNOME desktop
+media-gfx/gthumb 3.12.8: Image viewer and browser for Gnome
 media-gfx/loupe 9999-r491: A simple, modern image viewer for GNOME
 media-libs/glycin 9999-r2041: Sandboxed and extendable image loading library
 media-libs/grilo 0.3.19: A framework for easy media discovery and browsing
@@ -324,7 +325,7 @@ net-libs/libsoup 3.6.5: HTTP client/server library for GNOME
 net-libs/restbed 9999: For applications that require seamless and secure communication over HTTP
 net-misc/curl-impersonate 0.6.1: A Client that groks URLs
 net-misc/hiddify-bin 2.5.7: Multi-platform auto-proxy client
-net-misc/rabbitmq-server 4.1.4: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
+net-misc/rabbitmq-server 4.2.0: RabbitMQ is a high-performance AMQP-compliant message broker written in Erlang
 net-misc/redpanda-bin 23.1.13: streaming data platform for developers
 net-misc/tor-relay-scanner 9999: Tor Relay availability checker, for using it as a bridge in countries with censorship
 net-misc/youtubeUnblock 9999: Bypasses Googlevideo detection systems that relies on SNI
