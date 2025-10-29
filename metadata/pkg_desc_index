@@ -182,6 +182,7 @@ dev-util/cargo-udeps 9999: Find unused dependencies in Cargo.toml
 dev-util/easy-profiler 9999: Lightweight profiler library for c++
 dev-util/gdbus-codegen 2.86.1: GDBus code and documentation generator
 dev-util/glib-utils 2.86.1: Build utilities for GLib using projects
+dev-util/gnome-builder 49.1: An IDE for writing GNOME-based software
 dev-util/idris2-lsp 9999: Language Server for Idris2
 dev-util/idris2-lsp-lib 9999: Language Server for Idris2
 dev-util/lucky-commit 9999: Customize your git commit hashes!
