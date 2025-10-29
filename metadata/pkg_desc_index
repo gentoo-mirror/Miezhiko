@@ -125,6 +125,7 @@ dev-libs/ocl-icd 2.3.1-r1: Alternative to vendor specific OpenCL ICD loaders
 dev-libs/olm 9999: An implementation of the Double Ratchet cryptographic ratchet in C++
 dev-libs/randomx 1.1.9: Proof of work algorithm based on random code execution
 dev-libs/supercop 0_p20200827: Fast cryptographic operations for Monero wallets
+dev-libs/template-glib 3.38.0: Templating library for GLib
 dev-libs/v2ray-domain-list-community 20240817092737: Community managed domain list for V2Ray.
 dev-libs/v2ray-geoip 202408220047: GeoIP for V2Ray.
 dev-libs/vala-common 0.56.18: Build infrastructure for packages that use Vala
